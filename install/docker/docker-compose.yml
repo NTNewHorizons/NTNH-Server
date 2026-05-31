@@ -1,11 +1,35 @@
+version: '3.8'
+
 services:
-  ntnh:
-    build: ./install/docker
-    ports: ["25565:25565"]
+  ntnh-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: ntnh-server:latest
+    container_name: ntnh-server
+    restart: unless-stopped
+    ports:
+      - "25565:25565/tcp"
+      - "25565:25565/udp"
     volumes:
       - ./world:/server/world
       - ./backups:/server/backups
+      - ./logs:/server/logs
+      - ./crash-reports:/server/crash-reports
+      - ./server.properties:/server/server.properties:ro
     environment:
       - EULA=true
-      - JVM_OPTS=-Xms6G -Xmx12G -XX:+UseG1GC
-    restart: unless-stopped
+      - JVM_OPTS=-Xms6G -Xmx12G -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=100
+    stdin_open: true
+    tty: true
+    healthcheck:
+      test: ["CMD", "bash", "-c", "echo > /dev/tcp/localhost/25565"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "5"
