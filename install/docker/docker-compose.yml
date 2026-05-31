@@ -1,0 +1,11 @@
+services:
+  ntnh:
+    build: ./install/docker
+    ports: ["25565:25565"]
+    volumes:
+      - ./world:/server/world
+      - ./backups:/server/backups
+    environment:
+      - EULA=true
+      - JVM_OPTS=-Xms6G -Xmx12G -XX:+UseG1GC
+    restart: unless-stopped
