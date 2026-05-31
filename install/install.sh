@@ -2,7 +2,7 @@
 set -e
 
 # NTNH Server Installer
-# Usage: ./install.sh          - First-time install
+# Usage: ./install.sh          - First-time install (run from inside cloned repo)
 #        ./install.sh --update - Update existing server (preserves world/)
 
 # Check for Java 8 (Minecraft 1.7.10 requires exactly Java 8)
@@ -22,9 +22,8 @@ if [ "$1" == "--update" ]; then
     exit 0
 fi
 
-# First-time install: clone the server repository
-echo "Cloning NTNH-Server repository..."
-git clone https://github.com/NTNewHorizons/NTNH-Server.git .
+# First-time install: we're already inside the cloned repo, so just set up
+echo "Setting up NTNH Server..."
 
 # Accept Mojang EULA automatically
 # You MUST agree to https://account.mojang.com/documents/minecraft_eula to run this server
