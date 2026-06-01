@@ -1,0 +1,15 @@
+## .updateignore
+# Lines starting with # are comments. Blank lines are ignored.
+# Use shell-style globs with `**` support (matched using Python's pathlib). Examples:
+# - Ignore a single file:
+#   config/localconfig.txt
+# - Ignore all files in a directory:
+#   configs/custom/**
+# - Ignore any .secret files anywhere:
+#   **/*.secret
+# - Ignore all jar files in mods/ (but not subdirs):
+#   mods/*.jar
+
+# Example: preserve ForgeEssentials server jar during installer updates
+#mods/ForgeEssentials-Server*.jar
+mods/ForgeEssentials-Server*.jar

@@ -64,6 +64,55 @@ This runs `git fetch origin main && git reset --hard origin/main`, which guarant
 
 > **Tip:** If you customized a tracked config file and want to keep those edits, back it up before updating. Consider moving persistent custom settings into untracked files or scripts where possible.
 
+### Preserving Tracked Files During Updates
+
+You can create a `.updateignore` file in the server directory to mark tracked files you do NOT want the updater to modify, add, or remove. Patterns use shell-style globs with `**` support; see the example `.updateignore` in the repo root.
+
+Behavior during `./install/install.sh --update` when `.updateignore` exists:
+- Matching tracked files are backed up before the update and restored afterward (your local contents preserved).
+- Any new files added by the upstream update that match `.updateignore` will be removed after the update.
+
+This allows you to keep local customizations for specific tracked files while still receiving other upstream changes.
+
+### Preventing Client Sync from Overwriting Server-Only Mods
+
+The client repository's sync workflow now respects a `server/server-only.txt` file stored in the server repository. If present, the sync will preserve any tracked files matching those patterns (they will not be overwritten or removed by the sync). See [server/server-only.txt](server/server-only.txt) for examples.
+
+Example — ForgeEssentials split
+
+- To keep `ForgeEssentials-Client` only on the client side, add this line in the client repo's `server/client-only.txt`:
+
+  mods/ForgeEssentials-Client*.jar
+
+- To keep `ForgeEssentials-Server` only on the server side, add this line in the server repo's `server/server-only.txt` and also to the server's `.updateignore` if you want the installer to preserve it during `--update`:
+
+  mods/ForgeEssentials-Server*.jar
+
+Quick local steps (examples)
+
+Client repo (mark client-only):
+
+```bash
+cd path/to/ntnh-client
+git checkout -b chore/client-only-forgeessentials
+echo 'mods/ForgeEssentials-Client*.jar' >> server/client-only.txt
+git add server/client-only.txt
+git commit -m "chore: mark ForgeEssentials-Client as client-only"
+git push --set-upstream origin HEAD
+```
+
+Server repo (mark server-only):
+
+```bash
+cd path/to/NTNH-Server
+git checkout -b chore/server-only-forgeessentials
+echo 'mods/ForgeEssentials-Server*.jar' >> server/server-only.txt
+echo 'mods/ForgeEssentials-Server*.jar' >> .updateignore
+git add server/server-only.txt .updateignore
+git commit -m "chore: mark ForgeEssentials-Server as server-only"
+git push --set-upstream origin HEAD
+```
+
 ---
 
 ## Docker

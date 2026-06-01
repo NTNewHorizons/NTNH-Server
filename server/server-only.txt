@@ -1,0 +1,19 @@
+## server-only.txt
+# Patterns (one per line) of files in the server repo that should never be overwritten or removed
+# by the client -> server sync workflow. Supports shell-style globs with `**` (matched by Python pathlib).
+# Lines beginning with '#' are comments.
+
+# Example: preserve a server-only mod jar or entire directory
+#mods/server-only-mod.jar
+#mods/special-server-mod/**
+
+# Preserve custom server scripts or utilities
+scripts/**
+serverutilities/**
+
+# Preserve any custom plugin jars you keep only on the server
+mods/plugins/**
+
+# Example: mark ForgeEssentials server-side jar (adjust pattern to exact filename as needed)
+#mods/ForgeEssentials-Server*.jar
+
