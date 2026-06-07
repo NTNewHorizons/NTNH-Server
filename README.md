@@ -34,8 +34,8 @@ Whenever a **release** is published on the client repo, a GitHub Action automati
 ```bash
 git clone https://github.com/NTNewHorizons/NTNH-Server.git ntnh-server
 cd ntnh-server
+chmod +x ./install/install.sh
 ./install/install.sh
-./start.sh
 ```
 
 The installer checks your Java version, clones the server files, accepts the Mojang EULA, and creates `start.sh`.
