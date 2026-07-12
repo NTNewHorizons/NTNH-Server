@@ -1,1 +1,1 @@
--Xmx4G -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=100
+-Xms2G -Xmx4G
