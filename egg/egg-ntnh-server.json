@@ -1,0 +1,56 @@
+{
+    "_comment": "Pterodactyl/Pelican egg for NTNH-Server — Nuclear Tech: New Horizons",
+    "meta": {
+        "version": "PTDL_v2",
+        "update_url": null
+    },
+    "exported_at": "2026-07-14T14:00:00+00:00",
+        "name": "NTNH-Server",
+        "author": "NTNH Team",
+        "description": "Nuclear Tech: New Horizons modpack server for Minecraft 1.7.10.\n\nRequires Java 8 and at least 4 GB RAM.\n\nOn first install the egg clones the repo and pulls Git LFS objects.\nThe server JAR and all mod files are tracked via Git LFS.",
+        "image": "ghcr.io/pterodactyl/yolks:java_8",
+        "startup": "./start.sh",
+        "config": {
+            "files": "{\n    \"server.properties\": {\n        \"parser\": \"properties\",\n        \"find\": {\n            \"server-ip\": \"0.0.0.0\",\n            \"server-port\": \"25565\",\n            \"max-players\": \"{{server.build.env.MAX_PLAYERS}}\",\n            \"motd\": \"{{server.build.env.MOTD}}\"\n        }\n    }\n}",
+            "startup": "{\n    \"doneEntry\": \"Done (\",\n    \"userInteraction\": []\n}",
+            "stop": "stop\n",
+            "logs": "{\n    \"custom\": false,\n    \"location\": \"logs/latest.log\"\n}",
+        "extends": null
+    },
+    "scripts": {
+        "installation": {
+            "script": "#! /bin/bash\n# NTNH-Server installation script\n# Dependencies: git, git-lfs, curl, unzip\n\napt-get update\napt-get install -y git git-lfs curl unzip\n\nmkdir -p /mnt/server\ncd /mnt/server\n\n# Clone the repo (shallow clone for speed)\ngit init\ngit remote add origin https://github.com/NTNewHorizons/NTNH-Server.git\ngit fetch --depth 1 origin main\ngit checkout main\n\n# Pull LFS objects\ngit lfs install\ngit lfs pull\n\n# Verify critical files exist\nif [ ! -f server.jar ]; then\n    echo \"ERROR: server.jar not found after LFS pull. Trying fallback...\"\n    curl -sL -o server.jar https://github.com/NTNewHorizons/NTNH-Server/raw/main/server.jar\nfi\n\nif [ ! -f forge-1.7.10-10.13.4.1614-1.7.10-universal.jar ]; then\n    curl -sL -o forge-1.7.10-10.13.4.1614-1.7.10-universal.jar https://github.com/NTNewHorizons/NTNH-Server/raw/main/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar\nfi\n\n# Ensure line endings are Unix\ndos2unix start.sh 2>/dev/null || sed -i 's/\\r$//' start.sh\nchmod +x start.sh\n\necho \"Installation complete. Server will start on boot.\"",
+            "container": "ubuntu:22.04",
+            "entrypoint": "bash"
+        }
+    },
+    "variables": [
+        {
+            "name": "Max Players",
+            "description": "Maximum number of players that can join the server.",
+            "env_variable": "MAX_PLAYERS",
+            "default_value": "20",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "required|integer|between:1,100"
+        },
+        {
+            "name": "Server MOTD",
+            "description": "Message of the Day shown in the server list.",
+            "env_variable": "MOTD",
+            "default_value": "Nuclear Tech: New Horizons",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "required|string|max:59"
+        },
+        {
+            "name": "JVM Options",
+            "description": "JVM arguments for the Minecraft server. Default: -Xms4G -Xmx6G -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=100",
+            "env_variable": "JVM_OPTS",
+            "default_value": "-Xms4G -Xmx6G -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=100",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "required|string"
+        }
+    ]
+}

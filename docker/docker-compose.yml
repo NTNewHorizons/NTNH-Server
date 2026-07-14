@@ -16,7 +16,7 @@ services:
       - ../backups:/server/backups
       - ../logs:/server/logs
       - ../crash-reports:/server/crash-reports
-      - ../server.properties:/server/server.properties:ro
+      - ../server.properties:/server/server.properties
     environment:
       - EULA=true
       - JVM_OPTS=-Xms6G -Xmx12G -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=100

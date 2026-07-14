@@ -1,0 +1,35 @@
+# Runtime
+world/
+world_nether/
+world_the_end/
+DIM*/
+logs/
+crash-reports/
+backups/
+*.log
+
+# Server config (per-instance, not in repo)
+server.properties
+ops.json
+whitelist.json
+banned-players.json
+banned-ips.json
+eula.txt
+usercache.json
+usernamecache.json
+session.lock
+bukkit.yml
+spigot.yml
+commands.yml
+help.yml
+permissions.yml
+
+# Player data
+playerdata/
+stats/
+data/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+desktop.ini
