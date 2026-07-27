@@ -205,10 +205,6 @@ betterquesting.quest.Ek7Xr3XfSm-U7BYuBOACSA.desc=§3Генератор на др
 betterquesting.quest.F5fyyqAZREWe-rhgYcbXZg.name=Кремниевые инструменты
 betterquesting.quest.F5fyyqAZREWe-rhgYcbXZg.desc=§6Flint Tools§r are required to obtain first wood and stone. Break some tree leaves and get saplings, to recraft them into sticks.%n%nAxes automatically break tree blocks from top to bottom to prevent floating trees. Hold Shift to disable this and break blocks normally.
 
-# Quest: Hunger System
-betterquesting.quest.Fio9CeHtR9-O6cehKBCH5g.name=Система голода
-betterquesting.quest.Fio9CeHtR9-O6cehKBCH5g.desc=§dHunger Overhaul§r делает голод реальной угрозой, а не легким неудобством.%n%nГолод теперь уменьшается пассивно со временем, даже в бездействии. Достижение нуля убивает вас мгновенно. Низкий уровень голода накладывает медлительность, слабость и снижает скорость добычи еще до смерти. Еда дает эффект §6Well Fed§r, который ускоряет регенерацию здоровья - чем больше порция, тем дольше он длится.%n%nПищевая ценность изменена в зависимости от размера порции. Сырые ингредиенты восстанавливают очень мало; приготовленные блюда восстанавливают значительно больше. Большие блюда едятся дольше и меньше стакаются в вашем инвентаре.%n%nСельскохозяйственные культуры растут только в дневное время и созревают гораздо дольше. Деревянные и каменные мотыги удалены - вам понадобится как минимум железная мотыга, чтобы вскопать почву. Грядки должны быть размещены рядом с водой, иначе они не будут функционировать.%n%n§dSpice of Life: Carrot Edition§r вознаграждает за разнообразие в рационе. Каждая уникальная еда, съеденная впервые, навсегда увеличивает ваше максимальное здоровье. Повторное употребление одной и той же еды не дает бонуса.%n%n§2Чем разнообразнее ваш рацион, тем больше у вас сердец - создайте разнообразную ферму как можно раньше.§r
-
 # Quest: Steel Furnace
 betterquesting.quest.GOACXA8jRc-SMNzk2CsNUQ.name=Стальная печь
 betterquesting.quest.GOACXA8jRc-SMNzk2CsNUQ.desc=§3Стальная печь§r, в отличие от других печей, работает на §eTU§r. Она также может обрабатывать до 3 предметов одновременно, но каждый слот потребляет больше TU, что делает её медленной без мощного источника тепла. Она также имеет бонусный выход для руд и древесины, где каждый переплавленный предмет даёт §e25%%§r к шкале бонусного выхода, что означает, что каждые 4 предмета дают дополнительный 5-й предмет бесплатно (§e+15 предметов из одного стака§r).
@@ -273,10 +269,6 @@ betterquesting.quest.XNHsXFGWTvW9dhuen9iEFg.desc=§3Радиальный про�
 betterquesting.quest.Zd1HNIsxSRees_4of0ezDw.name=Злопасности
 betterquesting.quest.Zd1HNIsxSRees_4of0ezDw.desc=Этот мод добавляет несколько смертельных природных опасностей, которые не стоит игнорировать.%n%n§6Радиация§r измеряется в  RAD. Эффекты начинаются от §e200 RAD§r и постепенно страновятся хуже. Вплоть до моментальной смерти на §c1000 RAD§r. Используй §6Счётчик гейгера§r чтобы узнадь дозу полученной радиации. Броня с радиационной защитой и §6Рад-X§r уменьшат получемые RAD; §3Обеззараживатель игрока§r или §6Антирадин§r уберут полученную радиацию.%n%n§lМезотелиома§r развивается при вдыхании асбеста. Предметы с тегом §c[Содержит асбест]§r и некоторые блоки как Хризотил или Разбитая лабораторная плитка выделяют частички асбеста в воздух. Мезотелиома приводит к смерти без лечения.%n%n§lАнтракоз§r (чёрное лёгкое) развивается при вдыхании угольной пыли. Добыча угольной руды и предметы с тегом §c[Coal Dust]§r это основне её источники. Так же смертельна.%n%nПротивогаз защищает от обеих болезней одновременно. Так же их можно вылечить§6Лекарством от рака "SIOx"§r или в начале игры §6Травяной пастой§r - что является не очень хорошей идеей и имеет побочные эфекты.
 
-# Quest: Agriculture and Farming
-betterquesting.quest.Zpwlu-OeTpCvf7vTFz-BIA.name=Агрокультура и земледелие
-betterquesting.quest.Zpwlu-OeTpCvf7vTFz-BIA.desc=На сборке есть 3 мода, что перерабатывают фермерство и добавляют еду.%n%n§dPam's HarvestCraft§r добавляет 40+ новых культур, плодовых деревьев, пчеловодство, 10 рыб, и 75+ блюд. Нажимая по созревшому растению, выпадут плоды и растение посадится обратно автоматически. Основные блоки: %n§3Прессовщик§r, для получения масла, мёда, и других предметов.%n§3Рынок§r, позволяющий покупать саженцы и семена за изумруды.%n%n§dAgriCraft§r добавляет скрещивание культур с капелькой генетики. У каждого растения теперь есть 3 характеристики - Рост, Уражай(ность), и Сила. Гены высоких статов доминантные, то есть при скрещивании расстения с силой 1 и 2, плод получит силу 2. Сорняки будут появлятся на грядках и постепенно губить ваши растения. Расположение грядок теперь имеет значения, так как у расстений есть требованию к почве, cвету, и жидкостям.%n%n§dHunger Overhaul§r требует вскапывать почву только у водоёмов - поставить дёрн где-то в пустыне теперь не выйдет.%n%n
-
 # Quest: Stirling Sawmill
 betterquesting.quest._qJt02i4ST2iccmkHudKCg.name=Лесопика на генераторе Стирлинга
 betterquesting.quest._qJt02i4ST2iccmkHudKCg.desc=§3Лесопилка на генераторе Стирлинга§r использует тепло для распиливания деревянных предметов, производя §6Опилки§r в процессе. Опилки можно использовать для получения §6Бумаги§r, и при дальнейшей обработке их можно превратить в §6Древесный уголь§r в §3Коксовой печи§r.
@@ -291,7 +283,7 @@ betterquesting.quest.bXgPsVSbTy6Az8yENEF99w.desc=Представьте, исп�
 
 # Quest: Heating Oven/Firebox
 betterquesting.quest.cUWyKdzATTSYaMg1MxZqYw.name=Нагревательная печь/топка
-betterquesting.quest.cUWyKdzATTSYaMg1MxZqYw.desc=The §3Firebox§r and the §3Heating Oven§r are machines capable of producing heat from solid fuels for any machines that require heat to operate.%n%nHeat is measured in §eTU§r (§eThermal Units§r).%n%nBoth machines are similar in operation. In order for them to transfer heat, another machine for receiving the heat must be placed on top, such that the copper heat plate on the receiving machine sits on top of the copper heat plate of the heat producing machine.%n%nOnce constructed, these machines can be filled with solid fuel, which will burn until either the fuel runs out, or the heat buffer is filled. No fuel will be consumed if its buffer is full — as such, both machines are fairly efficient at conserving fuel.%n%nThe primary difference in these two machines lie in their speed: the firebox burns fuel much slower at full efficiency, whilst the heating oven produces five time the heat (but eight times faster). Despite its inefficiency, the heating oven is often preferred for its much higher heat outputs and heat capacity. However, it cannot heat a stirling engine, as its base output (500 TU/t) will automatically over-speed the engine; the heavy stirling engine does not have this issue.%n%nAdditionally, the heating oven can receive heat from other heat producing machines placed underneath it: multiple can be stacked for heat-hungry machines like the crucible. The heat received, however, is halved when transferring to the machine above.
+betterquesting.quest.cUWyKdzATTSYaMg1MxZqYw.desc=The §3Firebox§r and the §3Heating Oven§r are machines capable of producing heat from solid fuels for any machines that require heat to operate.%n%nHeat is measured in §eTU§r (§eThermal Units§r).%n%nBoth machines are similar in operation. In order for them to transfer heat, another machine for receiving the heat must be placed on top, such that the copper heat plate on the receiving machine sits on top of the copper heat plate of the heat producing machine.%n%nOnce constructed, these machines can be filled with solid fuel, which will burn until either the fuel runs out, or the heat buffer is filled. No fuel will be consumed if its buffer is full - as such, both machines are fairly efficient at conserving fuel.%n%nThe primary difference in these two machines lie in their speed: the firebox burns fuel much slower at full efficiency, whilst the heating oven produces five time the heat (but eight times faster). Despite its inefficiency, the heating oven is often preferred for its much higher heat outputs and heat capacity. However, it cannot heat a stirling engine, as its base output (500 TU/t) will automatically over-speed the engine; the heavy stirling engine does not have this issue.%n%nAdditionally, the heating oven can receive heat from other heat producing machines placed underneath it: multiple can be stacked for heat-hungry machines like the crucible. The heat received, however, is halved when transferring to the machine above.
 
 # Quest: Recycling
 betterquesting.quest.ceT8V2MeRz2u-FR9Uckarw.name=Переработка
@@ -701,7 +693,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAcA.desc=§6Нейтринные лин�
 
 # Quest: ZIRNOX
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAcg.name=Цирнокс
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAcg.desc=§3ЦИРНОКС§r - это первый и самый дешёвый ядерный реактор, который можно создать. В отличие от §3ВВЭР§r и §3РБМК§r, это полностью собранный реактор, который для работы требует §bВоды§r и §bУглекислого газа§r.%n%nИз-за низкого количества пара, которое производит ЦИРНОКС, можно использовать одноблочные §3Паровые турбины§r, ценой эффективности в §e85%%§r, и один §3Паровой конденсатор§r на топливе низкой мощности. Таким образом, 24 §6Топливных стержня природного урана§r при использовании 14kmB диоксида углерода дадут выходную мощность около §e160kHE/s§r.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAcg.desc=The §3ZIRNOX§r is the first and cheapest nuclear reactor one can make. Unlike the §3PWR§r and §3RBMK§r, it is a fully assembled reactor which requires §bWater§r and §bCarbon Dioxide§r to operate.%n%nDue to its modest steam output, the ZIRNOX can be paired with several §3Steam Engines§r, though an §3Industrial Turbine§r is recommended for its §e100%%§r efficiency. A single §3Steam Condenser§r handles the exhaust on lower power fuels. 24 §6Natural Uranium Fuel Rods§r using 14kmB of carbon dioxide will yield a power output of around §e240kHE/s§r.
 
 # Quest: Cooling Tower
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAdQ.name=Градирня
@@ -1167,7 +1159,7 @@ betterquesting.quest.DOSq2NdFQ3Ojsk2F4OtgMQ.desc=§3Magnetohydrodynamic Turbines
 
 # Quest: Done
 betterquesting.quest.FmWwl9ntTjeMSWhXcVcTdg.name=§cВсе
-betterquesting.quest.FmWwl9ntTjeMSWhXcVcTdg.desc=Phew, that was quite a journey... Hopefully there is more to come with some modpack updates!%n%nNow [warn]GO TOUCH SOME GRASS IMMIDIATELY[/warn].
+betterquesting.quest.FmWwl9ntTjeMSWhXcVcTdg.desc=Phew, that was quite a journey... Hopefully there is more to come with some modpack updates!%n%nNow [warn]GO TOUCH SOME GRASS IMMIDIATELY[/warn].%n%n§6§lRATE OUR MODPACK: §r[url]https://moddex.gg/modpack/ntnewhorizons[/url]
 
 # Quest: Secret Catalogue
 betterquesting.quest.J9dwgncgSUydHFPUoI85oQ.name=Секретный каталог
@@ -1187,7 +1179,7 @@ betterquesting.quest.hmwBFeuMQXiUrjE-WdD6-g.desc=The §3ICF Laser Turbocharger§
 
 # Quest: Balls-O-Tron
 betterquesting.quest.k-HwTdGiQVmikRwAeg_fkQ.name=Баллс-О-Трон
-betterquesting.quest.k-HwTdGiQVmikRwAeg_fkQ.desc=Balls-O-Tron is the second boss of §dNTM§r. It can be summoned by interracting the mechanist's circle, found in the §eEnargite Temple§r which spawns in jungles, with a §6Silver Key§r, made using the Maskman Coin, or from crafting the Balls-O-Tron spawn item.%n%nDue to the outdated nature of the bosses, aswell as the RNG needed to obtain some of the items, this quest provides an alternative way of obtaining the Balls-O-Tron coin.%n%n§2This quest can be repeated.
+betterquesting.quest.k-HwTdGiQVmikRwAeg_fkQ.desc=§4Balls-O-Tron§r is the second boss of §dNTM§r. It can be summoned by interracting the mechanist's circle, found in the §eEnargite Temple§r which spawns in jungles, with a §6Silver Key§r, made using the Maskman Coin, or from crafting the Balls-O-Tron spawn item.
 
 # Quest: ICF Laser
 betterquesting.quest.nqmqybchRzWn-T46-3vHmQ.name=ICF лазер
@@ -1209,6 +1201,11 @@ betterquesting.questline.MJP4MeAmSTm_Di0iRHoQuw.desc=Советы и подск�
 # Quest: Infinite Water Sources
 betterquesting.quest.xlNjQwC6S3S5o_B7nIciBQ.name=Источники бесконечной воды
 betterquesting.quest.xlNjQwC6S3S5o_B7nIciBQ.desc=Устали от использования вёдер для питания ваших машин водой? Попробуйте использовать водяные насосы или бесконечные водонапорные баки!%n%nBесконечный водонапорный бак подаёт 50mb/t%nУлучшенный бесконечный водонапорный бак подаёт 500mb/t%nНасос подаёт 1000mb/t, но для работы требует пара.
+
+
+## Quest Line: Farming and Cooking
+betterquesting.questline.UJ4N6pDhQ5aGBxBW9j-BVw.name=Farming and Cooking
+betterquesting.questline.UJ4N6pDhQ5aGBxBW9j-BVw.desc=Everything about how to farm and cook.
 
 
 ## Quest Line: Building and Decorating
@@ -1242,27 +1239,6 @@ betterquesting.quest.p7NNm2NvRgWz37LQO6yraw.desc=§dArchitectureCraft§r пре�
 # Quest: Sign Pictures
 betterquesting.quest.wAu-q390TlKihyp-bEI2lw.name=Изображения на табличказ
 betterquesting.quest.wAu-q390TlKihyp-bEI2lw.desc=Мод §dSignPicture§r позволяет размещать любое изображение на табличке, открывая двери к множеству уникальных строительных дизайнов. Нажмите \\, чтобы начать.
-
-
-## Quest Line: Three hundred caps
-betterquesting.questline.PUpgFX1lTJePHTcvicBC8g.name=Три сотни крышек
-betterquesting.questline.PUpgFX1lTJePHTcvicBC8g.desc=Добро пожаловать в магазин!
-
-# Quest: Sell Dust
-betterquesting.quest.7NPMYwlyRnuUYaXsIwEgRg.name=Продать пыль
-betterquesting.quest.7NPMYwlyRnuUYaXsIwEgRg.desc=Ненавижу пыль!
-
-# Quest: Buy Minecraft Grade Copper
-betterquesting.quest.D2Exp9OuTbyYS9fJwtw2-g.name=Купить красную медь
-betterquesting.quest.D2Exp9OuTbyYS9fJwtw2-g.desc=Нужна красная медь? Купи её!
-
-# Quest: Buy Technetium Steel
-betterquesting.quest.QoKnQH_ETbiodGyDlEZzuA.name=Купить технециевую сталь
-betterquesting.quest.QoKnQH_ETbiodGyDlEZzuA.desc=Нужна технециевая сталь? Купи её!
-
-# Quest: Buy Steel
-betterquesting.quest.r6_zzsvOSRWQ6N6YCBilvw.name=Купить сталь
-betterquesting.quest.r6_zzsvOSRWQ6N6YCBilvw.desc=Нужна сталь? Купи её!
 
 
 ## Quest Line: Reward Area
@@ -1560,10 +1536,6 @@ betterquesting.quest.6nKJ4mC3QB-i5nx8UXrPew.desc=Думаю, мне нужен �
 betterquesting.quest.8G4ZvwvWQpihM6NfflMw7A.name=Время убивать (Ведьма)
 betterquesting.quest.8G4ZvwvWQpihM6NfflMw7A.desc=Witches bring stitches because they are always infernal and very dangerous. Be careful since they throw potions at you.
 
-# Quest: Maskman
-betterquesting.quest.8b6batCvQvCiGknitRMrSQ.name=Время убивать (Маскмен)
-betterquesting.quest.8b6batCvQvCiGknitRMrSQ.desc=Маскмен - это первый босс НТМ. Чтобы призвать его, вы должны находиться под воздействием радиационного отравления (50 рад). Просто подождите, пока он прибудет.
-
 # Quest: MEGAKILL!
 betterquesting.quest.C7CLvAjyQUy2aNW1HiA7Ow.name=§4§lMEGAKILL!
 betterquesting.quest.C7CLvAjyQUy2aNW1HiA7Ow.desc=Ты убил их всех! §cТы монстр!
@@ -1659,9 +1631,13 @@ betterquesting.quest.5VAtBoWDTLmFNrWxLbn9IA.desc=§cДобро пожалова�
 betterquesting.quest.6k-JrbD-S8GO9PRRthWNRA.name=Терраформер Дайсона
 betterquesting.quest.6k-JrbD-S8GO9PRRthWNRA.desc=The §3Dyson Anatmogenesis Terraformer§r provides the most utility out of all the currently available §3Dyson converters§r, accepting a beam from a receiver and providing a direct energy to mass conversion, producing planetary scale atmospheric gases, terraforming any planet or moon as a player sees fit.%n%nBy default it will release oxygen into an atmosphere, making it breathable once it crosses the 0.1atm threshold for breathing. A fluid identifier can be used to switch the gas emitted, and a screwdriver can switch it between emitting or extracting gases from the atmosphere.%n%nIf powered with §e150THE/s§r power from a swarm (equivalent to a swarm size of 1,024), it will take 8 hours to reach 0.1atm of pressure.
 
+# Quest: Maskman
+betterquesting.quest.8b6batCvQvCiGknitRMrSQ.name=Время убивать (Маскмен)
+betterquesting.quest.8b6batCvQvCiGknitRMrSQ.desc=Maskman is the first NTM boss. To summon it, you need to be under radiation poisoning (50 rad). A 20-minute timer starts per player when requirements are met. Once it runs out, Mask Man spawns. A warning appears 1 minute before spawn. If you are no longer irradiated, the timer resets.
+
 # Quest: Glyphids
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAABQ.name=Глифиды
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAABQ.desc=§6Глифиды§r — это крупные насекомые, представленные множеством разновидностей. В основном они появляются рядом с естественными гнездами. Все виды этих существ защищены панцирем, поэтому получают меньше урона по сравнению с обычными мобами. Глифидов обычно привлекает загрязнение, создаваемое игроком, и с ними, как правило, приходится сражаться самому игроку.\n\n§6Гнезда§r могут появляться естественным образом во всех биомах, кроме океанических, а также создаваться глифидами-разведчиками. Внутри них находятся блоки яиц глифидов и неплохой лут для начала игры, лежащий поверх этих яиц. При разрушении, блоки яиц порождают глифидов и дают предмет «Яйцо глифидов».\n\n§2Рекомендуется уничтожать все гнезда как можно скорее, чтобы предотвратить их дальнейшее распространение.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAABQ.desc=§6Glyphids§r are large insects that have many different types. They primarily spawn with naturally generated §6§rhives§r structures. All of the types are armored and they take less damage than against normal mobs. Glyphids are normally attracted to pollution created by the player, and usually have to be dealt with by the player.%n%n§6§r§6Hives§r can spawn naturally in all non-ocean biomes and can also be created by glyphid scouts. They contain several glyphid egg blocks and some low-tier loot inside, lying on top of eggs. glyphid egg blocks spawn glyphids and drop glyphid eggs upon destruction.%n%nGlyphids now periodically retarget the closest player every 5 seconds if their current target is farther. 1/3 of glyphids do not have this behavior to prevent infinite trapping.%n%n§2It is recommended that all hives are destroyed as soon as possible as to prevent their spread later on.
 
 # Quest: Useful Tools
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAACA.name=Полезные инструменты
@@ -1670,6 +1646,10 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAACA.desc=Существует множе
 # Quest: Tantalium
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAiw.name=Тантал
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAiw.desc=§6Tantalium§r is a material needed for the creation of some items, most importantly §6Capacitor Boards§r. Tantalium Polycrystal production requires §6Coltan§r which can be located by the use of a §6Coltass§r. Coltan can also be obtained by using the mining drill in a §eBedrock Ore Coltan Deposit§r located randomly on planet Dres. Tantalum can also be obtained via §3Watz Reactor§r.%n%n§2Coltan Processing at its early stage can provide Niobium needed for Catalytic Cracking Towers.
+
+# Quest: Hunger System
+betterquesting.quest.Fio9CeHtR9-O6cehKBCH5g.name=Система голода
+betterquesting.quest.Fio9CeHtR9-O6cehKBCH5g.desc=§dHunger Overhaul§r делает голод реальной угрозой, а не легким неудобством.%n%nГолод теперь уменьшается пассивно со временем, даже в бездействии. Достижение нуля убивает вас мгновенно. Низкий уровень голода накладывает медлительность, слабость и снижает скорость добычи еще до смерти. Еда дает эффект §6Well Fed§r, который ускоряет регенерацию здоровья - чем больше порция, тем дольше он длится.%n%nПищевая ценность изменена в зависимости от размера порции. Сырые ингредиенты восстанавливают очень мало; приготовленные блюда восстанавливают значительно больше. Большие блюда едятся дольше и меньше стакаются в вашем инвентаре.%n%nСельскохозяйственные культуры растут только в дневное время и созревают гораздо дольше. Деревянные и каменные мотыги удалены - вам понадобится как минимум железная мотыга, чтобы вскопать почву. Грядки должны быть размещены рядом с водой, иначе они не будут функционировать.%n%n§dSpice of Life: Carrot Edition§r вознаграждает за разнообразие в рационе. Каждая уникальная еда, съеденная впервые, навсегда увеличивает ваше максимальное здоровье. Повторное употребление одной и той же еды не дает бонуса.%n%n§2Чем разнообразнее ваш рацион, тем больше у вас сердец - создайте разнообразную ферму как можно раньше.§r
 
 # Quest: Red Key
 betterquesting.quest.NB6qs0xZSHaY5Sik2IoTxg.name=Красный ключ
@@ -1682,6 +1662,10 @@ betterquesting.quest.VoxsH2isSheNEKaJ3_Ikgg.desc=§6Отвёртка§r испо
 # Quest: The End of Space...
 betterquesting.quest.XbTJRWJNTKa4UEeLPV0urg.name=Край космоса...
 betterquesting.quest.XbTJRWJNTKa4UEeLPV0urg.desc=Что ж, ты завершил космическую стадию игры; теперь весь космос знает и боится тебя (ты настоящий космический пират). Вот ещё несколько нюансов о §3Рое Дайсона§r:%n%n§2Не ставьте §3конвертеры§r вплотную к §3ресиверу§r - это вызовет ошибку в работе.§r%n%n§2Множестао игроков в одном мире могут создавать несколько §3роев§r, однако посните что разные рои уменьшают §eэффективность§r друг друга. Это модет заставить игроков либо работать вместе над одним оьщим §3роем§r, либо соревноваться, чтобы извлекать больше §eэнергии§r из их собственного §3роя§r.§r
+
+# Quest: Agriculture and Farming
+betterquesting.quest.Zpwlu-OeTpCvf7vTFz-BIA.name=Агрокультура и земледелие
+betterquesting.quest.Zpwlu-OeTpCvf7vTFz-BIA.desc=На сборке есть 3 мода, что перерабатывают фермерство и добавляют еду.%n%n§dPam's HarvestCraft§r добавляет 40+ новых культур, плодовых деревьев, пчеловодство, 10 рыб, и 75+ блюд. Нажимая по созревшому растению, выпадут плоды и растение посадится обратно автоматически. Основные блоки: %n§3Прессовщик§r, для получения масла, мёда, и других предметов.%n§3Рынок§r, позволяющий покупать саженцы и семена за изумруды.%n%n§dAgriCraft§r добавляет скрещивание культур с капелькой генетики. У каждого растения теперь есть 3 характеристики - Рост, Уражай(ность), и Сила. Гены высоких статов доминантные, то есть при скрещивании расстения с силой 1 и 2, плод получит силу 2. Сорняки будут появлятся на грядках и постепенно губить ваши растения. Расположение грядок теперь имеет значения, так как у расстений есть требованию к почве, cвету, и жидкостям.%n%n§dHunger Overhaul§r требует вскапывать почву только у водоёмов - поставить дёрн где-то в пустыне теперь не выйдет.%n%n
 
 # Quest: Guide Book
 betterquesting.quest.qxRS5162RCW1IG--2Ibg7g.name=Путеводитель
