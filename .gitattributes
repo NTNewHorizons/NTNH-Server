@@ -1,4 +1,4 @@
-mods/HBM-*.jar filter=lfs diff=lfs merge=lfs -text
-server.jar filter=lfs diff=lfs merge=lfs -text
-minecraft_server.*.jar filter=lfs diff=lfs merge=lfs -text
-libraries.zip filter=lfs diff=lfs merge=lfs -text
+# Git LFS removed from .gitattributes
+
+# This repository no longer requires Git LFS at runtime. See MIGRATION.md for a plan
+# to permanently remove tracked LFS objects from history if you want to stop using LFS entirely.
