@@ -8,29 +8,27 @@ Server-side version of the **Nuclear Tech: New Horizons** modpack for Minecraft 
 
 ## Quick Start
 
-**Requirements:** Java 8, Git LFS, 4 GB+ RAM
+**Requirements:** Java 8, 4 GB+ RAM
 
 ### Linux
 
 ```bash
-git lfs install
 git clone https://github.com/NTNewHorizons/NTNH-Server.git
 cd NTNH-Server
 ./start.sh
 ```
 
-That's it. `start.sh` checks Java, accepts the EULA, pulls LFS files, and launches the server.
+That's it. `start.sh` checks Java, accepts the EULA, downloads any large files that were stored as Git LFS pointers, and launches the server. Git LFS is optional — if the repository contains pointer files the script will fetch the real files from GitHub's raw endpoints.
 
 ### Windows
 
 ```batch
-git lfs install
 git clone https://github.com/NTNewHorizons/NTNH-Server.git
 cd NTNH-Server
 ./start.bat
 ```
 
-\> If you can't install Git LFS, `start.bat` automatically falls back to downloading large files via PowerShell and curl (Windows 7+).
+> If you can't install Git LFS, `start.bat` will automatically download large files using PowerShell and curl (Windows 7+).
 
 ### Java Arguments
 
@@ -40,7 +38,7 @@ JVM options are read from `server-args.txt` (edit this file to change memory all
 JVM_OPTS="-Xms2G -Xmx4G" ./start.sh
 ```
 
-> If you can't install Git LFS, don't worry - `start.sh` automatically falls back to downloading large files via curl.
+> If the repository ran out of Git LFS bandwidth or you cannot install Git LFS, don't worry — the start scripts will fetch the real files automatically from GitHub.
 
 ### Updating
 
@@ -79,21 +77,3 @@ docker compose up -d
 ```
 
 ---
-
-## How It Works
-
-The server pack is generated from the client repo on each release. A GitHub Action strips client-only mods and publishes the result here.
-
-Files you can edit freely (never overwritten):
-- `server.properties`, `ops.json`, `whitelist.json`, `banned-*.json`
-- `world/`, `logs/`, `crash-reports/`, `backups/`
-
-Files reset on update:
-- `mods/`, `config/`, `scripts/`, `serverutilities/`
-- `README.md`, `knownkeys.txt`, `localconfig.cfg`
-
----
-
-## Support
-
-[Bugs & mod issues](https://github.com/NTNewHorizons/NTNH/issues) · [Server issues](https://github.com/NTNewHorizons/NTNH-Server/issues)

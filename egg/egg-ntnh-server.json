@@ -1,5 +1,3 @@
-{
-    "_comment": "Pterodactyl/Pelican egg for NTNH-Server — Nuclear Tech: New Horizons",
     "meta": {
         "version": "PTDL_v2",
         "update_url": null
@@ -7,7 +5,7 @@
     "exported_at": "2026-07-14T14:00:00+00:00",
         "name": "NTNH-Server",
         "author": "NTNH Team",
-        "description": "Nuclear Tech: New Horizons modpack server for Minecraft 1.7.10.\n\nRequires Java 8 and at least 4 GB RAM.\n\nOn first install the egg clones the repo and pulls Git LFS objects.\nThe server JAR and all mod files are tracked via Git LFS.",
+        "description": "Nuclear Tech: New Horizons modpack server for Minecraft 1.7.10.\n\nRequires Java 8 and at least 4 GB RAM.\n\nOn first install the egg clones the repo and fetches large files from GitHub raw URLs if Git LFS is not available. The server JAR and all mod files may be stored as Git LFS pointers, but the installation script will download the real files automatically.",
         "image": "ghcr.io/pterodactyl/yolks:java_8",
         "startup": "./start.sh",
         "config": {
@@ -19,7 +17,7 @@
     },
     "scripts": {
         "installation": {
-            "script": "#! /bin/bash\n# NTNH-Server installation script\n# Dependencies: git, git-lfs, curl, unzip\n\napt-get update\napt-get install -y git git-lfs curl unzip\n\nmkdir -p /mnt/server\ncd /mnt/server\n\n# Clone the repo (shallow clone for speed)\ngit init\ngit remote add origin https://github.com/NTNewHorizons/NTNH-Server.git\ngit fetch --depth 1 origin main\ngit checkout main\n\n# Pull LFS objects\ngit lfs install\ngit lfs pull\n\n# Verify critical files exist\nif [ ! -f server.jar ]; then\n    echo \"ERROR: server.jar not found after LFS pull. Trying fallback...\"\n    curl -sL -o server.jar https://github.com/NTNewHorizons/NTNH-Server/raw/main/server.jar\nfi\n\nif [ ! -f forge-1.7.10-10.13.4.1614-1.7.10-universal.jar ]; then\n    curl -sL -o forge-1.7.10-10.13.4.1614-1.7.10-universal.jar https://github.com/NTNewHorizons/NTNH-Server/raw/main/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar\nfi\n\n# Ensure line endings are Unix\ndos2unix start.sh 2>/dev/null || sed -i 's/\\r$//' start.sh\nchmod +x start.sh\n\necho \"Installation complete. Server will start on boot.\"",
+            "script": "#! /bin/bash\n# NTNH-Server installation script\n# Dependencies: git, curl, unzip\n\napt-get update\napt-get install -y git curl unzip dos2unix\n\nmkdir -p /mnt/server\ncd /mnt/server\n\n# Clone the repo (shallow clone for speed)\ngit init\ngit remote add origin https://github.com/NTNewHorizons/NTNH-Server.git\ngit fetch --depth 1 origin main\ngit checkout main\n\n# Resolve LFS pointer files by downloading real content from GitHub raw URLs\nRAW_BASE=\"https://github.com/NTNewHorizons/NTNH-Server/raw/main/\"\n\ndownload_pointer() {\n    rel=\"$1\"\n    if command -v python3 >/dev/null 2>&1; then\n        enc=$(python3 -c \"import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1]))\" \"$rel\")\n    else\n        enc=$(printf \"%s\" \"$rel\" | sed -e 's/ /%20/g' -e 's/\\[/\\%5B/g' -e 's/\\]/\\%5D/g' -e 's/(/%28/g' -e 's/)/%29/g')\n    fi\n    url=\"$RAW_BASE$enc\"\n    mkdir -p \"$(dirname \"$rel\")\"\n    echo \"  Downloading: $rel\"\n    if curl -sL -o \"$rel\" \"$url\"; then\n        return 0\n    else\n        echo \"  FAILED: $rel\"\n        return 1\n    fi\n}\n\nfind . -type f -not -path './.git/*' -print0 | while IFS= read -r -d '' f; do\n    if head -n1 \"$f\" 2>/dev/null | grep -q \"version https://git-lfs.github.com/spec/v1\"; then\n        rel=\"${f#./}\"\n        download_pointer \"$rel\" || true\n    fi\ndone\n\n# Verify critical files exist\nif [ ! -f server.jar ]; then\n    echo \"ERROR: server.jar not found after pointer resolution. Trying direct download...\"\n    curl -sL -o server.jar https://github.com/NTNewHorizons/NTNH-Server/raw/main/server.jar || true\nfi\n\nif [ ! -f forge-1.7.10-10.13.4.1614-1.7.10-universal.jar ]; then\n    curl -sL -o forge-1.7.10-10.13.4.1614-1.7.10-universal.jar https://github.com/NTNewHorizons/NTNH-Server/raw/main/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar || true\nfi\n\n# Ensure line endings are Unix\ndos2unix start.sh 2>/dev/null || sed -i 's/\r$//' start.sh\nchmod +x start.sh\n\necho \"Installation complete. Server will start on boot.\"",
             "container": "ubuntu:22.04",
             "entrypoint": "bash"
         }
@@ -29,28 +27,3 @@
             "name": "Max Players",
             "description": "Maximum number of players that can join the server.",
             "env_variable": "MAX_PLAYERS",
-            "default_value": "20",
-            "user_viewable": true,
-            "user_editable": true,
-            "rules": "required|integer|between:1,100"
-        },
-        {
-            "name": "Server MOTD",
-            "description": "Message of the Day shown in the server list.",
-            "env_variable": "MOTD",
-            "default_value": "Nuclear Tech: New Horizons",
-            "user_viewable": true,
-            "user_editable": true,
-            "rules": "required|string|max:59"
-        },
-        {
-            "name": "JVM Options",
-            "description": "JVM arguments for the Minecraft server. Default: -Xms4G -Xmx6G -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=100",
-            "env_variable": "JVM_OPTS",
-            "default_value": "-Xms4G -Xmx6G -XX:+UseG1GC -XX:+UnlockExperimentalVMOptions -XX:MaxGCPauseMillis=100",
-            "user_viewable": true,
-            "user_editable": true,
-            "rules": "required|string"
-        }
-    ]
-}
