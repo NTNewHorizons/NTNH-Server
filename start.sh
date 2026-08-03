@@ -23,9 +23,8 @@ java -version 2>&1 | grep -q "1.8" || {
 # Accept EULA
 echo "eula=true" > eula.txt
 
-# Resolve LFS pointers by downloading raw files from GitHub (no Git LFS required)
-# This handles environments where Git LFS is unavailable or the repo ran out of LFS bandwidth.
-RAW_BASE="https://github.com/NTNewHorizons/NTNH-Server/raw/main/"
+# Resolve LFS pointers by downloading raw files from raw.githubusercontent.com (no Git LFS required)
+RAW_BASE="https://raw.githubusercontent.com/NTNewHorizons/NTNH-Server/main/"
 
 download_pointer() {
     rel="$1"
@@ -33,16 +32,21 @@ download_pointer() {
     if command -v python3 >/dev/null 2>&1; then
         enc=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1]))" "$rel")
     else
-        # replace spaces and common special chars (handles most filenames like ones with brackets)
-        enc=$(printf "%s" "$rel" | sed -e 's/ /%20/g' -e 's/\[/\%5B/g' -e 's/\]/\%5D/g' -e 's/(/%28/g' -e 's/)/%29/g')
+        enc=$(printf "%s" "$rel" | sed -e 's/ /%20/g' -e 's/\[/%5B/g' -e 's/\]/%5D/g' -e 's/(/%28/g' -e 's/)/%29/g')
     fi
     url="$RAW_BASE$enc"
     mkdir -p "$(dirname "$rel")"
     echo "  Downloading: $rel"
-    if curl -sL -o "$rel" "$url"; then
+    # Use curl with retries, fail on HTTP errors
+    if curl --fail --retry 3 --retry-delay 2 -sS -L -o "$rel" "$url"; then
+        # quick sanity check: pointer files are usually small; ensure downloaded file is > 1KB
+        sz=$(stat -c%s "$rel" 2>/dev/null || echo 0)
+        if [ "$sz" -lt 1024 ]; then
+            echo "    WARNING: download size for $rel is suspicious ($sz bytes)"
+        fi
         return 0
     else
-        echo "  FAILED: $rel"
+        echo "    FAILED: $rel"
         return 1
     fi
 }
