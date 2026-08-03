@@ -3,7 +3,7 @@ FROM eclipse-temurin:8-jre
 LABEL maintainer="NTNH Team"
 LABEL description="NTNH Modpack Server for Minecraft 1.7.10"
 
-RUN apt-get update && apt-get install -y wget unzip && rm -rf /var/lib/apt/lists/*
+RUN apt-get update && apt-get install -y wget unzip python3 && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /server
 

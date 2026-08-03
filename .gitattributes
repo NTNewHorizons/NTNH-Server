@@ -1,4 +1,9 @@
-# Git LFS removed from .gitattributes
-
-# This repository no longer requires Git LFS at runtime. See MIGRATION.md for a plan
-# to permanently remove tracked LFS objects from history if you want to stop using LFS entirely.
+# NTNH Server - Git attributes
+#
+# server.jar and minecraft_server.1.7.10.jar are committed as real files so fresh
+# installs never need to download them.
+#
+# The HBM mod jar is ~112 MB and exceeds GitHub's per-file size limit, so it must
+# stay in Git LFS. start.sh / start.bat / resolve-lfs.py fetch the real file from
+# GitHub's LFS object API at install time (no git-lfs install required).
+mods/HBM-*.jar filter=lfs diff=lfs merge=lfs -text

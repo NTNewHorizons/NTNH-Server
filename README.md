@@ -18,7 +18,7 @@ cd NTNH-Server
 ./start.sh
 ```
 
-That's it. `start.sh` checks Java, accepts the EULA, downloads any large files that were stored as Git LFS pointers, and launches the server. Git LFS is optional — if the repository contains pointer files the script will fetch the real files from GitHub's raw endpoints.
+That's it. `start.sh` checks Java, accepts the EULA, replaces any Git LFS pointer files with the real files (via GitHub's LFS object API — no git-lfs install required), and launches the server.
 
 ### Windows
 
@@ -28,7 +28,7 @@ cd NTNH-Server
 ./start.bat
 ```
 
-> If you can't install Git LFS, `start.bat` will automatically download large files using PowerShell and curl (Windows 7+).
+> If you can't install Git LFS, `start.bat` will automatically download large files using PowerShell.
 
 ### Java Arguments
 
@@ -38,7 +38,7 @@ JVM options are read from `server-args.txt` (edit this file to change memory all
 JVM_OPTS="-Xms2G -Xmx4G" ./start.sh
 ```
 
-> If the repository ran out of Git LFS bandwidth or you cannot install Git LFS, don't worry — the start scripts will fetch the real files automatically from GitHub.
+> If the repository ran out of Git LFS bandwidth or you cannot install Git LFS, don't worry — the start scripts will fetch the real files automatically via GitHub's LFS object API.
 
 ### Updating
 

@@ -6,6 +6,8 @@ set -e
 # Update:    ./start.sh --update
 # Normal:    ./start.sh
 
+cd "$(dirname "$0")"
+
 if [ "$1" = "--update" ]; then
     git fetch origin main
     git reset --hard origin/main
@@ -23,52 +25,28 @@ java -version 2>&1 | grep -q "1.8" || {
 # Accept EULA
 echo "eula=true" > eula.txt
 
-# Resolve LFS pointers by downloading raw files from raw.githubusercontent.com (no Git LFS required)
-RAW_BASE="https://raw.githubusercontent.com/NTNewHorizons/NTNH-Server/main/"
+# Resolve Git LFS pointer files (mods/, server jars) using the GitHub LFS batch API.
+# No git-lfs required. If python3 is missing, fall back to `git lfs pull`.
+echo "Checking for Git LFS pointer files..."
+if command -v python3 >/dev/null 2>&1; then
+    python3 resolve-lfs.py
+elif command -v git-lfs >/dev/null 2>&1 || git lfs version >/dev/null 2>&1; then
+    git lfs pull || true
+else
+    echo "WARNING: python3 not found; cannot resolve LFS pointer files."
+fi
 
-download_pointer() {
-    rel="$1"
-    # Try python3 for robust URL-encoding, fall back to simple replacements
-    if command -v python3 >/dev/null 2>&1; then
-        enc=$(python3 -c "import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1]))" "$rel")
-    else
-        enc=$(printf "%s" "$rel" | sed -e 's/ /%20/g' -e 's/\[/%5B/g' -e 's/\]/%5D/g' -e 's/(/%28/g' -e 's/)/%29/g')
+# Critical files must exist and be real jars (not LFS pointers).
+for f in server.jar minecraft_server.1.7.10.jar; do
+    if [ ! -f "$f" ]; then
+        echo "ERROR: required file $f is missing."
+        exit 1
     fi
-    url="$RAW_BASE$enc"
-    mkdir -p "$(dirname "$rel")"
-    echo "  Downloading: $rel"
-    # Use curl with retries, fail on HTTP errors
-    if curl --fail --retry 3 --retry-delay 2 -sS -L -o "$rel" "$url"; then
-        # quick sanity check: pointer files are usually small; ensure downloaded file is > 1KB
-        sz=$(stat -c%s "$rel" 2>/dev/null || echo 0)
-        if [ "$sz" -lt 1024 ]; then
-            echo "    WARNING: download size for $rel is suspicious ($sz bytes)"
-        fi
-        return 0
-    else
-        echo "    FAILED: $rel"
-        return 1
-    fi
-}
-
-# Walk files and replace any Git LFS pointer files with the real content from the raw GitHub URL.
-find . -type f -not -path './.git/*' -print0 | while IFS= read -r -d '' f; do
-    if head -n1 "$f" 2>/dev/null | grep -q "version https://git-lfs.github.com/spec/v1"; then
-        rel="${f#./}"
-        download_pointer "$rel" || true
+    if head -n1 "$f" | grep -q "version https://git-lfs.github.com/spec/v1"; then
+        echo "ERROR: $f is still a Git LFS pointer (download failed)."
+        exit 1
     fi
 done
-
-# Ensure critical files exist (try direct raw downloads as a fallback)
-if [ ! -f server.jar ]; then
-    echo "server.jar missing — attempting to download directly..."
-    download_pointer "server.jar" || true
-fi
-
-if [ ! -f minecraft_server.1.7.10.jar ]; then
-    echo "minecraft_server.1.7.10.jar missing — attempting to download directly..."
-    download_pointer "minecraft_server.1.7.10.jar" || true
-fi
 
 # JVM options from server-args.txt (can be overridden via JVM_OPTS env var)
 if [ -f server-args.txt ] && [ -z "${JVM_OPTS+set}" ]; then

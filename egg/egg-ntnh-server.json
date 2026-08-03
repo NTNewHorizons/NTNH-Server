@@ -1,23 +1,24 @@
+{
     "meta": {
         "version": "PTDL_v2",
         "update_url": null
     },
     "exported_at": "2026-07-14T14:00:00+00:00",
-        "name": "NTNH-Server",
-        "author": "NTNH Team",
-        "description": "Nuclear Tech: New Horizons modpack server for Minecraft 1.7.10.\n\nRequires Java 8 and at least 4 GB RAM.\n\nOn first install the egg clones the repo and fetches large files from GitHub raw URLs if Git LFS is not available. The server JAR and all mod files may be stored as Git LFS pointers, but the installation script will download the real files automatically.",
-        "image": "ghcr.io/pterodactyl/yolks:java_8",
-        "startup": "./start.sh",
-        "config": {
-            "files": "{\n    \"server.properties\": {\n        \"parser\": \"properties\",\n        \"find\": {\n            \"server-ip\": \"0.0.0.0\",\n            \"server-port\": \"25565\",\n            \"max-players\": \"{{server.build.env.MAX_PLAYERS}}\",\n            \"motd\": \"{{server.build.env.MOTD}}\"\n        }\n    }\n}",
-            "startup": "{\n    \"doneEntry\": \"Done (\",\n    \"userInteraction\": []\n}",
-            "stop": "stop\n",
-            "logs": "{\n    \"custom\": false,\n    \"location\": \"logs/latest.log\"\n}",
+    "name": "NTNH-Server",
+    "author": "NTNH Team",
+    "description": "Nuclear Tech: New Horizons modpack server for Minecraft 1.7.10.\n\nRequires Java 8 and at least 4 GB RAM.\n\nOn first install the egg clones the repo and resolves any Git LFS pointer files via the GitHub LFS batch API (no git-lfs install required).",
+    "image": "ghcr.io/pterodactyl/yolks:java_8",
+    "startup": "./start.sh",
+    "config": {
+        "files": "{\n    \"server.properties\": {\n        \"parser\": \"properties\",\n        \"find\": {\n            \"server-ip\": \"0.0.0.0\",\n            \"server-port\": \"25565\",\n            \"max-players\": \"{{server.build.env.MAX_PLAYERS}}\",\n            \"motd\": \"{{server.build.env.MOTD}}\"\n        }\n    }\n}",
+        "startup": "{\n    \"doneEntry\": \"Done (\",\n    \"userInteraction\": []\n}",
+        "stop": "stop\n",
+        "logs": "{\n    \"custom\": false,\n    \"location\": \"logs/latest.log\"\n}",
         "extends": null
     },
     "scripts": {
         "installation": {
-            "script": "#! /bin/bash\n# NTNH-Server installation script\n# Dependencies: git, curl, unzip, dos2unix\n\napt-get update\napt-get install -y git curl unzip dos2unix\n\nmkdir -p /mnt/server\ncd /mnt/server\n\n# Clone the repo (shallow clone for speed)\ngit init\ngit remote add origin https://github.com/NTNewHorizons/NTNH-Server.git\ngit fetch --depth 1 origin main\ngit checkout main\n\n# Resolve LFS pointer files by downloading real content from raw.githubusercontent.com\nRAW_BASE=\"https://raw.githubusercontent.com/NTNewHorizons/NTNH-Server/main/\"\n\ndownload_pointer() {\n    rel=\"$1\"\n    if command -v python3 >/dev/null 2>&1; then\n        enc=$(python3 -c \"import urllib.parse,sys; print(urllib.parse.quote(sys.argv[1]))\" \"$rel\")\n    else\n        enc=$(printf \"%s\" \"$rel\" | sed -e 's/ /%20/g' -e 's/\\[/\\%5B/g' -e 's/\\]/\\%5D/g' -e 's/(/%28/g' -e 's/)/%29/g')\n    fi\n    url=\"$RAW_BASE$enc\"\n    mkdir -p \"$(dirname \"$rel\")\"\n    echo \"  Downloading: $rel\"\n    if curl --fail --retry 3 --retry-delay 2 -sS -L -o \"$rel\" \"$url\"; then\n        sz=$(stat -c%s \"$rel\" 2>/dev/null || echo 0)\n        if [ \"$sz\" -lt 1024 ]; then\n            echo \"    WARNING: download size for $rel is suspicious ($sz bytes)\"\n        fi\n        return 0\n    else\n        echo \"    FAILED: $rel\"\n        return 1\n    fi\n}\n\nfind . -type f -not -path './.git/*' -print0 | while IFS= read -r -d '' f; do\n    if head -n1 \"$f\" 2>/dev/null | grep -q \"version https://git-lfs.github.com/spec/v1\"; then\n        rel=\"${f#./}\"\n        download_pointer \"$rel\" || true\n    fi\ndone\n\n# Verify critical files exist\nif [ ! -f server.jar ]; then\n    echo \"ERROR: server.jar not found after pointer resolution. Trying direct download...\"\n    curl -sL -o server.jar https://raw.githubusercontent.com/NTNewHorizons/NTNH-Server/main/server.jar || true\nfi\n\nif [ ! -f forge-1.7.10-10.13.4.1614-1.7.10-universal.jar ]; then\n    curl -sL -o forge-1.7.10-10.13.4.1614-1.7.10-universal.jar https://raw.githubusercontent.com/NTNewHorizons/NTNH-Server/main/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar || true\nfi\n\n# Ensure line endings are Unix\ndos2unix start.sh 2>/dev/null || sed -i 's/\\r$//' start.sh\nchmod +x start.sh\n\necho \"Installation complete. Server will start on boot.\"",
+            "script": "#! /bin/bash\n# NTNH-Server installation script\n# Dependencies: git, curl, unzip, python3\n\napt-get update\napt-get install -y git curl unzip python3\n\nmkdir -p /mnt/server\ncd /mnt/server\n\n# Clone the repo (shallow clone for speed)\ngit init\ngit remote add origin https://github.com/NTNewHorizons/NTNH-Server.git\ngit fetch --depth 1 origin main\ngit checkout main\n\n# Resolve LFS pointer files via the GitHub LFS batch API (resolve-lfs.py is in the repo)\necho \"Resolving Git LFS pointer files...\"\npython3 resolve-lfs.py || exit 1\n\n# Verify critical files exist and are real jars (not LFS pointers)\nfor f in server.jar minecraft_server.1.7.10.jar; do\n    if [ ! -f \"$f\" ]; then\n        echo \"ERROR: required file $f is missing.\"\n        exit 1\n    fi\n    if head -n1 \"$f\" | grep -q \"version https://git-lfs.github.com/spec/v1\"; then\n        echo \"ERROR: $f is still a Git LFS pointer (download failed).\"\n        exit 1\n    fi\ndone\n\n# Ensure line endings are Unix\nsed -i 's/\\r$//' start.sh\nchmod +x start.sh\n\necho \"Installation complete. Server will start on boot.\"",
             "container": "ubuntu:22.04",
             "entrypoint": "bash"
         }
@@ -27,3 +28,19 @@
             "name": "Max Players",
             "description": "Maximum number of players that can join the server.",
             "env_variable": "MAX_PLAYERS",
+            "default_value": "20",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "required|string|between:1,64"
+        },
+        {
+            "name": "MOTD",
+            "description": "Message of the day shown on the server list.",
+            "env_variable": "MOTD",
+            "default_value": "NTNH Server",
+            "user_viewable": true,
+            "user_editable": true,
+            "rules": "nullable|string|max:255"
+        }
+    ]
+}
