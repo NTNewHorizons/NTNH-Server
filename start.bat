@@ -1,10 +1,17 @@
 @echo off
-setlocal
+setlocal EnableDelayedExpansion
 cd /d "%~dp0"
 
-rem NTNH Server - launcher (Windows)
-rem Install/update are Linux-only right now: use install.sh / update.sh from WSL or a Linux box.
+rem NTNH Server - single entry point (Windows)
+rem Install: download install.bat into an empty folder and run it.
+rem Update:  update.bat   (or: start.bat --update)
+rem Start:   start.bat
 rem Edit server-args.txt to change memory / JVM settings.
+
+if /i "%~1"=="--update" (
+    call update.bat
+    exit /b !ERRORLEVEL!
+)
 
 set "SERVER_JAR=forge-1.7.10-10.13.4.1614-1.7.10-universal.jar"
 
@@ -33,3 +40,5 @@ java %JVM_OPTS% -jar "%SERVER_JAR%" nogui
 set "EXIT_CODE=%ERRORLEVEL%"
 pause
 exit /b %EXIT_CODE%
+
+
