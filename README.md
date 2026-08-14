@@ -2,33 +2,29 @@
 
 Server-side version of the **Nuclear Tech: New Horizons** modpack for Minecraft 1.7.10.
 
-> ⚠️ This repository is **auto-generated** from the [client repo](https://github.com/NTNewHorizons/NTNH). Files in `mods/`, `config/`, `scripts/`, `serverutilities/` are overwritten on each release.
+> ⚠️ This repository is **auto-generated** from the [client repo](https://github.com/NTNewHorizons/NTNH). Files in `mods/`, `config/`, `scripts/`, `serverutilities/` are overwritten on each release, and a distribution **release** (zip of the whole repo) is published automatically with every sync.
 
 ---
 
 ## Quick Start
 
-**Requirements:** Java 8, 4 GB+ RAM
-
-### Linux
+**Requirements:** Linux with `curl` + `unzip`, Java 8, 4 GB+ RAM
 
 ```bash
-git clone https://github.com/NTNewHorizons/NTNH-Server.git
-cd NTNH-Server
+mkdir ntnh-server && cd ntnh-server
+curl -fsSL https://raw.githubusercontent.com/NTNewHorizons/NTNH-Server/main/install.sh | bash
 ./start.sh
 ```
 
-That's it. `start.sh` checks Java, accepts the EULA, replaces any Git LFS pointer files with the real files (via GitHub's LFS object API — no git-lfs install required), and launches the server.
+That's it — no `git`, no Git LFS. The installer downloads the latest release zip, unpacks it into the current folder, writes a default `server-args.txt`, and `start.sh` checks Java, accepts the EULA, and launches the server.
 
-### Windows
+### Updating
 
-```batch
-git clone https://github.com/NTNewHorizons/NTNH-Server.git
-cd NTNH-Server
-./start.bat
+```bash
+./update.sh
 ```
 
-> If you can't install Git LFS, `start.bat` will automatically download large files using PowerShell.
+Checks for a newer release and replaces `mods/`, `config/`, `scripts/`, `serverutilities/`, `libraries/`, `falsepattern/`, `hbmComputerUpload/` and the jars with the new versions. Your `world/`, `server.properties`, `ops.json`, `whitelist.json`, `logs/`, `server-args.txt` and other instance data are **never touched**.
 
 ### Java Arguments
 
@@ -38,42 +34,31 @@ JVM options are read from `server-args.txt` (edit this file to change memory all
 JVM_OPTS="-Xms2G -Xmx4G" ./start.sh
 ```
 
-> If the repository ran out of Git LFS bandwidth or you cannot install Git LFS, don't worry — the start scripts will fetch the real files automatically via GitHub's LFS object API.
+---
 
-### Updating
-
-```bash
-./start.sh --update
-```
-
-Force-syncs all tracked files to the latest upstream version. Your `world/`, `server.properties`, `ops.json`, `whitelist.json`, `logs/`, and other untracked data are never touched.
-
-### Customizing (Forking)
-
-Want to tweak the modpack for your server - add/remove mods, change configs, edit scripts?
-
-1. **Fork** this repo on GitHub
-2. `git clone https://github.com/YOUR_USER/NTNH-Server.git`
-3. Make your changes, commit, push
-4. Run `./start.sh` on your server
-
-When the upstream NTNH-Server releases an update, sync your fork:
+## Running from a Git clone (maintainers / forkers)
 
 ```bash
-git remote add upstream https://github.com/NTNewHorizons/NTNH-Server.git
-git fetch upstream
-git merge upstream/main
+git clone https://github.com/NTNewHorizons/NTNH-Server.git
+cd NTNH-Server
+./start.sh
 ```
 
-Resolve any conflicts (your custom files vs new upstream changes) and push.
+`./start.sh --update` delegates to `./update.sh`. Note that a `git pull` will **not** update `mods/`/`config/` correctly by itself — the modpack content only changes through the sync/release process.
 
-> ⚠️ Files under `mods/`, `config/`, `scripts/`, `serverutilities/` are overwritten on each upstream release. If you customize them, expect merge conflicts.
+### Windows
+
+`start.bat` launches the server, but the install/update tooling is Linux-only for now (use WSL or a Linux box with `install.sh`/`update.sh`).
 
 ### Docker
 
-```bash
-cd docker
-docker compose up -d
-```
+The old `docker/` folder was removed during an upstream sync. Bring it back if you need it.
 
 ---
+
+## How releases work (for maintainers)
+
+1. A release is published on the [client repo](https://github.com/NTNewHorizons/NTNH).
+2. `sync-server.yml` (client) pushes the modpack content into this repo.
+3. The same workflow builds `ntnh-server-<version>.zip` (with the real HBM mod jar — the LFS pointer is materialized via `git lfs pull`) and creates a GitHub Release here.
+4. End users run `install.sh` / `update.sh`, which fetch that release.

@@ -29,6 +29,9 @@ playerdata/
 stats/
 data/
 
+# Installed-server version marker (written by install.sh / update.sh)
+.ntnh-version
+
 # OS artifacts
 .DS_Store
 Thumbs.db
