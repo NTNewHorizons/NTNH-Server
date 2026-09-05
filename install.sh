@@ -28,8 +28,14 @@ if ! command -v java >/dev/null 2>&1; then
 fi
 
 # --- Target directory ------------------------------------------------------
-if [ -n "$(ls -A "$INSTALL_ROOT" 2>/dev/null)" ]; then
-    if [ -f "$INSTALL_ROOT/start.sh" ] && [ -f "$INSTALL_ROOT/.ntnh-version" ]; then
+# The installer file itself does not count as directory content, otherwise a
+# directory containing only install.sh would be rejected as "not empty".
+# Leftover staging dirs from failed runs are removed so they cannot block
+# the next install attempt either.
+rm -rf "$INSTALL_ROOT"/.ntnh-install-* 2>/dev/null
+NON_SELF="$(ls -A "$INSTALL_ROOT" 2>/dev/null | grep -vxE 'install\.sh|install\.bat|[.]ntnh-.*' || true)"
+if [ -n "$NON_SELF" ]; then
+    if [ -f "$INSTALL_ROOT/start.sh" ] || [ -f "$INSTALL_ROOT/start.bat" ] || [ -f "$INSTALL_ROOT/.ntnh-version" ]; then
         echo "Existing NTNH server install detected; restoring any missing files."
     else
         echo "ERROR: the current directory is not empty."
@@ -93,6 +99,8 @@ rm -f "$ZIP"
         start.sh|start.bat|update.sh|install.sh) continue ;;
     esac
     if [ -e "$INSTALL_ROOT/$e" ]; then
+        # server-args.txt is instance data: never overwrite the user's JVM settings.
+        [ "$e" = "server-args.txt" ] && continue
         rm -rf "$INSTALL_ROOT/$e"
     fi
     cp -a "$e" "$INSTALL_ROOT/"

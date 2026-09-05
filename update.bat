@@ -11,7 +11,7 @@ rem  whitelist.json, server-args.txt and other instance data are
 rem  NEVER touched.
 rem ============================================================
 
-powershell -NoProfile -ExecutionPolicy Bypass -Command "$l = Get-Content -LiteralPath '%~f0'; $i = [Array]::IndexOf($l, 'rem ==== PowerShell body starts here ====') + 1; if ($i -le 0) { Write-Host 'ERROR: PowerShell body marker not found.'; exit 1 }; $code = ($l[$i..($l.Length - 1)]) -join [Environment]::NewLine; Invoke-Expression $code" & goto :eof
+powershell -NoProfile -ExecutionPolicy Bypass -Command "$self = '%~nx0'; $l = Get-Content -LiteralPath '%~f0'; $i = [Array]::IndexOf($l, 'rem ==== PowerShell body starts here ====') + 1; if ($i -le 0) { Write-Host 'ERROR: PowerShell body marker not found.'; exit 1 }; $code = ($l[$i..($l.Length - 1)]) -join [Environment]::NewLine; Invoke-Expression $code" & if errorlevel 1 pause & goto :eof
 
 rem ==== PowerShell body starts here ====
 $ErrorActionPreference = "Stop"
@@ -20,6 +20,9 @@ $ErrorActionPreference = "Stop"
 $repo   = "NTNewHorizons/NTNH-Server"
 $apiUrl = if ($env:NTNH_API_URL) { $env:NTNH_API_URL } else { "https://api.github.com/repos/$repo/releases/latest" }
 $root   = (Get-Location).Path
+
+# Remove staging dirs left behind by failed runs.
+Get-ChildItem -Force -Directory -Filter ".ntnh-update-*" -ErrorAction SilentlyContinue | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
 
 Write-Host "NTNH Server updater"
 Write-Host ""
@@ -151,6 +154,6 @@ try {
 } catch {
     Write-Warning "Could not replace launcher scripts: $($_.Exception.Message)"
 }
-Remove-Item $stage -Recurse -Force
+Remove-Item $stage -Recurse -Force -ErrorAction SilentlyContinue
 Remove-Item $tempDir -Recurse -Force -ErrorAction SilentlyContinue
 

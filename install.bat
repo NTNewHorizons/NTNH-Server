@@ -9,7 +9,7 @@ rem  It downloads the latest NTNH-Server release zip and unpacks
 rem  it into the CURRENT folder. No git or Git LFS required.
 rem ============================================================
 
-powershell -NoProfile -ExecutionPolicy Bypass -Command "$l = Get-Content -LiteralPath '%~f0'; $i = [Array]::IndexOf($l, 'rem ==== PowerShell body starts here ====') + 1; if ($i -le 0) { Write-Host 'ERROR: PowerShell body marker not found.'; exit 1 }; $code = ($l[$i..($l.Length - 1)]) -join [Environment]::NewLine; Invoke-Expression $code" & goto :eof
+powershell -NoProfile -ExecutionPolicy Bypass -Command "$self = '%~nx0'; $l = Get-Content -LiteralPath '%~f0'; $i = [Array]::IndexOf($l, 'rem ==== PowerShell body starts here ====') + 1; if ($i -le 0) { Write-Host 'ERROR: PowerShell body marker not found.'; exit 1 }; $code = ($l[$i..($l.Length - 1)]) -join [Environment]::NewLine; Invoke-Expression $code" & if errorlevel 1 pause & goto :eof
 
 rem ==== PowerShell body starts here ====
 $ErrorActionPreference = "Stop"
@@ -24,9 +24,14 @@ Write-Host "Target folder: $root"
 Write-Host ""
 
 # --- target folder guard ----------------------------------------------------
-$items = @(Get-ChildItem -Force -ErrorAction SilentlyContinue)
+# The installer file itself does not count as folder content, otherwise a
+# folder containing only install.bat would be rejected as "not empty".
+# Leftover staging dirs from failed runs are removed so they cannot block
+# the next install attempt either.
+Get-ChildItem -Force -Directory -Filter ".ntnh-install-*" -ErrorAction SilentlyContinue | Remove-Item -Recurse -Force -ErrorAction SilentlyContinue
+$items = @(Get-ChildItem -Force -ErrorAction SilentlyContinue | Where-Object { ($_.Name -ne $self) -and ($_.Name -notlike ".ntnh-*") })
 if ($items.Count -gt 0) {
-    $existingInstall = (Test-Path "$root\start.bat") -and (Test-Path "$root\.ntnh-version")
+    $existingInstall = (Test-Path "$root\start.bat") -or (Test-Path "$root\.ntnh-version")
     if (-not $existingInstall) {
         Write-Host "ERROR: the current folder is not empty."
         Write-Host "Install into a dedicated, empty folder (or an existing install)."
@@ -92,6 +97,8 @@ Add-Type -AssemblyName System.IO.Compression.FileSystem
 $launchers = @("start.bat", "start.sh", "install.bat", "update.bat", "install.sh", "update.sh")
 Get-ChildItem -Force $stage | Where-Object { $launchers -notcontains $_.Name } | ForEach-Object {
     $dest = Join-Path $root $_.Name
+    # server-args.txt is instance data: never overwrite the user's JVM settings.
+    if ($_.Name -eq "server-args.txt" -and (Test-Path $dest)) { return }
     if (Test-Path $dest) { Remove-Item $dest -Recurse -Force }
     Copy-Item $_.FullName $dest -Recurse
 }
@@ -121,6 +128,6 @@ try {
 } catch {
     Write-Warning "Could not replace launcher scripts: $($_.Exception.Message)"
 }
-Remove-Item $stage -Recurse -Force
+Remove-Item $stage -Recurse -Force -ErrorAction SilentlyContinue
 Remove-Item $tempDir -Recurse -Force -ErrorAction SilentlyContinue
 
