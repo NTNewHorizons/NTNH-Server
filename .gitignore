@@ -32,6 +32,10 @@ data/
 # Installed-server version marker (written by install.sh / update.sh)
 .ntnh-version
 
+# Packwiz installer state
+.packwiz-installer/
+packwiz-installer-bootstrap.jar
+
 # OS artifacts
 .DS_Store
 Thumbs.db

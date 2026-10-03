@@ -1,0 +1,14 @@
+name = "Nuclear Tech: New Horizons Server"
+author = "NTNewHorizons"
+version = "2.14.0"
+description = "Dedicated server pack for Nuclear Tech: New Horizons"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "e6d5a790bb4e0b6986da9179a9d7ffa4ef51d63110f0284a181bbc8a1371b51d"
+
+[versions]
+forge = "10.13.4.1614"
+minecraft = "1.7.10"

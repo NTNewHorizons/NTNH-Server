@@ -6,9 +6,35 @@ Server-side version of the **Nuclear Tech: New Horizons** modpack for Minecraft 
 
 ---
 
-## Quick Start
+## Installation
 
-### Linux
+Choose one method. Do not mix update methods in one server folder.
+
+### Packwiz
+
+Best for automatic, small updates. GitHub hosts pack files; no Packwiz server required.
+
+**Linux requirements:** Java 8, `curl`, 4 GB+ RAM
+
+```bash
+mkdir ntnh-server && cd ntnh-server
+curl -fsSL https://raw.githubusercontent.com/NTNewHorizons/NTNH-Server/main/install-packwiz.sh | bash
+./start.sh
+```
+
+Run same command again to update. For beta builds:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/NTNewHorizons/NTNH-Server/main/install-packwiz.sh | PACKWIZ_URL=https://raw.githubusercontent.com/NTNewHorizons/NTNH-Server/beta/pack.toml bash
+```
+
+**Windows:** download `install-packwiz.bat` into an empty folder and run it. Run it again to update.
+
+### Manual
+
+Downloads full server release ZIP. No Git or Git LFS required.
+
+#### Linux
 
 **Requirements:** Linux with `curl` + `unzip`, Java 8, 4 GB+ RAM
 
@@ -20,7 +46,7 @@ curl -fsSL https://raw.githubusercontent.com/NTNewHorizons/NTNH-Server/main/inst
 
 That's it - no `git`, no Git LFS. The installer downloads the latest release zip, unpacks it into the current folder, writes a default `server-args.txt`, and `start.sh` checks Java, accepts the EULA, and launches the server.
 
-### Windows
+#### Windows
 
 **Requirements:** Windows 10/11 with PowerShell 5.1+, Java 8, 4 GB+ RAM
 
@@ -35,7 +61,7 @@ That's it - no `git`, no Git LFS. The installer downloads the latest release zip
 
 No `git`, no Git LFS, no WSL required. `install.bat` and `update.bat` are self-extracting batch+PowerShell scripts - no extra tools needed.
 
-### Updating
+#### Updating
 
 **Linux:**
 ```bash
@@ -45,6 +71,28 @@ No `git`, no Git LFS, no WSL required. `install.bat` and `update.bat` are self-e
 **Windows:** double-click `update.bat` (or run `start.bat --update`).
 
 Both check for a newer release and replace `mods/`, `config/`, `scripts/`, `serverutilities/`, `libraries/`, `falsepattern/`, `hbmComputerUpload/` and the jars with the new versions. Your `world/`, `server.properties`, `ops.json`, `whitelist.json`, `logs/`, `server-args.txt` and other instance data are **never touched**.
+
+### Docker
+
+**Requirements:** Docker with Compose plugin
+
+```bash
+curl -O https://raw.githubusercontent.com/NTNewHorizons/NTNH-Server/main/docker-compose.yml
+docker compose up -d
+```
+
+Server data stays in `./data`. Update image and Packwiz pack:
+
+```bash
+docker compose pull
+docker compose up -d
+```
+
+Use beta Packwiz pack with:
+
+```bash
+PACKWIZ_URL=https://raw.githubusercontent.com/NTNewHorizons/NTNH-Server/beta/pack.toml docker compose up -d
+```
 
 ### Java Arguments
 
@@ -70,15 +118,10 @@ cd NTNH-Server
 
 `start.bat` launches the server; `install.bat` / `update.bat` handle install and update on Windows (PowerShell 5.1+ built in).
 
-### Docker
-
-The old `docker/` folder was removed during an upstream sync. Bring it back if you need it.
-
----
-
 ## How releases work (for maintainers)
 
 1. A release is published on the [client repo](https://github.com/NTNewHorizons/NTNH).
 2. `sync-server.yml` (client) pushes the modpack content into this repo.
 3. The same workflow builds `ntnh-server-<version>.zip` (with the real HBM mod jar - the LFS pointer is materialized via `git lfs pull`) and creates a GitHub Release here.
-4. End users run `install.sh` / `update.sh` (Linux) or `install.bat` / `update.bat` (Windows), which fetch that release.
+4. Sync rebuilds server `index.toml`; GitHub Raw hosts Packwiz files directly.
+5. Manual installers fetch release ZIP. Packwiz and Docker fetch only changed pack files.

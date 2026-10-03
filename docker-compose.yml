@@ -1,0 +1,18 @@
+services:
+  ntnh-server:
+    image: itzg/minecraft-server:java8
+    container_name: ntnh-server
+    restart: unless-stopped
+    ports:
+      - "25565:25565"
+    environment:
+      EULA: "TRUE"
+      TYPE: FORGE
+      VERSION: "1.7.10"
+      FORGE_VERSION: "10.13.4.1614"
+      MEMORY: "8G"
+      PACKWIZ_URL: "${PACKWIZ_URL:-https://raw.githubusercontent.com/NTNewHorizons/NTNH-Server/main/pack.toml}"
+    volumes:
+      - ./data:/data
+    stdin_open: true
+    tty: true
