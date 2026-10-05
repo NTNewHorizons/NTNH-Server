@@ -514,7 +514,7 @@ hash = "15494b76005a092f63166824437119f45e486d99ce27bd2c1d9163df868174b6"
 
 [[files]]
 file = "config/Betterloadingscreen/tips/ro_RO.txt"
-hash = "7242c1bede222384a099c20ec0490982934a89de42006e1ea77022156524c972"
+hash = "215cdc5f4b716ceedcc2d914093499861ef59ad5e23b7a5cac1c8e377da720b4"
 
 [[files]]
 file = "config/Betterloadingscreen/tips/ru_RU.txt"
@@ -1282,7 +1282,7 @@ hash = "2670500b14f74014586a1ad6bfc6e6cef4ea8afa67194b170ecd195903708ae2"
 
 [[files]]
 file = "config/amazingtrophies/lang/ro_RO.lang"
-hash = "8c9ca1847754470ea2973c81c1f99f2b5e914690c9da54fac3d56e580e17a7fc"
+hash = "9eb29ee1cb01177f8207ca869d1a23a7157b757f3e83f587e5ecab6f03523110"
 
 [[files]]
 file = "config/amazingtrophies/lang/ru_RU.lang"
@@ -6354,7 +6354,7 @@ hash = "e92292e1e0251b0b76096c253d578ee07519ddae5f5cc8881917da7a639d4688"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/pl_PL.lang"
-hash = "4ef1cb18323eeb406ad436d4c38b8903d387bfb733f7af2ccf0bb8655fa27112"
+hash = "a9e612a88b668360a715ec199a57e99baff0bf271729e48329d3e1a3c3b5307b"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/pt_BR.lang"
@@ -6370,7 +6370,7 @@ hash = "aaa8de48221154ecfb4bbade169fcacbb98adebf35c2cc4dc2a64e27222eede7"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/ru_RU.lang"
-hash = "6402d0e7e4c695e4dc078caf6cea99b1dfc3df99a3fb048757abd82548473ba1"
+hash = "e27ea5ea42af4ba7a904ede9140187e3ac604a0bfda06acdfce930bc386ea87e"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/sh_HR.lang"
