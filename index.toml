@@ -7676,11 +7676,6 @@ hash = "5165c6b5cef76fb93b10be300cb7773be8120e713bb7a412e7201959203a4907"
 metafile = true
 
 [[files]]
-file = "mods/tile-entity-breaker.pw.toml"
-hash = "9d707726b3304c0b8a02fecd2977904555113cfbcdd6fe6c8d923eff0dd3b406"
-metafile = true
-
-[[files]]
 file = "mods/tileentity-reset-fix.pw.toml"
 hash = "0d4e0ccfa22580b533e059471d92d857bfd9dcd22803533a0cc65d9623b03571"
 metafile = true
