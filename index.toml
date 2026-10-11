@@ -6181,10 +6181,6 @@ file = "minecraft_server.1.7.10.jar"
 hash = "c70870f00c4024d829e154f7e5f4e885b02dd87991726a3308d81f513972f3fc"
 
 [[files]]
-file = "mods/MTS40k-1.0.5.jar.disabled"
-hash = "b070bca4dcb3cd10e4429fab55e188702780ed5890391239c1252d6eedc558d1"
-
-[[files]]
 file = "mods/OpenSecurity/sounds/alarms/klaxon1.ogg"
 hash = "535fa0b607f39a65a46690ee636db8b27354e7d0f0727d15cfe959fb666bfac2"
 
@@ -6318,7 +6314,7 @@ metafile = true
 
 [[files]]
 file = "mods/betterquesting.pw.toml"
-hash = "a2169108f13ada047a60cddf0b2a210b8229e8a632af5ba73b0c20791f410b42"
+hash = "519190a6056a683a235e66ba3c14b9163a606ed6025e117b8045fa5698529c24"
 metafile = true
 
 [[files]]
