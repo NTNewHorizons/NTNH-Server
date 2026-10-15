@@ -253,13 +253,13 @@ betterquesting.quest.MWwrY8PcTaam9T_sc4yDtQ.desc=§cNTNH§r is a modular modpack
 betterquesting.quest.OlMZZGTaSz6VhzaeJdR6QQ.name=Charging Station
 betterquesting.quest.OlMZZGTaSz6VhzaeJdR6QQ.desc=The §3Charging Station§r will charge electric tools aswell as electric suits when standing near it. Placing more next to eachother will increase the speed at which items are being recharged.
 
-# Quest: Geological Samples
-betterquesting.quest.QF_GKcDaRim2-gEJRosFZQ.name=Geological Samples
-betterquesting.quest.QF_GKcDaRim2-gEJRosFZQ.desc=This system is highly WIP (including this very quest), so do not expect it to be perfect.%n%nThis is the simplest method of prospecting, based on visual examination of surrounding material. Right-click on any §6Stone§r or §6Gravel§r block with a §6Prospector's Eyeglass§r and it will tell you if there is a substantial amount of any interesting ore nearby. Three levels of indication are reported, "Faint signs", "Signs" and "Strong signs", allowing you to home in on the source.%n%nTaking and analyzing geological samples, on the other hand, provides similar information to the Eyeglass but in much more detail. First you will need to make a §6Prospecting Pick§r. To take a sample, right-click on any piece of Stone or Gravel with the Prospecting Pick. A Geological Sample item will be dropped.%n%nTo analyse the sample, you will need a §3Geological Sample Analysis Kit§r and a supply of §6Litmus Paper§r. To use the kit, place it down somewhere and right-click it to open its GUI. Place the sample you want to analyse in the sample slot and some litmus paper in the slot beside it. Analysis will begin automatically and should finish in a few seconds, after which a report will appear below.%n%nThe report shows the place where the sample was taken and the amounts of any interesting mineral traces it contains. You can expect indications of ores within 16 blocks of the sample location, horizontally and vertically, to show up. Ores closer to the sample location will show up more strongly than ones further away.%n%n§2To save the analysis report for future reference, place a Writeable Book in the book slot and press the + button.%n%nIf you lose the report, you can analyse the sample again to get it back. However, a little of the sample is used up each time you analyse it, and a given sample can only be analysed 16 times before there is nothing left.
-
 # Quest: Packing Tape
 betterquesting.quest.RBJS7D2ATpq7GUingAewuQ.name=Packing Tape
 betterquesting.quest.RBJS7D2ATpq7GUingAewuQ.desc=The §6Packing Tape§r allows one to break and move drawers without all the items falling on the floor.
+
+# Quest: New Quest
+betterquesting.quest.Ss4wOkCPR6OsjwT8BQs1XA.name=New Quest
+betterquesting.quest.Ss4wOkCPR6OsjwT8BQs1XA.desc=No Description
 
 # Quest: Cladding
 betterquesting.quest.UKkcpXk3SEWHXLIVC5VTDg.name=Cladding
@@ -327,7 +327,7 @@ betterquesting.quest.gWyCk5zlQlWAPGdwFXhTaQ.desc=Tired of using buckets to give 
 
 # Quest: Geological Survey
 betterquesting.quest.i978VfQyRr6TncUvwFr6iA.name=Geological Survey
-betterquesting.quest.i978VfQyRr6TncUvwFr6iA.desc=This is an advanced mineral exploration technique for professional miners, providing very detailed information. The §3Geological Surveyor§r machine uses a controlled explosion to send seismic waves into the ground, and by analysing the echoes that come back, builds a map of underground ore densities.%n%nAs well as the Geological Surveyor itself, you will also need the following:%n%n1. At least 3 §3Geophones§r placed in a suitable arrangement around the Geological Surveyor. The geophones must be within 16 blocks of the Surveyor, but no closer than 8 blocks to the Surveyor or to each other.%n2. Supplies of §6P§6aper, Ink§r and §6Gunpowder§r in the appropriate slots of the Surveyor.%n%nWhen all the necessary conditions are satisfied, the Surveyor wil show "§6Ready§r" in the GUI, and a single green light on the outside of the machine. The Surveyor is trigged by a redstone signal. The easiest way to deliver this is to put a button on the side of the machine.%n%n§lBe prepared for a loud noise.§r Do not be alarmed; the explosion is well contained and should not cause any damage.%n%nAnalysing the results and printing the map will take several seconds, during which time the machine will show a flashing §agreen light§r. When finished, two steady green lights will appear. Then the results can be seen at your World Map (default keybind is M).%n%nOn the left there is a button to toggle the geological survey map. Shift-clicking that button will open a selection menu, where you can select the ores that you want to be displayed.%n%nA §cred light§r indicates an error condition; open the GUI to find out more information.%n%n§2Note: there are several tiers of this machine, the higher the level is the more accurate the map is.
+betterquesting.quest.i978VfQyRr6TncUvwFr6iA.desc=This is an advanced mineral exploration technique for professional miners, providing very detailed information. The §3Geological Surveyor§r machine uses a controlled explosion to send seismic waves into the ground, and by analysing the echoes that come back, builds a map of underground ore densities.%n%nAs well as the Geological Surveyor itself, you will also need the following:%n%n1. At least 3 §3Geophones§r placed in a suitable arrangement around the Geological Surveyor. The geophones must be within 16 blocks of the Surveyor, but no closer than 8 blocks to the Surveyor or to each other.%n2. Supplies of §6P§6aper, Ink§r and §6Gunpowder§r in the appropriate slots of the Surveyor.%n%nWhen all the necessary conditions are satisfied, the Surveyor wil show "§6Ready§r" in the GUI. The Surveyor is trigged by a button in its GUI or redstone signal.%n%nAnalysing the results and printing the map will take several seconds, during which time the machine will show a flashing §agreen light§r. When finished, two steady green lights will appear. Then the results can be seen at your World Map (default keybind is M).%n%nOn the left there is a button to toggle the geological survey map. Shift-clicking that button will open a selection menu, where you can select the ores that you want to be displayed.%n%nA §cred light§r indicates an error condition; open the GUI to find out more information.%n%n§2Note: there are several tiers of this machine, the higher the level is the more accurate the map is.
 
 # Quest: Earth? Fake news
 betterquesting.quest.k52bjd5MTbefEXwVh0HLiw.name=Earth? Fake news
@@ -635,10 +635,6 @@ betterquesting.quest.8sIzBzykSPqskvhCp-Tsmw.desc=The §6Starmetal Pickaxe§r is 
 betterquesting.quest.9BjXTD5CSTOQ-_OroVdJmg.name=Cadmium
 betterquesting.quest.9BjXTD5CSTOQ-_OroVdJmg.desc=§6Cadmium§r is a material needed to make §6Cadmium Steel§r, which is a substitute of §6Technetium Steel§r.%n%nCadmium can be obtained by smelting cadmium powder, which can be obtained acidizing 10 §6Mustard Willow leaves§r with 250mB of §bHigh-Performance Solvent§r in the §3Ore Acidizer§r.%n%nThe mustard willow is a plant that can be found near §eBedrock Oil Deposits§r. When it's fully matured, the main item can be obtained, that being the mustard willow leaf.
 
-# Quest: Depth-Resource Scanning Satellite
-betterquesting.quest.9Y9PU0asTPmHumQiDRc2Ew.name=Depth-Resource Scanning Satellite
-betterquesting.quest.9Y9PU0asTPmHumQiDRc2Ew.desc=The §3Depth-Resource Scanning Satellite§r maps underground ore deposits across loaded chunks. It needs no ground-station commands: link it to §6Neutrino Lenses§r on the same frequency via the §3Satellite ID Manager§r.%n%nThe map lacks labels and detail on its own. Pairing the satellite with §6Neutrino Lenses§r - an armor module linked to the same frequency via the §3Satellite ID Manager§r - overlays ores as glowing labeled outlines, making the data far more usable.
-
 # Quest: High-Power Steam Condenser
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA0Q.name=High-Power Steam Condenser
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAA0Q.desc=The §3High-Power Steam Condenser§r is a steam condenser which runs on electricity. It processes up to 1,000,000 mB/t of §bLow-Pressure Steam§r.
@@ -811,6 +807,10 @@ betterquesting.quest.DMCygjIOSOav8ZBlUlqEvQ.desc=The §3Narrowband Emission Scan
 betterquesting.quest.EQ8nf9eDQ-K9yPIxEaFQkw.name=Orbital Precision Laser
 betterquesting.quest.EQ8nf9eDQ-K9yPIxEaFQkw.desc=The §3Orbital Precision Laser§r is a solar-powered orbital weapon, a lighter alternative to the §3Orbital Death Ray§r. It fires an instantaneous beam dealing massive damage to entities within a 5-block radius, though its explosive yield is only roughly equivalent to a single block of TNT. Recharge time between shots is §e5 seconds§r.%n%nIt is controlled via §dRedstone-over-Radio§r through a §3Satellite Ground Station§r. When paired with targeting data from a §3Radar Survey Satellite§r it can shoot down missiles. The "fire" command fires at the current target coordinates, or at a tracked entity if one has been set - entity target data is consumed after a single shot. The "canfire" command writes TRUE or FALSE to RX depending on whether the laser has finished recharging. The "setentitytarget" command accepts an entity ID from a §3Radar Satellite§r for precision tracking.%n%n§2Entity target data is consumed after one shot, reverting back to coordinate targeting.
 
+# Quest: RBMKSim
+betterquesting.quest.EZVGATGCSKCAChL2E07tXA.name=RBMKSim
+betterquesting.quest.EZVGATGCSKCAChL2E07tXA.desc=There is a web-based RBMK simulator, in which you can build and test different RBMK setups, as well as check out other people's creations!%n%n[url]https://rbmksim.nvrsrv.com[/url]
+
 # Quest: Additional Fusion Attachments
 betterquesting.quest.JpsvBP1yQsu-XtkeZegA6A.name=Additional Fusion Attachments
 betterquesting.quest.JpsvBP1yQsu-XtkeZegA6A.desc=The §3Fusion Reactor Coupler§r turns outgoing plasma energy from a torus into usable §eKyU§r which can then be used to power another torus. Some fuel combinations require this, as the minimum §eKyU§r energy needed to ignite the plasma exceeds what four §3Klystrons§r could deliver.%n%nThe §3Fusion Reactor Breeding Chamber§r uses neutron flux from a torus to in order to process materials. It can perform any recipe from an §3RBMK irradiation channel§r, with some additional recipes aswell. The neutron flux is not affected by port sharing rules, and the output level is the same on any side.%n%nThe §3Fusion Reactor Collection Chamber§r increases the byproduct production rate by §e50%%§r.
@@ -862,6 +862,10 @@ betterquesting.quest.har7pEFcSRKNgIf4NgmcLA.desc=The §3Spent Fuel Pool Drum§r 
 # Quest: Technetium-99
 betterquesting.quest.iJiX7wxoSBmljc9tITqIqQ.name=Technetium-99
 betterquesting.quest.iJiX7wxoSBmljc9tITqIqQ.desc=§6Technetium-99§r is a common waste product from the fission of §6Uranium§r and §6Plutonium§r. Reprocess ZIRNOX or PWR fuel early on to get it; it can also come from some RBMK fuels or bedrock ore with high-performance solvent. It is mainly used in making §6Technetium Steel§r and §dAE2 Storage Components§r.
+
+# Quest: Cargo Landing Pad and Asteroid Mining Ship
+betterquesting.quest.kb1Cp9wuS3eIjRD2YxiJdQ.name=Cargo Landing Pad§r and Asteroid Mining Ship
+betterquesting.quest.kb1Cp9wuS3eIjRD2YxiJdQ.desc=The §3Cargo Landing Pad§r receives resource shipments from §3Asteroid Mining Ships§r.%n%nAssign a §bSatellite ID§r to an Asteroid Mining Ship and launch it using a fueled §3Soyuz§r. Insert a §bSatellite ID Chip§r with the same ID into the landing pad. The miner operates at §6Dres§r and prepares a shipment every §b15 minutes of running game time§r, while the pad can receive deliveries on any planet.%n%nKeep the pad’s chunk loaded and the space above it unobstructed. If multiple pads share the same ID, the §efirst to request a ready shipment§r receives it; no planet has priority.
 
 # Quest: Helium-4
 betterquesting.quest.mPHQk4_mRqi6o2onNs9qgg.name=Helium-4
@@ -1299,31 +1303,6 @@ betterquesting.quest.p7NNm2NvRgWz37LQO6yraw.desc=§dArchitectureCraft§r introdu
 # Quest: Sign Pictures
 betterquesting.quest.wAu-q390TlKihyp-bEI2lw.name=Sign Pictures
 betterquesting.quest.wAu-q390TlKihyp-bEI2lw.desc=The §dSignPicture§r mod allows one to put any image on a sign, opening the door to many unique building designs. Press \ to get started.
-
-
-## Quest Line: Reward Area
-betterquesting.questline.VIthQchWRnKIQ6qTwFcPFg.name=Reward Area
-betterquesting.questline.VIthQchWRnKIQ6qTwFcPFg.desc=Trade your rewards.
-
-# Quest: LV1 > LV2 Lootbag Trade
-betterquesting.quest.8XIrl7C6Q5qBBT6HSgTHIA.name=LV1 > LV2 Lootbag Trade
-betterquesting.quest.8XIrl7C6Q5qBBT6HSgTHIA.desc=Trade three LV1 lootbags to get a better one: LV2.
-
-# Quest: LV3 > LV3.5 Lootbag Trade
-betterquesting.quest.U9KescpLTHK_XLG4Qil9zw.name=LV3 > LV3.5 Lootbag Trade
-betterquesting.quest.U9KescpLTHK_XLG4Qil9zw.desc=Trade two LV3 lootbags to get a LV3.5.
-
-# Quest: LV2 > LV3 Lootbag Trade
-betterquesting.quest.b_QkCMniQPmbvS4FX5sq-w.name=LV2 > LV3 Lootbag Trade
-betterquesting.quest.b_QkCMniQPmbvS4FX5sq-w.desc=Trade three LV2 lootbags to get a better one: LV3.
-
-# Quest: LV3.5 > LV4 Lootbag Trade
-betterquesting.quest.ecBXzr6RQ-i6XoIXFOvd5A.name=LV3.5 > LV4 Lootbag Trade
-betterquesting.quest.ecBXzr6RQ-i6XoIXFOvd5A.desc=Trade eight LV3.5 lootbags to get a better one: LV4.
-
-# Quest: LV3 > LV4 Lootbag Trade
-betterquesting.quest.qG74J_R9TQub-uWbBzZkoQ.name=LV3 > LV4 Lootbag Trade
-betterquesting.quest.qG74J_R9TQub-uWbBzZkoQ.desc=Trade four LV3 lootbags to get a better one: LV4.
 
 
 ## Quest Line: Applied Energistics 2
