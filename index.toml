@@ -1158,7 +1158,7 @@ hash = "0e916fd601c63c82d92f4bbf92c2031279952dd8054e0f70b5cd41be7372dac8"
 
 [[files]]
 file = "config/Weather2/Misc.cfg"
-hash = "d7afda0f70346d015dd67a7e830d36b70bde8b9faa39b8741d9d24f64b011e15"
+hash = "eb693a29870a3596228d5c220e62ee3c96e7fd353be4786fa133208bac421c79"
 
 [[files]]
 file = "config/WirelessCraftingTerminal.cfg"
@@ -1474,7 +1474,7 @@ hash = "d024a90f19bf4ad1a58a9f8310ac5d3f7f4c2857754046d77513db72daa3868a"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests.json"
-hash = "ca033a0d244b14bc0636fb670675d87eb9a1886cbb51f4ae995061237263acc3"
+hash = "b2c07afdde935534ddaffbedac348d5ec5a0b0cca1f6a4b091bc2e6dd06b704c"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/AUTOCALAutomatic-t2HnBelkRiKkjGv9JoKjLw==.json"
@@ -2685,10 +2685,6 @@ file = "config/betterquesting/DefaultQuests/QuestLines/LV35SpaceAge-enTskTtvRdaj
 hash = "9102f1ae7ae0a41c935bf58799d346ef15ce6d41a3671a029ddd36976d8feaee"
 
 [[files]]
-file = "config/betterquesting/DefaultQuests/QuestLines/LV35SpaceAge-enTskTtvRdajee3UMSgXKg==/SpaceMap-eItNlZ6bRS2kA-0Ymm_pdA==.json"
-hash = "e03ded81f6d6eaf1930cb49c0ce41ff54a10c3d7f66f67273b6c8f889a01572d"
-
-[[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/LV35SpaceAge-enTskTtvRdajee3UMSgXKg==/StainlessSteel-Q0hC3CjIR4GB7MtYPpxXgA==.json"
 hash = "7425c746d8dcb772738774c6157d8124731b1dcec9c6553b15bc61a48f5830ef"
 
@@ -3478,7 +3474,7 @@ hash = "2a4232f7a810020fa67302f26eb23e63892cd588ef4bd66e3f357b0bfffa717b"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/AppliedEnergisti-AAAAAAAAAAAAAAAAAAAABQ==/CrystalGrowthAcc-AAAAAAAAAAAAAAAAAAAAcQ==.json"
-hash = "985926c3b19b2fdbae983c13cb95689cc3a9758ab90f97f32d330f2ac023b728"
+hash = "99671678a85d9ebd5764ea30b83a6dfc6df2fbfc9913d405d8d63cd8cf27058f"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/AppliedEnergisti-AAAAAAAAAAAAAAAAAAAABQ==/CrystalGrowthCha-AAAAAAAAAAAAAAAAAAAATA==.json"
@@ -3542,7 +3538,7 @@ hash = "1931a5c24e4ec1a6ce2c11c496f26b4543e32a5e1a40e0f60e75ce9bff57821c"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/AppliedEnergisti-AAAAAAAAAAAAAAAAAAAABQ==/METerminal-AAAAAAAAAAAAAAAAAAAAfA==.json"
-hash = "772732facee88004dc9000bd2040d77b34a06a08c79dcbd825c4a093b15e2941"
+hash = "0274374fa3a29e4b1031f01c3101eb5f83c38571b70ae43e0047ceed7b5bb68c"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/AppliedEnergisti-AAAAAAAAAAAAAAAAAAAABQ==/MEsubnetting-n0clnMBkRw2Y4Asw6b1vJQ==.json"
@@ -3602,7 +3598,7 @@ hash = "86bddc541b8e9f94c5eb4a59e35cef365aa49fd47f57b4a5e349e7f45e1b168a"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/AppliedEnergisti-AAAAAAAAAAAAAAAAAAAABQ==/WirelessConnecto-ReqBRrKdR2WFSp9ILSPk5w==.json"
-hash = "320874c162e29f62daae192df736cf26afdb2d60c8cf6d6ec24a3c0ee6705aa6"
+hash = "6470a0a429958050573b2b8f32ff8a78dd5a79d4f753d4fb2117769b95a14ddd"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/AppliedEnergisti-AAAAAAAAAAAAAAAAAAAABQ==/WirelessCrafting-Iyj0bDhVRpCgzmAF4vP30A==.json"
@@ -3926,7 +3922,7 @@ hash = "38a178c098db5fb48f4231c342ccd5050aeee3e9a5f39dacbf976d148a1504cc"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV1EarlyGame-AAAAAAAAAAAAAAAAAAAAAA==/HighwayToHell-ljMurUJIT7OuwaBx_fb3EA==.json"
-hash = "76b4137b514e000014f780c44d4d94093d9c06bac4ddfcf96393522876b94a38"
+hash = "6f7387b0067b9e05b64d64cfe33357e8df88321e414d484961a621adc6786208"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV1EarlyGame-AAAAAAAAAAAAAAAAAAAAAA==/IndustrialHempMu-ztJLZeOsSq6hpRyKY55CDg==.json"
@@ -4463,10 +4459,6 @@ hash = "b4e92ad6fea9032f81680623d257719a8d18c1bfdf28acc9a01ceed6088698ce"
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV35SpaceAge-enTskTtvRdajee3UMSgXKg==/SpaceEquipment-HvPzivF4SWWIDt5syO87xA==.json"
 hash = "d6a76bbed08b0030f1abab2a346d3130940f611b645ea4bb9232773af1509236"
-
-[[files]]
-file = "config/betterquesting/DefaultQuests/Quests/LV35SpaceAge-enTskTtvRdajee3UMSgXKg==/SpaceMap-eItNlZ6bRS2kA-0Ymm_pdA==.json"
-hash = "0a088448492f02c6083f367612c527fa7dc5964411f3177a99d1a1e69a79cbf5"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV35SpaceAge-enTskTtvRdajee3UMSgXKg==/StainlessSteel-Q0hC3CjIR4GB7MtYPpxXgA==.json"
@@ -5158,7 +5150,7 @@ hash = "eb215914ced868fa426303570f33191000e35730b576aa8f3a41aa4f517e0ef4"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/template.lang"
-hash = "6fd43bcc129fa073ebcad79fd4babd01c91da6891444807cc20645851ebf2c77"
+hash = "f79681a8f8df206541c3cdde60f85a1950951ad7d32d53b5a1322ad05fa982c2"
 
 [[files]]
 file = "config/betterquesting/questbook.cfg"
@@ -5530,7 +5522,7 @@ hash = "d2fbef5bfc5dd3195039df482052bd704a6ae17f808e2b1c2e6fd7770ae895f8"
 
 [[files]]
 file = "config/dsurround/dsurround.cfg"
-hash = "fadd2f850820c8c09a6d143c29c72b0d3bd4c2e28a9ad01c96632c63a9f42c80"
+hash = "98cf8c0059d514953ca80bc94bbcb307a86e2496c1087cc1b13075243efe492e"
 
 [[files]]
 file = "config/dsurround/ntnh_dimensions.json"
@@ -6038,7 +6030,7 @@ hash = "3eccabc9f23be45ef526c68bd0424495a0f67b6ae403ebcf5cbaca7bd3b1b7fc"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/en_US.lang"
-hash = "4c322afed8317d65ce8b2aa182073dac72bb78fe9d740a36017993d4df1635ab"
+hash = "f1ed3f3d37e20ffe3e512ee94970b383aaba6ff523bf765c1b331418856fd233"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/es_ES.lang"
@@ -6170,91 +6162,91 @@ hash = "1f495ea7e9ce0317bafb9fac00e656afa1aea45fa32d2bc8ef4606d17d30f022"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/cs_CZ.lang"
-hash = "9dc8134cd8aa6f7eeb733fc584737af5493482ddb15b5c2094cc79bfa23ba06b"
+hash = "8bf3a59ddeb7e2076085e9bcc2de36236338f8245a82625b402f2216f68a4b03"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/da_DK.lang"
-hash = "9dc8134cd8aa6f7eeb733fc584737af5493482ddb15b5c2094cc79bfa23ba06b"
+hash = "8bf3a59ddeb7e2076085e9bcc2de36236338f8245a82625b402f2216f68a4b03"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/de_DE.lang"
-hash = "a9f4ff46209d1136c26d5eced84e80ba91213d8d1c4df358aac2b8a2fc11ba01"
+hash = "c69734c2f61268078911f7033b6b62132c30e828a7dd1924e97c25d0b0d7540a"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/es_ES.lang"
-hash = "85bbbb310c24aa62760168f1080f01a280ef1772b8f814aedd8a7368bb629980"
+hash = "8ea499827caa73edc4202e450faeafa4d38afd30a0e0ec3928db3e010f117301"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/fi_FI.lang"
-hash = "9dc8134cd8aa6f7eeb733fc584737af5493482ddb15b5c2094cc79bfa23ba06b"
+hash = "8bf3a59ddeb7e2076085e9bcc2de36236338f8245a82625b402f2216f68a4b03"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/fr_FR.lang"
-hash = "acc9b3f0992a8d963ecab96e3828ff712af4187a993645423c6754ffc51b399c"
+hash = "4f3686fd3c65da84d1c9fe56faa3548ff673701b529fa86004a8406fd5e83cb0"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/it_IT.lang"
-hash = "0814d87e763154855ba7cf31d8ee7efd6eab8beb9bbe8f58f962ed414bc72cf3"
+hash = "fd67d0a712676d9ddc3f5250a192e8ba06979b9334e015699c2ee8c0f1b757d4"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/ja_JP.lang"
-hash = "bb3af1ca265b631792b8bda9cfcdac4f08b07c91fb76defb125321c27da2f249"
+hash = "13be1afaa225aaafffcab208a1fdd2af93e973c2b4e751c0c9d564d72e7a8268"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/ko_KR.lang"
-hash = "9dc8134cd8aa6f7eeb733fc584737af5493482ddb15b5c2094cc79bfa23ba06b"
+hash = "8bf3a59ddeb7e2076085e9bcc2de36236338f8245a82625b402f2216f68a4b03"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/nl_NL.lang"
-hash = "9dc8134cd8aa6f7eeb733fc584737af5493482ddb15b5c2094cc79bfa23ba06b"
+hash = "8bf3a59ddeb7e2076085e9bcc2de36236338f8245a82625b402f2216f68a4b03"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/no_NO.lang"
-hash = "9dc8134cd8aa6f7eeb733fc584737af5493482ddb15b5c2094cc79bfa23ba06b"
+hash = "8bf3a59ddeb7e2076085e9bcc2de36236338f8245a82625b402f2216f68a4b03"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/pl_PL.lang"
-hash = "1fd0633b9a932bf870a642806223bb491858a6d6211a397d2eccb1a7fb4d4914"
+hash = "69f367fde7b4c5d191078725a5ffc3abaa32d7a79b0171e77ae8836c901b6c33"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/pt_PT.lang"
-hash = "9dc8134cd8aa6f7eeb733fc584737af5493482ddb15b5c2094cc79bfa23ba06b"
+hash = "8bf3a59ddeb7e2076085e9bcc2de36236338f8245a82625b402f2216f68a4b03"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/ro_RO.lang"
-hash = "20d428ff7d8c7e29a3015dd964ab8fa6688f1dca0392d5407cb25a4eba6b6e83"
+hash = "98207502d5bb1a606472efcb5229820ca1b52b2b93df3790e50ec55135b31d4f"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/ru_RU.lang"
-hash = "57fb21331e07f47933bc7595604ca53128119da5d718808e478a175a2ef6a0e5"
+hash = "1ee24bb1e8bbb88c29272d74035693ea448148d9294dda50a0dfc75f0bd43d86"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/sk_SK.lang"
-hash = "9dc8134cd8aa6f7eeb733fc584737af5493482ddb15b5c2094cc79bfa23ba06b"
+hash = "8bf3a59ddeb7e2076085e9bcc2de36236338f8245a82625b402f2216f68a4b03"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/sv_SE.lang"
-hash = "9dc8134cd8aa6f7eeb733fc584737af5493482ddb15b5c2094cc79bfa23ba06b"
+hash = "8bf3a59ddeb7e2076085e9bcc2de36236338f8245a82625b402f2216f68a4b03"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/tr_TR.lang"
-hash = "9dc8134cd8aa6f7eeb733fc584737af5493482ddb15b5c2094cc79bfa23ba06b"
+hash = "8bf3a59ddeb7e2076085e9bcc2de36236338f8245a82625b402f2216f68a4b03"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/uk_UA.lang"
-hash = "4f1fb31bb834e31207889dcf21649fc3f5d8aa696fea76efb026c765b984709d"
+hash = "45ac8731643e947d42ab0b6c0716be920b22aa34f9cd45c928e1536bff371e59"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/vi_VN.lang"
-hash = "9dc8134cd8aa6f7eeb733fc584737af5493482ddb15b5c2094cc79bfa23ba06b"
+hash = "8bf3a59ddeb7e2076085e9bcc2de36236338f8245a82625b402f2216f68a4b03"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/zh_CN.lang"
-hash = "671b2906f1ff359f2cd5b6605d6de061f4cef127b28f7032d254d0695c2b1341"
+hash = "84f4f5db3d31165729294e5502f2dbe2d469ca8df9c593e07a0c1ae805bc5dd4"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/zh_TW.lang"
-hash = "9dc8134cd8aa6f7eeb733fc584737af5493482ddb15b5c2094cc79bfa23ba06b"
+hash = "8bf3a59ddeb7e2076085e9bcc2de36236338f8245a82625b402f2216f68a4b03"
 
 [[files]]
 file = "config/txloader/forceload/minecraft/textures/gui/container/stonecutter.png"
