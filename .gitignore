@@ -4,7 +4,10 @@ backups/
 backups_before_restore/
 bettercrashes-stackdeobfuscator-methods.csv
 config/CustomOreGen/CustomOreGen_Config_Default.xml
-config/CustomOreGen/modules/
+config/CustomOreGen/modules/*
+!config/CustomOreGen/modules/custom/
+config/CustomOreGen/modules/custom/*
+!config/CustomOreGen/modules/custom/*.xml
 config/AppliedEnergistics2/recipes/items.csv
 config/guidenh/structures/*
 config/hbmConfig/_*

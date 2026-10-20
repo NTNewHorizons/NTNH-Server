@@ -597,10 +597,6 @@ file = "config/CustomOreGen/CustomOreGen_Config.xml"
 hash = "79f64b90526a416c701dc360af39ecbad0197d5488bcf0efba31b18a2ecfd5f8"
 
 [[files]]
-file = "config/CustomOreGen/CustomOreGen_Config_Default.xml"
-hash = "1d092c86fb6b34b5d8b2224848a757ddb7935b065d490509663e74f94e861439"
-
-[[files]]
 file = "config/CustomOreGen/modules/custom/00_Presets.xml"
 hash = "1769836ba0169445bd843708661cb4b2553f2e1dffc2d17e3eab4a3ffb046ea1"
 
@@ -619,162 +615,6 @@ hash = "61c5348460e0e4318011fc357cc7db2688c260e2bb61247ad0cdb27ed07dfd12"
 [[files]]
 file = "config/CustomOreGen/modules/custom/04_Nether.xml"
 hash = "894b939cf50aa981811b68db676094508769b2e0f9050e332a1c9d6c6b512ad8"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/AppliedEnergistics.xml"
-hash = "765dea02b7c667ccec898e816522db30027e617c356e8cb9fb749a3fe5791b8d"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/ArsMagica2.xml"
-hash = "91935d01933c04545c98efb3ab7545e630a1a137bbc6ec1322e57bf06984962c"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/BiomesOPlenty.xml"
-hash = "7329540d278c5ac85715fce3791b851ddd7335da43563c00b8b4bf5755cc3f03"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/Chisel2.xml"
-hash = "53cbcca82873e8e792b332235fe607122ffe586cde808bc3bbdcd5cecf79914b"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/CommonOres.xml"
-hash = "8533e5fd29f68a007bb3067a5d75d5b6deda1a8faa3ac1ee863ed13e0e706921"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/DenseOres.xml"
-hash = "26438ec5dfd99601f572d89441f70564c3b4804962285e36be0128a26bfdb0f6"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/ElectriCraft.xml"
-hash = "7ce073f1ec153b0197f12f2fcdb046a35ec7392f42bf77d53ab0c214438fb77e"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/EtFuturum.xml"
-hash = "d8353e142261770924ef37df807c8daa003a1f7d74df80c7a7970743b3609d36"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/Factorization.xml"
-hash = "d5b89d837a71cd4a73ac762927fc4a77e1a8cff3e1cec440f125c47c0e91549f"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/FlaxbeardsSteamcraft.xml"
-hash = "c03715f3ee1832590420466ed8a5076b467aedea19392adafdc3fcc07c75d5ef"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/Forestry.xml"
-hash = "d3bd5c64333f3c3229f5917ed7b3b2ebbb96817f067abe8681e7ca003120b73d"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/FossilsandArchaeology.xml"
-hash = "cc68e9a8a4828c4a082ed14bcf0faefc1ab33651324dae8797820b98037651a2"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/Galacticraft.xml"
-hash = "d91ff8eb65273e2957b68c48d3b0a64c7fc379946a3e29f64c5cdbdc5acb8244"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/GeoStrata.xml"
-hash = "91eb2603d4b1e1da2886982004cd00ac95cf55cf096a236b10b28597d3c5e4e8"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/Gregtech.xml"
-hash = "30e99d89a025af088a725fba80f87de391385f0fa958a77fb7af7376011f32a3"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/Gregtech6.xml"
-hash = "4b6e823da4b98bbcdd662f187d00b919e02a0fd2ab1b579bd85c49b7da806a17"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/ImmersiveEngineering.xml"
-hash = "fc2c57d3168c7ffc06a82d45a41d36c2e804f6534a662c48f213c42594a8bd88"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/IndustrialCraft2.xml"
-hash = "024bf760c6dfb3811a683a1a793f5a3b926970b51d22fd69ad8e021452f9f383"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/MagnetiCraft.xml"
-hash = "3def1797c6f515228e684e3d907ea27782c195ae4e48d83b78fb66c7fa76d5c5"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/Mariculture.xml"
-hash = "9654f609a727cb0b21c4546917da6629acf8c9c6cac0983ffac4c0375600aaae"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/Mekanism.xml"
-hash = "a690a5d56b7d7f9a837b6b213025fff8dbd0d1e66c5da2473b41c78be1dc1816"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/Metallurgy4.xml"
-hash = "d968de1b89a327cbfb1861e9c0c5dd834cfcb3ce4cef75e25eb36a6517b58e64"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/Mimicry.xml"
-hash = "3a90b2150b534d0c981d17b4747773af67c365169bc9327cbc03c98933ddbf14"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/MineChem.xml"
-hash = "c848a864169e52a4ca47b88ade13782cee9a42408a5792bb4acdf43ceec100d9"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/MinecraftComesAlive.xml"
-hash = "329b0100a16a7733276cbb25426597cf445373813720620ad5283828888ac82a"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/MinecraftSpecialRules.xml"
-hash = "70a523269f9b9fce30fe0d05c29baf2983df1f3792c721bbba7f14be847104db"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/NetherOres.xml"
-hash = "3793fb58f0779101a36810ebbc71d5ee61832404b3461d0c003b071794eb70d1"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/Netherrocks.xml"
-hash = "14c642a66ff4d691211e72e9c9b92b4eb5f8fc497d8b7dd8e8cf0ca493d995e5"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/Nuclearcraft.xml"
-hash = "72046b2694db08125239e888f357b12e760a4b9863156a0d5332f8c36a04d205"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/PamsHarvestCraft.xml"
-hash = "6246a26df4fdb708cb7d86e7da69c3ff46025074bd2c7dcfbcb2207c8c8e97a7"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/ProjectRed.xml"
-hash = "1c1e3e93bbe2ef509aa198db501a9a0de3957ab84e699d9879f73d2d1c457c5e"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/RailCraft.xml"
-hash = "cbbb7edea56201a82bec49dfe2cdb689c09026958fa71f43ef2097174f4d344c"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/ReactorCraft.xml"
-hash = "e908687e8bbd1ce163e5b06f265bf8eb90d8635c6db34d3b648ed970c6b6db7f"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/SimpleOres.xml"
-hash = "5efd4d4daaeecdca2b600e35c6f00b661d3da98499bc56d282cb853d5f826314"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/Thaumcraft4.xml"
-hash = "b01363b8c42281cc1babc2161fa58fa5beb8c48ca0a0bdf3cd53ac401bb105a5"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/ThermalFoundation.xml"
-hash = "f15948200e5dfdbc265594ecbb38a694f8ee47c1f0f775c0812ed07075f4d600"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/TinkersConstruct.xml"
-hash = "7cdde72b6c938e29baa5eac5819eabbd26700f471119a499204267483cc2165a"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/TinkersSteelworks.xml"
-hash = "8032ac14794911c0f61366a40d5d59f9a96f8bbad6c41651455481cbe5b5bfb6"
-
-[[files]]
-file = "config/CustomOreGen/modules/default/Vanilla.xml"
-hash = "059928892667699176ccf078fb4a52ac0e45dc7c0576690ba5101ff8d47f9df1"
 
 [[files]]
 file = "config/EnhancedLootBags/LootBags.xml"
@@ -879,10 +719,6 @@ hash = "0c8f13957d2a94c932dacbf6ddaa8a713175ece5b62fd519c14462ed62d181c8"
 [[files]]
 file = "config/MrTJPCore.cfg"
 hash = "0d1bdfc476b1a763fcf8282d9c697c6ed578dd546c316a97a6a73414c7b41bde"
-
-[[files]]
-file = "config/NEI/client.cfg"
-hash = "04652c801e0196dbaea504d4a3f7185afc19a5b1c8253454242a99f452dd5638"
 
 [[files]]
 file = "config/NEI/collapsibleitems.cfg"
@@ -5761,10 +5597,6 @@ file = "config/itlt.cfg"
 hash = "96afa8b603fccccb24c3129b5d802995d727064444f82e1e111192987431eeda"
 
 [[files]]
-file = "config/itlt/icon.png"
-hash = "be5696f1317bd5211e0b101186386f5a490b5371004c98aeef4d527223a69439"
-
-[[files]]
 file = "config/laggoggles.cfg"
 hash = "2d47ae7d72b7439697df2d5aec51bbea3a0c91277532e7f7224c0a5c3440a5b3"
 
@@ -6758,6 +6590,11 @@ hash = "ee26f4a2be39ef25c5c49501118da8716f586658c0ebeb6f6d397bc8b244b483"
 metafile = true
 
 [[files]]
+file = "mods/coroutil.pw.toml"
+hash = "4976ec86225e948ab015611c661f9419375e10ad26b55db0ac42e3a9cf9dcc51"
+metafile = true
+
+[[files]]
 file = "mods/craftpresence.pw.toml"
 hash = "84fd5347610c5c6b71011e59de1edb52976572db5813320ff0cc1dcb5735fd07"
 metafile = true
@@ -6835,6 +6672,11 @@ metafile = true
 [[files]]
 file = "mods/entity-render-distance-extender.pw.toml"
 hash = "0004184bede9b41bfda943c471d7c6dbe27b5755f6a9e27c692782e76d10ae94"
+metafile = true
+
+[[files]]
+file = "mods/esm-legacy.pw.toml"
+hash = "003a2b6754bf4420ccdeb3822abb4b309e22bc524d73463014fd46087131fa83"
 metafile = true
 
 [[files]]
@@ -7183,8 +7025,18 @@ hash = "703800574619c1d45ca9746c6554a8e4044083c8d387470684d09df25c49adbe"
 metafile = true
 
 [[files]]
+file = "mods/passthrough-signs.pw.toml"
+hash = "5b70d532e3d7e775a58112719ea265a0db2aa22d7c6419d4502fdf8af53f2f6d"
+metafile = true
+
+[[files]]
 file = "mods/patpat-nh.pw.toml"
 hash = "8e9bf4fc988960369c3e05d74e04cb0994925fd70a1ada2dbc0653cebfa8f2c9"
+metafile = true
+
+[[files]]
+file = "mods/ping.pw.toml"
+hash = "11a2316ac923d3ed54b4735edea713f13e5d91f558d124febea30bb54c4e43d1"
 metafile = true
 
 [[files]]
@@ -7268,6 +7120,11 @@ hash = "9ac9bcddb3b3ed773c2a49c97609bc8c7e65e5dd8312dce7320d5187b8d224ae"
 metafile = true
 
 [[files]]
+file = "mods/squidnoglitch.pw.toml"
+hash = "e72d6e1e620b7700680dd24f0d01b8144edc1d1e4fa0d234bce932d135699b4a"
+metafile = true
+
+[[files]]
 file = "mods/stackie.pw.toml"
 hash = "966772ca2c6049d0ce58c5c368d5a591ee7ecb6d1c22379a3c60c216c1112138"
 metafile = true
@@ -7335,6 +7192,11 @@ metafile = true
 [[files]]
 file = "mods/wdmla.pw.toml"
 hash = "5128525ed000011d11ba26c555fbb1bc37f919770e41b200490eb411bce86705"
+metafile = true
+
+[[files]]
+file = "mods/weather2.pw.toml"
+hash = "282be44550302e6349cb947bc537e4a84ca5f1cd532ad419edade12bc7f1dd8d"
 metafile = true
 
 [[files]]
