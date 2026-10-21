@@ -597,6 +597,10 @@ file = "config/CustomOreGen/CustomOreGen_Config.xml"
 hash = "79f64b90526a416c701dc360af39ecbad0197d5488bcf0efba31b18a2ecfd5f8"
 
 [[files]]
+file = "config/CustomOreGen/CustomOreGen_Config_Default.xml"
+hash = "1d092c86fb6b34b5d8b2224848a757ddb7935b065d490509663e74f94e861439"
+
+[[files]]
 file = "config/CustomOreGen/modules/custom/00_Presets.xml"
 hash = "1769836ba0169445bd843708661cb4b2553f2e1dffc2d17e3eab4a3ffb046ea1"
 
@@ -615,6 +619,162 @@ hash = "61c5348460e0e4318011fc357cc7db2688c260e2bb61247ad0cdb27ed07dfd12"
 [[files]]
 file = "config/CustomOreGen/modules/custom/04_Nether.xml"
 hash = "894b939cf50aa981811b68db676094508769b2e0f9050e332a1c9d6c6b512ad8"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/AppliedEnergistics.xml"
+hash = "765dea02b7c667ccec898e816522db30027e617c356e8cb9fb749a3fe5791b8d"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/ArsMagica2.xml"
+hash = "91935d01933c04545c98efb3ab7545e630a1a137bbc6ec1322e57bf06984962c"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/BiomesOPlenty.xml"
+hash = "7329540d278c5ac85715fce3791b851ddd7335da43563c00b8b4bf5755cc3f03"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/Chisel2.xml"
+hash = "53cbcca82873e8e792b332235fe607122ffe586cde808bc3bbdcd5cecf79914b"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/CommonOres.xml"
+hash = "8533e5fd29f68a007bb3067a5d75d5b6deda1a8faa3ac1ee863ed13e0e706921"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/DenseOres.xml"
+hash = "26438ec5dfd99601f572d89441f70564c3b4804962285e36be0128a26bfdb0f6"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/ElectriCraft.xml"
+hash = "7ce073f1ec153b0197f12f2fcdb046a35ec7392f42bf77d53ab0c214438fb77e"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/EtFuturum.xml"
+hash = "d8353e142261770924ef37df807c8daa003a1f7d74df80c7a7970743b3609d36"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/Factorization.xml"
+hash = "d5b89d837a71cd4a73ac762927fc4a77e1a8cff3e1cec440f125c47c0e91549f"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/FlaxbeardsSteamcraft.xml"
+hash = "c03715f3ee1832590420466ed8a5076b467aedea19392adafdc3fcc07c75d5ef"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/Forestry.xml"
+hash = "d3bd5c64333f3c3229f5917ed7b3b2ebbb96817f067abe8681e7ca003120b73d"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/FossilsandArchaeology.xml"
+hash = "cc68e9a8a4828c4a082ed14bcf0faefc1ab33651324dae8797820b98037651a2"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/Galacticraft.xml"
+hash = "d91ff8eb65273e2957b68c48d3b0a64c7fc379946a3e29f64c5cdbdc5acb8244"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/GeoStrata.xml"
+hash = "91eb2603d4b1e1da2886982004cd00ac95cf55cf096a236b10b28597d3c5e4e8"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/Gregtech.xml"
+hash = "30e99d89a025af088a725fba80f87de391385f0fa958a77fb7af7376011f32a3"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/Gregtech6.xml"
+hash = "4b6e823da4b98bbcdd662f187d00b919e02a0fd2ab1b579bd85c49b7da806a17"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/ImmersiveEngineering.xml"
+hash = "fc2c57d3168c7ffc06a82d45a41d36c2e804f6534a662c48f213c42594a8bd88"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/IndustrialCraft2.xml"
+hash = "024bf760c6dfb3811a683a1a793f5a3b926970b51d22fd69ad8e021452f9f383"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/MagnetiCraft.xml"
+hash = "3def1797c6f515228e684e3d907ea27782c195ae4e48d83b78fb66c7fa76d5c5"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/Mariculture.xml"
+hash = "9654f609a727cb0b21c4546917da6629acf8c9c6cac0983ffac4c0375600aaae"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/Mekanism.xml"
+hash = "a690a5d56b7d7f9a837b6b213025fff8dbd0d1e66c5da2473b41c78be1dc1816"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/Metallurgy4.xml"
+hash = "d968de1b89a327cbfb1861e9c0c5dd834cfcb3ce4cef75e25eb36a6517b58e64"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/Mimicry.xml"
+hash = "3a90b2150b534d0c981d17b4747773af67c365169bc9327cbc03c98933ddbf14"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/MineChem.xml"
+hash = "c848a864169e52a4ca47b88ade13782cee9a42408a5792bb4acdf43ceec100d9"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/MinecraftComesAlive.xml"
+hash = "329b0100a16a7733276cbb25426597cf445373813720620ad5283828888ac82a"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/MinecraftSpecialRules.xml"
+hash = "70a523269f9b9fce30fe0d05c29baf2983df1f3792c721bbba7f14be847104db"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/NetherOres.xml"
+hash = "3793fb58f0779101a36810ebbc71d5ee61832404b3461d0c003b071794eb70d1"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/Netherrocks.xml"
+hash = "14c642a66ff4d691211e72e9c9b92b4eb5f8fc497d8b7dd8e8cf0ca493d995e5"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/Nuclearcraft.xml"
+hash = "72046b2694db08125239e888f357b12e760a4b9863156a0d5332f8c36a04d205"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/PamsHarvestCraft.xml"
+hash = "6246a26df4fdb708cb7d86e7da69c3ff46025074bd2c7dcfbcb2207c8c8e97a7"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/ProjectRed.xml"
+hash = "1c1e3e93bbe2ef509aa198db501a9a0de3957ab84e699d9879f73d2d1c457c5e"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/RailCraft.xml"
+hash = "cbbb7edea56201a82bec49dfe2cdb689c09026958fa71f43ef2097174f4d344c"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/ReactorCraft.xml"
+hash = "e908687e8bbd1ce163e5b06f265bf8eb90d8635c6db34d3b648ed970c6b6db7f"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/SimpleOres.xml"
+hash = "5efd4d4daaeecdca2b600e35c6f00b661d3da98499bc56d282cb853d5f826314"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/Thaumcraft4.xml"
+hash = "b01363b8c42281cc1babc2161fa58fa5beb8c48ca0a0bdf3cd53ac401bb105a5"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/ThermalFoundation.xml"
+hash = "f15948200e5dfdbc265594ecbb38a694f8ee47c1f0f775c0812ed07075f4d600"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/TinkersConstruct.xml"
+hash = "7cdde72b6c938e29baa5eac5819eabbd26700f471119a499204267483cc2165a"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/TinkersSteelworks.xml"
+hash = "8032ac14794911c0f61366a40d5d59f9a96f8bbad6c41651455481cbe5b5bfb6"
+
+[[files]]
+file = "config/CustomOreGen/modules/default/Vanilla.xml"
+hash = "059928892667699176ccf078fb4a52ac0e45dc7c0576690ba5101ff8d47f9df1"
 
 [[files]]
 file = "config/EnhancedLootBags/LootBags.xml"
@@ -719,6 +879,10 @@ hash = "0c8f13957d2a94c932dacbf6ddaa8a713175ece5b62fd519c14462ed62d181c8"
 [[files]]
 file = "config/MrTJPCore.cfg"
 hash = "0d1bdfc476b1a763fcf8282d9c697c6ed578dd546c316a97a6a73414c7b41bde"
+
+[[files]]
+file = "config/NEI/client.cfg"
+hash = "04652c801e0196dbaea504d4a3f7185afc19a5b1c8253454242a99f452dd5638"
 
 [[files]]
 file = "config/NEI/collapsibleitems.cfg"
@@ -5597,6 +5761,10 @@ file = "config/itlt.cfg"
 hash = "96afa8b603fccccb24c3129b5d802995d727064444f82e1e111192987431eeda"
 
 [[files]]
+file = "config/itlt/icon.png"
+hash = "be5696f1317bd5211e0b101186386f5a490b5371004c98aeef4d527223a69439"
+
+[[files]]
 file = "config/laggoggles.cfg"
 hash = "2d47ae7d72b7439697df2d5aec51bbea3a0c91277532e7f7224c0a5c3440a5b3"
 
@@ -5866,7 +6034,7 @@ hash = "f1ed3f3d37e20ffe3e512ee94970b383aaba6ff523bf765c1b331418856fd233"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/es_ES.lang"
-hash = "eeb658789bc5edbd90054acfbbc3024ac5848935c372150b506354aa41f97333"
+hash = "004f289717894f0ec8fd30c0443314d28347cf31dc703b3fcaf4e2283443e432"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/es_US.lang"
@@ -5926,7 +6094,7 @@ hash = "eb993c1405f875328cec5ce7b5c734a8005e927a77de8a938aa1fdc259a22ddc"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/ru_RU.lang"
-hash = "7a7aec8f275cfa466a8bcd9d12bc81ed4ae5f06fde6e37c3f355c9ae39c9bbe8"
+hash = "3456c2092ce0f99193d95828f07a2f7cdde49f29380da3472faabebc4d83f294"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/sh_HR.lang"
@@ -5985,100 +6153,184 @@ file = "config/txloader/forceload/betterquesting/textures/gui/simple_frames.png"
 hash = "c5337cde0db54f01852b410f5065f7aa1f37281479622ca16d80327462fe9566"
 
 [[files]]
+file = "config/txloader/forceload/enhancedlootbags/lang/cs_CZ.lang"
+hash = "f9da5f5fd79482d86950ce4e8a9d5397c52caddae5a03d0daa7b5481bdc9b43a"
+
+[[files]]
+file = "config/txloader/forceload/enhancedlootbags/lang/da_DK.lang"
+hash = "f9da5f5fd79482d86950ce4e8a9d5397c52caddae5a03d0daa7b5481bdc9b43a"
+
+[[files]]
+file = "config/txloader/forceload/enhancedlootbags/lang/de_DE.lang"
+hash = "f9da5f5fd79482d86950ce4e8a9d5397c52caddae5a03d0daa7b5481bdc9b43a"
+
+[[files]]
 file = "config/txloader/forceload/enhancedlootbags/lang/en_US.lang"
 hash = "f9da5f5fd79482d86950ce4e8a9d5397c52caddae5a03d0daa7b5481bdc9b43a"
 
 [[files]]
+file = "config/txloader/forceload/enhancedlootbags/lang/es_ES.lang"
+hash = "9adf067bda050d818a0bca9f003e688145a18b91f0158a8cdaf35815a2bf9645"
+
+[[files]]
+file = "config/txloader/forceload/enhancedlootbags/lang/fi_FI.lang"
+hash = "f9da5f5fd79482d86950ce4e8a9d5397c52caddae5a03d0daa7b5481bdc9b43a"
+
+[[files]]
+file = "config/txloader/forceload/enhancedlootbags/lang/fr_FR.lang"
+hash = "f9da5f5fd79482d86950ce4e8a9d5397c52caddae5a03d0daa7b5481bdc9b43a"
+
+[[files]]
+file = "config/txloader/forceload/enhancedlootbags/lang/it_IT.lang"
+hash = "f9da5f5fd79482d86950ce4e8a9d5397c52caddae5a03d0daa7b5481bdc9b43a"
+
+[[files]]
+file = "config/txloader/forceload/enhancedlootbags/lang/ja_JP.lang"
+hash = "f9da5f5fd79482d86950ce4e8a9d5397c52caddae5a03d0daa7b5481bdc9b43a"
+
+[[files]]
+file = "config/txloader/forceload/enhancedlootbags/lang/ko_KR.lang"
+hash = "f9da5f5fd79482d86950ce4e8a9d5397c52caddae5a03d0daa7b5481bdc9b43a"
+
+[[files]]
+file = "config/txloader/forceload/enhancedlootbags/lang/nl_NL.lang"
+hash = "f9da5f5fd79482d86950ce4e8a9d5397c52caddae5a03d0daa7b5481bdc9b43a"
+
+[[files]]
+file = "config/txloader/forceload/enhancedlootbags/lang/no_NO.lang"
+hash = "f9da5f5fd79482d86950ce4e8a9d5397c52caddae5a03d0daa7b5481bdc9b43a"
+
+[[files]]
+file = "config/txloader/forceload/enhancedlootbags/lang/pl_PL.lang"
+hash = "f9da5f5fd79482d86950ce4e8a9d5397c52caddae5a03d0daa7b5481bdc9b43a"
+
+[[files]]
+file = "config/txloader/forceload/enhancedlootbags/lang/pt_PT.lang"
+hash = "f9da5f5fd79482d86950ce4e8a9d5397c52caddae5a03d0daa7b5481bdc9b43a"
+
+[[files]]
+file = "config/txloader/forceload/enhancedlootbags/lang/ro_RO.lang"
+hash = "f9da5f5fd79482d86950ce4e8a9d5397c52caddae5a03d0daa7b5481bdc9b43a"
+
+[[files]]
 file = "config/txloader/forceload/enhancedlootbags/lang/ru_RU.lang"
-hash = "1f495ea7e9ce0317bafb9fac00e656afa1aea45fa32d2bc8ef4606d17d30f022"
+hash = "8c4c061347cf39ca1f68db4c5c05d6eb018428d52c7ebbf6ecc55153a341db02"
+
+[[files]]
+file = "config/txloader/forceload/enhancedlootbags/lang/sk_SK.lang"
+hash = "f9da5f5fd79482d86950ce4e8a9d5397c52caddae5a03d0daa7b5481bdc9b43a"
+
+[[files]]
+file = "config/txloader/forceload/enhancedlootbags/lang/sv_SE.lang"
+hash = "f9da5f5fd79482d86950ce4e8a9d5397c52caddae5a03d0daa7b5481bdc9b43a"
+
+[[files]]
+file = "config/txloader/forceload/enhancedlootbags/lang/tr_TR.lang"
+hash = "f9da5f5fd79482d86950ce4e8a9d5397c52caddae5a03d0daa7b5481bdc9b43a"
+
+[[files]]
+file = "config/txloader/forceload/enhancedlootbags/lang/uk_UA.lang"
+hash = "f9da5f5fd79482d86950ce4e8a9d5397c52caddae5a03d0daa7b5481bdc9b43a"
+
+[[files]]
+file = "config/txloader/forceload/enhancedlootbags/lang/vi_VN.lang"
+hash = "f9da5f5fd79482d86950ce4e8a9d5397c52caddae5a03d0daa7b5481bdc9b43a"
+
+[[files]]
+file = "config/txloader/forceload/enhancedlootbags/lang/zh_CN.lang"
+hash = "f9da5f5fd79482d86950ce4e8a9d5397c52caddae5a03d0daa7b5481bdc9b43a"
+
+[[files]]
+file = "config/txloader/forceload/enhancedlootbags/lang/zh_TW.lang"
+hash = "f9da5f5fd79482d86950ce4e8a9d5397c52caddae5a03d0daa7b5481bdc9b43a"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/cs_CZ.lang"
-hash = "b03a47b76d0fc1b2b9c67be775ee158f3dca523f9097a81bd770e55951dff4ca"
+hash = "e350097f0d72204b707c9d0c91b45e3bacb4a211d0dffa12328d9eb966d2b936"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/da_DK.lang"
-hash = "b03a47b76d0fc1b2b9c67be775ee158f3dca523f9097a81bd770e55951dff4ca"
+hash = "e350097f0d72204b707c9d0c91b45e3bacb4a211d0dffa12328d9eb966d2b936"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/de_DE.lang"
-hash = "3a6ce594b4e6d127bcaad3fdc2293ae9d367c93b185003f437899a9306dd3808"
+hash = "b572987b60602668d7c1faf65b061f78e6242b7dd659e2246848d91233407374"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/es_ES.lang"
-hash = "464c56ce97e3e366e28eb02292b3c96c2d5220afdc2b6ad08e7939ae3d4b267d"
+hash = "6e2c902ca70832420579ed2dbc64db4b68bd830fccc59c1456d6434f764ff60d"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/fi_FI.lang"
-hash = "b03a47b76d0fc1b2b9c67be775ee158f3dca523f9097a81bd770e55951dff4ca"
+hash = "e350097f0d72204b707c9d0c91b45e3bacb4a211d0dffa12328d9eb966d2b936"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/fr_FR.lang"
-hash = "44d6a416757cf02fcca0e09d41bf90f445760daadac4971cdf9d6b5630aa5dd4"
+hash = "3caf2d5e8249472eba9b797411ff7a856b21214ce11b36077883b24a09969d95"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/it_IT.lang"
-hash = "449a863fcb0456350fca965052df80e1f32f2d78543569085a1d998c7ee9f570"
+hash = "177c8f5b5c910fd691d27fdbea3948d040d78027f884947222f9c5f18e41c73e"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/ja_JP.lang"
-hash = "32eede884d76b127aa0a79b4bc9a3f71d947e54ffdae28f6482ee19741fefb0f"
+hash = "f00ed3d2346b91b5813b22719c407d5f20a1b14450bdce16dad1c0d4b2532da4"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/ko_KR.lang"
-hash = "b03a47b76d0fc1b2b9c67be775ee158f3dca523f9097a81bd770e55951dff4ca"
+hash = "e350097f0d72204b707c9d0c91b45e3bacb4a211d0dffa12328d9eb966d2b936"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/nl_NL.lang"
-hash = "b03a47b76d0fc1b2b9c67be775ee158f3dca523f9097a81bd770e55951dff4ca"
+hash = "e350097f0d72204b707c9d0c91b45e3bacb4a211d0dffa12328d9eb966d2b936"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/no_NO.lang"
-hash = "b03a47b76d0fc1b2b9c67be775ee158f3dca523f9097a81bd770e55951dff4ca"
+hash = "e350097f0d72204b707c9d0c91b45e3bacb4a211d0dffa12328d9eb966d2b936"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/pl_PL.lang"
-hash = "0e1e4ac2407d38d3e17f0f856879f0c512acd083a8191d8dd08f7c7d083cbed7"
+hash = "aefe6217929c413c4ae4e609d05c2959c630f5abacd4beaa702c5d4ce11f8f4d"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/pt_PT.lang"
-hash = "b03a47b76d0fc1b2b9c67be775ee158f3dca523f9097a81bd770e55951dff4ca"
+hash = "e350097f0d72204b707c9d0c91b45e3bacb4a211d0dffa12328d9eb966d2b936"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/ro_RO.lang"
-hash = "75c5b156e48fb524c943e8cf7f98e950957bbbb8f48cc926f51b91b1e9555670"
+hash = "62446481673600a20e112aa0497284b716023b2dd5a40d7fdcfbcfe6612e40a8"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/ru_RU.lang"
-hash = "5b966bdd698902ba46f195959fe97837f7a136765e152080b4702215150d3dcc"
+hash = "3804b4a7d513b3264038c5111392db62f9abd46bab5d3d479abbdcc9647a1cac"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/sk_SK.lang"
-hash = "b03a47b76d0fc1b2b9c67be775ee158f3dca523f9097a81bd770e55951dff4ca"
+hash = "e350097f0d72204b707c9d0c91b45e3bacb4a211d0dffa12328d9eb966d2b936"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/sv_SE.lang"
-hash = "b03a47b76d0fc1b2b9c67be775ee158f3dca523f9097a81bd770e55951dff4ca"
+hash = "e350097f0d72204b707c9d0c91b45e3bacb4a211d0dffa12328d9eb966d2b936"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/tr_TR.lang"
-hash = "b03a47b76d0fc1b2b9c67be775ee158f3dca523f9097a81bd770e55951dff4ca"
+hash = "e350097f0d72204b707c9d0c91b45e3bacb4a211d0dffa12328d9eb966d2b936"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/uk_UA.lang"
-hash = "2a983c62c7ef07b8c06ea13117eb6c1d974ee9426e9c3cc9c97f6956899613ad"
+hash = "074d9ed9b456c62706bb2ae4eb3fb1ae2cef3ed03c98cdd4dbc03fc9512a7a99"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/vi_VN.lang"
-hash = "b03a47b76d0fc1b2b9c67be775ee158f3dca523f9097a81bd770e55951dff4ca"
+hash = "e350097f0d72204b707c9d0c91b45e3bacb4a211d0dffa12328d9eb966d2b936"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/zh_CN.lang"
-hash = "78c0a9ff6fc0fff499f50b44865e38ac9a13ff0d58eee852ca6cbeffb2d461d5"
+hash = "1cd3ac3c9bcd8f7199bcb76d13ecf0aaeb4d5fe2b9e5d7c5521c1b1256baed55"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/zh_TW.lang"
-hash = "b03a47b76d0fc1b2b9c67be775ee158f3dca523f9097a81bd770e55951dff4ca"
+hash = "e350097f0d72204b707c9d0c91b45e3bacb4a211d0dffa12328d9eb966d2b936"
 
 [[files]]
 file = "config/txloader/forceload/minecraft/textures/gui/container/stonecutter.png"
@@ -6126,11 +6378,11 @@ hash = "8009a5612b80996ebab83214401cea07f5ed2b146562d202e10e34061e17bac1"
 
 [[files]]
 file = "docs/mod-credits.md"
-hash = "3ab6d8550229c4fb20dc43ad5ce70745cb7848cb1dff4a3343a60dcfb1da76b0"
+hash = "78577e15d39498a92a785965472be8174b755f5114be7cbcd7de645ccf1fc7f4"
 
 [[files]]
 file = "docs/pack-audit.md"
-hash = "3a47d226a01672277d6a6055aa54c3b58f9ae64e4e992bfa5fc17d5d242095ad"
+hash = "238987c3db1812322e6de98384f5b49e6e51c3a5326bc2095b6e7256841ba61d"
 
 [[files]]
 file = "falsepattern/com.mojang-brigadier-1.0.18.jar"
