@@ -462,7 +462,7 @@ hash = "4a9203a1e0a9af730c90f58effe8b56fb99db6305b2befdeea168c40804e41c1"
 
 [[files]]
 file = "config/Betterloadingscreen/tips/es_ES.txt"
-hash = "0e4573318755e1092bd309e770fd11a9d313a39975c29b9dbf605559e72fa33a"
+hash = "c2b7eb20cbcecbac1104a1e63166b3987363205a233e8f62a2035e4544a75ea2"
 
 [[files]]
 file = "config/Betterloadingscreen/tips/fi_FI.txt"
@@ -5357,6 +5357,18 @@ file = "config/betterquesting/resources/resources/SpaceMap_by_Bufka2011.png"
 hash = "e9cd54ae4621153fdb1901b602e2974b2d0f8119c22780a06ebf192fa3f0d155"
 
 [[files]]
+file = "config/betterquesting/resources/vault_terminal/bq_themes.json"
+hash = "1dd0e12c801fcd5135c1f2127ab24dff47e2a16588a09d58dcef06f0e24b099e"
+
+[[files]]
+file = "config/betterquesting/resources/vault_terminal/textures/gui/editor_icons.png"
+hash = "baad9324a9e28b0350ebb95c40cd2145a5a8ee5b7db3e93af383bc33d552070f"
+
+[[files]]
+file = "config/betterquesting/resources/vault_terminal/textures/gui/vault_gui.png"
+hash = "3faba83bdec86822b317fce74ac24f3a0aaa2c87b85ded7bf2123e9dcc482e75"
+
+[[files]]
 file = "config/blur.cfg"
 hash = "af5ee82a17f3e4af70ec2cb24d3e78d34a7cc1b5a59559aa795b8d782f1c6e1b"
 
@@ -6094,7 +6106,7 @@ hash = "eb993c1405f875328cec5ce7b5c734a8005e927a77de8a938aa1fdc259a22ddc"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/ru_RU.lang"
-hash = "3456c2092ce0f99193d95828f07a2f7cdde49f29380da3472faabebc4d83f294"
+hash = "0b0c0a6a48de66625667578d90f45295688ecbd1c649807f0babff8c8730bebf"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/sh_HR.lang"
@@ -6151,6 +6163,234 @@ hash = "bb137496abb4e2617f0b9bba5f7b5abd27138ae7340ac80c7295ba0b7066551e"
 [[files]]
 file = "config/txloader/forceload/betterquesting/textures/gui/simple_frames.png"
 hash = "c5337cde0db54f01852b410f5065f7aa1f37281479622ca16d80327462fe9566"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/mcpatcher/anim/lanternCandle0.properties"
+hash = "4acfb2f0293463004f74fbacf9f3b319928caf99f123f68950bb00376f5a6172"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/mcpatcher/anim/lanternCandle1.properties"
+hash = "ea8eb7d0d0781ab80f5e647b0a61934a0c6fd77e754c6bd8a2b6307c8eae9959"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/mcpatcher/anim/lanternCandle10.properties"
+hash = "440c658b1b932221450ff70544a8e00bea9b9f0227c1dad6bd1ce56869e77cad"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/mcpatcher/anim/lanternCandle11.properties"
+hash = "35e86d59bc0b1c0e2c96bc58fb37d42fa39c76dac9219b5ba5cd487e6ef3209a"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/mcpatcher/anim/lanternCandle12.properties"
+hash = "58bb54ee6e37c4bd7a82aecaef385b41785fe45ddf0f7bc39503562ff66fa9a8"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/mcpatcher/anim/lanternCandle13.properties"
+hash = "c8ae8f850ad65ab49a0d19da79fc8be4773d5dcdfd754a9dfced3fc08d68436b"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/mcpatcher/anim/lanternCandle14.properties"
+hash = "b2fa3193d9f4dbeb4b9980ff5dbd95d68908ac490671b2321a4fe352a90da9f5"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/mcpatcher/anim/lanternCandle15.properties"
+hash = "19f0da2ad2fef54dd129cd531bcd12a0e7394465282550ceda3cfac418b78721"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/mcpatcher/anim/lanternCandle2.properties"
+hash = "2c92758c492d24b73ff1a8eb1c0f21d0b3cce72aa2c202c3c36297aa9f23985b"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/mcpatcher/anim/lanternCandle3.properties"
+hash = "c9a61ae166ea5a6b12d86a4f3b13aae7545b0c3f888d8d872e6992a2fa30934e"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/mcpatcher/anim/lanternCandle4.properties"
+hash = "45d940291e5c8e9f9041c49fa28e6c5a3971b2558310d24c6a85596ebdb1b55c"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/mcpatcher/anim/lanternCandle5.properties"
+hash = "a2071fddf138983cc31a8e06a0237ad826adef4c7a838c84c56fa8ded68a56cc"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/mcpatcher/anim/lanternCandle6.properties"
+hash = "5e29e829b157f2a0e48b2ad30b31d49532c4f8ea542236d84f03f14b8edaec73"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/mcpatcher/anim/lanternCandle7.properties"
+hash = "8a2d7fd7717379fa0fa1f7692d58b12ee80182fd2895ffcd55ff3b2ad17de108"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/mcpatcher/anim/lanternCandle8.properties"
+hash = "b40416389831772e4ba7abb6f5f141ddbb66e94ca9e988d2230e30d48aebf82e"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/mcpatcher/anim/lanternCandle9.properties"
+hash = "4b3a7266673f1a534108a0967bd30ac5d27d046134cd5bf10693135923547d36"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/mcpatcher/anim/lantern_flame.png"
+hash = "9c54d52cd5efb5c6ee0a27b0b5954b2e266eb0b7fcfb90036290d869c24e7a39"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/models/OBJModelLantern.obj"
+hash = "7c23009234a274b53fa7471cdf5eab32e994a27d4ab705ec5fcd09fff5e74f21"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/gui/armorstandGUI.png"
+hash = "8cc402124bf7a4397b0db4c0e923ac4165be9461b6d5cc4e49378fefd66eb813"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/gui/bigbookGUI.png"
+hash = "871fc02c7b0095c095db682969ef20c7f42eec97845f8ff8dfba81b1ab321e66"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/gui/bookshelfGUI.png"
+hash = "0367d35a17157e291f9f4d87e39d9891f8c29e182d9ee78b2caad47a3c009ed7"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/gui/clipboardGUI.png"
+hash = "4cc6cf8cc8febc33b12789ec94fa58c3b486f177b0f9139e5b317f7312957a77"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/gui/clockGUI.png"
+hash = "de2eb4b8de15c72fa2f60504eda92c62531a71d764554a192c2ff8aa1a3ae5d8"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/gui/cookiejarGUI.png"
+hash = "91a0c245f8d86b249fa0ad94bc763cb446481f6f48b2c643fda01778444271fa"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/gui/discrackGUI.png"
+hash = "322e1db9cad163398500d62bd4deb3cfad7a63a245a3229e560fff61d411867e"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/gui/fancysignGUI.png"
+hash = "5b8ebb4d048c9e6c65d3b21f8a5624790c69b8d68c038015c94d8852d4c87008"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/gui/fancyworkbenchGUI.png"
+hash = "76084cc4ddc3490cbaf96666e6fef43ec0e9e7d43d750f878b51e614e6face58"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/gui/genericshelfGUI.png"
+hash = "7c00c0b609c04b2bafc5b8c904186d80ce7b0d7b81fdd357bdfcea3ae949a547"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/gui/potionshelfGUI.png"
+hash = "6cd41466c74cd86c29646c3e3c3874dfc1b101c1537c58ad60e64358993a67dc"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/gui/slottedbookGUI.png"
+hash = "5a7fbd8eefdb585ac3c16f86161f20c96e76a0ad3ac74ae49e100731ce00cd2d"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/gui/stockcatalogGUI.png"
+hash = "35a46ad41dd5dfa526a80542e4cef966d5445e8e94bd2a3367257f1f6bd882c5"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/gui/woodlabelGUI.png"
+hash = "b41b197a0eafe40641b481a7e3fdd8eb5d3563650275565a8e7f3fb7ecc9df0a"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/items/bigbook.png"
+hash = "1e1a2ced9229a3e97e42ce4ed8ca2a3be19670719651b7d2d2203e585cec130c"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/items/clipboard.png"
+hash = "600751663faac8edc625f874a52d43fbf171ce159d1af50b8ff86f7a5a2ad885"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/items/lock.png"
+hash = "230a2ea4e7eed8594ba1b9e2b39d45a4d4abd1cec7df9c990ae7151bcef6fb72"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/items/plumbline.png"
+hash = "5ad9c98949abdf3e640cb8054723740855c902fc0104c70216c841c03c16a1c1"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/items/stockcatalog.png"
+hash = "1c3020db077d98787010bc2b1d0b8ce18162bf29e3968b6116d2848105f1310c"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/items/tape.png"
+hash = "1e4204d67c6db3e580c9da86bd8459e7db38bdc47a519a99f5153f42cc625cff"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/items/tapemeasure.png"
+hash = "824282068aa14d7cec177644e51c45c7de173139e6330d460cecaf42f4a31734"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/models/lantern.png"
+hash = "da11f391913227cb264f9766259ec162af98ce566d0b152b98183d021e9a90b9"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/models/lanternCandle0.png"
+hash = "b6b60e135920b156751c61230d2c4bb882245e2e2db2ce493d0276f7a29613ae"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/models/lanternCandle1.png"
+hash = "d23e7e31e3a0ea4c3796c3b444b5bedbc7fb95c1d71577e9eca4d47272be1db4"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/models/lanternCandle10.png"
+hash = "4fc813f9b989732ae36e429604fa7298749b2e3037892d6d4e21e8fbe642e602"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/models/lanternCandle11.png"
+hash = "f0928c3a99f9cadae44bb54e0b88154a31e4f0109e92f2d88f8f68237bca502d"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/models/lanternCandle12.png"
+hash = "816e4f03a91bf9e656ddf2658bfc37245a2f16a850ac16c04e7b17a05b3646c5"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/models/lanternCandle13.png"
+hash = "1a68ba98e245be27752b26e704016b08fea59d7b1ae49f0c6bf7df2ca1bd96e7"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/models/lanternCandle14.png"
+hash = "c9ce0c4de0b2cc59f202b795ebe0619da931c3fcd56ddc916396642d293ddb71"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/models/lanternCandle15.png"
+hash = "7a7acf7548675ed756d783cfcf6c1dafbfd7110df33a7b2b553d1be8054d4982"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/models/lanternCandle2.png"
+hash = "50d725b9986e49f2b2da58621c01e03ffc02d04a1f547f29ab87cb602f0bdefc"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/models/lanternCandle3.png"
+hash = "1f59e951e63777f97dbc47cdf742d56c90912cd231f55d870fcdcae3f616c44b"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/models/lanternCandle4.png"
+hash = "947dca21d66cde29525424049cc3fa611dac194c1a6cb75435dffffec7995f6b"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/models/lanternCandle5.png"
+hash = "96d3cbd3891373d5e52f80863f440801c36eeb27110e768af4f6d55a34496c7a"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/models/lanternCandle6.png"
+hash = "587f96f60e8808544bdf1f476fec96104b7519a0e0d5547d8c46b9ac9c32eb68"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/models/lanternCandle7.png"
+hash = "1bc252285e789af665386b1e5a54d368c87a1e2bd862f59e736c7280c3042578"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/models/lanternCandle8.png"
+hash = "75a20faad58b6708bd7b5d20f334bfba0c60584955ef22168895a7449352ef7a"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/models/lanternCandle9.png"
+hash = "db0e192d6f95b49176929f4cbf2debfbcd3bc533e654fe62f0fda499823d32b4"
+
+[[files]]
+file = "config/txloader/forceload/bibliocraft/textures/models/lantern_iron.png"
+hash = "d7ed819c3792cd4124955757286fd7ef81f4b2e80c5d91a5862c1e1c1bfded85"
 
 [[files]]
 file = "config/txloader/forceload/enhancedlootbags/lang/cs_CZ.lang"
@@ -6258,7 +6498,7 @@ hash = "7911604e6b6ff65f70d6196dd9c510a39a21dab2ab0edc06663c5983efa0d83a"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/es_ES.lang"
-hash = "fa458c6ec2ed2a44ab0cc34c7adf4a4cfcdd18c5fb2530fdad0a576051f645f9"
+hash = "6dedbe485d6796ff16626ccb363bad779587130fa7c21880ff0d9af3420c813d"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/fi_FI.lang"
@@ -6587,6 +6827,10 @@ hash = "14641eab2c089c2ef18d2a0ef41421b560355c9585a4c6d9c5ad736ae8677657"
 [[files]]
 file = "minecraft_server.1.7.10.jar"
 hash = "c70870f00c4024d829e154f7e5f4e885b02dd87991726a3308d81f513972f3fc"
+
+[[files]]
+file = "mods/MTS40k-1.0.4.jar.disabled"
+hash = "3b04f2464c62f3ff8f3384b75483357d3303bd0e397a23229b91f80f487ce215"
 
 [[files]]
 file = "mods/OpenSecurity/sounds/alarms/klaxon1.ogg"
@@ -7092,9 +7336,8 @@ hash = "087f805647fe6d8e2bfa60cbfaf621a432688874db1aea4c55ecf28d3ae1020f"
 metafile = true
 
 [[files]]
-file = "mods/knightcorp-pack-mts.pw.toml"
+file = "mods/knightcorp-pack-mts.pw.toml.disabled"
 hash = "7fcef05c1e0dc668476797f47c74d04c5e2e77e556f21a0d5979d59f9969cea8"
-metafile = true
 
 [[files]]
 file = "mods/lunatriuscore.pw.toml"
