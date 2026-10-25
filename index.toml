@@ -6106,7 +6106,7 @@ hash = "eb993c1405f875328cec5ce7b5c734a8005e927a77de8a938aa1fdc259a22ddc"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/ru_RU.lang"
-hash = "33fee97fe98ea59c85331e70a91f54a734d0ff310ac630dd2a1de72eee90e31d"
+hash = "bf8d8f103addf068a977cb63c9534982a3565327c0a479af51e7802f3b306bf1"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/sh_HR.lang"
@@ -6542,7 +6542,7 @@ hash = "908b41c8c658a7031f3df4cb8c7b661b15e9c5be31819fa3bf28c7357d826b3b"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/ru_RU.lang"
-hash = "bcbb1451cef2dccaad0dc5c2d4e30b1de83bc0d11d32dfa6aaa86f075ad1bbf5"
+hash = "e322b2f827750d826cf5eb4add008fd0a5d2f6dbfd077e8e7b85c8b6f564601c"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/sk_SK.lang"
