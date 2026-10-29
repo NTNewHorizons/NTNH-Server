@@ -1478,75 +1478,75 @@ hash = "20efee54d8fafac723d70a4e7b015ff60676d7f600557129f8f102c15022f900"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests.json"
-hash = "2bb059a8a2b7ec2420feb8cd2d6f3584f3cca286fe189547503620f6473d8f1d"
+hash = "67901838d7f08c69659ea5ed4942df6e532969bcc4e84ceafb3a499333f9c31f"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/AUTOCALAutomatic-t2HnBelkRiKkjGv9JoKjLw==.json"
-hash = "b983baf5ef012fcfd3b371783ff81ae18389558e85b0fc9c55bb361e376b01ae"
+hash = "4a70c2c5824eaef890ceddf1fbffbb22c50a9926bb0f55f281704447ebedc61b"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/ArcFurnaceAutoma-c4m68dpfQXyH4q-ilwLZcQ==.json"
-hash = "ac991d81b5f6f84a1bd2dcc79691ea3183c380c7bc93518173ba06c25afb2f6f"
+hash = "3628bf5668e5a05969bd1d50fb96d19587bd29b8b9593a6336d73f2bbe2feab1"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/AutomaticCraftin-z9LdlLLQRP64Psk4rxEDhQ==.json"
-hash = "e93a01080744236409cd0f5f4efb0c77baa1626e8a030379f22e7c98a7058eb4"
+hash = "2de313a55456d91cfb8d1df2cbf58405710bc92973025f0330471820cbcc9e36"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/BetterConveyors-Jss-h7UPRO2s89rbuH-28g==.json"
-hash = "cecb1ba677b683d682c44748a31507fcd7ff24a214ec8d14e787d4b5aa6a7e5e"
+hash = "2b2dea774abdac79c218b82d8c83a6c91cb5fb0f9b489cee98f66673f010adf9"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/CombinatorFunnel-c3lGUKvHQpOUIBi6XoRoLQ==.json"
-hash = "a87644ae693a69687093a41841d7f83b09a2bc51382f70b5402f3a24012d90ee"
+hash = "6da07af7fdd6595c31498c3525862ea2b0b141bf304a7d39afa8916320c864f9"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/ConveyorBelt-AAAAAAAAAAAAAAAAAAAAKg==.json"
-hash = "4b1eb5654f87ceab527eaff9acca4ef5788c9c3e6150b59f2fa3dfb956005103"
+hash = "709587b58a785f2028268a6b32cc9a02e782a21dce0c72234b1169eb96dc1583"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/ConveyorBoxers-ZOQcs7g_SfylNX4zb39yGQ==.json"
-hash = "e93b78e8b5dcd811b39e987d9e8d2233c21d07d6514091bf1f6f61d8d684e464"
+hash = "0cbcd66160ba798587bc5f2747d4aed88a426f98de74716a7c6d6dc5ddeb2e7b"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/ConveyorGrabber-QaxG5jTfQv2p5_rvauacdg==.json"
-hash = "96cdafa5688c6897a9d78963b0073d1fb11ebe15116cd61c76eb4244fd8d323d"
+hash = "a05e7ebd5ce36dea77bb000e6deb18433139d96d713f0454fad0c6efaab4fc20"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/ConveyorUpgrades-Hw_8hujlQsGL2XyuZe-ndw==.json"
-hash = "11b3549367058efd89a2cb1821d23e6a71bddf4d9c5884d4e4cd48985afe47ed"
+hash = "6d19175ce0b7682dc43d7e8adaf94c6de7d9df96dbf912776618260fbf7051b2"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/DisplaysButtonsa-CXh5IW4AQaqb-p6bJlX2-A==.json"
-hash = "a50c3a8f4b0bcae9728bdf209595e7b2731a4986eaddf5bae8550d34da927a07"
+hash = "a7fd1c766f094cf7c28440e50c7ef8232cda4c3f7d9f088167ebaad9cd2015f8"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/FlowControlPump-qHqokbvIRPSKbDzjTfQE0g==.json"
-hash = "ba9dabc666e306db6805e0d9c34ce972ff2d2215e162d7e3ccf27822f692ddfc"
+hash = "45e289ff9874faf83fdf12da776c0f0890f20867ef1a956938673e4d53d46289"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/FluidOverflow-MTiLxFNwSxKjViwIaQJePA==.json"
-hash = "40e203b5f0bd7864a54e675cec869e2f71e908f29b662870137452f9e2124a3e"
+hash = "889288e1421dc67e09ea5ad7bfb011899ab394053dc45072dd57914855c525e0"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/Gauges-P_IpX7K7QbGEwCyd3wB2bQ==.json"
-hash = "b867d61394f4705c6134db7001f8c8ccf9fd9ee02a0dc742a38a5a36d197433e"
+hash = "7d910c057d98ea478e52410c1da2aba6378f0f1415831790372ea44eff5e03d9"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/ItemCounter-WvfpO4ICRQSzLpydFY-pTA==.json"
-hash = "3419da1b0f5f168ccb5382e0c886fc25440acbfcd9dbd0e584417cbf698fcc6a"
+hash = "b83abd2cd8a9f2d898b0ad06e40c6d6173a69bf861bf28c1b61905433ef8cbbb"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/LogicReceiver-v7HxbdInTsWOGVEmy4zaow==.json"
-hash = "d90cdb6cdf575cccf181538520425d0a89cc34b4765a2869e2e9097f957b7007"
+hash = "39541241f4e42baa8b558d9d2f2b098d4870d60bffbd5f4c2d4e59fb4e7952d9"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/NetworkSeparator-E6WKf8t9SO2uzwcUHfkMtQ==.json"
-hash = "7bced4d50b4817a6b508b5ebfbc2f1238bc921067e111c07ffbdf45151cfcd03"
+hash = "95f02672ab41a20d0104ee217156c14e1195244583d794948db66efe7ce7b914"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/PneumaticPipes-pTXtLJnPRu6lyiOqGVP7lw==.json"
-hash = "c6493c07ece17bec770afb67dce863b3e4e3e748cce5cb1c9b855d6e5c3257fb"
+hash = "aed88a5f5bb7a8768e6519b8b1a59cb5dfef39154ab55a7ed5ef6ea548846882"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/QuestLine.json"
@@ -1554,15 +1554,15 @@ hash = "d6a1c355580b21d718a264618102b27fa7c5b30cc2ad98370c317a5b8d421c2c"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/RedstoneOverRadi-pj-4ZmrUToOlwxPjWw3m7A==.json"
-hash = "9017b418e0c52c77ddc67eeeea6373a84f69b14525424073cf7195f3c35eecfb"
+hash = "6261df7454c771d6eff85ac19f9a4487294887067746decf62f70b9f23c81e9d"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/Telex-q7VK8XTHQBOwq1mXC4RadA==.json"
-hash = "89f47721ddd73afc8cdce1a525d526bbd8f22084f12c5eebfd90d61dc149fff6"
+hash = "7591befb53b0ee566b77fccff1cbbdd3177ee85b05b4b863429addbca68a50ea"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/TransportDrones-AAAAAAAAAAAAAAAAAAAAdg==.json"
-hash = "c7f58264cdc800d7aee8001f711151f4349a858a56fc98925160579c473178cb"
+hash = "96537d6565e656fdc4db23ff605bc6e76d8c22f8920714f385d797395a962c50"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AppliedEnergisti-AAAAAAAAAAAAAAAAAAAABQ==/AE2Autocrafting-WUUIPZ-KQFCpsXAcpOxwqw==.json"
@@ -4434,7 +4434,7 @@ hash = "41ec5fd37bd0ec937c92cd057a91bf06102e2aa094ed720251034b9cfd7dc459"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV35SpaceAge-enTskTtvRdajee3UMSgXKg==/MunMinmus-SyNchvx5TpG6S7lF4jtiOA==.json"
-hash = "c4a3ddb62ef87ae3c644e43419845064182b3bb8181f2c6011c76fbd23692bd0"
+hash = "e0e7504c6308d99df848184bd102e802a00c73ec160299cb74aa0fedd83c47fc"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV35SpaceAge-enTskTtvRdajee3UMSgXKg==/MyFirstVolcano-vTg3C5JATXuER43bG5IiiQ==.json"
@@ -4830,7 +4830,7 @@ hash = "603eb76adef9e9e99311b3a3769ee1512444fb9a7566f63d39c8b0d5b8dc61a6"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV3ReactorsAge-AAAAAAAAAAAAAAAAAAAAAg==/ZIRNOX-AAAAAAAAAAAAAAAAAAAAcg==.json"
-hash = "0bde81a2295f4a0a73ebdcda4c36d133b3a0a56741bdf0cf492426a0d8537559"
+hash = "a6fe8964a1aeed1d3c2ed1ee6d3c18a71fd33cc3a08c07228f74331212182d24"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV4EndGame-AAAAAAAAAAAAAAAAAAAAAw==/0GAssembler-JPSr8DfOQY2PeUK1AsgLvA==.json"
@@ -5162,7 +5162,7 @@ hash = "eb215914ced868fa426303570f33191000e35730b576aa8f3a41aa4f517e0ef4"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/template.lang"
-hash = "74c1276fe41b9ec308ba02404beb8c6f5ee608fa6ed9b67659ae3667a7f90687"
+hash = "9afd70d8cf6b19b232ad86a7febe6a67837c84b28d374caf98a25cc571dc6618"
 
 [[files]]
 file = "config/betterquesting/questbook.cfg"
@@ -6058,7 +6058,7 @@ hash = "3eccabc9f23be45ef526c68bd0424495a0f67b6ae403ebcf5cbaca7bd3b1b7fc"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/en_US.lang"
-hash = "984d6dfe3254ed89ef0d8aec7f9b4a1ae3c8399676f305cf4fc820151e69e44d"
+hash = "1e90d9a0f1942c6134e1c2277fcf1b357a6f96c53d6f4a3e9d05f31763e97147"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/es_ES.lang"
@@ -7392,7 +7392,7 @@ metafile = true
 
 [[files]]
 file = "mods/modpackversionchecker.pw.toml"
-hash = "0a1db2285a662e3b2143f23a6633ebadfd89c0f0f0cec3e572974a93fb5dd3b2"
+hash = "b5e93e97e515ec67854e81f393f7cd177a5c775fb36ca29da4dbf4679ffa8093"
 metafile = true
 
 [[files]]
