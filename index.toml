@@ -6062,7 +6062,7 @@ hash = "1e90d9a0f1942c6134e1c2277fcf1b357a6f96c53d6f4a3e9d05f31763e97147"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/es_ES.lang"
-hash = "d4ee117cf12d901365dab079aafac84bb8c97b85b3a7decdd3bbecc1e842a699"
+hash = "f41b8998b49a727cc95edbd60930ab749750dd48a9df5ea9d4d3a2eefb4863ad"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/es_US.lang"
