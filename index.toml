@@ -6042,15 +6042,15 @@ hash = "3eccabc9f23be45ef526c68bd0424495a0f67b6ae403ebcf5cbaca7bd3b1b7fc"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/cs_CZ.lang"
-hash = "a5e8532b549df905d4946b18b5cad7e45678351ae6ce3e6c07516a2be5bf3bdd"
+hash = "83111f26e25c538779eef2fc622f01b4afe4c6fe89bcfd1e2faf1f1efd443a68"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/da_DK.lang"
-hash = "4910f6b5f1e57c7c1dee4214287bcd2a9a47197e706066ca1b35bdbbd2e9ffd9"
+hash = "7ddbbe2f1fbfe2ec6fccbb51f0e6c371ab208e8c8cda9e297d1d86c617ec2065"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/de_DE.lang"
-hash = "9eceabd1289d36a64cf138d69126f38e29ce8421bd1b5a6cb3ab2246ffefc1e1"
+hash = "7bddebeab36773d933e9e4c61a22f963b0da08747fb1d2170163c40db129e1db"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/el_GR.lang"
@@ -6062,7 +6062,7 @@ hash = "1e90d9a0f1942c6134e1c2277fcf1b357a6f96c53d6f4a3e9d05f31763e97147"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/es_ES.lang"
-hash = "f41b8998b49a727cc95edbd60930ab749750dd48a9df5ea9d4d3a2eefb4863ad"
+hash = "d42bff5ab62a377f4dc4fe39b16f9feb22c7cc30ccde92ce8ae825cbc9eb3e6e"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/es_US.lang"
@@ -6070,11 +6070,11 @@ hash = "503f20087d9829803198b7b4ec3ce660a7b64fd2989e05685c287fb9d84a278b"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/fi_FI.lang"
-hash = "4910f6b5f1e57c7c1dee4214287bcd2a9a47197e706066ca1b35bdbbd2e9ffd9"
+hash = "7ddbbe2f1fbfe2ec6fccbb51f0e6c371ab208e8c8cda9e297d1d86c617ec2065"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/fr_FR.lang"
-hash = "6234a069878250b3b877cbb8ef0279b90ddd579c49e90a3eaf355662bfc4f729"
+hash = "442050f00ea0ff692b3d219332a517fa441901505750e2d6b5f2f4110d35f642"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/he_IL.lang"
@@ -6086,27 +6086,27 @@ hash = "3eccabc9f23be45ef526c68bd0424495a0f67b6ae403ebcf5cbaca7bd3b1b7fc"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/it_IT.lang"
-hash = "995579cdf89b2e75b012ac5a49cd04d5a596e601e9acc7de5438215a2cc518a9"
+hash = "dfe31c2eb85bd5150eacb98a8c1d66b58e73d2332da29d562dfee14fa895d7e8"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/ja_JP.lang"
-hash = "4910f6b5f1e57c7c1dee4214287bcd2a9a47197e706066ca1b35bdbbd2e9ffd9"
+hash = "7ddbbe2f1fbfe2ec6fccbb51f0e6c371ab208e8c8cda9e297d1d86c617ec2065"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/ko_KR.lang"
-hash = "4910f6b5f1e57c7c1dee4214287bcd2a9a47197e706066ca1b35bdbbd2e9ffd9"
+hash = "7ddbbe2f1fbfe2ec6fccbb51f0e6c371ab208e8c8cda9e297d1d86c617ec2065"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/nl_NL.lang"
-hash = "4910f6b5f1e57c7c1dee4214287bcd2a9a47197e706066ca1b35bdbbd2e9ffd9"
+hash = "7ddbbe2f1fbfe2ec6fccbb51f0e6c371ab208e8c8cda9e297d1d86c617ec2065"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/no_NO.lang"
-hash = "4910f6b5f1e57c7c1dee4214287bcd2a9a47197e706066ca1b35bdbbd2e9ffd9"
+hash = "7ddbbe2f1fbfe2ec6fccbb51f0e6c371ab208e8c8cda9e297d1d86c617ec2065"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/pl_PL.lang"
-hash = "52675bb7d0131285148e6ca8e943b755f420e9d1532332ad5ddf07dc3b405284"
+hash = "90cba53d7ed505b0c692a38839ed60f0acafe46187fbeaac5a00395d8877a7c8"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/pt_BR.lang"
@@ -6114,15 +6114,15 @@ hash = "3eccabc9f23be45ef526c68bd0424495a0f67b6ae403ebcf5cbaca7bd3b1b7fc"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/pt_PT.lang"
-hash = "6e2b32c894fb60fad0f2035ef43a708c13be1d5f43b9f430e5638c1c3e23f20d"
+hash = "fc9637733a5d2ef0e0eb6a5e64a1c3fb616de8845e1fca402aac957a22bf47e9"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/ro_RO.lang"
-hash = "c70ce8c5cb6ea798be76f724b132aafaca44be7f36aef885bbe242ce4ef2106e"
+hash = "f231ef624466315a12ee8dbc37eef4b11fb8b61ac954fafa32c0e0a44d0fe595"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/ru_RU.lang"
-hash = "a355804f6e9200c21349a57309d5db85acc8b636c7aaf011917fd0bce1a2e06d"
+hash = "2cf0f7e118be0d6999449bdbd887bc29de4b68ec8266870cd5cdce2a74228734"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/sh_HR.lang"
@@ -6130,7 +6130,7 @@ hash = "b6ed45b56b369455561b18055e5e1a111db808b5dccf127b099b957e6987b50b"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/sk_SK.lang"
-hash = "8eb040029d57af325659f40e9506f4d1588fe7ed4a3834535b8e9fab58badbac"
+hash = "0417e5978b2235929b616dd94040143f327781c9f6816986866109df53075470"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/sr_SP.lang"
@@ -6138,27 +6138,27 @@ hash = "b6ed45b56b369455561b18055e5e1a111db808b5dccf127b099b957e6987b50b"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/sv_SE.lang"
-hash = "4910f6b5f1e57c7c1dee4214287bcd2a9a47197e706066ca1b35bdbbd2e9ffd9"
+hash = "7ddbbe2f1fbfe2ec6fccbb51f0e6c371ab208e8c8cda9e297d1d86c617ec2065"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/tr_TR.lang"
-hash = "7ebdcb4592b12d72c646d88a0d274dcbd9c9a4b2910246f158d6f06f602f1679"
+hash = "a762ce8a701fa81dcc198521703417cf794f5eab1b9e0abda2f94f748e0a72af"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/uk_UA.lang"
-hash = "6ee158b7928f4ec4e7fe7937bc927149a89862a4b3f7fb94809f2c4153fa3e9f"
+hash = "69d488d6876468a82dbbb7ef02370eedb7c67b474cacdd1ce58e0003780a042a"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/vi_VN.lang"
-hash = "4910f6b5f1e57c7c1dee4214287bcd2a9a47197e706066ca1b35bdbbd2e9ffd9"
+hash = "7ddbbe2f1fbfe2ec6fccbb51f0e6c371ab208e8c8cda9e297d1d86c617ec2065"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/zh_CN.lang"
-hash = "8874e3ae547e231e5263ee7375e2be715e72b2ed4af1d75419a050b1cfd052dd"
+hash = "d1ee986de8aa2a0d3ea042d20a621e946cc13ea24809ab4c05c972c1fc25e0d9"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/zh_TW.lang"
-hash = "4910f6b5f1e57c7c1dee4214287bcd2a9a47197e706066ca1b35bdbbd2e9ffd9"
+hash = "7ddbbe2f1fbfe2ec6fccbb51f0e6c371ab208e8c8cda9e297d1d86c617ec2065"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/textures/gui/default_title.png"
@@ -6558,7 +6558,7 @@ hash = "908b41c8c658a7031f3df4cb8c7b661b15e9c5be31819fa3bf28c7357d826b3b"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/ru_RU.lang"
-hash = "e322b2f827750d826cf5eb4add008fd0a5d2f6dbfd077e8e7b85c8b6f564601c"
+hash = "039ec3e381de3e4bfc7aa5ab24455d523a298c810b62f40c01ab645f942e7b44"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/sk_SK.lang"
