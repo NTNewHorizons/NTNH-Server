@@ -1,0 +1,14 @@
+name = "hodgepodge-2.7.222"
+filename = "hodgepodge-2.7.222.jar"
+side = "both"
+pin = true
+
+[download]
+hash-format = "sha256"
+hash = "6b4e8321950ce0b249079913a9a472b038e08d98f98377487c4005ebe177eeb9"
+url = "https://github.com/GTNewHorizons/Hodgepodge/releases/download/2.7.222/hodgepodge-2.7.222.jar"
+
+[update.github]
+slug = "GTNewHorizons/Hodgepodge"
+tag = "2.7.222"
+regex = "^hodgepodge\\-.+\\.jar$"

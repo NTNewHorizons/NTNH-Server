@@ -1,0 +1,14 @@
+name = "InGameInfoXML-2.9.8"
+filename = "InGameInfoXML-2.9.8.jar"
+side = "both"
+pin = true
+
+[download]
+hash-format = "sha256"
+hash = "a5e2b4188ef9ff6fb6a23c24b3aae0143617f475d04a6faa6e147d8616e05229"
+url = "https://github.com/GTNewHorizons/InGame-Info-XML/releases/download/2.9.8/InGameInfoXML-2.9.8.jar"
+
+[update.github]
+slug = "GTNewHorizons/InGame-Info-XML"
+tag = "2.9.8"
+regex = "^InGameInfoXML\\-.+\\.jar$"

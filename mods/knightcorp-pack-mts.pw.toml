@@ -1,0 +1,15 @@
+name = "KnightCorp Pack (IV/MTS)"
+# License on CurseForge is All Rights Reserved; redistribution here is by
+# explicit permission of the pack author, willowyknight76.
+filename = "MTS40k-1.0.5_hotfix.jar"
+side = "both"
+pin = true
+
+[download]
+hash-format = "sha256"
+hash = "70e5f43f7ac28c06212393c426a6f541ed8c0d18309c0aed82b0a52bf882278c"
+url = "https://edge.forgecdn.net/files/9387/573/MTS40k-1.0.5_hotfix.jar"
+
+[update.curseforge]
+project-id = 1365726
+file-id = 9387573

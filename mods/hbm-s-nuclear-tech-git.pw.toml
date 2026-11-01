@@ -1,14 +1,14 @@
-name = "HBM-NTM-.1.0.27_X5806_NTNH"
-filename = "HBM-NTM-[1.0.27_X5806_NTNH].jar"
+name = "HBM-NTM-.1.0.27_X5866_NTNH"
+filename = "HBM-NTM-.1.0.27_X5866_NTNH.jar"
 side = "both"
 pin = true
 
 [download]
 hash-format = "sha256"
-hash = "69fef1c81a6523ecb29d0a39f65867887752f2b8cd0358a9dd337527e274335f"
-url = "https://github.com/NTNewHorizons/Hbm-s-Nuclear-Tech-GIT/releases/download/1.0.27_X5806/HBM-NTM-.1.0.27_X5806_NTNH.jar"
+hash = "59903f788522a69623b8e40d4d08d1e32746778aa8243c3fdd9e03289a963c4e"
+url = "https://github.com/NTNewHorizons/Hbm-s-Nuclear-Tech-GIT/releases/download/1.0.27_X5866/HBM-NTM-.1.0.27_X5866_NTNH.jar"
 
 [update.github]
 slug = "NTNewHorizons/Hbm-s-Nuclear-Tech-GIT"
-tag = "1.0.27_X5806"
+tag = "1.0.27_X5866"
 regex = "^HBM\\-NTM\\-\\..+_NTNH\\.jar$"

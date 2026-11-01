@@ -1,0 +1,14 @@
+name = "Computronics-1.9.13-GTNH"
+filename = "Computronics-1.9.13-GTNH.jar"
+side = "both"
+pin = true
+
+[download]
+hash-format = "sha256"
+hash = "736dd1bbead48fa0c4467098a49fe263b4b63eda698a38698516fc0bbce2fa6f"
+url = "https://github.com/GTNewHorizons/Computronics/releases/download/1.9.13-GTNH/Computronics-1.9.13-GTNH.jar"
+
+[update.github]
+slug = "GTNewHorizons/Computronics"
+tag = "1.9.13-GTNH"
+regex = "^Computronics\\-.+\\.jar$"

@@ -1,0 +1,14 @@
+name = "ServerUtilities-2.4.22"
+filename = "ServerUtilities-2.4.22.jar"
+side = "both"
+pin = true
+
+[download]
+hash-format = "sha256"
+hash = "882405ff87fb99c8bc744993d7a57e6626db0bca5f6c2a4923df01947383fb47"
+url = "https://github.com/GTNewHorizons/ServerUtilities/releases/download/2.4.22/ServerUtilities-2.4.22.jar"
+
+[update.github]
+slug = "GTNewHorizons/ServerUtilities"
+tag = "2.4.22"
+regex = "^ServerUtilities\\-.+\\.jar$"

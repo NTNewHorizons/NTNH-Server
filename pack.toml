@@ -1,13 +1,13 @@
-name = "Nuclear Tech: New Horizons Server"
-author = "NTNewHorizons"
-version = "2.14.0"
-description = "Dedicated server pack for Nuclear Tech: New Horizons"
+name = "Nuclear Tech: New Horizons"
+author = "Bufka2011"
+version = "2.15.1"
+description = "A big progressive questing modpack for Minecraft 1.7.10 balanced around the NTM"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "e6d5a790bb4e0b6986da9179a9d7ffa4ef51d63110f0284a181bbc8a1371b51d"
+hash = "d61ce6c5605693ee367cfafc6790421be41843fc6b799462670b6760c0082bcc"
 
 [versions]
 forge = "10.13.4.1614"
