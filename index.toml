@@ -5530,7 +5530,7 @@ hash = "30fdeaea1343b3633e70c7015620ff043da4e5b7532abf23f9a37e7840df6482"
 
 [[files]]
 file = "config/defaultkeys.txt"
-hash = "0b4ff2d44704785e786e58beaae7edd5a78c442e0ec743825bad7420f58f9bd7"
+hash = "af340e48c70014c103c1edaea5eff0aa5b15dd4cf91c9d3ee0a41633b9c4c9e4"
 
 [[files]]
 file = "config/defaultoptions.txt"
@@ -5838,7 +5838,7 @@ hash = "cee0e209f2baa4f42d94e622691754b2171975b1099e111222f0bd31e30a6a32"
 
 [[files]]
 file = "config/modpackversionchecker.cfg"
-hash = "abfb3d93e8d1868e2cf9e49fda8d514b1cdb8688fc034665ebc0062e0679f366"
+hash = "2b3881362e182a3117072daf8ebe6adc32a28770ac45920551bfad73d2d03734"
 
 [[files]]
 file = "config/modularui.cfg"
@@ -6778,7 +6778,7 @@ hash = "d6b16858f9e36bec35aae4cc3799402879eabab566e5adce27fbc08a91dbf1d6"
 
 [[files]]
 file = "knownkeys.txt"
-hash = "7e585c84c7dd85c8eb4049aa63aba1e7c68facc8a7c4e37bd16ac43e88e74733"
+hash = "3ea8a385de6437b73bbdfa702ec41b2878eab2b71f36b911b6c127b4ce455839"
 
 [[files]]
 file = "libraries/com/google/guava/guava/17.0/guava-17.0.jar"
@@ -7868,7 +7868,7 @@ hash = "5027d8903e95358874b1ca6689be1f9c39a3597021d7b21aa31aa894a05c098a"
 
 [[files]]
 file = "serverutilities/serverutilities.cfg"
-hash = "a5c6a60fe8e3f6258e70fd72578310fd01402e95c78fe24a430808c6b03905ff"
+hash = "1fb3ec4f881984f40115a5a439e51ff9d43a2d695eaf6b095817d65b1d622afb"
 
 [[files]]
 file = "start.bat"

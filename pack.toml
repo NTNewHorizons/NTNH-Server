@@ -1,13 +1,13 @@
 name = "Nuclear Tech: New Horizons"
 author = "Bufka2011"
-version = "2.15.1"
+version = "2.15.2"
 description = "A big progressive questing modpack for Minecraft 1.7.10 balanced around the NTM"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "eaa61fd2fa7ff9eec9b372a4299c7f61d6f761a441fe8fc48a1195670fedb713"
+hash = "59a56c4e38695c9e0c8ae9b206fcb9f5329918869e177d7c5d72549b58fe7f94"
 
 [versions]
 forge = "10.13.4.1614"
