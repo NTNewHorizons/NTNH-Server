@@ -554,7 +554,7 @@ hash = "4a9203a1e0a9af730c90f58effe8b56fb99db6305b2befdeea168c40804e41c1"
 
 [[files]]
 file = "config/Betterloadingscreen/tips/tr_TR.txt"
-hash = "fcf0d0fe37a5cc1d39193e8d71152bc0005b8d0b39e9f5c073e9621ff8f6007a"
+hash = "b023d2a494bc5ab45be2129c43f173f88d926c06af517dc016d3b5808a0f887f"
 
 [[files]]
 file = "config/Betterloadingscreen/tips/uk_UA.txt"
@@ -6134,7 +6134,7 @@ hash = "a5f9b129ae5e327195de08c394e83f4b31777a4086258d138ca8e10a4cf210c4"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/ru_RU.lang"
-hash = "cf208809ac50729cecc31c1f071ce98a1c49e8a0ae2170993c8bc243d5927e3d"
+hash = "74e41f2e7bd0c6a7e9839410e3e14634ef8bc3c251410116bdca451fdacdf68f"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/sh_HR.lang"
@@ -6570,7 +6570,7 @@ hash = "7cd3cbe26afb2730c80d4c4156c3e53309d9a5ac7aa860dd7a1bab5c7f494476"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/ru_RU.lang"
-hash = "6f707006bcef0644d73e7743e66e44f12159224a59ca4dc873f77ecdf79aa2cc"
+hash = "eda2ae79be93c336b708a43e5cf6a1b1140017b3b7845320e6279b25b7838245"
 
 [[files]]
 file = "config/txloader/forceload/hbm/lang/sk_SK.lang"
