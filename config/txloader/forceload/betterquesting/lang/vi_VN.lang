@@ -7,7 +7,7 @@ betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAA.desc=This is the beginning of HB
 
 # Quest: Storage Drawers
 betterquesting.quest.-7rSSbm6Q-qSPUPH2dapXA.name=Storage Drawers
-betterquesting.quest.-7rSSbm6Q-qSPUPH2dapXA.desc=Storage Drawers§r are an easy and cheap way of storing large amounts of items. They can be further upgraded to increase storage capacity as well as other abilities, such as voiding. They can also be §dChiseled§r to change their wood type.%n%n§2Many drawers may cause lag.
+betterquesting.quest.-7rSSbm6Q-qSPUPH2dapXA.desc=Storage Drawers§r là cách đơn giản và rẻ để lưu trữ một lượng lớn vật phẩm. Chúng có thể được nâng cấp thêm để tăng sức chứa cũng như những chức năng khác, ví dụ như voiding. Chúng cũng có thể được §dChiseled§r để thay đổi loại gỗ,\n%n%n§2Sử dụng nhiều drawer có thể gây lag.
 
 # Quest: You WILL eat ze bugs!
 betterquesting.quest.-FdHmQJDSNCih5noZiI5-w.name=You WILL eat ze bugs!
@@ -239,7 +239,7 @@ betterquesting.quest.HONUf7SQRl-jcf3BC5242A.desc=The §3Electric Furnace§r is a
 
 # Quest: Storage Drawer Keys
 betterquesting.quest.HTaQEgJ8QCWYNMB8n7Awug.name=Storage Drawer Keys
-betterquesting.quest.HTaQEgJ8QCWYNMB8n7Awug.desc=§dStorage Drawer Keys§r can be used to modify Drawers in many ways.%n%nThe §dDrawer Key locks drawers§r, so no new item types can be inserted into the drawer when its empty.%n%nThe §dConcealment Key§r hides the item icon of drawers.%n%nThe §dQuantify Key§r shows the item quantities of drawers.%n%nThe §dPersonal Key§r protects drawers from other players (outside of claims). %n
+betterquesting.quest.HTaQEgJ8QCWYNMB8n7Awug.desc=§dStorage Drawer Keys§r có thể được dùng để chỉnh sửa Drawers theo nhiều cách.%n%n§dDrawer Key khóa drawers§r, để không loại vật phẩm mới được thêm vào drawer khi nó trống.%n%n§dConcealment Key§r dùng để ẩn biểu tượng của vật phẩm của drawer.%n%n§dQuantify Key§r dùng để hiển thị số lượng vật phẩm trong drawer.%n%n§dPersonal Key§r bảo vệ drawer khỏi người chơi khác (bên ngoài claims).%n
 
 # Quest: Bobmazon
 betterquesting.quest.IAP1AGA2TV-TtMAv_QMrIA.name=Bobmazon
