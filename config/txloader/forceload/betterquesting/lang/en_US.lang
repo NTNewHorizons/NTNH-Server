@@ -175,7 +175,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAuw.desc=An upgraded version of the §3A
 
 # Quest: Pollution and Smokestack
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAyg.name=Pollution and Smokestack
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAyg.desc=§6Pollution§r is a mechanic affecting several machines related to industrialization. It must be properly mitigated, lest suffer the consequences of a polluted world. There are 3 subtypes of pollution - soot, poison and heavy metal.%n%n§6Soot§r is most common, produced by fossil fuel burning and some other sources. It increases generic mob health and strength. At high enough levels, it becomes visible as smog.%n%n§6Poison§r harms unprotected entities at high enough levels, and is produced exclusively as the consequence from spilling fluids such as CO2 or various oil products.%n%n§6Heavy metal§r comes from the combustion of leaded fuels. It also increases mob strength, but also harms them at high enough levels.%n%nIt can also be harmful to entities and players if they aren't wearing gas protection.%n%nCompatible machines can be connected to special exhaust pipes, which are effectively specialized box-ducts, to output to a §6Smokestack§r to reduce the amount of pollution.%n%nThe §3Smokestack§r is used to reduce pollution made from machines. §3Exhaust Pipes§r, made in anvils, can be used to transport the fumes to the Smokestack. The §3Industrial Smokestack§r is needed to produce §6Fine Soot§r, required for making §6Fullerite§r in the late game.%n%nAn §3Ashpit§r can be installed beneath the Smokestack which will collect §6Ash§r, that can be used as a cheap black dye alternative as well as in the creation of §6Industrial Fertilizer§r.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAyg.desc=§6Pollution§r is a mechanic affecting several machines related to industrialization. It must be properly mitigated, lest suffer the consequences of a polluted world. There are 3 subtypes of pollution - soot, poison and heavy metal.%n%n§6Soot§r is most common, produced by fossil fuel burning and some other sources. It increases generic mob health and strength. At high enough levels, it becomes visible as smog.%n%n§6Poison§r harms unprotected entities at high enough levels, and is produced exclusively as the consequence from spilling fluids such as CO2 or various oil products.%n%n§6Heavy metal§r comes from the combustion of leaded fuels. It also increases mob strength, but also harms them at high enough levels.%n%nIt can also be harmful to entities and players if they aren't wearing gas protection.%n%nCompatible machines can be connected to special exhaust pipes, which are effectively specialized box-ducts, to output to a §6Smokestack§r to reduce the amount of pollution.%n%nThe §3Smokestack§r is used to reduce pollution made from machines. §3Exhaust Pipes§r, made in anvils, can be used to transport the fumes to the Smokestack. The §3Industrial Smokestack§r is needed to produce §6Fine Soot§r, required for making §6Fullerite§r in the late game.%n%nAn §3Ashpit§r can be installed beneath the Smokestack which will collect §6Ash§r, that can be used as a cheap black dye alternative as well as in the creation of §6Industrial Fertilizer§r.%n%n%n%nAn Ashpit also works under fireboxes, brick furnaces and wood burning generators, where it collects wood, coal and other ash. Under a smokestack it gets fly ash and fine soot. Wood ash mixed with water in the §3Industrial Mixer§r makes lye for the Bayer process.
 
 # Quest: Player Decontaminator
 betterquesting.quest.AAAAAAAAAAAAAAAAAAABCw.name=Player Decontaminator
@@ -283,7 +283,7 @@ betterquesting.quest.SAnieueOQIe-pjfTZGvy6g.desc=Safes in structures are locked 
 
 # Quest: Depth Ores
 betterquesting.quest.Ss4wOkCPR6OsjwT8BQs1XA.name=Depth Ores
-betterquesting.quest.Ss4wOkCPR6OsjwT8BQs1XA.desc=§6Depth Ores§r are large ore deposits found at bedrock level. There are many types of deposits, most of them giving ore crystals which can be smelted for 3 ingots per. §3Mining Charges§r of any kind are required to extract the resources from the depth rock.%n%nTwo important resources found in depth deposits are §6Borax§r, which can later be put in an §3Arc Furnace§r or §3Acidizer§r to yield §6Boron§r used in reactors, and §6Zirconium§r which is used in reactor fuel rods.
+betterquesting.quest.Ss4wOkCPR6OsjwT8BQs1XA.desc=§6Depth Ores§r are large ore deposits found at bedrock level. There are many types of deposits, most of them giving ore crystals which can be smelted for 3 ingots per. §3Mining Charges§r of any kind are required to extract the resources from the depth rock.%n%nTwo important resources found in depth deposits are §6Borax§r, which can later be put in an §3Arc Furnace§r or §3Acidizer§r to yield §6Boron§r used in reactors, and §6Zirconium§r which is used in reactor fuel rods.%n%n%n%nIn the Overworld, deposits sit at the very bottom, between Y 0 and 3. Iron, titanium and tungsten clusters turn up roughly once every 24 to 32 chunks, cinnabar, zirconium and borax about once every 16 chunks.%n%nThe Nether has §6Nether Depth Rock§r both at the bottom and at the very top of the world, with deposits of §6Nether Depth Neodymium Ore§r. The Nether bedrock ores sit in this rock as well.
 
 # Quest: Cladding
 betterquesting.quest.UKkcpXk3SEWHXLIVC5VTDg.name=Cladding
@@ -315,7 +315,7 @@ betterquesting.quest.Zd1HNIsxSRees_4of0ezDw.desc=This mod adds several environme
 
 # Quest: Machine Upgrades
 betterquesting.quest._WjoAoCaRfixI1YkRecbbA.name=Machine Upgrades
-betterquesting.quest._WjoAoCaRfixI1YkRecbbA.desc=The first upgrades are soldered from a template, vacuum tubes and a capacitor in the §3Soldering Station§r.%n%n§6Speed§r makes a machine work faster at the cost of more power. §6Power Saving§r lowers the power draw. §6Effectiveness§r increases the output or the range, depending on the machine. Hover over the upgrade slot of a machine to see which upgrades it accepts and what each level does.%n%nHigher levels (Mk.II and Mk.III) are made later in the Precision Assembler.%n%nThe §6Muffler§r is crafted from rubber or latex and wool. Shift-right-click a loud machine with it to silence it.
+betterquesting.quest._WjoAoCaRfixI1YkRecbbA.desc=The first upgrades are soldered from a template, vacuum tubes and a capacitor in the §3Soldering Station§r.%n%n§6Speed§r makes a machine work faster at the cost of more power. §6Power Saving§r lowers the power draw. §6Effectiveness§r increases the output or the range, depending on the machine. Hover over the upgrade slot of a machine to see which upgrades it accepts and what each level does.%n%nHigher levels (Mk.II and Mk.III) are made later in the Precision Assembler.%n%nThe §6Muffler§r is crafted from rubber or latex and wool. Shift-right-click a loud machine with it to silence it.%n%n%n%nA few upgrades are special. The §6Scrap Destroyer§r makes the Mining Laser void worthless blocks, the §6Screaming Scientist§r is a very loud Mining Laser upgrade, and both it and the §65G Radiation Emitter§r (made from alexandrite) also fit the Maxwell turret.
 
 # Quest: Stirling Sawmill
 betterquesting.quest._qJt02i4ST2iccmkHudKCg.name=Stirling Sawmill
@@ -477,6 +477,26 @@ betterquesting.quest.Z3PZSL9BSaWiFe-1PZAAwg.desc=Not every fluid can go into a s
 betterquesting.quest.djQr_pweR9-nluYCHEquAw.name=Alexandrite
 betterquesting.quest.djQr_pweR9-nluYCHEquAw.desc=§6Alexandrite Ore§r is rare: a small cluster in roughly one chunk out of a hundred, between Y 10 and 15. Like depth ores, it can only be broken with §3Mining Charges§r, and it drops up to two gems. Alexandrite can also turn up in Red Rooms and dungeon chests.%n%nYou will need it for the §6Red Key§r, the §3Teleportation Anchor§r and the §6Remnants Power Armor§r.
 
+# Quest: Graphitic Schist
+betterquesting.quest.hEFz_tYKQ964FfeHbV_cdQ.name=Graphitic Schist
+betterquesting.quest.hEFz_tYKQ964FfeHbV_cdQ.desc=Deep in the Overworld, roughly between Y 22 and 38, the stone gives way to wide patches of §6Graphitic Schist§r. The §6Survey Scanner§r and the §6Neutrino Lens§r both report schist when it is nearby.%n%nThe schist layer holds its own ores:%n- §6Schist Iron Ore§r and §6Schist Gold Ore§r - plenty of both, processed like their normal versions.%n- §6Schist Rare Earth Ore§r - the main Overworld source of rare earth.%n- §6Gas Shale§r - each block holds §e250 mB§r of §bPetroleum Gas§r. Put it into a machine's fluid input slot to empty it.
+
+# Quest: Mass Storage Unit
+betterquesting.quest.F61meb1hQ_iSgRa6SQavuw.name=Mass Storage Unit
+betterquesting.quest.F61meb1hQ_iSgRa6SQavuw.desc=A §6Mass Storage Unit§r holds a huge amount of a single item. Lock it to an item type, and it accepts only that item. Switch on its output, and it keeps a stack ready in the output slot for pipes and inserters. A comparator reads how full it is.%n%n- The wooden unit holds §e100§r items. In this pack it is also part of every §6Storage Drawers§r recipe.%n- A steel crate with titanium and a vacuum tube makes the §e10,000§r unit.%n- Upgrade it with desh and a chip for §e100,000§r, then with resistant alloy and an advanced circuit for §e1,000,000§r. The contents stay inside when you upgrade.
+
+# Quest: Power Switches
+betterquesting.quest.v0cioS3PTa65WVzoyQOPsA.name=Power Switches
+betterquesting.quest.v0cioS3PTa65WVzoyQOPsA.desc=The §6Power Switch§r is a lever on a coated wire. Flip it to cut a cable line or connect it again, so you can shut down a whole section of your factory with one click. The §6Redstone Power Switch§r does the same with a redstone signal, so a timer or a sensor can control it.
+
+# Quest: Coke and Briquettes
+betterquesting.quest.X4yceq_oTv2_nJuf1SMz_Q.name=Coke and Briquettes
+betterquesting.quest.X4yceq_oTv2_nJuf1SMz_Q.desc=Bake coal or lignite in the §3Combination Oven§r for §6Coke§r and creosote. Petroleum coke comes from the Coker Unit and from baking crude tar. Coke is needed for steel, and it burns as long as two pieces of coal.%n%nPress coal powder, lignite powder or sawdust with a flat stamp into §6Briquettes§r. They burn longer than the powder, and coal and lignite briquettes bake into coke too.%n%nBurn times, in items smelted:%n- Sawdust briquette - 2. Lignite briquette - 8. Coal briquette - 10.%n- Coke - 16. Infernal coal - 24.%n- §6Presto Log§r (solid fuel, paper and redstone) - 40. Three logs and a dynamite ball make §6Boosted Presto Logs§r - 200.%n- The balefire versions burn ten times as long.
+
+# Quest: Combat Medicine
+betterquesting.quest.vinLEUd9Rnq7wIwCg-IyPw.name=Combat Medicine
+betterquesting.quest.vinLEUd9Rnq7wIwCg-IyPw.desc=Beyond the plain Stimpak:%n- §6Super Stimpak§r - heals 12.5 hearts at once, but slows you for 10 seconds.%n- §6Med-X§r - Resistance III for 4 minutes.%n- §6Psycho§r - Resistance and Strength for 2 minutes.%n- §6First Aid Kit§r - a full heal no matter your max health, and removes negative effects.%n- §6Iodine Pill§r - removes negative effects.%n- §6Flunitrazepam Tablet§r - removes all digamma radiation above 2,000 mDRX.%n%nInjections cause potion sickness, so you cannot chain them.
+
 
 ## Quest Line: LV2 - Oil Age
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAQ.name=LV2 - Oil Age
@@ -528,7 +548,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAAKQ.desc=The §6Impact Drill§r is an el
 
 # Quest: Derrick
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAKw.name=Derrick
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAKw.desc=The §3Oil Derrick§r extracts §bCrude Oil§r and §6§bNatural Gas§r from §eOil Deposits§r that are directly below them. When supplied with power, it will begin to drill downwards until it cannot drill further or reach an oil deposit. Upon reaching a deposit, it will continuously extract oil and gas from it until the deposit is entirely depleted.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAKw.desc=The §3Oil Derrick§r extracts §bCrude Oil§r and §6§bNatural Gas§r from §eOil Deposits§r that are directly below them. When supplied with power, it will begin to drill downwards until it cannot drill further or reach an oil deposit. Upon reaching a deposit, it will continuously extract oil and gas from it until the deposit is entirely depleted.%n%n%n%nA drained deposit turns into an §6Empty Oil Deposit§r and is worthless, so move the derrick to a new one. Gas, brine and Tektonic crude deposits empty out the same way.
 
 # Quest: Bedrock Ore Processing
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAALA.name=Bedrock Ore Processing
@@ -676,7 +696,7 @@ betterquesting.quest.nwCUMdHpQjykUlIVNW7Bcw.desc=Be mean.
 
 # Quest: Rich Ore Deposits
 betterquesting.quest.qoqs0rqiScuK8YiqjTh2gA.name=Rich Ore Deposits
-betterquesting.quest.qoqs0rqiScuK8YiqjTh2gA.desc=§eRich Ore Deposits§r are multi‑unit ore blocks that deplete to stone and drop "rich chunks". They spawn in big patches of 5-8 blocks each and can be found using §6Neutrino Lenses§r or §6Survey Scanner§r.
+betterquesting.quest.qoqs0rqiScuK8YiqjTh2gA.desc=§6Rich Ores§r are big blobs of solid ore in the Overworld, often surrounded by a cloud of the normal ore. Each kind prefers certain biomes:%n- Iron - plains, savanna. Copper - birch forest, plains.%n- Aluminium - jungle, cold taiga. Gold, titanium - desert, jungle (titanium also mesa).%n- Coal, tungsten, beryllium - mountains. Diamond - mountains, cold taiga, low down.%n- Lead, zinc - forest. Redstone - forest, birch, mesa, savanna. Thorium - savanna.%n- Uranium - ocean, cold taiga. Fluorite - ocean, roofed forest.%n- Niter - desert. Lithium - mesa. Sulfur - mesa, swamp. Lignite - swamp. Asbestos - cold taiga. Lapis - anywhere.%n%nA rich ore block does not break. Every time you mine it, it gives one §6Rich Ore Chunk§r and loses one unit. Depending on the ore, a block holds §e50§r (diamond) to §e400§r (coal) units, and it turns into stone once it is empty. Fortune gives more chunks without draining the block faster. Silk touch does not work, and vein mining only takes one rich block per tick.%n%nExplosions release all remaining units at once, so mining charges are the fastest way to empty a blob. The §3Large Mining Drill§r and the §3Mining Laser§r drain the blocks too. Chunks count as ore: smelt them, or put them through any ore processing chain.%n%nThe §6Survey Scanner§r and the §6Neutrino Lens§r show rich ores nearby.
 
 # Quest: Teleporter
 betterquesting.quest.refh8r3gQyavrC4KgSeWkw.name=Teleporter
@@ -789,6 +809,14 @@ betterquesting.quest.nbNapoaPSASS8lF98JhqZg.desc=Every fuel has a §6grade§r, s
 # Quest: Chlorocalcite
 betterquesting.quest.fjJrbKoBSUq7eosZ1wKTsA.name=Chlorocalcite
 betterquesting.quest.fjJrbKoBSUq7eosZ1wKTsA.desc=§6Chlorocalcite§r comes out of bedrock ore processing and is a source of §6Calcium§r and §bChlorine§r.%n%n1. §3Industrial Mixer§r: chlorocalcite, water and nitric acid make §bChlorocalcite Solution§r.%n2. §3Industrial Mixer§r: the solution, sulfuric acid and flux make §bMixed Chlorocalcite Solution§r.%n3. §3Fractioning Tower§r: it separates into §bCleaned Chlorocalcite Solution§r and colloid.%n4. §3Chemical Plant§r: with plenty of sulfuric acid it splits into §bPotassium Chloride§r and §bCalcium Chloride§r solutions.%n5. §3Electrolysis Machine§r: both give chlorine, and calcium chloride also leaves §bCalcium Solution§r.%n6. §3Coker Unit§r: calcium solution becomes calcium powder.%n%nFor a quick bit of calcium, a Combination Oven turns chlorocalcite into calcium powder and chlorine directly.
+
+# Quest: Radiation Absorbers
+betterquesting.quest.0BDn6BvJTCqX-K9uPL06vg.name=Radiation Absorbers
+betterquesting.quest.0BDn6BvJTCqX-K9uPL06vg.desc=A §6Radiation Absorber§r pulls radiation out of the chunk it sits in, twice a second. Place a few around a contaminated area, or next to machines that pollute it, and the area slowly becomes safe again.%n%nEach tier is crafted from the one before it:%n- §6Radiation Absorber§r (copper, coke, lead) - 5 RAD/s.%n- §6Enhanced§r (titanium, coke) - 20 RAD/s.%n- §6Advanced§r (plastic, desh blend) - 200 RAD/s.%n- §6Elite§r (saturnite, Nitan blend) - 20,000 RAD/s, enough to clean up even a crater.
+
+# Quest: Stronger RadAway
+betterquesting.quest.exWjUC57SDueerYBOUG9-A.name=Stronger RadAway
+betterquesting.quest.exWjUC57SDueerYBOUG9-A.desc=Add a glowing mushroom to RadAway for §6Strong RadAway§r, which removes about 350 RAD in under two seconds. Add iodine powder to that for §6Elite RadAway§r: about 1,000 RAD, almost instantly. Keep a few on you when you go into a crater.
 
 
 ## Quest Line: LV3 - Reactors Age
@@ -1049,7 +1077,7 @@ betterquesting.quest.X6nUcp16QUqawLXQTqFTBw.desc=With fissile materials obtained
 
 # Quest: RBMK Fuel Processing
 betterquesting.quest.a0YRGBjSTGiD09r4LqD8EA.name=RBMK Fuel Processing
-betterquesting.quest.a0YRGBjSTGiD09r4LqD8EA.desc=With the §3Nuclear Waste Disposal Drum§r to decay waste and a §3SILEX§r, §3RBMK§r nuclear fuels can be processed into many new materials.
+betterquesting.quest.a0YRGBjSTGiD09r4LqD8EA.desc=The §3SILEX§r recycles used §3RBMK§r fuel. Put a used rod alone into a crafting grid to break it into 8 §6fuel pellets§r. The rod must be cold first: both hull and core below 50°C. Unused rods cannot be broken down.%n%nEach pellet remembers how far its rod was burned up, from §6Brand New§r to §6Fully Depleted§r, and whether it has §6High Xenon Poison§r. The deeper the burnup, the less of the original fuel you get back in the SILEX, and the more plutonium (from uranium fuels) and nuclear waste. Poisoned pellets also yield xenon-135.%n%nDecay the waste in the §3Nuclear Waste Disposal Drum§r and process it further.
 
 # Quest: Nuclear Waste Disposal Drum
 betterquesting.quest.eadYFbwuQTS39P9cW-D-Fw.name=Nuclear Waste Disposal Drum
@@ -1141,7 +1169,7 @@ betterquesting.quest.60Iqw2PsTqisQwiGBgMS6w.desc=The §6ReaSim§r columns use a 
 
 # Quest: RBMK Debris
 betterquesting.quest.9lioRg7zQ-qrWBtR2B2cQQ.name=RBMK Debris
-betterquesting.quest.9lioRg7zQ-qrWBtR2B2cQQ.desc=If an RBMK explodes, it scatters §6debris§r all around: graphite, metal, burning fuel chunks, concrete and pieces of heat exchangers. Every piece is intensely radioactive.%n%nPick them up only in full radiation protection, and recycle them instead of leaving them to contaminate the area for years.
+betterquesting.quest.9lioRg7zQ-qrWBtR2B2cQQ.desc=If an RBMK explodes, it scatters §6debris§r all around: graphite, metal, burning fuel chunks, concrete and pieces of heat exchangers. Every piece is intensely radioactive.%n%nPick them up only in full radiation protection, and recycle them instead of leaving them to contaminate the area for years.%n%n%n%nThe wreck itself is made of debris blocks. §6Flaming RBMK Debris§r burns for a long time and releases core gas, §6Smoldering RBMK Debris§r keeps fissioning and eventually starts to burn again, and §6Smoking RBMK Debris§r spreads poison pollution until it smokes away. Plain §6RBMK Debris§r is what remains once the fire is out.
 
 # Quest: PWR Core Components
 betterquesting.quest.aAuh9o1iTsuyn0JyOeFENw.name=PWR Core Components
@@ -1194,6 +1222,14 @@ betterquesting.quest.5_KLTUedQvi2RktZhFVJuA.desc=The crystal in the FEL decides 
 # Quest: Inserter
 betterquesting.quest.tNn2ePdQTDSuqzkvL7iDgQ.name=Inserter
 betterquesting.quest.tNn2ePdQTDSuqzkvL7iDgQ.desc=The §3Inserter§r automates the Chicago Pile. It takes one item from automation and, on a redstone signal, pushes it into a row of drilled graphite. Every item in the row moves one block along, so the last one drops out the far end. Leave one block of air between the inserter and the graphite.
+
+# Quest: Meltdown Cleanup
+betterquesting.quest.FW_aLH1LRCawzvBgE5aTMg.name=Meltdown Cleanup
+betterquesting.quest.FW_aLH1LRCawzvBgE5aTMg.desc=Wrecked reactors do not calm down on their own. §6Burning RBMK Debris§r and the wreck of a §3ZIRNOX§r keep releasing §cCore Gas§r, and §6Smoldering Debris§r keeps fissioning for a very long time.%n%nThe §6Fire Extinguisher§r sprays water by default. Craft its tank with niter for a §6Foam Tank§r, or surround it with boron sand for a §6Sand Tank§r:%n- §6Foam§r puts out burning debris about ten times faster, and it is the only way to put out a burning ZIRNOX.%n- §6Boron Sand§r puts out burning debris just as well, and it is the only thing that speeds up the cooling of smoldering debris, by about 40 times.%n%nIf a core melts down, it turns into §cCorium§r, which flows downwards and slowly solidifies into §6Corium§r and §6Corebblestone§r. Both are extremely radioactive, and corebblestone also keeps leaking radon.
+
+# Quest: Liquidator Suit
+betterquesting.quest.TmH3EyXaS_6-kdT4PsVz9Q.name=Liquidator Suit
+betterquesting.quest.TmH3EyXaS_6-kdT4PsVz9Q.desc=Wrap each piece of the high-performance hazmat suit in rubber and lead cladding for the §6Liquidator Suit§r. At 99.6%% radiation protection it is the best non-power armor for cleaning up after a meltdown.
 
 
 ## Quest Line: LV3.5 - Space Age
@@ -1484,6 +1520,10 @@ betterquesting.quest.fKB77dDXSmCnJ3ciOGc3KQ.desc=Brine can leach copper and nick
 betterquesting.quest.zz4hh45sTNGAW_14YlIfSA.name=Noble Gases
 betterquesting.quest.zz4hh45sTNGAW_14YlIfSA.desc=Cryogenic distillation is the only source of the noble gases, and each comes from a different world:%n%n- §bKrypton§r - from Earth air. Used for the entanglement kit and stainless steel beams.%n- §bArgon§r - from Duna air. Used for the Xenon Ion Engine and stainless steel beams.%n- §bNeon§r - from Jool gas, next to helium-3. Needed to weld the CMB Insert.%n- §bXenon§r - from Eve air, or straight from Laythe's atmosphere.
 
+# Quest: Mineral Processing
+betterquesting.quest.ZfgKf3W6RuGwHaqkYtAoyA.name=Mineral Processing
+betterquesting.quest.ZfgKf3W6RuGwHaqkYtAoyA.desc=§6Rich Mineral Deposits§r generate on §6Ike§r and §6Moho§r, between Y 12 and 44. They are a source of rare light metals.%n%nFirst turn the ore into §6Mineral Dust§r:%n- The simple way: crystallize the ore in the §3Ore Acidizer§r, then centrifuge the crystals into 2 dust plus iron, aluminium and lithium.%n- The better way: dissolve the ore in nitric acid in the §3Industrial Mixer§r, separate the solution in the §3Gas Centrifuge§r, and shred the cleaned crystals into 4 dust.%n%nThen acidize the dust and centrifuge the fragments. The acid decides what you get:%n- Peroxide (default) - mostly niobium, plus cobalt, zirconium, beryllium.%n- Nitric acid - mostly gallium, plus beryllium, niobium, lanthanum.%n- Sulfuric acid - mostly beryllium, plus niobium, gallium, lanthanum.%n- Solvent - mostly cobalt, plus gallium, niobium, coltan.%n- Hydrochloric acid - mostly zirconium, plus neodymium, niobium, cobalt.%n- Schrabidic acid - cobalt-60, bismuth, technetium and asbestos.
+
 
 ## Quest Line: LV4 - End Game
 betterquesting.questline.AAAAAAAAAAAAAAAAAAAAAw.name=LV4 - End Game
@@ -1689,6 +1729,14 @@ betterquesting.quest.TDprpiPrRUOaFnW8JLtmXg.desc=A blank catalyst is filled with
 betterquesting.quest.SODWeSyJSb-vxvL9SdGcrQ.name=Singularities
 betterquesting.quest.SODWeSyJSb-vxvL9SdGcrQ.desc=A §6Singularity§r is made from euphemium, schrabidium-326 and an anti-schrabidium cell. Wrapped in CMB steel and magnetized tungsten it becomes a §6Counter-Resonant Singularity§r; with saturnite and power powder, a §6Superheated Resonating Singularity§r. All types together are needed for the spark singularity.%n%nSurrounded by §6Artificial Xen Crystals§r, a singularity becomes a §6Miniature Black Hole§r - the payload of the black hole missile.
 
+# Quest: Rosenberg Pest Control Box
+betterquesting.quest.dE1MhW7WQaGmSYMqKRDc7A.name=Rosenberg Pest Control Box
+betterquesting.quest.dE1MhW7WQaGmSYMqKRDc7A.desc=Right click the §6Rosenberg Pest Control Box§r to switch it on. While it has power, it deals heavy damage to every hostile mob within §e15§r blocks, many times per second. It draws a staggering §c25,000 HE/t§r.%n%nThe §6Chlorine Seal§r is the opposite of subtle: on a redstone signal, it floods all open space around it with §cchlorine gas§r.
+
+# Quest: Osmiridium Anvil
+betterquesting.quest.OadKaS47TqenZxD0LiAHWA.name=Osmiridium Anvil
+betterquesting.quest.OadKaS47TqenZxD0LiAHWA.desc=The highest tier of the §3Anvil§r, [T8]. Smith any anvil together with 10 osmiridium ingots. It can do everything the lower tiers can.
+
 
 ## Quest Line: Tips and Tricks
 betterquesting.questline.MJP4MeAmSTm_Di0iRHoQuw.name=Tips and Tricks
@@ -1729,6 +1777,14 @@ betterquesting.quest.mOunuBA3TAO99IfkAqJSwQ.desc=Not everything NTM adds wants t
 # Quest: Custom Machines
 betterquesting.quest.TOfr1kH-SACDra3489xeQQ.name=Custom Machines
 betterquesting.quest.TOfr1kH-SACDra3489xeQQ.desc=NTM lets modpacks add their own multiblock machines through a config file. They are built from §6custom machine parts§r - casings, sheets, ports and more - around a controller crafted from a pack-specific recipe. Look the controller up in NEI to see its shape.%n%nNTNH has two of them:%n- §6Paper Press§r - turns sawdust and water into paper.%n- §6Spatial Rift Synthesizer§r - a late-game machine that turns a shimmer sledge and stellar flux into an end portal block.
+
+# Quest: Storage Blocks
+betterquesting.quest.Q6J8sKsEQS2Q1akgCbNMyw.name=Storage Blocks
+betterquesting.quest.Q6J8sKsEQS2Q1akgCbNMyw.desc=Nearly every NTM ingot, gem and powder can be packed nine to a §6storage block§r. Many metal blocks work as a beacon base.%n%nHazards do not go away when you compress them. A radioactive block is §cten times§r as radioactive as one ingot, so a single block of uranium or plutonium is worse than the nine ingots it is made of. Blocks of §6White Phosphorus§r are hot and set you on fire, and blocks of §6Semtex§r and §6C-4§r are explosives.
+
+# Quest: Hazardous Gases
+betterquesting.quest.wxYZ8HbrSZap4h0G9H8ITA.name=Hazardous Gases
+betterquesting.quest.wxYZ8HbrSZap4h0G9H8ITA.desc=Some blocks fill the air around them with gas. Gases drift around, slowly fade away, and a gas mask with a filter protects you from all of them - at the cost of filter durability.%n%n- §6Radon Gas§r seeps from uranium ores and corebblestone. It is mildly radioactive and harms your lungs.%n- §6Dense Radon Gas§r is much worse and gives a radiation effect.%n- §6Tomb Gas§r leaks from §6Ancient Scrap Metal§r. It strips away Rad-X and RadAway effects.%n- §6Core Gas§r comes out of reactor wrecks: strong radiation and lung damage.%n- §6Carbon Monoxide§r leaks from Nether coal ore.%n- §6Airborne Asbestos Particles§r and §6Airborne Coal Dust§r are released when you mine asbestos and coal. Breathing them in causes asbestosis and black lung.%n- §6Explosive Gas§r and §6Flammable Gas§r fill gas pockets underground and catch fire or explode.
 
 
 ## Quest Line: Advanced Logistics
@@ -1830,6 +1886,14 @@ betterquesting.quest.S23MCNTZSX6O3KwaKn-Nng.desc=The §3Conveyor Press§r sits o
 # Quest: Conveyor Combinator
 betterquesting.quest.N4lNvwRNSCSbSDbXZb8Wkg.name=Conveyor Combinator
 betterquesting.quest.N4lNvwRNSCSbSDbXZb8Wkg.desc=The §3Conveyor Combinator§r combines items right on the belt, crafting 2x2 or 3x3 squares - nuggets into ingots, ingots into blocks and so on. Right click it with a screwdriver to switch between the two modes. The belt runs left to right.
+
+# Quest: Redstone-over-Radio Pager
+betterquesting.quest.2xUIarLmQ0KKkJh5vbYbNw.name=Redstone-over-Radio Pager
+betterquesting.quest.2xUIarLmQ0KKkJh5vbYbNw.desc=Right-click to set a channel. Whenever something broadcasts on that channel, the message shows up on your screen - wherever you are. It works from your inventory or from a Baubles belt slot.%n%nUse it for alarms: a reactor getting hot, a tank running empty, a base under attack.%n%n§cWarning:§r if the channel ever receives the word "selfdestruct", the pager explodes.
+
+# Quest: Redstone-over-Radio Designator
+betterquesting.quest.Um1E2_QzTQmVXA-XsegbBQ.name=Redstone-over-Radio Designator
+betterquesting.quest.Um1E2_QzTQmVXA-XsegbBQ.desc=Sneak and right-click to set a channel. Right-click to broadcast the position of the block you are looking at, up to 300 blocks away, on that channel as §6x:y:z§r.%n%nAnything that listens to the channel - a Logic Receiver, a Telex, or a computer with an RTTY Card - can read the coordinates, for example to point artillery at the spot.
 
 
 ## Quest Line: Arsenal
@@ -2208,6 +2272,302 @@ betterquesting.quest.jG-ZfmZ3QgqyBQA7lEVgTg.desc=§eR§r reloads, §eleft click�
 betterquesting.quest.gv70D0MXTnWt1EiNzhmJug.name=Refueling Station
 betterquesting.quest.gv70D0MXTnWt1EiNzhmJug.desc=Stand next to a §3Refueling Station§r and it refills the gear you are wearing or holding - jetpacks, armor and other fluid-powered items, including baubles and the offhand. Fill it with the fuel your gear uses; set the type with a fluid identifier.
 
+# Quest: Nuclear Charges
+betterquesting.quest.ETAhmV9zSlaUqC5jNrhC_A.name=Nuclear Charges
+betterquesting.quest.ETAhmV9zSlaUqC5jNrhC_A.desc=The §6Nuclear Charge§r is a nuclear bomb without a casing: a Fat Man core surrounded by explosive charges and neutron reflectors. It explodes with the yield of a nuclear missile as soon as it gets a redstone signal or a signal from a detonator.%n%nWrap it in cobalt, gallium arsenide and technetium steel to get the §6Salted Nuclear Charge§r. Its fallout is §6Salted Fallout§r: unlike normal fallout, it keeps adding radiation to the area for as long as it lies there. Clean it up, or the crater will never become safe.
+
+# Quest: Multi Purpose Bomb
+betterquesting.quest.M_p0PAenQMeDYUBH7Uew6w.name=Multi Purpose Bomb
+betterquesting.quest.M_p0PAenQMeDYUBH7Uew6w.desc=The §6Multi Purpose Bomb§r needs four blocks of TNT in its casing before it can be triggered by redstone. The two remaining slots take modules, and each one adds an effect:%n- Gunpowder or TNT - a bigger explosion.%n- Explosive pellets - a rain of small bomblets.%n- Red phosphorus - sets everything around it on fire.%n- Poison powder - kills the land around it.%n- Poison gas cartridge - a cloud of §cchlorine§r.
+
+# Quest: Explosive Novelties
+betterquesting.quest.X7l2RTDVTimg7O-_jpLNZQ.name=Explosive Novelties
+betterquesting.quest.X7l2RTDVTimg7O-_jpLNZQ.desc=- The §6Firework Battery§r writes in the sky. Load it with gunpowder (3 charges each) or sulfur (1 charge each), dye it for color and use a name tag on it to set the message. While it gets a redstone signal, it fires the message letter by letter.%n- §6Flame War in a Box§r scatters small explosions over a wide area and then goes off with a big blast.%n- A steel tank filled with kerosene becomes a §6Kerosene Barrel§r. Like the §6Explosive Barrel§r, it blows up when it is shot or caught in an explosion.
+
+# Quest: Base Traps
+betterquesting.quest.Gz7XNcm3RwuWSWOVY3vAyw.name=Base Traps
+betterquesting.quest.Gz7XNcm3RwuWSWOVY3vAyw.desc=- §6Spikes§r deal massive damage to anything that falls onto them. Put them at the bottom of a pit.%n- The §6Chlorine Vent§r sprays clouds of §cchlorine§r around itself while it gets a redstone signal. Wear a gas mask when you test it.
+
+# Quest: Turret "Maxwell"
+betterquesting.quest.QZBgTQGvT4-GHYtYF0toWg.name=Turret "Maxwell"
+betterquesting.quest.QZBgTQGvT4-GHYtYF0toWg.desc=§3Maxwell§r is a MASER turret that burns its target with a constant beam. It needs no ammo, only power, and its "ammo" slots take machine upgrades instead:%n- Speed - more damage per tick.%n- Power - lower consumption.%n- Effect - longer range.%n- Afterburn - sets the target on fire.%n- Overdrive - multiplies the damage.
+
+# Quest: Protective Armor Mods
+betterquesting.quest.tSGcZjaySfCNw0V2ppUZZA.name=Protective Armor Mods
+betterquesting.quest.tSGcZjaySfCNw0V2ppUZZA.desc=Every armor piece has several mod slots in the §3Armor Modification Table§r, and every mod says in its tooltip which pieces it fits. Protective mods come in a few groups:%n- §6Cladding§r - radiation resistance, knockback resistance or indestructible armor.%n- §6Inserts§r - chestplate plates against bullets and explosions. Each one wears down.%n- §6Pads§r and §6Flippers§r - for boots.%n- §6Masks, goggles and sensors§r - for the helmet.%n- §6Battery packs§r and the §6Tesla Coil§r - for electric armor.%n%nEach mod has its own quest branching from here.
+
+# Quest: Lucky Charms
+betterquesting.quest.69HyOPIAQ5a6G46BscViMw.name=Lucky Charms
+betterquesting.quest.69HyOPIAQ5a6G46BscViMw.desc=Every armor piece has one extra slot for a charm - a trinket with a special effect. Only one charm fits per piece, and the tooltip says which pieces it fits: health charms go into the chestplate, revives into the leggings.%n%nMany charms are rare loot from §eRed Room§r pedestals, filing cabinets and vault lockers, some drop from mobs, and some can be crafted. Each one has its own quest branching from here.
+
+# Quest: Dead Man's Switch
+betterquesting.quest.KINmKqKGTpOds9wJa4W_xA.name=Dead Man's Switch
+betterquesting.quest.KINmKqKGTpOds9wJa4W_xA.desc=Tape a detonator and a defuser together for the §6Dead Man's Detonator§r. Shift-right-click a bomb to link it, and it goes off the moment the detonator leaves your hands - dropped, or when you die.%n%nAdd two TNT for the §6Dead Man's Explosive§r, which simply blows up wherever it is dropped.
+
+# Quest: Explosive Materials
+betterquesting.quest.sog2eXXqTqy0yfCM7BXbJQ.name=Explosive Materials
+betterquesting.quest.sog2eXXqTqy0yfCM7BXbJQ.desc=- §6Ballistite§r (gunpowder, niter, sugar) and the stronger §6Cordite§r are propellants for artillery shells. Either one, with solid fuel and niter, makes Semtex mix.%n- §6TATB§r is a stable high explosive for nuclear grenade fillings and special ammo.%n- §6Thermite§r is three iron powder and one aluminium powder.%n- §6Ammonium Nitrate§r from the Chemical Plant goes into industrial fertilizer and bone meal.
+
+# Quest: Gas Mask Attachable
+betterquesting.quest.GTWHwrp5RB6zDGbfbqEMZA.name=Gas Mask Attachable
+betterquesting.quest.GTWHwrp5RB6zDGbfbqEMZA.desc=Turns any helmet into a gas mask. It takes filters like a normal §6Gas Mask§r and protects against every gas except corrosive ones. Craft it from duct tape, rubber, a glass pane and an iron plate.
+
+# Quest: Half Mask Attachable
+betterquesting.quest.KMGcxjkZTGuwxUbsD23Gcw.name=Half Mask Attachable
+betterquesting.quest.KMGcxjkZTGuwxUbsD23Gcw.desc=A cheaper version of the attachable gas mask, made without glass. Like the §6Half Mask§r it leaves the eyes open, so it does not protect against chlorine-like gases, corrosive gases and bacteria.
+
+# Quest: Back-Mounted Tesla Coil
+betterquesting.quest.uG0sfstzS7ucuwJZ8ioeew.name=Back-Mounted Tesla Coil
+betterquesting.quest.uG0sfstzS7ucuwJZ8ioeew.desc=Goes into the chestplate of an electric armor set. While you wear the full set, it zaps every creature within 5 blocks, just like a Tesla Coil. Some zaps drain the suit a little.%n%nCraft a §3Tesla Coil§r with duct tape and fine gold wire.
+
+# Quest: Rubber Pads
+betterquesting.quest.-A7A01rsRJSg1pEua6MyNA.name=Rubber Pads
+betterquesting.quest.-A7A01rsRJSg1pEua6MyNA.desc=Boot pads that cut fall damage by 50%%. Rubber, iron plates and duct tape.
+
+# Quest: Slime Pads
+betterquesting.quest.UNl5aGkKTzehMe6rPEhYgg.name=Slime Pads
+betterquesting.quest.UNl5aGkKTzehMe6rPEhYgg.desc=Rubber pads upgraded with slimeballs. They cut fall damage by 75%%.
+
+# Quest: Static Pads
+betterquesting.quest.4jghgMCSSTSjBUsbQBlUlA.name=Static Pads
+betterquesting.quest.4jghgMCSSTSjBUsbQBlUlA.desc=Slime pads wrapped in copper. They only cut fall damage by 25%%, but every step charges your electric armor.
+
+# Quest: Lead Paint
+betterquesting.quest.I5QCAF8iQT-vreon8f8s7g.name=Lead Paint
+betterquesting.quest.I5QCAF8iQT-vreon8f8s7g.desc=The cheapest cladding: four lead nuggets, a clay ball and a glass bottle. It adds +0.025 radiation resistance to any armor piece.
+
+# Quest: Lead Cladding
+betterquesting.quest.wGHRbeOkRJKuwXH-6mkoGw.name=Lead Cladding
+betterquesting.quest.wGHRbeOkRJKuwXH-6mkoGw.desc=Rubber cladding covered with lead plates. It adds +0.1 radiation resistance to any armor piece. It is also a crafting part of the Liquidator Suit.
+
+# Quest: Desh Cladding
+betterquesting.quest.7pwlLYABSC-7UNFQvu5ULg.name=Desh Cladding
+betterquesting.quest.7pwlLYABSC-7UNFQvu5ULg.desc=Lead cladding covered with desh plates. +0.2 radiation resistance.
+
+# Quest: Ghiorsium Cladding
+betterquesting.quest.pbs90IkMS3iTdWsCNFe43Q.name=Ghiorsium Cladding
+betterquesting.quest.pbs90IkMS3iTdWsCNFe43Q.desc=The best cladding: desh cladding covered with Ghiorsium-336 ingots. +0.5 radiation resistance.
+
+# Quest: Iron Cladding
+betterquesting.quest.ozLlu5qFSqullJWQ_Bc59w.name=Iron Cladding
+betterquesting.quest.ozLlu5qFSqullJWQ_Bc59w.desc=Instead of radiation resistance, this cladding adds +0.5 knockback resistance. Iron plates, polymer plates and duct tape.
+
+# Quest: Obsidian Skin
+betterquesting.quest.GoKGvCuPR5CjjahtOMk0Jg.name=Obsidian Skin
+betterquesting.quest.GoKGvCuPR5CjjahtOMk0Jg.desc=Armor with this cladding cannot be destroyed when it is dropped - it survives lava, fire and explosions. Obsidian, steel plates and duct tape.
+
+# Quest: XSAPI Insert
+betterquesting.quest.nJIRNvLuRhGSlTE-pwH2vQ.name=XSAPI Insert
+betterquesting.quest.nJIRNvLuRhGSlTE-pwH2vQ.desc=The last step of the kevlar line: an ESAPI insert with asbestos and BIGMT plates. -10%% damage and -25%% projectile damage, 2500 durability.
+
+# Quest: Heavy Steel Insert
+betterquesting.quest.uSA3qBiCQ86A3ZZVi9xXXA.name=Heavy Steel Insert
+betterquesting.quest.uSA3qBiCQ86A3ZZVi9xXXA.desc=A block of steel in your chestplate. -5%% projectile damage and -25%% explosion damage, but -5%% speed. 1000 durability.
+
+# Quest: Polonium Insert
+betterquesting.quest.-0eDvKKlTbW1TMdE0wkWfw.name=Polonium Insert
+betterquesting.quest.-0eDvKKlTbW1TMdE0wkWfw.desc=A block of polonium-210 as armor. -10%% damage and -5%% explosion damage, -10%% speed, and §c+100 RAD/s§r for you. Only 500 durability. Not recommended.
+
+# Quest: Ghiorsium Insert
+betterquesting.quest.QioTYM2eTJCSECRRHqj3Dg.name=Ghiorsium Insert
+betterquesting.quest.QioTYM2eTJCSECRRHqj3Dg.desc=Ghiorsium-336 and uranium-238. -20%% damage, -25%% projectile damage and -65%% explosion damage, at -10%% speed. 2000 durability.
+
+# Quest: Explosive Reactive Armor Insert
+betterquesting.quest.RSzE0oArSg-qYI38_i9kKA.name=Explosive Reactive Armor Insert
+betterquesting.quest.RSzE0oArSg-qYI38_i9kKA.desc=An insert with a semtex bar inside. It halves all damage and takes 75%% off explosions, but it only lasts 25 hits.
+
+# Quest: Yharonite Insert
+betterquesting.quest.MRVKpiQNSNyLporbj7imlg.name=Yharonite Insert
+betterquesting.quest.MRVKpiQNSNyLporbj7imlg.desc=Four DU inserts and five yharonite billets. It cuts all damage by 99%%, has 9999 durability and protects your armor from corrosive atmospheres.
+
+# Quest: Mark III Life Extender
+betterquesting.quest.FibYH7esT5O3_qMnhUoZpw.name=Mark III Life Extender
+betterquesting.quest.FibYH7esT5O3_qMnhUoZpw.desc=A chestplate insert that gives you a regenerating §6shield§r of 25 points on top of your health. The shield absorbs damage first and refills 3 seconds after the last hit. Made with an australium ingot.
+
+# Quest: Power Armor Battery Pack
+betterquesting.quest.yb8dojeJSD2wYcWAZ_nGYg.name=Power Armor Battery Pack
+betterquesting.quest.yb8dojeJSD2wYcWAZ_nGYg.desc=Fits any piece of electric armor and raises its energy capacity by 25%%. Steel plates, a gold capacitor and dense wire.
+
+# Quest: Power Armor Battery Pack Mk2
+betterquesting.quest.-BLixt3BQw-jGFPpA-P_6Q.name=Power Armor Battery Pack Mk2
+betterquesting.quest.-BLixt3BQw-jGFPpA-P_6Q.desc=The same with a niobium capacitor and plastic: +50%% energy capacity.
+
+# Quest: Power Armor Battery Pack Mk3
+betterquesting.quest.8g3VkdPwSPOmM_6UjiXtIA.name=Power Armor Battery Pack Mk3
+betterquesting.quest.8g3VkdPwSPOmM_6UjiXtIA.desc=With a tantalium capacitor and gold plates: double energy capacity.
+
+# Quest: Night Vision Goggles
+betterquesting.quest.j63hTEBoRiyRWD-hgRPlDA.name=Night Vision Goggles
+betterquesting.quest.j63hTEBoRiyRWD-hgRPlDA.desc=A helmet mod that gives you night vision while you wear a full electric armor set. Plastic, glass and a basic circuit.
+
+# Quest: Gas Sensor
+betterquesting.quest.4h56exs9Q4iG-nifAZmILQ.name=Gas Sensor
+betterquesting.quest.4h56exs9Q4iG-nifAZmILQ.desc=Beeps when you are near hazardous gases. It works from your inventory or applied to any armor piece. Gold plate, vacuum tube and iron plate.
+
+# Quest: Ballistic Gauntlet
+betterquesting.quest.s1lcXvZkSfC08FWFYWUWfg.name=Ballistic Gauntlet
+betterquesting.quest.s1lcXvZkSfC08FWFYWUWfg.desc=Goes into the chestplate servo slot. Your punches fire 12 gauge shells. Craft it from steel plates, copper wire and starmetal rings, or find one on a §eRed Room§r pedestal.
+
+# Quest: ShiningArmor™ Armor Polish
+betterquesting.quest.-i3FOw9NQYqadcHl7HiF5g.name=ShiningArmor™ Armor Polish
+betterquesting.quest.-i3FOw9NQYqadcHl7HiF5g.desc=A 5%% chance to ignore any hit. Found in vault lockers and on §eRed Room§r pedestals.
+
+# Quest: 林 Ink
+betterquesting.quest.CJBF6IVgR2OznoPUEE91bw.name=林 Ink
+betterquesting.quest.CJBF6IVgR2OznoPUEE91bw.desc=A 10%% chance to ignore any hit. Craft it from two armor polishes, flowers and black dye, or find it in filing cabinets.
+
+# Quest: Black Diamond
+betterquesting.quest.uqlNOK-oRS6R_3Fecg0qXw.name=Black Diamond
+betterquesting.quest.uqlNOK-oRS6R_3Fecg0qXw.desc=A chestplate charm with +40 health (20 hearts). Ink, gold-198 nuggets and a volcanic gem.
+
+# Quest: Heart Piece
+betterquesting.quest.qrIQ3hotTkuUk3cH7PbiMw.name=Heart Piece
+betterquesting.quest.qrIQ3hotTkuUk3cH7PbiMw.desc=A chestplate charm with +5 health. Any hostile mob drops one with a 1 in 1000 chance, and they show up in meteorite treasure.
+
+# Quest: Heart Container
+betterquesting.quest.5IloAbSCQ7OIkaQhSqpLzA.name=Heart Container
+betterquesting.quest.5IloAbSCQ7OIkaQhSqpLzA.desc=Four heart pieces, four aluminium ingots and a Nuclear Creeper Coin. +20 health.
+
+# Quest: Morning Glory
+betterquesting.quest.YdG4ptMSQwWfWyAJjO-rAA.name=Morning Glory
+betterquesting.quest.YdG4ptMSQwWfWyAJjO-rAA.desc=Makes you immune to wither and gives a 5%% chance to get Resistance when you are hit. Found in vault labs and on §eRed Room§r pedestals.
+
+# Quest: Heart Booster
+betterquesting.quest.YGGfAxJOTfWBHXJIDpBxfw.name=Heart Booster
+betterquesting.quest.YGGfAxJOTfWBHXJIDpBxfw.desc=A heart container, two morning glories, gold ingots and the Maskman Coin. +40 health.
+
+# Quest: Heart of Darkness
+betterquesting.quest.g4Wj9JiiRK2oOi-PsyYcMg.name=Heart of Darkness
+betterquesting.quest.g4Wj9JiiRK2oOi-PsyYcMg.desc=A heart booster, polonium-210 billets, coke and the Balls-O-Tron Coin. +60 health, the strongest health charm.
+
+# Quest: Bottle of Scrumpy
+betterquesting.quest.5PgjMuk7QZ2s-HDU01Fjxw.name=Bottle of Scrumpy
+betterquesting.quest.5PgjMuk7QZ2s-HDU01Fjxw.desc=A leggings charm that saves you from death once: you get back to full health with a short burst of Resistance, and the bottle is used up. Found on §eRed Room§r pedestals and in meteorite treasure.
+
+# Quest: Wild Pegasus Dry Whiskey
+betterquesting.quest.ReTUKG9pRLGhuO3_RdSqfw.name=Wild Pegasus Dry Whiskey
+betterquesting.quest.ReTUKG9pRLGhuO3_RdSqfw.desc=Like Scrumpy, but it saves you three times. Only found on §eRed Room§r pedestals.
+
+# Quest: Shackles
+betterquesting.quest.8WoPd7KXToiIxi8mrRMEQw.name=Shackles
+betterquesting.quest.8WoPd7KXToiIxi8mrRMEQw.desc=A leggings charm with endless revives - at a price. Every time it saves you, it gives you more radiation than the last time: 1, 4, 9, 16 RAD and so on. Above 1000 RAD it stops working. Heavy chainsteel and chains.
+
+# Quest: Velvet Band-Aid
+betterquesting.quest.RPTA0uZbRNuVddj_Cb0Rww.name=Velvet Band-Aid
+betterquesting.quest.RPTA0uZbRNuVddj_Cb0Rww.desc=A 3%% chance to fully heal you whenever you take damage. Animals drop it, and it is a §eRed Room§r pedestal item.
+
+# Quest: Serum
+betterquesting.quest.mH9YH9IWQh6vPYT7WSmFSA.name=Serum
+betterquesting.quest.mH9YH9IWQh6vPYT7WSmFSA.desc=Cures poison and gives you Strength instead. Cave spiders drop it, and it appears on §eRed Room§r pedestals and in meteorite treasure.
+
+# Quest: Bottle of Spider Milk
+betterquesting.quest.AxtC6V3xTsmnAB4LirU1UQ.name=Bottle of Spider Milk
+betterquesting.quest.AxtC6V3xTsmnAB4LirU1UQ.desc=Removes bad potion effects. Spiders drop it.
+
+# Quest: Plutonic Quartz
+betterquesting.quest.JMVYlYRzQdmcTC6GT6njdw.name=Plutonic Quartz
+betterquesting.quest.JMVYlYRzQdmcTC6GT6njdw.desc=Every hit you take removes 10 RAD from you. Smelting uranium ingots has a 1 in 64 chance to give you one.
+
+# Quest: Lodestone
+betterquesting.quest.43bXVsx9SqadoNX59qJjkA.name=Lodestone
+betterquesting.quest.43bXVsx9SqadoNX59qJjkA.desc=Pulls in items within 5 blocks. Smelting iron has a 1 in 64 chance to give you one.
+
+# Quest: Horseshoe Magnet
+betterquesting.quest.MBLqyS_dSnqNE0AIC4ayyA.name=Horseshoe Magnet
+betterquesting.quest.MBLqyS_dSnqNE0AIC4ayyA.desc=Two lodestones and iron ingots. Pulls in items within 8 blocks.
+
+# Quest: Industrial Magnet
+betterquesting.quest.N5oL7h54TamJYHGUafuNcQ.name=Industrial Magnet
+betterquesting.quest.N5oL7h54TamJYHGUafuNcQ.desc=Two horseshoe magnets, steel and dense wire. Pulls in items within 12 blocks.
+
+# Quest: Toxic Soapy Water
+betterquesting.quest.O4rf3B9ySYmGxkrtdvvlsw.name=Toxic Soapy Water
+betterquesting.quest.O4rf3B9ySYmGxkrtdvvlsw.desc=Whoever hits you gets poisoned for 10 seconds.
+
+# Quest: Toxic Soapy Water (Horse Scented)
+betterquesting.quest.Le83dt4HS4Ol8pOFX9_zeg.name=Toxic Soapy Water (Horse Scented)
+betterquesting.quest.Le83dt4HS4Ol8pOFX9_zeg.desc=Soapy water with mercury and nuclear waste. Attackers get Wither V for 10 seconds instead.
+
+# Quest: Meteor Charm
+betterquesting.quest.XnulxQOaQXad2WqKwkW2Bw.name=Meteor Charm
+betterquesting.quest.XnulxQOaQXad2WqKwkW2Bw.desc=The Charm of Protection only diverts meteors. With a volcanic gem instead of a diamond, this charm stops meteorites from falling at all and negates broadcaster damage.
+
+# Quest: Golden Wire Cutter
+betterquesting.quest.QE8P8MOsQniJU1RmdSPSDQ.name=Golden Wire Cutter
+betterquesting.quest.QE8P8MOsQniJU1RmdSPSDQ.desc=Defuses creepers near you. Gold plates, gunpowder and a music disc.
+
+# Quest: 5-HTP Autoinjector
+betterquesting.quest.QEWjfMnaTb6BKceZA7MVXA.name=5-HTP Autoinjector
+betterquesting.quest.QEWjfMnaTb6BKceZA7MVXA.desc=A chestplate charm against digamma. When enough digamma builds up in you, it injects itself: it removes some of it, heals 10 hearts and gives you a minute of Stability, then it is used up.
+
+# Quest: 8 Inch Blade Autoinjector
+betterquesting.quest.s87uSn_VQiGu96_RuYrW2Q.name=8 Inch Blade Autoinjector
+betterquesting.quest.s87uSn_VQiGu96_RuYrW2Q.desc=§cDo not put this into your armor.§r A 5-HTP autoinjector with an iron sword in it. Every few seconds it stabs you and lowers your maximum health, until almost nothing is left.
+
+# Quest: Ace of Spades
+betterquesting.quest.RFRXuOw1SViaN1UaFQEhKw.name=Ace of Spades
+betterquesting.quest.RFRXuOw1SViaN1UaFQEhKw.desc=Fits the helmet or chestplate. Your guns get a 33%% chance not to use ammo. Only found on §eRed Room§r pedestals.
+
+# Quest: Queen of Spades
+betterquesting.quest.8Xol3VE9Syqrt066kmS4Ew.name=Queen of Spades
+betterquesting.quest.8Xol3VE9Syqrt066kmS4Ew.desc=Fits the helmet or chestplate. A 33%% chance to shrug off any damage, with no cap. Only found on §eRed Room§r pedestals.
+
+# Quest: Half Mask
+betterquesting.quest.IB2wThhmRcmqsrtv3MEH8Q.name=Half Mask
+betterquesting.quest.IB2wThhmRcmqsrtv3MEH8Q.desc=A rubber mask that covers only the mouth and nose. It is cheap, but it does not protect against chlorine-like gases, corrosive gases and bacteria, which also attack the eyes.%n%nIt uses its own §6Catalytic Mask Filter§r. It also turns up in vault lockers and sunken submarines.
+
+# Quest: Crude Protective Mask
+betterquesting.quest.c9TTHjrZTzmtGkmxH2tdiQ.name=Crude Protective Mask
+betterquesting.quest.c9TTHjrZTzmtGkmxH2tdiQ.desc=Three damp cloths make a mask that keeps coarse particles like dust and soot out of your lungs. It does nothing against gases.
+
+# Quest: Security Armor
+betterquesting.quest.KK8GXueRQFGdPNDp6pCXSg.name=Security Armor
+betterquesting.quest.KK8GXueRQFGdPNDp6pCXSg.desc=Kevlar, plastic, wool and steel. A full set blocks 5 points of physical damage and half of the rest, a quarter of explosion damage, and 85%% of radiation. FBI agents wear the same armor.
+
+# Quest: Casual Clothes
+betterquesting.quest.M9f1-GpqTiOYt3NUO3fx2g.name=Casual Clothes
+betterquesting.quest.M9f1-GpqTiOYt3NUO3fx2g.desc=A hoodie, sweater, pants and field boots, sewn from cloth. As protective as chainmail and a lot more comfortable.
+
+# Quest: Zirconium Pants
+betterquesting.quest.t-XYfNH3T6OsXJl2YfN-Fg.name=Zirconium Pants
+betterquesting.quest.t-XYfNH3T6OsXJl2YfN-Fg.desc=Seven zirconium ingots make pants with huge durability and an absurdly high enchantability - they get the best enchantments almost every time.
+
+# Quest: Damn Stylish Ballistic Jackets
+betterquesting.quest.U4TaVN8KQpCqeGEYgOUjWQ.name=Damn Stylish Ballistic Jackets
+betterquesting.quest.U4TaVN8KQpCqeGEYgOUjWQ.desc=Leather, rubber and steel plates. The jacket blocks 1 point of physical damage and 20%% of the rest, the Tokyo Drift version 2 points and 25%%.
+
+# Quest: Mask of Infamy
+betterquesting.quest.uYShvvZhQTqXMYB3eI1yUw.name=Mask of Infamy
+betterquesting.quest.uYShvvZhQTqXMYB3eI1yUw.desc=Seven iron plates. As strong as an iron helmet, and much more memorable.
+
+# Quest: Bismuth Armor
+betterquesting.quest.oSXTCgLRTcWilPF-l5wzhA.name=Bismuth Armor
+betterquesting.quest.oSXTCgLRTcWilPF-l5wzhA.desc=Bismuth plates, gold, rags, starmetal rings, rare earth crystals and a bismuth laser crystal. The full set gives Speed VII, Jump Boost VII, Regeneration II and night vision, lets you dash three times in the air and removes fall damage.
+
+# Quest: PaA Armor
+betterquesting.quest.lt-_Se32QFGhc8hVh-wKCQ.name=PaA Armor
+betterquesting.quest.lt-_Se32QFGhc8hVh-wKCQ.desc=§6PaA Alloy Plates§r come from the §3Blast Furnace§r: a gold ingot and a mixed plate. With neutron reflectors they make a chest plate, leg reinforcements and boots. There is no helmet. They give strong radiation protection and Haste.
+
+# Quest: PaA Battle Hazmat Suit
+betterquesting.quest.8ZPjY88iQEKwf7ilKdwzcw.name=PaA Battle Hazmat Suit
+betterquesting.quest.8ZPjY88iQEKwf7ilKdwzcw.desc=A hazmat suit made from PaA alloy plates. It blocks 97%% of radiation, and the helmet takes gas mask filters.
+
+# Quest: Diesel-Powered Suit
+betterquesting.quest.v6xPiOaqTQqGd3K_KGnByA.name=Diesel-Powered Suit
+betterquesting.quest.v6xPiOaqTQqGd3K_KGnByA.desc=Assembled from red wool, steel, motors, circuits and, for the chest, a whole §3Diesel Generator§r. Each piece holds 64,000 mB of §bDiesel§r.%n%nThe full set gives Speed III and Jump Boost III, thermal vision and V.A.T.S. It also takes some of the edge off fire and explosions.
+
+# Quest: NCR Ranger Power Armor
+betterquesting.quest.Nfz7GSZWQcCuqwME8Ar_sw.name=NCR Ranger Power Armor
+betterquesting.quest.Nfz7GSZWQcCuqwME8Ar_sw.desc=It cannot be crafted. About one §eRed Room§r in twenty has a full armor set on its pedestal, and one in five of those sets is this one.%n%nIt is sealed power armor: Strength IV, V.A.T.S., a Geiger counter, 97%% radiation protection, no fall damage, and heavy resistance to physical damage and fire.
+
+# Quest: Trenchmaster's Armor
+betterquesting.quest.GF4i-Yd4R_SI-SwON7VuDA.name=Trenchmaster's Armor
+betterquesting.quest.GF4i-Yd4R_SI-SwON7VuDA.desc=The other armor set from §eRed Room§r pedestals - four in five armor rooms have it.%n%nSealed, with 90%% radiation protection, Strength III, Haste II, Jump Boost II, Speed and V.A.T.S. It resists 90%% of laser damage, makes you immune to your own explosions, and gives your guns more ammo.
+
+# Quest: Railgun Turret "Louis"
+betterquesting.quest.41HOheHtSbGYjfQbXuavVg.name=Railgun Turret "Louis"
+betterquesting.quest.41HOheHtSbGYjfQbXuavVg.desc=§3Louis§r is not a defensive turret - it is a long-range rail cannon that you aim yourself. Enter the target X and Z in its GUI, or send them over Redstone-over-Radio or OpenComputers, and press fire. It calculates the firing angle, charges its 100,000,000 HE capacitor at 250,000 HE/t, and launches the sabot. The charge slowly drains away if you do not fire.%n%nIt takes power from all four sides. Load sabots into its ammo slots - all of them are made in the §3Assembly Machine§r from stainless steel plates and tungsten bolts:%n- T-APFSDS and DU-APFSDS - explosive shells with tungsten or uranium cores.%n- Desh APFSDS - ricochets off the first surface it hits, then explodes.%n- Starmetal APFSDS - faster and more aerodynamic, so it has the longest range.%n- Fluid APFSDS - fill it with a fluid and it sprays a cloud over the target.%n- Nuclear Sabot - a nuclear warhead with schrabidium.
+
 
 ## Quest Line: Building and Decorating
 betterquesting.questline.7-1bBIkKRc6xhh5bwIGsjg.name=Building and Decorating
@@ -2275,7 +2635,7 @@ betterquesting.quest.db4noMeuQV-CVwGagOhFNw.desc=Craft §6Rebar§r from steel bo
 
 # Quest: Reinforced Bricks and Glass
 betterquesting.quest.ClEAe3kiQvGpTf5nu8sq9A.name=Reinforced Bricks and Glass
-betterquesting.quest.ClEAe3kiQvGpTf5nu8sq9A.desc=Iron bars woven into concrete bricks make §6Reinforced Bricks§r, more than twice as strong as concrete. Add steel bolts and tar for §6Compound Mesh§r, stronger still.%n%n§6Reinforced Glass§r - glass with iron bars - holds up better than stone, but is still far weaker than concrete. For a window that survives a real blast, make §6Reinforced Laminate§r in the Chemical Plant from glass, steel bolts, xylene and phosgene: it is as strong as reinforced bricks.
+betterquesting.quest.ClEAe3kiQvGpTf5nu8sq9A.desc=Iron bars woven into concrete bricks make §6Reinforced Bricks§r, more than twice as strong as concrete. Add steel bolts and tar for §6Compound Mesh§r, stronger still.%n%n§6Reinforced Glass§r - glass with iron bars - holds up better than stone, but is still far weaker than concrete. For a window that survives a real blast, make §6Reinforced Laminate§r in the Chemical Plant from glass, steel bolts, xylene and phosgene: it is as strong as reinforced bricks.%n%n Six reinforced glass blocks make 16 §6Reinforced Glass Panes§r.
 
 # Quest: Ducrete
 betterquesting.quest.PyDmcn4NTSa-2YLLktYj_w.name=Ducrete
@@ -2295,11 +2655,11 @@ betterquesting.quest.9mznD7huQ3GF05IEyjvkOA.desc=Smelting the matching sand mix 
 
 # Quest: Heavy Doors
 betterquesting.quest.a7YN_kP6Rsmlx0WnWYBjew.name=Heavy Doors
-betterquesting.quest.a7YN_kP6Rsmlx0WnWYBjew.desc=The Assembly Machine builds large animated doors around motors. Open them by hand or with a redstone signal - a powered door stays open, and padlocks lock them like any other door.%n%nThe §6Secure Access Door§r is the strongest, followed by the §6Blast Door§r, §6Vault Door§r, §6Fire Door§r, §6Large Vehicle Door§r and the sliding doors. The §6Sliding Blast Door§r has a reinforced glass window. The §6Water§r and §6Cargo Doors§r are light doors for submarines and warehouses.
+betterquesting.quest.a7YN_kP6Rsmlx0WnWYBjew.desc=The Assembly Machine builds large animated doors around motors. Open them by hand or with a redstone signal - a powered door stays open, and padlocks lock them like any other door.%n%nThe §6Secure Access Door§r is the strongest, followed by the §6Blast Door§r, §6Vault Door§r, §6Fire Door§r, §6Large Vehicle Door§r and the sliding doors. The §6Sliding Blast Door§r has a reinforced glass window. The §6Water§r and §6Cargo Doors§r are light doors for submarines and warehouses.%n%n%n%nThe largest ones are the §6QE Containment Door§r, the giant §6Transition Seal§r and the §6Silo Hatch§r: place §6Silo Hatch Frames§r around a §6Silo Hatch Opener§r to build a hatch of any size.
 
 # Quest: Metal Decoration
 betterquesting.quest.UyGHIORvTvaKF6WmWEW_Aw.name=Metal Decoration
-betterquesting.quest.UyGHIORvTvaKF6WmWEW_Aw.desc=Decorative metal blocks for every metal, steel grates and poles, wire mesh fences, steel trapdoors, sandbags and sturdier ladders give a factory its industrial look.
+betterquesting.quest.UyGHIORvTvaKF6WmWEW_Aw.desc=Decorative metal blocks for every metal, steel grates and poles, wire mesh fences, steel trapdoors, sandbags and sturdier ladders give a factory its industrial look.%n%n Ladders also come in gold, copper and titanium, and the chainlink fence has a matching gate.
 
 # Quest: Decorative Pipes
 betterquesting.quest.9cS75XFCSdWhYjg-ddAgBw.name=Decorative Pipes
@@ -2307,7 +2667,11 @@ betterquesting.quest.9cS75XFCSdWhYjg-ddAgBw.desc=§6Steel Pipes§r carry nothing
 
 # Quest: Building Stones
 betterquesting.quest.qQ1-xJWWR7KFo-FMM9L9Jw.name=Building Stones
-betterquesting.quest.qQ1-xJWWR7KFo-FMM9L9Jw.desc=Basalt, gneiss, depth rock and meteorite can all be cut into bricks and tiles. Lab tiles and vinyl tiles make clean floors for laboratories and offices, obsidian bricks are a sturdy dark wall, and light bricks a cheap red one.
+betterquesting.quest.qQ1-xJWWR7KFo-FMM9L9Jw.desc=Basalt, gneiss, depth rock and meteorite can all be cut into bricks and tiles. Lab tiles and vinyl tiles make clean floors for laboratories and offices, obsidian bricks are a sturdy dark wall, and light bricks a cheap red one.%n%n%n%nCraft four bricks into tiles for a finer pattern: §6Polished Basalt§r, §6Basalt Tiles§r, §6Schist Tile§r (and §6Chiseled Schist§r from it), §6Depth Tiles§r, and §6Nether Depth Bricks§r and §6Tiles§r from Nether depth rock. Light bricks wrapped in asbestos make §6Asbestos Bricks§r.
+
+# Quest: Chemical Dyes
+betterquesting.quest.7ZC2EEe3Q5KR-TyaLcRE1Q.name=Chemical Dyes
+betterquesting.quest.7ZC2EEe3Q5KR-TyaLcRE1Q.desc=Once you need dyes in bulk, make them chemically. Crystallize a powder in the §3Ore Acidizer§r with wood oil, fish oil or light oil for 4 §6Chemical Dyes§r:%n- Coal or coke powder - black. Titanium - white. Iron - red.%n- Tungsten - yellow. Copper - green. Cobalt - blue.%n%nMix two dyes by hand for the in-between colors. A dye, any tar and a sheet of paper make 4 §6Crayons§r, which work as normal dyes in any recipe.
 
 
 ## Quest Line: Farming and Cooking
@@ -2336,7 +2700,7 @@ betterquesting.quest.gMjzpPbyQeOxYJjWNgqPtg.desc=An empty can made from aluminiu
 
 # Quest: Nuka-Cola
 betterquesting.quest.W18FmmfIQoiQFuz18UWXyg.name=Nuka-Cola
-betterquesting.quest.W18FmmfIQoiQFuz18UWXyg.desc=Bomb-shaped bottles are blown from glass panes and filled with water, sugar and coal dust for §6Nuka-Cola§r, redstone for Nuka-Cherry or trinitite for Nuka-Cola Quantum. A carrot and a gold nugget turn Nuka-Cola into §6S~Cola§r and Quantum into S~Cola RAD.%n%nYou need a §6Bottle Opener§r in your inventory to drink them, and every bottle leaves a cap behind. 128 caps press into a decorative cap block.
+betterquesting.quest.W18FmmfIQoiQFuz18UWXyg.desc=Bomb-shaped bottles are blown from glass panes and filled with water, sugar and coal dust for §6Nuka-Cola§r, redstone for Nuka-Cherry or trinitite for Nuka-Cola Quantum. A carrot and a gold nugget turn Nuka-Cola into §6S~Cola§r and Quantum into S~Cola RAD.%n%nYou need a §6Bottle Opener§r in your inventory to drink them, and every bottle leaves a cap behind. 128 caps press into a decorative cap block.%n%n Every drink has its own cap - Quantum, S~Cola, S~Cola RAD, Korl and Fritz Cola - so they are worth collecting.
 
 # Quest: Schrabidium Apples
 betterquesting.quest.uiM9X03hRa-RWqKm2E0wDQ.name=Schrabidium Apples
@@ -2353,6 +2717,10 @@ betterquesting.quest.kGi2vMlgRteo_PX7S2XEbQ.desc=The §3Microwave§r cooks food 
 # Quest: Bio Oils
 betterquesting.quest.xPm04h4xTM2B-OZuno8VTQ.name=Bio Oils
 betterquesting.quest.xPm04h4xTM2B-OZuno8VTQ.desc=Fish and sunflowers are more useful than they look. An §3Industrial Mixer§r or a §3Liquefaction Machine§r turns fish into §bFish Oil§r and sunflowers into §bSunflower Oil§r.%n%n- Either oil mixed with wood oil makes §bBiofuel§r.%n- Fish oil and ethanol make engine §bLubricant§r.%n- Fish oil and nitric acid make §bNitroglycerin§r.%n- In a §3Crystallizer§r, fish oil and metal dusts make chemical dyes.%n%nEggs mixed with high-performance solvent and fractioned give §bCholesterol§r, which a Catalytic Reformer turns into §bEstradiol§r.
+
+# Quest: Vending Machine
+betterquesting.quest.hN7A25ReR7qoDaJuOG-IoA.name=Vending Machine
+betterquesting.quest.hN7A25ReR7qoDaJuOG-IoA.desc=§3Vending Machines§r cannot be crafted. Buy them in the §6Bobmazon§r catalog once you have built a Chemical Plant. There are two kinds: soda and snacks.%n%nRight-click one with a §6Vending Machine Token§r to get a random item:%n- Soda - Nuka Cola, Nuka Cherry, Bepis, Black Mesa Luna, MUG Root Beer, and rarely Nuka Cola Quantum or Dr. Breen's Private Reserve.%n- Snacks - MREs, Twinkies, radium chocolate and canned food.%n%nTokens are found in filing cabinets, vault lockers and office trash.
 
 
 ## Quest Line: Applied Energistics 2
@@ -2527,6 +2895,210 @@ betterquesting.quest.n0clnMBkRw2Y4Asw6b1vJQ.desc=§eSubnetworks§r are ME networ
 betterquesting.quest.xyHVMuUHQjSWbujlx1EMqw.name=Overflow Void Card
 betterquesting.quest.xyHVMuUHQjSWbujlx1EMqw.desc=The §6Overflow Void Card§r acts as a voiding upgrade for AE2 §6Storage Cells§r. It can be added to a storage cell using the §3Cell Workbench§r.
 
+# Quest: Quartz Glass
+betterquesting.quest.rVOL-YyxZv31K1Kxp2uBkg.name=Quartz Glass
+betterquesting.quest.rVOL-YyxZv31K1Kxp2uBkg.desc=§6Quartz Glass§r is made from glass and quartz dust. It is a part of many AE2 recipes in this pack: the §3Energy Acceptor§r, §3Matter Condenser§r, §3ME IO Port§r, §3Molecular Assembler§r, §3ME Chest§r and the quantum and spatial blocks.%n%nAdd glowstone to get §6Vibrant Quartz Glass§r, a glass that emits light.
+
+# Quest: Crystal Seeds
+betterquesting.quest.MGB5mpKygJYssS5LFMA0jw.name=Crystal Seeds
+betterquesting.quest.MGB5mpKygJYssS5LFMA0jw.desc=Shred §6Certus Quartz§r, §6Nether Quartz§r or §6Fluix§r into dust and craft the dust with sand to get two §6Crystal Seeds§r.%n%nThrow a seed into water and it slowly grows into a §6Pure Crystal§r. §3Crystal Growth Accelerators§r next to the water block speed this up a lot.%n%nSeeds are also used as a catalyst in the §3Chemical Plant§r recipes for certus quartz and fluix - they are returned after the process.
+
+# Quest: Pure Crystals
+betterquesting.quest.GsownhxkkwmT5UoQ0DJ_lQ.name=Pure Crystals
+betterquesting.quest.GsownhxkkwmT5UoQ0DJ_lQ.desc=A grown seed turns into a §6Pure Crystal§r.%n%n§6Pure Certus Quartz§r is pressed into §6Printed Calculation Circuits§r and is needed in bulk for §6Storage Components§r. §6Pure Fluix§r is used in the §3ME Controller§r and §3ME Chest§r recipes.
+
+# Quest: Charged Certus Quartz
+betterquesting.quest.FlRWqw8XH2IB4cqhWF7iyQ.name=Charged Certus Quartz
+betterquesting.quest.FlRWqw8XH2IB4cqhWF7iyQ.desc=§6Charged Certus Quartz§r is needed to make §6Fluix§r. Charge certus in the §3Charger§r, or put it into the §3Ore Acidizer§r with hydrogen.%n%nThe §3Ore Acidizer§r can also make §6Certus Quartz§r itself from Nether Quartz and sulfuric acid.
+
+# Quest: Printed Circuits
+betterquesting.quest.iB1EGyUSQ9J_bazjShL7Zw.name=Printed Circuits
+betterquesting.quest.iB1EGyUSQ9J_bazjShL7Zw.desc=The AE2 §3Inscriber§r is disabled in this pack. Printed circuits are made in a §3Press§r with a §6Circuit Stamp§r:%n- Pure Certus Quartz - §6Printed Calculation Circuit§r%n- Diamond - §6Printed Engineering Circuit§r%n- Gold Ingot - §6Printed Logic Circuit§r%n- Silicon Wafer - §6Printed Silicon§r
+
+# Quest: Processors
+betterquesting.quest.-LBfS4H94uWTVmTOcDszXQ.name=Processors
+betterquesting.quest.-LBfS4H94uWTVmTOcDszXQ.desc=Each §6Processor§r is soldered in the §3Soldering Station§r from §6Printed Silicon§r, the matching printed circuit, redstone and fine lead wire.%n%n§6Logic Processors§r, §6Calculation Processors§r and §6Engineering Processors§r are in almost every AE2 recipe: terminals, buses, interfaces, drives, cards and crafting blocks. Keep a stock of all three.
+
+# Quest: Fluix Pearl and Ender Dust
+betterquesting.quest.MDMGeXYaGv8O7R1KGawCCA.name=Fluix Pearl and Ender Dust
+betterquesting.quest.MDMGeXYaGv8O7R1KGawCCA.desc=§6Ender Dust§r comes from shredding Ender Pearls in the §3Shredder§r. It is needed for the §6Wireless Booster§r and the §6Quantum Entangled Singularity§r.%n%n§6Fluix Pearls§r are needed for the §6Wireless Receiver§r, the §3Quantum Link Chamber§r and every §6Spatial Component§r.
+
+# Quest: Formation and Annihilation Cores
+betterquesting.quest.GpJ0DAW9qw_czjpupVcFnQ.name=Formation and Annihilation Cores
+betterquesting.quest.GpJ0DAW9qw_czjpupVcFnQ.desc=The §6Formation Core§r (Printed Logic Circuit + iron + Printed Circuit Board) and the §6Annihilation Core§r (Printed Calculation Circuit + iron + Printed Circuit Board) are used for planes and other parts that place or remove things.
+
+# Quest: Dense Energy Cell
+betterquesting.quest.46K0So_b3nsXkxfiJNGpbg.name=Dense Energy Cell
+betterquesting.quest.46K0So_b3nsXkxfiJNGpbg.desc=The §3Dense Energy Cell§r stores 8 times more AE than a normal §3Energy Cell§r. It is crafted from 8 cells and a Calculation Processor, and it is needed for the §6Wireless Terminal§r.%n%nEnergy cells are only buffers - they do not make power. A bigger buffer helps the network survive spikes, for example when a big crafting job starts.
+
+# Quest: ME Chest
+betterquesting.quest.n1DMTD0pRcixWSAOVPs-zQ.name=ME Chest
+betterquesting.quest.n1DMTD0pRcixWSAOVPs-zQ.desc=The §3ME Chest§r holds one storage cell and has a terminal on its top. It works on its own as long as it gets power, so it is a good first storage before you build a full network with a §3ME Drive§r.%n%nWhen connected to a network, the cell inside becomes part of the network storage.
+
+# Quest: Portable Cell
+betterquesting.quest.tjcqDb9ypj5cBnSclp_E0Q.name=Portable Cell
+betterquesting.quest.tjcqDb9ypj5cBnSclp_E0Q.desc=The §6Portable Cell§r is a handheld §3ME Chest§r: a 1k cell with its own terminal and battery. Use it to carry a lot of item types while exploring. Recharge it in the §3Charger§r.
+
+# Quest: Matter Condenser
+betterquesting.quest.qLArS73QG72iAvsTnXa8wQ.name=Matter Condenser
+betterquesting.quest.qLArS73QG72iAvsTnXa8wQ.desc=The §3Matter Condenser§r destroys every item or fluid put into it (500 mB of fluid counts as one item). It has three modes:%n- §6Trash§r - just deletes things%n- §6Matter Balls§r - one ball per 256 items%n- §6Singularity§r - one §6Singularity§r per 256,000 items%n%nThe storage component in its slot sets how much it can hold, so you need a 64k component for singularities. In this pack a §6Singularity§r can also be crafted from the NTM §6Singularity§r.
+
+# Quest: Bigger Storage Cells
+betterquesting.quest.d02UXBcrKtIeiWIDvyEGaw.name=Bigger Storage Cells
+betterquesting.quest.d02UXBcrKtIeiWIDvyEGaw.desc=Each tier of §6Storage Component§r is soldered from three components of the tier below, and an §3Arc Welder§r puts it into a §6Storage Housing§r. Every cell holds up to 63 item types; the bigger the tier, the more items it holds.%n%nEach cell in a drive adds a little idle power drain, so prefer a few big cells over many small ones.
+
+# Quest: Advanced Storage Cells
+betterquesting.quest.YDj1XdBjuA3CluBoON8dVA.name=Advanced Storage Cells
+betterquesting.quest.YDj1XdBjuA3CluBoON8dVA.desc=The 256k, 1024k, 4096k and 16384k cells use the §6Advanced Storage Housing§r. Their components are also soldered from three components of the tier below.%n%nThey still hold 63 types, but a lot more items per type.
+
+# Quest: Extreme Storage Cells
+betterquesting.quest.0J40sQsiDpgyv9dkZCp71w.name=Extreme Storage Cells
+betterquesting.quest.0J40sQsiDpgyv9dkZCp71w.desc=Four endgame cells, all with a large idle power drain:%n- §6Block Container Cell§r - 1 type only, cheap, 2 AE/t%n- §6Quantum Cell§r - 1 type, about 134 million bytes, 1000 AE/t%n- §6Digital Singularity Cell§r - 1 type, practically unlimited, 15,000 AE/t%n- §6Artificial Universe Cell§r - 63 types, practically unlimited, 600,000 AE/t%n%nSingle type cells are best for one huge bulk resource, like cobblestone or a main ore product.
+
+# Quest: View Cell
+betterquesting.quest.u-hOkar5QUUvK3OhfM0AWQ.name=View Cell
+betterquesting.quest.u-hOkar5QUUvK3OhfM0AWQ.desc=Put §6View Cells§r into the slots on the side of a terminal to filter what it shows. Partition a View Cell in the §3Cell Workbench§r with the items you want to see. Several view cells combine their filters.%n%nThey accept §6Fuzzy§r, §6Inverter§r and §6Ore Dictionary Filter§r cards.
+
+# Quest: NTM Storage on ME
+betterquesting.quest.GAlsR6ooP2VZ8u7Vohu4fA.name=NTM Storage on ME
+betterquesting.quest.GAlsR6ooP2VZ8u7Vohu4fA.desc=An §3ME Storage Bus§r can read the NTM §3Mass Storage Unit§r and the §3Large Arc Furnace§r directly. The whole content of a Mass Storage Unit then shows up in your terminal as one big stack, and the network can insert and extract from it.%n%nThis is a cheap way to store huge amounts of one item.
+
+# Quest: Cable Types
+betterquesting.quest.-UQwgpzC2i4da3YGigZMbw.name=Cable Types
+betterquesting.quest.-UQwgpzC2i4da3YGigZMbw.desc=All normal cables carry 8 channels and dense cables carry 32:%n- §6Glass Cable§r - the basic one%n- §6Covered Cable§r - same, but looks solid%n- §6Smart Cable§r - shows used channels as lit stripes, handy for finding channel problems%n%nCraft 8 cables around a dye to color them. Colored cables only connect to the same color and to uncolored §6Fluix§r cables, so you can run two networks side by side.
+
+# Quest: Cable Facades
+betterquesting.quest.rLFq3fe2AhowK6M5f9mwsw.name=Cable Facades
+betterquesting.quest.rLFq3fe2AhowK6M5f9mwsw.desc=§6Facades§r cover the side of a cable with the look of a block. Craft 4 §6Cable Anchors§r around almost any full block to get 4 facades of that block. Facades are hidden in NEI, so remember this recipe.%n%nCable Anchors are made with a §6Quartz Cutting Knife§r.
+
+# Quest: Toggle Buses
+betterquesting.quest.UshEZ-8sNnrfgEHgrBHSZw.name=Toggle Buses
+betterquesting.quest.UshEZ-8sNnrfgEHgrBHSZw.desc=The §6ME Toggle Bus§r connects the cables on its two sides only while it gets a redstone signal. The §6Inverted Toggle Bus§r does the opposite.%n%nUse them to switch off a part of the network, for example a machine area or a subnet, with a lever.
+
+# Quest: Illuminated Panels
+betterquesting.quest.hXr8NGFwVZWwgWR0CnXm6Q.name=Illuminated Panels
+betterquesting.quest.hXr8NGFwVZWwgWR0CnXm6Q.desc=Panels are flat light sources that sit on cables. The normal §6Illuminated Panel§r is also a crafting part of every terminal. §6Bright§r and §6Dark§r panels give more or less light.
+
+# Quest: Level Emitter
+betterquesting.quest.ws0QVMQjHsZA2xH0W-_LEg.name=Level Emitter
+betterquesting.quest.ws0QVMQjHsZA2xH0W-_LEg.desc=The §6ME Level Emitter§r gives a redstone signal when the amount of an item in the network is above or below a set number. Use it to turn NTM machines on only when you are low on their product.%n%nWith a §6Crafting Card§r it can instead emit a signal while the network is crafting that item, or ask for a craft by redstone.
+
+# Quest: Planes
+betterquesting.quest.ilYJXYdVFjEOlDFncPqu0w.name=Planes
+betterquesting.quest.ilYJXYdVFjEOlDFncPqu0w.desc=- §6Annihilation Plane§r - breaks the block in front of it and picks up dropped items into the network%n- §6Identity Annihilation Plane§r - the same with silk touch, but 16 times the power cost%n- §6Formation Plane§r - places blocks or drops items from the network in front of it%n%nThey are great for cobblestone or obsidian generators and for item disposal setups.
+
+# Quest: Monitors
+betterquesting.quest.ooaXRJp26V9Fw9-OUHpqQg.name=Monitors
+betterquesting.quest.ooaXRJp26V9Fw9-OUHpqQg.desc=- §6Storage Monitor§r - shows the amount of one item on its face%n- §6Conversion Monitor§r - also lets you take or insert that item by clicking it%n- §6Throughput Monitor§r - shows how fast the amount changes, great for checking the output of NTM production lines%n%nRight-click a monitor with an item to set it, and use a wrench to lock it.
+
+# Quest: P2P Attunement
+betterquesting.quest.jcJ4giZUcZOG9RyLZdFZhg.name=P2P Attunement
+betterquesting.quest.jcJ4giZUcZOG9RyLZdFZhg.desc=Only the ME type of §6P2P Tunnel§r is crafted. To get other types, right-click a P2P Tunnel with an item:%n- bucket or other fluid container - §6Fluid P2P§r%n- chest, hopper or ME bus - §6Item P2P§r%n- redstone dust, repeater or lever - §6Redstone P2P§r%n- torch or glowstone - §6Light P2P§r%n- note block or jukebox - §6Sound P2P§r%n- OpenComputers cable - §6OpenComputers P2P§r%n%nThen link the input and outputs with a §6Memory Card§r. Power tunnels for EU and GT do not work in this pack.
+
+# Quest: Crafting Terminal
+betterquesting.quest.heOw4qxCAqcgpbN0UZN3Jg.name=Crafting Terminal
+betterquesting.quest.heOw4qxCAqcgpbN0UZN3Jg.desc=The §6ME Crafting Terminal§r is a terminal with a 3x3 crafting grid that takes ingredients straight from the network. Shift-click the result to craft many at once.%n%nIt is crafted from a terminal, a crafting table and a Calculation Processor, and it is needed for the §6Pattern Terminal§r.
+
+# Quest: Processing Pattern Terminal
+betterquesting.quest.obztamMGbKtBglSA2zrzRA.name=Processing Pattern Terminal
+betterquesting.quest.obztamMGbKtBglSA2zrzRA.desc=The §6Processing Pattern Terminal§r encodes big processing patterns: up to 16 inputs and 16 outputs per page, with 4 pages. It is ideal for NTM machines with many inputs or by-products, like the §3Chemical Plant§r.%n%nCraft it from a §6Pattern Terminal§r and an §6Engineering Processor§r.
+
+# Quest: Interface Terminal
+betterquesting.quest.BXB3EiUZtMlNmh0wFswbew.name=Interface Terminal
+betterquesting.quest.BXB3EiUZtMlNmh0wFswbew.desc=The §6ME Interface Terminal§r lists every interface on the network with its patterns, so you can add, remove and edit patterns without walking to each machine. Shift-clicking an entry highlights the interface in the world.%n%nYou can filter it to only show interfaces with free slots or with broken patterns.
+
+# Quest: Crafting Diagnostic Terminal
+betterquesting.quest.zM12fEV7V8ZaRaUcUGmxmA.name=Crafting Diagnostic Terminal
+betterquesting.quest.zM12fEV7V8ZaRaUcUGmxmA.desc=The §6ME Crafting Diagnostic Terminal§r is a crafting terminal that also records how long each step of your autocrafting takes. Use it to find the slow machine in a long crafting chain.
+
+# Quest: Terminal Tricks
+betterquesting.quest.N5vNAH1u39WqK2s0YmWkGw.name=Terminal Tricks
+betterquesting.quest.N5vNAH1u39WqK2s0YmWkGw.desc=Some terminal features worth knowing:%n- the buttons on the left change sorting, sort direction, terminal size and whether craftable items are shown%n- the search box can be synced with NEI%n- with NEI open, the recipe transfer button fills a crafting or pattern terminal%n- items that could not be inserted come back as an §6ME Stack Packet§r - put it into a terminal once there is space%n%nRead the button tooltips, they explain every mode.
+
+# Quest: Security Terminal
+betterquesting.quest.-zR5uBzg9-foy3H-tikrEw.name=Security Terminal
+betterquesting.quest.-zR5uBzg9-foy3H-tikrEw.desc=The §3ME Security Terminal§r controls who can use your network. Whoever places it owns the network. Write a player into a §6Biometric Card§r and set their rights: withdraw, deposit, craft, build and security.%n%nIt is also used to link §6Wireless Terminals§r to the network.
+
+# Quest: Advanced Network Tool
+betterquesting.quest.-Ljh1qLDB-mZiA-q3F2ZwA.name=Advanced Network Tool
+betterquesting.quest.-Ljh1qLDB-mZiA-q3F2ZwA.desc=The §6Advanced Network Tool§r works like the §6Network Tool§r, but its card toolbox has 25 slots instead of 9. Every upgradeable GUI shows the toolbox, so you can move cards in and out quickly.
+
+# Quest: Priority Card
+betterquesting.quest.LyYpeXL8OLS8kaU3ppPTDw.name=Priority Card
+betterquesting.quest.LyYpeXL8OLS8kaU3ppPTDw.desc=The §6Priority Card§r edits the priority of drives, storage buses and interfaces by clicking them. Shift-right-click in the air to switch between set, increase and decrease modes.%n%nPriority decides where items go first: higher priority storage is filled first and emptied last.
+
+# Quest: Quartz Knife and Wrench
+betterquesting.quest.NtQdRffUFtv4X7MweOdhbA.name=Quartz Knife and Wrench
+betterquesting.quest.NtQdRffUFtv4X7MweOdhbA.desc=The §6Quartz Cutting Knife§r cuts quartz into §6Cable Anchors§r and can rename items. The §6Quartz Wrench§r rotates and dismantles AE2 blocks and parts.%n%nThe other quartz tools are disabled in this pack.
+
+# Quest: Color Applicator
+betterquesting.quest.yvfrwH_LZpDr3zKHuRZNnA.name=Color Applicator
+betterquesting.quest.yvfrwH_LZpDr3zKHuRZNnA.desc=The §6Color Applicator§r recolors cables and other AE2 blocks in the world without breaking them. It holds a storage cell with dyes, snowballs (to remove color) or paint balls, and runs on AE power - charge it in the §3Charger§r.
+
+# Quest: Crafting Storage Upgrades
+betterquesting.quest.DiPU-6lNq809j7A_W1nnhA.name=Crafting Storage Upgrades
+betterquesting.quest.DiPU-6lNq809j7A_W1nnhA.desc=A Crafting CPU can only run jobs that fit in its §6Crafting Storage§r. Big jobs with many steps need a lot of it. The 4k, 16k and 64k storages are crafted from a §3Crafting Unit§r and the matching storage component.%n%nA CPU is a full rectangular box of crafting blocks, up to 17 blocks on each side, with at least one storage block.
+
+# Quest: Extreme Crafting Storage
+betterquesting.quest.JsOHE-6MZP95gYFyAEaarw.name=Extreme Crafting Storage
+betterquesting.quest.JsOHE-6MZP95gYFyAEaarw.desc=The 256k to 16384k crafting storages use the advanced storage components. The §6Singularity Crafting Storage§r is practically unlimited and fits any job.
+
+# Quest: Co-Processors
+betterquesting.quest.aKjcDKlNI0zPR_8XqtEr6g.name=Co-Processors
+betterquesting.quest.aKjcDKlNI0zPR_8XqtEr6g.desc=§6Co-Processing Units§r let a Crafting CPU push more patterns at once, so jobs with many parallel steps finish faster. Each tier is crafted from four of the tier below: 4x, 16x, 64x, 256x, 1024x and 4096x.%n%nStorage decides how big a job can be, co-processors decide how fast it runs.
+
+# Quest: Crafting Monitor
+betterquesting.quest.6DaNV9LiRo0PuFeQ2K3jVg.name=Crafting Monitor
+betterquesting.quest.6DaNV9LiRo0PuFeQ2K3jVg.desc=The §6Crafting Monitor§r is a part of the Crafting CPU that shows the item the CPU is making right now. Put it on the outside of the CPU so you can see at a glance which CPU is busy.
+
+# Quest: Pattern Optimization Matrix
+betterquesting.quest.FlPe2HZOLHMhNKdKi2xVbQ.name=Pattern Optimization Matrix
+betterquesting.quest.FlPe2HZOLHMhNKdKi2xVbQ.desc=With a §3Pattern Optimization Matrix§r on the network, the craft confirm screen gets an §6Optimize patterns§r button. It multiplies processing patterns so the job needs fewer steps, which helps a lot with long NTM chains.%n%nOnly interfaces with §6Allow pattern optimization§r turned on are affected. The matrix needs a channel.
+
+# Quest: Crafting Plan
+betterquesting.quest.OHSX0esZS8Bw6JeIK_V3uQ.name=Crafting Plan
+betterquesting.quest.OHSX0esZS8Bw6JeIK_V3uQ.desc=When you order a craft, the plan screen shows every item the job uses, makes or is missing. Things to know:%n- missing items are shown in red - the job will not start in normal mode%n- §6Ignore Missing§r mode starts the job anyway and waits for the missing items%n- you can choose which CPU runs the job%n- §6Start and follow§r notifies you when the job is done%n%nOpen the §6Crafting Status§r from the terminal to see running jobs or cancel them.
+
+# Quest: Pattern Tricks
+betterquesting.quest.WCHPJ_3xWOgNLdFNpTOjkA.name=Pattern Tricks
+betterquesting.quest.WCHPJ_3xWOgNLdFNpTOjkA.desc=Useful pattern terminal features:%n- crafting patterns can allow §6substitutions§r, so any ore dictionary variant of an ingredient is accepted%n- the multiply and divide buttons scale a processing pattern (Shift for bigger steps)%n- processing patterns can use the output of a §6Blocking Mode§r interface only once the machine is empty%n%nOne pattern per recipe is enough - AE2 picks the right one for every job.
+
+# Quest: Filter Cards
+betterquesting.quest.Qzonrh3XIzo-dw7Ktu86yQ.name=Filter Cards
+betterquesting.quest.Qzonrh3XIzo-dw7Ktu86yQ.desc=Basic filter cards for buses, storage buses, planes and cells:%n- §6Capacity Card§r - more filter slots%n- §6Redstone Card§r - redstone control for buses and the IO Port%n- §6Fuzzy Card§r - match items by durability or ignore damage and NBT%n- §6Inverter Card§r - turns a whitelist into a blacklist%n%nPut them into a §6Network Tool§r to always have them at hand.
+
+# Quest: Crafting Card
+betterquesting.quest.wdkESOaP9M7jWMVt5Ep3eA.name=Crafting Card
+betterquesting.quest.wdkESOaP9M7jWMVt5Ep3eA.desc=The §6Crafting Card§r connects machines to autocrafting:%n- in an §6Interface§r it orders crafts to keep the stocked amount%n- in an §6Export Bus§r it orders a craft when the item is missing%n- in a §6Level Emitter§r it can emit while the item is being crafted, or start a craft on redstone%n%nWith an interface it is the simplest way to keep a stock of fuel, plates or circuits.
+
+# Quest: Hyper Acceleration
+betterquesting.quest.mqhiIxsiZRoV68ZaLamtyQ.name=Hyper Acceleration
+betterquesting.quest.mqhiIxsiZRoV68ZaLamtyQ.desc=The §6Hyper-Acceleration Card§r and §6Superluminal Acceleration Card§r let import and export buses move huge stacks per operation, far more than the normal §6Acceleration Card§r. Use them for bulk lines like ore processing.
+
+# Quest: Ore Dictionary Filter
+betterquesting.quest.kFs1hPTwZ_Qy_n-r2mvUcQ.name=Ore Dictionary Filter
+betterquesting.quest.kFs1hPTwZ_Qy_n-r2mvUcQ.desc=The §6Ore Dictionary Filter Card§r filters by ore dictionary names instead of items. For example, §6ore*§r catches every ore and §6dust*§r every dust. It works in buses, storage buses, cells and view cells.%n%nThe §6NBT Filter Card§r does the same with NBT conditions.
+
+# Quest: Sticky and Distribution Cards
+betterquesting.quest.2PxxJvy42TgsaeZwPWHVjw.name=Sticky and Distribution Cards
+betterquesting.quest.2PxxJvy42TgsaeZwPWHVjw.desc=Cell upgrades for the §3Cell Workbench§r:%n- §6Sticky Card§r - items that match a sticky cell go only there, so they never spill into your general cells. Sneak-use it on a drive to apply it to all its cells.%n- §6Equal Distribution Card§r - splits the cell capacity equally between its types
+
+# Quest: Advanced Interface Cards
+betterquesting.quest.HhLwmsUVK6wZzpe5w0ZbFQ.name=Advanced Interface Cards
+betterquesting.quest.HhLwmsUVK6wZzpe5w0ZbFQ.desc=Cards that change how an §3Interface§r pushes patterns:%n- §6Advanced Blocking Card§r - adds a looser blocking mode%n- §6Locking Card§r - pauses pushing until a redstone pulse, while redstone is on or off, or until the result comes back%n- §6Fake Crafting Card§r - the last step counts as done once pushed, so the CPU is freed right away%n%nThey help with slow NTM machines and setups where one machine serves many recipes.
+
+# Quest: Spatial Link Chamber
+betterquesting.quest.oPrL82VM-E5NppkCwG8Gvg.name=Spatial Link Chamber
+betterquesting.quest.oPrL82VM-E5NppkCwG8Gvg.desc=Put a used §6Spatial Storage Cell§r into a §3Spatial Link Chamber§r to bind its storage room to your network. Place a §3Spatial Network Relay§r inside that room, and the room joins the network of the chamber. The chamber can also teleport you inside.%n%nThis lets you build a pocket factory inside a spatial cell.
+
+# Quest: Quartz Fixtures
+betterquesting.quest.-PYOhzFpyiVfYWdksDB15w.name=Quartz Fixtures
+betterquesting.quest.-PYOhzFpyiVfYWdksDB15w.desc=The §6Charged Quartz Fixture§r is a small torch-like light. The §6Light Detecting Fixture§r gives a redstone signal based on the light level around it.
+
+# Quest: AE2 Decorative Blocks
+betterquesting.quest.wJ0nxy95NdjbZtZ9N3j0CQ.name=AE2 Decorative Blocks
+betterquesting.quest.wJ0nxy95NdjbZtZ9N3j0CQ.desc=AE2 has a few building blocks: §6Certus Quartz Blocks§r, pillars and chiseled blocks, §6Fluix Blocks§r and §6Sky Stone§r in several shapes, all with stairs and slabs. Sky Stone is crafted from meteorite fragments and cobblestone and is very blast resistant.
+
 
 ## Quest Line: OpenComputers
 betterquesting.questline.7qWugdC9QfGJ31NktB0YqA.name=OpenComputers
@@ -2611,6 +3183,238 @@ betterquesting.quest.l3OJx_niTg-UyYUoyOXYfg.desc=The §6Cable§r serves as a way
 # Quest: Computer
 betterquesting.quest.zElcW5PDQwGOvbKnyroWEQ.name=Computer
 betterquesting.quest.zElcW5PDQwGOvbKnyroWEQ.desc=A §3Keyboard§r is needed to type text on §3Screens§r, be they in the world or built into devices such as §3Robots§r or §6Tablets§r.%n%nFor the keyboard to work with a screen in the world, it has to be placed next to the screen, facing that screen, or placed directly on the screen (on top or on one of the sides).%n%nThe §6EEPROM§r is what contains the code used to initialize a computer when it is being booted. %n%nThis data is stored as plain byte array, and may mean different things to different §6CPU§r architectures. For example, for Lua it is usually a small script that searches for a file systems with an init script, for other architectures it may be actual machine code.%n%nAn §6OpenOS Disk§r can be crafted using an empty floppy disk and a manual.
+
+# Quest: OC Manual
+betterquesting.quest.pK93UcjQSjRrRWlkXwcAdQ.name=OC Manual
+betterquesting.quest.pK93UcjQSjRrRWlkXwcAdQ.desc=The §6OpenComputers Manual§r is the in-game wiki of the mod. Shift-right-click with it on any OC block to open its page.%n%nIt is also an ingredient: craft it with an EEPROM to get the §6Lua BIOS§r, and with a floppy to get the §6OpenOS§r install disk.
+
+# Quest: EEPROM and Lua BIOS
+betterquesting.quest.wHFi8wE7HIV-nuEe5DanOw.name=EEPROM and Lua BIOS
+betterquesting.quest.wHFi8wE7HIV-nuEe5DanOw.desc=Every computer needs an §6EEPROM§r with boot code. Craft a blank EEPROM with the §6OC Manual§r to get the §6Lua BIOS§r, which boots from any disk that has an operating system.%n%nAn EEPROM holds only 4 KB of code. Drones and microcontrollers run only from their EEPROM, so you write your own small programs on them with the §6flash§r command.
+
+# Quest: Analyzer
+betterquesting.quest.66q2TTaa24V64IP5--igOA.name=Analyzer
+betterquesting.quest.66q2TTaa24V64IP5--igOA.desc=Right-click a component with the §6Analyzer§r to see its address and energy. Shift-right-click a computer to see why it crashed or does not boot, for example "no bios found" or "no bootable medium found".%n%nThe address is also copied to your clipboard.
+
+# Quest: First Boot
+betterquesting.quest.HyjlLxMY7m2CRF0OyB0--A.name=First Boot
+betterquesting.quest.HyjlLxMY7m2CRF0OyB0--A.desc=To boot a computer you need: a case with a §6CPU§r, §6Memory§r (at least two sticks for OpenOS), a §6Lua BIOS§r, a §6Graphics Card§r, a §6Screen§r with a §6Keyboard§r, a disk with an OS, and power.%n%n1. Insert the §6OpenOS§r floppy and turn the computer on.%n2. Type §6install§r and choose your hard drive.%n3. Reboot and take the floppy out.%n%nIf nothing happens, check the computer with the §6Analyzer§r.
+
+# Quest: OpenOS Shell
+betterquesting.quest.zWerwmOv_FOfAaTANb9hAQ.name=OpenOS Shell
+betterquesting.quest.zWerwmOv_FOfAaTANb9hAQ.desc=Useful OpenOS commands:%n- §6ls§r, §6cd§r, §6cp§r, §6mv§r, §6rm§r, §6mkdir§r - files%n- §6edit file.lua§r - text editor (Ctrl+S saves, Ctrl+W quits)%n- §6lua§r - interactive Lua%n- §6components§r - list connected components%n- §6man <command>§r - help%n- §6label§r - name a disk%n%nPut commands into §6/home/.shrc§r to run them on every boot.
+
+# Quest: Component API
+betterquesting.quest.2tILW2Qh26Ci86E5ImImrQ.name=Component API
+betterquesting.quest.2tILW2Qh26Ci86E5ImImrQ.desc=Programs talk to blocks through components:%n- §6local component = require("component")§r%n- §6component.list()§r - all components with their addresses%n- §6component.proxy(address)§r - one specific component%n- §6component.ntm_geiger.getRads()§r - the first component of that type%n- §6require("event").pull()§r - wait for signals like key presses or network messages%n%nTry it with any NTM machine that supports OpenComputers.
+
+# Quest: APUs
+betterquesting.quest.zcR6r2-yrnHq3Q-Mfx4V_g.name=APUs
+betterquesting.quest.zcR6r2-yrnHq3Q-Mfx4V_g.desc=An §6APU§r is a CPU and a Graphics Card in one slot, which frees a card slot. The tier 1 APU supports 12 components like a tier 2 CPU, the tier 2 APU supports 16.%n%nShift-right-click a CPU or APU in your hand to switch its architecture between Lua 5.2 and Lua 5.3. It is soldered in the §3Soldering Station§r.
+
+# Quest: Loot Disks and OPPM
+betterquesting.quest.fPS9rBPyoXZ9yVnfOQJpwA.name=Loot Disks and OPPM
+betterquesting.quest.fPS9rBPyoXZ9yVnfOQJpwA.desc=Program floppies can be found in dungeon chests: §6Network§r, §6Plan9k§r, §6OpenIRC§r, §6OpenLoader§r and the robot programs §6Builder§r, §6Digger§r and §6Mazer§r. Crafting a loot disk with a §6Scrench§r changes it into another one.%n%nThe §6OPPM§r disk (floppy + Interweb) is a package manager: with an §6Internet Card§r, §6oppm install <package>§r downloads programs.
+
+# Quest: Scrench
+betterquesting.quest.zF9P9_YY6Z3F5aMwBtJQHA.name=Scrench
+betterquesting.quest.zF9P9_YY6Z3F5aMwBtJQHA.desc=The §6Scrench§r is the OpenComputers wrench. It rotates blocks, toggles the sides of a §3Net Splitter§r, and inverts the §3Charger§r.
+
+# Quest: Disk Platter
+betterquesting.quest.eVtEC4T3Nb0ioYlyNyU4Lg.name=Disk Platter
+betterquesting.quest.eVtEC4T3Nb0ioYlyNyU4Lg.desc=The §6Disk Platter§r is the base of floppies and hard drives. In this pack it is pressed from an iron plate with a §6Circuit Stamp§r.
+
+# Quest: Keyboard Parts
+betterquesting.quest.NmpbyEiX3JGk-FfxzGNOGA.name=Keyboard Parts
+betterquesting.quest.NmpbyEiX3JGk-FfxzGNOGA.desc=The §6Keyboard§r is crafted from §6Button Groups§r and §6Arrow Keys§r.
+
+# Quest: Network Card
+betterquesting.quest.xHm7EkJ790DDlupKA3PKQQ.name=Network Card
+betterquesting.quest.xHm7EkJ790DDlupKA3PKQQ.desc=The §6Network Card§r sends messages over cables to other computers:%n- §6modem.open(port)§r - listen on a port (up to 16)%n- §6modem.send(address, port, ...)§r or §6modem.broadcast(port, ...)§r%n- received messages arrive as the §6modem_message§r event%n%nMessages pass through §3Relays§r, components do not. It is soldered in the §3Soldering Station§r.
+
+# Quest: Relay
+betterquesting.quest.Ux6IOyTyzwpZaagNeExyAA.name=Relay
+betterquesting.quest.Ux6IOyTyzwpZaagNeExyAA.desc=A computer can only handle a limited number of components (8, 12 or 16 by CPU tier). The §3Relay§r passes network messages between two networks but hides their components from each other, so you can split a big setup into parts.%n%nPut a wireless card into it to make a wireless relay, or a linked card to make a tunnel. Messages can jump through 5 relays at most, and loops are not detected. It is made in the §3Assembly Machine§r.
+
+# Quest: Net Splitter
+betterquesting.quest.llkbScdfaoOnu7ZD-38ePA.name=Net Splitter
+betterquesting.quest.llkbScdfaoOnu7ZD-38ePA.desc=The §3Net Splitter§r directly joins or separates the networks on its sides. Toggle each side with a wrench. A redstone signal inverts all sides, so you can connect a machine area to a computer only when you need it. It is made in the §3Assembly Machine§r.
+
+# Quest: Linked Card
+betterquesting.quest._CMrwkn6U1KE45RrHIOzBg.name=Linked Card
+betterquesting.quest._CMrwkn6U1KE45RrHIOzBg.desc=§6Linked Cards§r are crafted in pairs. The two cards of a pair talk to each other over any distance, even across dimensions, without relays. Great for controlling a base on another planet.%n%nThey need §6Interweb§r, made from string and an ender pearl. It is soldered in the §3Soldering Station§r.
+
+# Quest: Redstone Cards
+betterquesting.quest.7QERxObEqTI2beJxtadkIA.name=Redstone Cards
+betterquesting.quest.7QERxObEqTI2beJxtadkIA.desc=The §6Redstone Card§r reads and emits redstone on all sides of the computer. §6getInput(side)§r and §6setOutput(side, value)§r work with analog strength 0 to 15, and changes come as the §6redstone_changed§r event.%n%nThe tier 2 card adds bundled redstone for ProjectRed cables. It is soldered in the §3Soldering Station§r.
+
+# Quest: Redstone I/O
+betterquesting.quest.93stDo4XsGScU_uezrQphg.name=Redstone I/O
+betterquesting.quest.93stDo4XsGScU_uezrQphg.desc=The §3Redstone I/O§r block works like a redstone card that you can place anywhere on the network, with bundled support. It uses world sides (north, south and so on) instead of sides relative to the computer.%n%nIt can also wake up a sleeping computer when its input changes. It is made in the §3Assembly Machine§r.
+
+# Quest: Data Card
+betterquesting.quest.fmTRnwlmnidpLZ-U7ZtflA.name=Data Card
+betterquesting.quest.fmTRnwlmnidpLZ-U7ZtflA.desc=The §6Data Card§r gives fast hashing (CRC32, MD5, SHA-256), Base64 and compression. Tier 2 adds AES encryption and random numbers, tier 3 adds key pairs for signatures and key exchange. It is soldered in the §3Soldering Station§r.
+
+# Quest: TPS Card
+betterquesting.quest.44KNOoJ3AUzjISPwMCNiKA.name=TPS Card
+betterquesting.quest.44KNOoJ3AUzjISPwMCNiKA.desc=The §6TPS Card§r reads the server tick time and TPS of each dimension, and how many chunks, entities and tile entities are loaded. Use it to find what makes your base lag.
+
+# Quest: Adapter
+betterquesting.quest.pbqxQu9lvG9YNnOnsmup2Q.name=Adapter
+betterquesting.quest.pbqxQu9lvG9YNnOnsmup2Q.desc=The §3Adapter§r turns blocks next to it into components, for example AE2 parts, furnaces and RF storage. Most NTM machines do not need it - they connect to OC cables directly.%n%nIts upgrade slot takes an §6Inventory Controller§r, a §6Tank Controller§r or an §6MFU§r. It is made in the §3Assembly Machine§r.
+
+# Quest: Transposer
+betterquesting.quest.ZNQP-zCKpGb2XwoGQlkS5w.name=Transposer
+betterquesting.quest.ZNQP-zCKpGb2XwoGQlkS5w.desc=The §3Transposer§r moves items and fluids between the inventories and tanks next to it on command: §6transferItem(from, to, count)§r and §6transferFluid(from, to, amount)§r. It can also read their contents.%n%nIn this pack an Adapter cannot read plain chests, so the Transposer is the main way to sort items with a computer. One craft gives 4. It is made in the §3Assembly Machine§r.
+
+# Quest: Inventory and Tank Controllers
+betterquesting.quest.l-WPNtkF1nKesxD0TRydmQ.name=Inventory and Tank Controllers
+betterquesting.quest.l-WPNtkF1nKesxD0TRydmQ.desc=The §6Inventory Controller Upgrade§r gives slot-level access to inventories and full item details. The §6Tank Controller Upgrade§r does the same for tanks. Both work in robots, drones and the §3Adapter§r.
+
+# Quest: Database Upgrade
+betterquesting.quest.ogBvq-BuTiUPkB1a-pbtQA.name=Database Upgrade
+betterquesting.quest.ogBvq-BuTiUPkB1a-pbtQA.desc=The §6Database Upgrade§r stores item descriptions (9, 25 or 81 entries) without the items themselves. Other components use them, for example to set the configuration of an ME Interface or Export Bus from a program.%n%nFill it by hand in its GUI or with §6store(...)§r from a controller.
+
+# Quest: MFU
+betterquesting.quest.am-jBQ4GdY_uvDQTXgNZNg.name=MFU
+betterquesting.quest.am-jBQ4GdY_uvDQTXgNZNg.desc=The §6MFU§r goes into an §3Adapter§r and acts as a remote side of it. Bind it by shift-clicking a block, and the adapter talks to that block from up to 16 blocks away. Useful for machines that are hard to reach with cable.
+
+# Quest: ME Integration
+betterquesting.quest.XIM2vh8LXu1Q47rZryuHkQ.name=ME Integration
+betterquesting.quest.XIM2vh8LXu1Q47rZryuHkQ.desc=An §3ME Controller§r or §3ME Interface§r connected to a computer (directly or through an §3Adapter§r) gives full access to the network:%n- §6getItemsInNetwork()§r - list all stored items%n- §6getCraftables()§r - list patterns, then §6.request(amount)§r to order a craft%n- §6getCpus()§r - the state of the crafting CPUs%n%nWith a §6Database Upgrade§r you can also change interface and bus configurations from programs.
+
+# Quest: Geolyzer
+betterquesting.quest.0nYsO_uk4pnIizE-Ipwojg.name=Geolyzer
+betterquesting.quest.0nYsO_uk4pnIizE-Ipwojg.desc=The §3Geolyzer§r scans the hardness of blocks in a column around it, up to 32 blocks away. Ores are harder than stone, so you can find them, but the result has some noise - the further the block, the less exact.%n%nIt also works as a robot or tablet upgrade. It is made in the §3Assembly Machine§r.
+
+# Quest: Hologram Projectors
+betterquesting.quest.zx4uJrEGpa-mnqLP-ejJdw.name=Hologram Projectors
+betterquesting.quest.zx4uJrEGpa-mnqLP-ejJdw.desc=The §3Hologram Projector§r draws a 48x32x48 voxel picture above itself. Tier 1 has one color, tier 2 has three colors and can be scaled bigger. A classic use is a 3D terrain map made with a §3Geolyzer§r. It is made in the §3Assembly Machine§r.
+
+# Quest: Motion Sensor
+betterquesting.quest.45DMzIU2a7VHV-2PQiZdaw.name=Motion Sensor
+betterquesting.quest.45DMzIU2a7VHV-2PQiZdaw.desc=The §3Motion Sensor§r sends a signal when a living entity moves within 8 blocks and in line of sight. Use it for alarms or automatic doors. It is made in the §3Assembly Machine§r.
+
+# Quest: 3D Printing
+betterquesting.quest.q-xzXuKPF5He-tLmwHkfqw.name=3D Printing
+betterquesting.quest.q-xzXuKPF5He-tLmwHkfqw.desc=The §33D Printer§r prints custom-shaped blocks from models. It uses §6Chamelium§r for the volume and an §6Ink Cartridge§r for the colors. Prints can emit light or redstone and can be recycled in the printer.%n%nInstall the examples with §6oppm install print3d-examples§r and print them with §6print3d <file>§r.
+
+# Quest: OC End Stone
+betterquesting.quest.D4h3Hj2UUgJABlufCn5eyA.name=OC End Stone
+betterquesting.quest.D4h3Hj2UUgJABlufCn5eyA.desc=OpenComputers adds a craftable §6End Stone§r made from ender pearls and §6Blocks of Chamelium§r, so you can make drone cases and the tier 2 Hover Upgrade without visiting the End.
+
+# Quest: Power Distributor
+betterquesting.quest.luUPlD2Fx2Xl2qWrufVymA.name=Power Distributor
+betterquesting.quest.luUPlD2Fx2Xl2qWrufVymA.desc=The §3Power Distributor§r shares energy between separate networks without connecting their components. One capacitor bank can feed many computers this way. It is made in the §3Assembly Machine§r.
+
+# Quest: Carpeted Capacitor
+betterquesting.quest.qwJeStLBrEHeYWU8GKFnLQ.name=Carpeted Capacitor
+betterquesting.quest.qwJeStLBrEHeYWU8GKFnLQ.desc=Put a carpet on a §3Capacitor§r. When two or more sheep or ocelots stand on it, it slowly makes power from their static. Sometimes it shocks them a little.
+
+# Quest: OC Charger
+betterquesting.quest.PG9ravcVrFdxDQZx3bnqAA.name=OC Charger
+betterquesting.quest.PG9ravcVrFdxDQZx3bnqAA.desc=The §3Charger§r charges robots and drones next to it, and tablets or other items in its slot. It only works with a redstone signal, and the signal strength sets the speed. A wrench inverts this.%n%nIt takes power fast, so feed it with a §3Power Converter§r. It is made in the §3Assembly Machine§r.
+
+# Quest: Disassembler
+betterquesting.quest.vJsEu9J6wETB9z_JKASAKg.name=Disassembler
+betterquesting.quest.vJsEu9J6wETB9z_JKASAKg.desc=The §3Disassembler§r breaks OC items and assembled devices back into their parts. Each part has a small chance to be lost. Use it to fix a robot or drone that you built wrong. It is made in the §3Assembly Machine§r.
+
+# Quest: Rack
+betterquesting.quest.F3DhpcKpnNiKy9Sg-fBtoA.name=Rack
+betterquesting.quest.F3DhpcKpnNiKy9Sg-fBtoA.desc=The §3Rack§r holds four mountables: §6Servers§r, a §6Terminal Server§r or a rack §6Disk Drive§r. In its GUI you wire each mountable to the sides of the rack, so different servers can use different networks.%n%nThe rack also works as a relay and power distributor between its sides. It is made in the §3Assembly Machine§r.
+
+# Quest: Terminal Server
+betterquesting.quest.kWeQmV3OxYkV96SHksV3ZA.name=Terminal Server
+betterquesting.quest.kWeQmV3OxYkV96SHksV3ZA.desc=A §6Terminal Server§r in a rack gives remote access to the servers. Bind a §6Remote Terminal§r to it by clicking the rack, and you can use the server from anywhere in wireless range, with a screen and keyboard in your hand. It is soldered in the §3Soldering Station§r.
+
+# Quest: Raid
+betterquesting.quest.rx3Gjb0DBbgdB0o7_zlRJw.name=Raid
+betterquesting.quest.rx3Gjb0DBbgdB0o7_zlRJw.desc=The §3Raid§r combines three hard drives into one big file system. Inserting a drive wipes it, and removing one wipes the whole raid. Breaking the block keeps the data. It is made in the §3Assembly Machine§r.
+
+# Quest: Robots
+betterquesting.quest.N9qIo9XNT0-UjgvJd1rg-g.name=Robots
+betterquesting.quest.N9qIo9XNT0-UjgvJd1rg-g.desc=A §6Robot§r is a computer that moves. Build it in the §3Electronics Assembler§r from a computer case, a CPU, memory, a disk with an OS and upgrades. A higher case tier allows more and better parts.%n%nRobots move, mine, place blocks and use items: §6robot.forward()§r, §6robot.swing()§r, §6robot.place()§r. They cannot see components outside - use a wireless card. Charge them in an §3OC Charger§r.
+
+# Quest: Inventory Upgrade
+betterquesting.quest.uLfiu2PcmExDnUWrQwdCrw.name=Inventory Upgrade
+betterquesting.quest.uLfiu2PcmExDnUWrQwdCrw.desc=Each §6Inventory Upgrade§r gives a robot 16 slots (up to 64) or a drone 4 slots (up to 8). Without it a robot can not pick anything up.
+
+# Quest: Crafting Upgrade
+betterquesting.quest.6yj7r-hiNK4U5G4ZVpt7fg.name=Crafting Upgrade
+betterquesting.quest.6yj7r-hiNK4U5G4ZVpt7fg.desc=With the §6Crafting Upgrade§r a robot crafts using the top-left 3x3 slots of its inventory as a crafting grid.
+
+# Quest: Tank Upgrade
+betterquesting.quest.q345Bq3tdDxVp20TtBx23w.name=Tank Upgrade
+betterquesting.quest.q345Bq3tdDxVp20TtBx23w.desc=The §6Tank Upgrade§r gives a robot or drone a tank of 16 buckets. Together with the §6Tank Controller§r it can move fluids between tanks.
+
+# Quest: Movement Upgrades
+betterquesting.quest.O_akG3HXQHu04UQeL01Liw.name=Movement Upgrades
+betterquesting.quest.O_akG3HXQHu04UQeL01Liw.desc=Robots can normally fly only 8 blocks above the ground. The §6Hover Upgrade§r raises this to 64 or 256 blocks. The §6Angel Upgrade§r lets a robot place blocks in mid-air.
+
+# Quest: Power Upgrades
+betterquesting.quest.4Ixv4yq30SyMyf5B42QQtw.name=Power Upgrades
+betterquesting.quest.4Ixv4yq30SyMyf5B42QQtw.desc=- §6Battery Upgrade§r - a bigger energy buffer%n- §6Generator Upgrade§r - burns solid fuel from an internal slot%n- §6Solar Generator Upgrade§r - free power in direct sunlight%n%nThey let robots and tablets work far from a charger.
+
+# Quest: Chunkloader Upgrade
+betterquesting.quest.YZkwZcQ6oyrovNIx3L8s8w.name=Chunkloader Upgrade
+betterquesting.quest.YZkwZcQ6oyrovNIx3L8s8w.desc=The §6Chunkloader Upgrade§r keeps the chunks around a robot, drone or microcontroller loaded while it has power. It costs energy all the time.
+
+# Quest: Experience Upgrade
+betterquesting.quest.4mqgDbpuQkPMrGOhbmgKzQ.name=Experience Upgrade
+betterquesting.quest.4mqgDbpuQkPMrGOhbmgKzQ.desc=With the §6Experience Upgrade§r a robot gains levels from mining and killing, up to level 30. Each level makes it mine faster, wear tools less and store more energy. The experience is stored in the upgrade itself.
+
+# Quest: Utility Upgrades
+betterquesting.quest.YlwasogwuOLtRLWALc84Kw.name=Utility Upgrades
+betterquesting.quest.YlwasogwuOLtRLWALc84Kw.desc=- §6Piston Upgrade§r - pushes the block in front%n- §6Sign I/O Upgrade§r - reads and writes sign text%n- §6Tractor Beam Upgrade§r - sucks up items within 3 blocks%n- §6Trading Upgrade§r - trades with villagers automatically
+
+# Quest: Navigation Upgrade
+betterquesting.quest.aKlYp76yfZ9CYwuCk-D7tA.name=Navigation Upgrade
+betterquesting.quest.aKlYp76yfZ9CYwuCk-D7tA.desc=The §6Navigation Upgrade§r tells a robot or drone its position and facing relative to the map it was crafted with. It can also find §3Waypoints§r, which carry a label and a redstone state - handy marks for routes.
+
+# Quest: Containers
+betterquesting.quest.78v1aUYyb1cs3xDsCyUZzA.name=Containers
+betterquesting.quest.78v1aUYyb1cs3xDsCyUZzA.desc=§6Card Containers§r and §6Upgrade Containers§r give a robot a slot where you can swap a card or upgrade later without rebuilding it. They cost more complexity than a normal part.
+
+# Quest: Drones
+betterquesting.quest.o8OZ0Ho-ywuCfiLWmDo5Gw.name=Drones
+betterquesting.quest.o8OZ0Ho-ywuCfiLWmDo5Gw.desc=A §6Drone§r is a small, fast flying robot. Build it from a §6Drone Case§r in the §3Electronics Assembler§r. Drones have no tools and no disk - they run only the program on their §6EEPROM§r, usually a small loop that takes commands over a wireless card.%n%nMove them with §6drone.move(x, y, z)§r. Their cases are soldered in the §3Soldering Station§r.
+
+# Quest: Leash Upgrade
+betterquesting.quest.Ybxm9WQjuBA2C7mkXbT6RQ.name=Leash Upgrade
+betterquesting.quest.Ybxm9WQjuBA2C7mkXbT6RQ.desc=With the §6Leash Upgrade§r a drone can lead several animals at once.
+
+# Quest: Microcontrollers
+betterquesting.quest.RSjo5kS0uUbpFVRaf68Anw.name=Microcontrollers
+betterquesting.quest.RSjo5kS0uUbpFVRaf68Anw.desc=A §3Microcontroller§r is a tiny, cheap computer built from a §6Microcontroller Case§r. It runs only its EEPROM and can only use its own cards and upgrades, not external components.%n%nIt is perfect for one small job, like an emergency shutdown on a redstone signal. Their cases are soldered in the §3Soldering Station§r.
+
+# Quest: Tablets
+betterquesting.quest.ap_GDAZbOREBI0qauk3vQg.name=Tablets
+betterquesting.quest.ap_GDAZbOREBI0qauk3vQg.desc=A §6Tablet§r is a computer in your hand, built from a §6Tablet Case§r. Add a keyboard and a wireless card to control your base from anywhere. Charge it in an §3OC Charger§r.%n%nTablets turn off when you log out or change dimension. Their cases are soldered in the §3Soldering Station§r.
+
+# Quest: ME Upgrade
+betterquesting.quest.04ySSqTDPF-L4rY8bRokBA.name=ME Upgrade
+betterquesting.quest.04ySSqTDPF-L4rY8bRokBA.desc=The §6ME Upgrade§r links a robot or drone to an AE2 network without cables. Link it in an §3ME Security Terminal§r. Tier 1 works in half the range of an access point, tier 2 in full range, and tier 3 anywhere, even in other dimensions.%n%nThen use §6requestItems§r and §6sendItems§r to move items.
+
+# Quest: Hover Boots
+betterquesting.quest.Gcx3NPU_PwjhYusV4mPAeg.name=Hover Boots
+betterquesting.quest.Gcx3NPU_PwjhYusV4mPAeg.desc=§6Hover Boots§r let you jump higher, step up full blocks and take less fall damage. They run on energy - charge them in an §3OC Charger§r.
+
+# Quest: Nanomachines
+betterquesting.quest.9CvX062QC48Yt-n3PscBFg.name=Nanomachines
+betterquesting.quest.9CvX062QC48Yt-n3PscBFg.desc=Eat §6Nanomachines§r to install them. They have inputs that you switch over wireless messages, and each input gives a random effect: buffs, debuffs, particles or a magnet. Running more than two inputs at once hurts you.%n%nRecharge them near an §3OC Charger§r. Drink §6Grog§r to remove them.
+
+# Quest: NTM and OpenComputers
+betterquesting.quest.CvQzs15N4Zyimlb3VG9a0g.name=NTM and OpenComputers
+betterquesting.quest.CvQzs15N4Zyimlb3VG9a0g.desc=Many NTM machines are OC components on their own - just connect them with an OC cable, no Adapter needed. Some examples:%n- §3PWR§r, §3RBMK§r columns and console, §3ZIRNOX§r, §3Watz§r, §3ICF§r and fusion reactors%n- turbines, combustion engines and batteries%n- power and fluid gauges, tanks and the §3Mass Storage Unit§r%n- launch pads, radar and turrets%n%nRun §6components§r to see their names, and read their methods with §6component.methods(address)§r.
+
+# Quest: Paintable Network Cable
+betterquesting.quest.KDUfscA_XXa7RtAAKyPMAw.name=Paintable Network Cable
+betterquesting.quest.KDUfscA_XXa7RtAAKyPMAw.desc=The NTM §6Paintable Network Cable§r is an OC cable that takes the look of any solid block - right-click it with the block. Use it to hide cables inside walls.
+
+# Quest: RTTY Card
+betterquesting.quest.ek3uofzhkvmi15LFiU-7dQ.name=RTTY Card
+betterquesting.quest.ek3uofzhkvmi15LFiU-7dQ.desc=The §6RTTY Card§r connects a computer to NTM §6Redstone-over-Radio§r. It can read and send signals on radio channels, so computers can talk to radio torches and other RoR devices anywhere.
 
 
 ## Quest Line: Kill All the Things
@@ -2723,7 +3527,7 @@ betterquesting.quest.J3PV7VfYQz6Iwg4d0sTyGA.desc=Mobs killed by a player sometim
 
 # Quest: Glyphid Castes
 betterquesting.quest.c0_jzKSORKyKP9uH86rGYg.name=Glyphid Castes
-betterquesting.quest.c0_jzKSORKyKP9uH86rGYg.desc=A hive is more than a pile of bugs. Know what you are shooting at:%n%n- §6Glyphid§r - the common worker.%n- §6Brawler§r and §6Behemoth§r - bigger, tougher and harder hitting. A Behemoth sprays sulfuric acid and leaves an acid cloud when it dies.%n- §6Bombardier§r and §6Blaster§r - stay back and lob acid bombs.%n- §6Digger§r - tunnels through any block weaker than concrete, so dirt walls will not stop a swarm.%n- §6Scout§r - wanders off to find a spot for a §cnew hive§r. Kill scouts on sight.%n- §6Brenda§r - releases a cloud of pheromones and a brood of glyphids when it dies.%n- §6Big Man Johnson§r - carries a nuclear payload and blows up on death, spilling parasitic maggots.%n%nGlyphids can also be tamed: feed one §6Grilled Glyphid Meat§r and with luck it becomes your pet. Right click to make it sit, feed it meat to heal it. Infected glyphids cannot be tamed.
+betterquesting.quest.c0_jzKSORKyKP9uH86rGYg.desc=A hive is more than a pile of bugs. Know what you are shooting at:%n%n- §6Glyphid§r - the common worker.%n- §6Brawler§r and §6Behemoth§r - bigger, tougher and harder hitting. A Behemoth sprays sulfuric acid and leaves an acid cloud when it dies.%n- §6Bombardier§r and §6Blaster§r - stay back and lob acid bombs.%n- §6Digger§r - tunnels through any block weaker than concrete, so dirt walls will not stop a swarm.%n- §6Scout§r - wanders off to find a spot for a §cnew hive§r. Kill scouts on sight.%n- §6Brenda§r - releases a cloud of pheromones and a brood of glyphids when it dies.%n- §6Big Man Johnson§r - carries a nuclear payload and blows up on death, spilling parasitic maggots.%n%nGlyphids can also be tamed: feed one §6Grilled Glyphid Meat§r and with luck it becomes your pet. Right click to make it sit, feed it meat to heal it. Infected glyphids cannot be tamed.%n%n%n%nGlyphids drop §6Glyphid Meat§r, which can be grilled and eaten.
 
 # Quest: Creepers of Nuclear Tech
 betterquesting.quest.SUJ8OzldS7OkIypd2luCyA.name=Creepers of Nuclear Tech
@@ -2896,7 +3700,7 @@ betterquesting.quest.goO8TjFKQJSliKGm5iLl8g.desc=Combine a balefire rod with the
 
 # Quest: RTG Generator
 betterquesting.quest.iPfGHnjgRgWCBu6sUmogOA.name=RTG Generator
-betterquesting.quest.iPfGHnjgRgWCBu6sUmogOA.desc=The RTG turns the decay heat of radioisotope pellets into power - no cooling, no fuel handling, no meltdowns. It is assembled from three RTG units, steel, wire and plastic.%n%nIt holds 15 pellets. Their combined heat, capped at 200, gives 5 HE per tick for each point of heat. Pellets slowly decay into depleted pellets that you have to replace.
+betterquesting.quest.iPfGHnjgRgWCBu6sUmogOA.desc=The RTG turns the decay heat of radioisotope pellets into power - no cooling, no fuel handling, no meltdowns. It is assembled from three RTG units, steel, wire and plastic.%n%nIt holds 15 pellets. Their combined heat, capped at 200, gives 5 HE per tick for each point of heat. Pellets slowly decay into depleted pellets that you have to replace.%n%n%n%nDo not throw depleted pellets away - craft them back into materials: bismuth, neptunium, zirconium and reactor grade americium billets, or lead, mercury and nickel ingots.
 
 # Quest: Starter RTG Pellets
 betterquesting.quest.niZAwDo9SUSYhGbcCiEn-Q.name=Starter RTG Pellets
@@ -2952,7 +3756,7 @@ betterquesting.quest.AAAAAAAAAAAAAAAAAAAACA.desc=There are many tools which will
 
 # Quest: Conveyor Belt
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAKg.name=Conveyor Belt
-betterquesting.quest.AAAAAAAAAAAAAAAAAAAAKg.desc=§3Conveyors§r are the simplest way to move items around your base. They are cheap and easy to set up, but items move slowly and belts need a little planning. §3Conveyor Belts§r pick up dropped items or items placed by ejectors. If nothing takes the item at the end of the line, it drops on the ground. Standard belts are yellow, double-lane belts are red, triple-lane belts are purple, and express belts are green and three times faster. Multi-lane belts are mainly useful for looks or for grabbers, since items do not collide on belts.%n%n§3Conveyor Ejectors§r pull items from storage and place them onto belts. They have 9 slots, can be upgraded with speed and stack ejection up to level 3, and use a whitelist/blacklist filter. By default they are blacklist with no restrictions, so everything passes. Right-click the white arrow to toggle the filter mode, then deposit an item into the blue slot to add it - the item is not consumed. A redstone signal disables an ejector.%n%n§3Conveyor Inserters§r take items from belts and push them into storage. They have 21 slots and can destroy surplus items if their buffer fills, otherwise leftover items are dropped. The §3Conveyor Splitter§r evenly splits items onto 2 lanes. Be careful: an ejector facing a splitter with no belt between them will place items directly on the splitter's output belt and skip the splitting section.%n%n§3Conveyor Sorters§r route items to specific belts using six outputs with five filter slots each. Each output can be set to whitelist, blacklist, wildcard, or off. Sorters have no buffer and move items as fast as they receive them, but they require integrated circuits, so you need silicon and an electric arc furnace first. If you cannot make a sorter yet, an inserter feeding a crate with several filtered ejectors works as a slower substitute.
+betterquesting.quest.AAAAAAAAAAAAAAAAAAAAKg.desc=§3Conveyors§r are the simplest way to move items around your base. They are cheap and easy to set up, but items move slowly and belts need a little planning. §3Conveyor Belts§r pick up dropped items or items placed by ejectors. If nothing takes the item at the end of the line, it drops on the ground. Standard belts are yellow, double-lane belts are red, triple-lane belts are purple, and express belts are green and three times faster. Multi-lane belts are mainly useful for looks or for grabbers, since items do not collide on belts.%n%n§3Conveyor Ejectors§r pull items from storage and place them onto belts. They have 9 slots, can be upgraded with speed and stack ejection up to level 3, and use a whitelist/blacklist filter. By default they are blacklist with no restrictions, so everything passes. Right-click the white arrow to toggle the filter mode, then deposit an item into the blue slot to add it - the item is not consumed. A redstone signal disables an ejector.%n%n§3Conveyor Inserters§r take items from belts and push them into storage. They have 21 slots and can destroy surplus items if their buffer fills, otherwise leftover items are dropped. The §3Conveyor Splitter§r splits items onto 2 lanes, evenly by default - the split ratio can be adjusted with a screwdriver. Be careful: an ejector facing a splitter with no belt between them will place items directly on the splitter's output belt and skip the splitting section.%n%n§3Conveyor Sorters§r route items to specific belts using six outputs with five filter slots each. Each output can be set to whitelist, blacklist, wildcard, or off. Sorters have no buffer and move items as fast as they receive them, but they require integrated circuits, so you need silicon and an electric arc furnace first. If you cannot make a sorter yet, an inserter feeding a crate with several filtered ejectors works as a slower substitute.
 
 # Quest: Transport Drones
 betterquesting.quest.AAAAAAAAAAAAAAAAAAAAdg.name=Transport Drones
