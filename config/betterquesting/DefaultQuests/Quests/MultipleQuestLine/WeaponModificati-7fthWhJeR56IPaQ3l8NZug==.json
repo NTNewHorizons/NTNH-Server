@@ -2,7 +2,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 298
+      "questIDLow:4": 104
     }
   },
   "properties:10": {
@@ -17,22 +17,19 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "The §6DNT Nanosuit§r is final goal of the mod. By crafting this armor you have reached the end of progression.\n\n§5Thanks for playing!",
+      "desc:8": "The §3Weapon Modification Table§r installs weapon mods into guns. Put the gun into the table, and every mod slot shows which mods fit that gun. Mods can be swapped out again at any time.\n\n- §6Receivers and parts§r - an optimized receiver adds damage, high-durability parts make the gun wear down slower. There is one of each for every gun metal: iron, steel, bronze, HSS, weapon steel, saturnite, desh, ferrouranium and resistant alloy.\n- §6Conversion kits§r - change which caliber a gun fires, for example to §6.357 Magnum§r, §6.44 Magnum§r, §69mm§r, §65.56mm§r, §67.62mm§r or §6.50 BMG§r.\n- §6Special mods§r - silencer, scope, bayonet, choke, speedloader, double-stacked magazine, polymer furniture and gun-specific kits like the Grease Gun Modernization Kit or the laser rifle receivers.\n\n§2Check NEI on a gun to see which mods it accepts.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "hbm:item.dns_helmet",
-        "tag:10": {
-          "charge:4": 1000000000
-        }
+        "id:8": "hbm:tile.machine_weapon_table"
       },
-      "isMain:1": 1,
+      "isMain:1": 0,
       "isSilent:1": 0,
       "is_final:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "DNT Nanosuit",
+      "name:8": "Weapon Modification Table",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -61,23 +58,9 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 53,
-  "rewards:9": {
-    "0:10": {
-      "ignoreDisabled:1": 0,
-      "index:3": 0,
-      "rewardID:8": "bq_standard:item",
-      "rewards:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 12,
-          "OreDict:8": "",
-          "id:8": "enhancedlootbags:lootbag"
-        }
-      }
-    }
-  },
+  "questIDHigh:4": -1298337028083136610,
+  "questIDLow:4": -8629560752295683654,
+  "rewards:9": {},
   "tasks:9": {
     "0:10": {
       "autoConsume:1": 0,
@@ -92,37 +75,7 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "hbm:item.dns_helmet",
-          "tag:10": {
-            "charge:4": 1000000000
-          }
-        },
-        "1:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "hbm:item.dns_plate",
-          "tag:10": {
-            "charge:4": 1000000000
-          }
-        },
-        "2:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "hbm:item.dns_legs",
-          "tag:10": {
-            "charge:4": 1000000000
-          }
-        },
-        "3:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "hbm:item.dns_boots",
-          "tag:10": {
-            "charge:4": 1000000000
-          }
+          "id:8": "hbm:tile.machine_weapon_table"
         }
       },
       "taskID:8": "bq_standard:retrieval"

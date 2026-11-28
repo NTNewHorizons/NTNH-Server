@@ -1,16 +1,8 @@
 {
   "preRequisites:9": {
     "0:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 32
-    },
-    "1:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 66
-    },
-    "2:10": {
-      "questIDHigh:4": 0,
-      "questIDLow:4": 111
+      "questIDHigh:4": -1044641322075339141,
+      "questIDLow:4": -6450774178604453338
     }
   },
   "properties:10": {
@@ -25,22 +17,19 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "The §6HEV Mark IV§r is a strong electric armor set, with the intent of keeping the user safe primarely from dangerous hazards, such as high levels of radiation, fire, certain air particles and more. The suit comes equiped with an §6Geiger Counter§r and custom hud.",
+      "desc:8": "§3Immersive Vehicles§r adds cars, trucks, planes, boats and more, all built from parts.\n\n- Vehicles and their parts - engines, wheels, seats, propellers, instruments - are crafted at their own benches, such as the §3Vehicle Bench§r, §3Engine Bench§r and §3Wheel Bench§r.\n- Place the vehicle, then right-click it with the parts to install them. The §6Wrench§r removes parts and opens the vehicle\u0027s info screen; the §6Screwdriver§r is used for some parts as well.\n- Vehicles run on fuel. Fill them with a §3Fuel Pump§r or a §6Jerrycan§r, and lock them with a §6Key§r.\n- The car and plane §6Handbooks§r explain the controls and every system in detail.\n\nThe pack also includes the §6NTM Vehicles§r and §6MTS40k§r content packs.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "hbm:item.hev_helmet",
-        "tag:10": {
-          "charge:4": 1000000
-        }
+        "id:8": "immersivevehicleslegacy:mts.wrench"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "is_final:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "HEV Mark IV",
+      "name:8": "Immersive Vehicles",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -69,16 +58,20 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 0,
-  "questIDLow:4": 132,
+  "questIDHigh:4": -8917629889040530694,
+  "questIDLow:4": -5000238413112966886,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
+      "index:3": 0,
+      "taskID:8": "bq_standard:checkbox"
+    },
+    "1:10": {
       "autoConsume:1": 0,
       "consume:1": 0,
       "groupDetect:1": 0,
       "ignoreNBT:1": 1,
-      "index:3": 0,
+      "index:3": 1,
       "partialMatch:1": 1,
       "requireOnlyOneItem:1": 0,
       "requiredItems:9": {
@@ -86,40 +79,22 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "hbm:item.hev_helmet",
-          "tag:10": {
-            "charge:4": 1000000
-          }
+          "id:8": "immersivevehicleslegacy:mts.wrench"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "hbm:item.hev_plate",
-          "tag:10": {
-            "charge:4": 1000000
-          }
+          "id:8": "immersivevehicleslegacy:mts.vehiclebench"
         },
         "2:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "hbm:item.hev_legs",
-          "tag:10": {
-            "charge:4": 1000000
-          }
-        },
-        "3:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "hbm:item.hev_boots",
-          "tag:10": {
-            "charge:4": 1000000
-          }
+          "id:8": "immersivevehicleslegacy:mts.handbook_car"
         }
       },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:optional_retrieval"
     }
   }
 }

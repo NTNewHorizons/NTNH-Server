@@ -34,7 +34,7 @@ hash = "542231d8bf291a2a869b922a2bd3931095a7d0f6f8248075c53bfa02aeec93ff"
 
 [[files]]
 file = "config/AppliedEnergistics2/Facades.cfg"
-hash = "fac6c9d14b845d59745075f8c30ca28c2df46cfa69e374533f78a62ac2c78665"
+hash = "3a69a450afdcdc363b2d15c98c85fe7af8ccfd091aec867be0fcdb21f378c454"
 
 [[files]]
 file = "config/AppliedEnergistics2/MeteoriteLootTable.json"
@@ -1426,11 +1426,11 @@ hash = "c320a07243aa8084b971c355e2fa91c0bedb70765d1e3094f8f1036b5b21ed93"
 
 [[files]]
 file = "config/angelica-modules.cfg"
-hash = "c6cd6d89c04ddfaf064c47bfa178002ad30efefbf3eba7d8729f2b489dc2a901"
+hash = "e022f2701e85445c47bae4283913cfe4eb029ca6e091bfacb30ffa991a8ed769"
 
 [[files]]
 file = "config/angelica-options.json"
-hash = "93c606ef5f5b03ca7822ec452ee9d263aaa263036c46ab8e2f57d5ce696ade7d"
+hash = "83eb26d93f37b2459ca09c23cd4552b1bd2af637e4ee2783b4d6aa3d00f05344"
 
 [[files]]
 file = "config/angelica.cfg"
@@ -1482,7 +1482,7 @@ hash = "fcd0f9aca1655912fe4981a5b0fb8d8f290cf11e68270b686fe7ab0efed21b4c"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests.json"
-hash = "0f785a4175620bf936e39d87a5a1cf173b3d7e98c8cee510a451ea8fa1b139d6"
+hash = "930e1490fd9e9508f9fa7a883796bcc05eb94b1c2a8436097cc97bd7d46b43c9"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/AUTOCALAutomatic-t2HnBelkRiKkjGv9JoKjLw==.json"
@@ -1498,7 +1498,7 @@ hash = "7f806565134afe245585e692aa64efcb78c1d460c0afd0c4c7e2bfff45380564"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/BetterConveyors-Jss-h7UPRO2s89rbuH-28g==.json"
-hash = "da6f8f2ccda17474eab07230df605b3294ba1189b3812631359bcbb350bb733a"
+hash = "df152e3545023c07b225381c6c94ad070f76de32e0129251503b8d3a95ed0915"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/CartsandBoats-8YCwQJgBRnumej8P7gTyJg==.json"
@@ -1522,15 +1522,19 @@ hash = "ca051e00413610d943548a1469a85a6ae011d59729a721f5af104643a1406ded"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/ConveyorGrabber-QaxG5jTfQv2p5_rvauacdg==.json"
-hash = "23a6c0f65d4c5d5541f025a66db852e6eb0638ca0ec93520b36417a69b63a8b0"
+hash = "1e2c3cdcd02eb9a3e77ef7a0cb8655d6483dcf4c3b6ff25b5fb9f08a15decfcd"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/ConveyorPress-S23MCNTZSX6O3KwaKn-Nng==.json"
-hash = "bfa3ab5f082e8be3791bcb8fcd673e5d053929a6e7155da08f39445ebc8b8444"
+hash = "dee4435ea3db388c670df668b952e89525d5610f4bbdad7b1e9746c281017dcc"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/ConveyorUpgrades-Hw_8hujlQsGL2XyuZe-ndw==.json"
-hash = "b656263327dcc6f37a5c99ea6fe7f3ddc65367a86f62f552e58db6de53cfcfc2"
+hash = "fdf8b543a50c3d8cf623fdd07ca9301e07292554326d8f8f59436f505140cbee"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/CurvyPipes-ZMYv-wthTm-5yVRXn1aPzw==.json"
+hash = "f24bd388fddb6b766d6807cc584cd8f4e6d43d2ba5d0a68c5b5e098143b751d0"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/DisplaysButtonsa-CXh5IW4AQaqb-p6bJlX2-A==.json"
@@ -1557,6 +1561,10 @@ file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7
 hash = "ecd4f3bcefb3a93604e7add1a2eff0098086edd051ea5c0cd08aa7374eff54ca"
 
 [[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/ImmersiveVehicle-hD423RFVQvq6m5Wn2iOBGg==.json"
+hash = "8d1ed5d74703042f8fd6855fbe934e0cb2d00adc4a502fb0b465d010655f248a"
+
+[[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/ItemCounter-WvfpO4ICRQSzLpydFY-pTA==.json"
 hash = "29d6be9cf60e900223dab07a814af1e1b8b5d934fe6ad4ec936ec59602f41892"
 
@@ -1575,6 +1583,10 @@ hash = "229d1a5a75e88e763ca0d4525f72f3d3d6684145bd91d45792f2e5a77dd2a4ee"
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/PowerDetector-XA_QYdAVRk22U165zQ1Gdw==.json"
 hash = "cd58122378cfa7360d8fb1fd648eb4c896a3d52ccb82188e7da2d11a673d4ea8"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/ProjectRedTransp-kSUWDMGtRGS_JuZiaPR4Jw==.json"
+hash = "c3efd1b43be94d2f2c5a50981a45cd44343bbecca58ebd8ea3fcacdc3a807022"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/QuestLine.json"
@@ -1990,19 +2002,23 @@ hash = "15dd250ba066ffe984510317cb03973a26e49a5679af6a0ce4a8fa9c45e4ab20"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/5HTPAutoinjector-QEWjfMnaTb6BKceZA7MVXA==.json"
-hash = "85fc073446539cdd86aa2d7d260686af7cabb3284cacba96a0d4bd8ac44511d8"
+hash = "0312438df97a265b6280278ae2b2e0308dff564442a4818b98a7e904fd399e15"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/8InchBladeAutoin-s87uSn_VQiGu96_RuYrW2Q==.json"
-hash = "88bf5bc1d9bf5f3322c66aceb0d903f6dfb0098963c5e9e2c09880d6c7379520"
+hash = "cb75a06cb811e28932588088b3ce9cb969ff71c354e114468b47e001e2df2a32"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/AceofSpades-RFRXuOw1SViaN1UaFQEhKw==.json"
-hash = "87b8e12f894341c10fd7916e80ced9fda3487933147e11fd7a6b6aa5dc3052ae"
+hash = "8e52155368382e1f3d15483fa9820723ec27f471e6de06485d3c82df1418e87f"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/AdvancedDesignat-koiSMnGxTh--XkYKz5V4ww==.json"
 hash = "124c471b681092a6f6a4255815414dfdb61092a4464acf533aa8a0e3dab1ff2d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/AdvancedHazmatSu-7-jaXVNtTausgOChundX0w==.json"
+hash = "3395efe7db1ae61d79bf6b282bf3cb71e6df7c30192d5325d914125744cf8e12"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/AdvancedJetpacks-vVEwAflPQeSuhsNvSBcJDA==.json"
@@ -2015,6 +2031,10 @@ hash = "7effd0ec9ac73722abde860243a2647d7dd6d8a7b68c58784d13a29250447fb6"
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/AntiMaterielRifl-2Y3HmfI4SVu2jlwlnGGJGw==.json"
 hash = "dde865212a02a19079ba0e809e69becce023f7ef786c09bab11027228a7a487b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/ArmorModificatio-3J7vD46NQg6IMMDRALpT-A==.json"
+hash = "55a91363e63dfb37f838dd7d19cdddf036783ea8dcf9c75f03495526cc5ba16d"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/AssaultRifle-JzY_N83_Tke3lJSA4GfIpA==.json"
@@ -2050,11 +2070,11 @@ hash = "08cc3c4191075332b08f473a3ad5f12639870f156d88abcb1ca6293a965e38c3"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/BismuthArmor-oSXTCgLRTcWilPF-l5wzhA==.json"
-hash = "0f392c582be1ec458ccb1c095781a3f25b35ab329a51b668473f288e381c5a4c"
+hash = "a571172d3ea48471ea90b6b09a3616791e6c1c15643397e989c1808aa5433620"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/BlackDiamond-uqlNOK-oRS6R_3Fecg0qXw==.json"
-hash = "419fff176e816747c240a36451939847d3546336f3ffb6a4c04a13773576923e"
+hash = "1752bb87ece37250727648068776ecb4199c966602c759d93e42a3c40a2aed42"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/BlackHoleMissile-6-B_BBXyRgyZvHBu_XqQCg==.json"
@@ -2062,11 +2082,11 @@ hash = "61e30df4f979376afc783c827532765298ae2caa4944ee3ded2de43cb997e3bc"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/BottleofScrumpy-5PgjMuk7QZ2s-HDU01Fjxw==.json"
-hash = "76959c6a433b34e5f8ebd8e469a42da0c767b5ed205a920be79ef352d5e50513"
+hash = "94283d809e9f58b94b7b3d8bdeb1dca68c7febfac2e3e6a5c4fb978db309b511"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/BottleofSpiderMi-AxtC6V3xTsmnAB4LirU1UQ==.json"
-hash = "793a1bd4c8ce1699b135c6b70655448025d05726704810a2fd00f60b7899ed6c"
+hash = "58dad065d1d7e520e1452093c9b481ee57b57acc5663142f13b385ea7346df90"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/C4-xYtTqpupTGO-I3EDRU7nOQ==.json"
@@ -2114,15 +2134,19 @@ hash = "8580a7a10b650745f774b34e98c9354910879a9415df513c5419dfc0c0c6f417"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/CrudeProtectiveM-c9TTHjrZTzmtGkmxH2tdiQ==.json"
-hash = "b9a6ff4113d99a72c2cbf97e8d07931ea3d08b0988579cb2afa8dc0a70f85db2"
+hash = "3de948308c4836e5aefce09d824b4244b5cf662ab673e515401c8c27a5fd55fb"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/CustomNuke-cGCqCw04Sr2DI5y1Tdfilg==.json"
 hash = "553a87cd16b97ad7f02ce05d6b6f0d719d5207e668ac02204fa17bd88a5cf1a5"
 
 [[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/DNTNanosuit-AAAAAAAAAAAAAAAAAAAANQ==.json"
+hash = "cc20b35147829ca27aa19a11f4c3f8a73b78ffc8528aa7cffd8001804de7984a"
+
+[[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/DamageThresholda-3yuh3zV6RvaY9asLtoQ7TQ==.json"
-hash = "4c692dc63caf61e722e289826ea4d1e5c1d3ad39f96a86fb378a4db81c973de2"
+hash = "930e452d0676f2813a3f8bd28845a8bdd9d981455292f068c28fe1b8688dcce2"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/DamnStylishBalli-U4TaVN8KQpCqeGEYgOUjWQ==.json"
@@ -2130,7 +2154,7 @@ hash = "4eb88c8d78c10e7d06cc9db74d5c73f6d720af7ac4ed7740f6d055a2d98338b3"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/DeadMansSwitch-KINmKqKGTpOds9wJa4W_xA==.json"
-hash = "988da243b93135893fb84bb10d7fd0747bb5d845c6f88d8bb6642fc7a11788a3"
+hash = "1c94ce07b0796fbd4d5ea92728fc40c0f47081b56b7113f0203eaf95f9c08ead"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/Desh-AAAAAAAAAAAAAAAAAAAAQg==.json"
@@ -2146,7 +2170,7 @@ hash = "742fce2bb88c8072fe64ee936962af7bc6845b15422e18bd19ea18f4324200a2"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/Detonators-yjugmauQSmqJX22c_gCmDA==.json"
-hash = "7b3652b0e0f667e48d946763c23d0d663829f18a4ed78e15cfaa32c021286eba"
+hash = "c6179aeb838149aab4790e043cb834cf27b557d8f9877f03fe71aa5f4e62bdbe"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/DieselPoweredSui-v6xPiOaqTQqGd3K_KGnByA==.json"
@@ -2226,7 +2250,7 @@ hash = "a6ef2b3ef015eb317749a2026e7d3f1f2c09f4b1fa83c6e6a23de20d4da90250"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/GoldenWireCutter-QE8P8MOsQniJU1RmdSPSDQ==.json"
-hash = "9912c0f003a359e80ea02ac248f005856067c1b63192430461bb1eea045b1535"
+hash = "7eaf15e438bb5a9e3a9dcf70911add86ceb3cdced6b7187d0a147283583e1220"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/GreaseGun-YoYseqIHR7G9e6Lk7dV2XQ==.json"
@@ -2242,11 +2266,15 @@ hash = "7fbeeb152ae14cee64025a695565e4d413291107c0419a28702b763abc3773b2"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/GunMaintenance-jG-ZfmZ3QgqyBQA7lEVgTg==.json"
-hash = "687901582c8054d6ed469b77a4b74dd9f5ab4e4feb29bc6d4283ec6dde6a63c7"
+hash = "4f515cd12c655628d0d1261c5f358e89d60878543f09911a37b57f31a15bec7f"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/Gunmetal-Wb1-riYXTUOKjc7EBCAmTg==.json"
 hash = "bf2a330ea352a50dbf878463a59d0042733a960cbf114592d09649453f71a081"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/HEVMarkIV-AAAAAAAAAAAAAAAAAAAAhA==.json"
+hash = "27ac0a81c7c2fe865052915788428624e43b0f66ef78162daa337e43dd87314f"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/HalfMask-IB2wThhmRcmqsrtv3MEH8Q==.json"
@@ -2257,20 +2285,24 @@ file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9
 hash = "fba0f55a1418e1af83eae20fb14084d5e03598145bc740817a466b0e6b36c38c"
 
 [[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/HazmatSuits-AAAAAAAAAAAAAAAAAAAADw==.json"
+hash = "f84d6178d0e6e8902be6c926419a39eec808d335eaaa12dd4fad99216653c5cb"
+
+[[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/HeartBooster-YGGfAxJOTfWBHXJIDpBxfw==.json"
-hash = "43aad8d3935d25ed3d399cc4bd53fbf8322e8ec27e86526d831344f027478a58"
+hash = "b6e77bcb8d64dc8d16dc9f594db8293581ee3a1389acff4d0f52368995b4c34d"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/HeartContainer-5IloAbSCQ7OIkaQhSqpLzA==.json"
-hash = "19b59fce9bff5aac43c6e2b5f9955305000a6ff6a8c84e35feb5e73b36d55300"
+hash = "8ce464755a3cd294338f483664d08c0e6fbbce4875689b0f9f55cff4172ca158"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/HeartPiece-qrIQ3hotTkuUk3cH7PbiMw==.json"
-hash = "26ee0bf198df1b238b2526349903bef902a7fc7f8bbb6cdacf7d2620d3aeb11f"
+hash = "6cf07b2bd1eca986b4571b8311269e9b3db28f602dc2b803967ee9a3ea2240fd"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/HeartofDarkness-g4Wj9JiiRK2oOi-PsyYcMg==.json"
-hash = "bf997d2fe872f907abb6784bd3e59f529ba644baf4a9f5150a03779cb81d6a2e"
+hash = "9f86eef83bc4410defa98d065974f9392b168cf87f399ffffeea3c04ccc889c2"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/HeavyMissiles-cf_uLA_QQv2CI-i9YV14rg==.json"
@@ -2285,12 +2317,20 @@ file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9
 hash = "ee284ccdbd0aec3fb2821df7dc0e8a6f3712f1684a68a0acb19d1409a61a1c06"
 
 [[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/HighPerformanceH-a0bouserRme9QTL62wzWmA==.json"
+hash = "24164fb6e9795b5956ed748fafa294ee1f2cc4f12fd60cb53cf1f69777c04080"
+
+[[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/HighSpeedSteel-AAAAAAAAAAAAAAAAAAAAJQ==.json"
 hash = "5cac5949af388fe6555081b403d4b2347731efbcd859f0d8501010f7bd20d748"
 
 [[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/HighwayToHell-ljMurUJIT7OuwaBx_fb3EA==.json"
+hash = "a661b57bd8b68c0cdf336352ffd1576489a5f2e291ea2f51b2ddef6e7e5a9128"
+
+[[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/HorseshoeMagnet-MBLqyS_dSnqNE0AIC4ayyA==.json"
-hash = "353252eab9e7678a7411514108aadf8fe1418a2f9dedb90c5ff73e737ad365b0"
+hash = "27ef8e459d41d7422008d6c561feb4b66cc270b614c02caf84b9815536a63b36"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/ImprovisedMissil-Iu31A2DLSeeDBEGN582zpw==.json"
@@ -2298,11 +2338,11 @@ hash = "8e9ccd8993287ff63fafb90114ec833185652a5c1c782a4feb2550f73998afc8"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/IndustrialMagnet-N5oL7h54TamJYHGUafuNcQ==.json"
-hash = "402ef7d10545752daddcd6ac3d00779e1550ca4267dfd548a0028a22138109d2"
+hash = "8d2b7b89e635aad1414866a42b11e5ac8894417b01c2e57834a23ea6aeb20fd0"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/Ink-CJBF6IVgR2OznoPUEE91bw==.json"
-hash = "5652359fa3015cd6a5b4efdf7f46c2910e67863e2b8a4598dc44fd4e6c49a54b"
+hash = "117c0ddfab3a1c4cd93f544ea9e9b89f61d6c470e75758cf03ffd020ca8044b2"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/IronCladding-ozLlu5qFSqullJWQ_Bc59w==.json"
@@ -2341,16 +2381,24 @@ file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9
 hash = "80f95ae2552e572747bd5969acf5323fffbca8078b1cc9d994e7691622add96a"
 
 [[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/LiquidatorSuit-TmH3EyXaS_6-kdT4PsVz9Q==.json"
+hash = "5475e00ea44aa62882aab190240723fd714536d310d06f2e6cf4f38a6aaaead4"
+
+[[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/Lodestone-43bXVsx9SqadoNX59qJjkA==.json"
-hash = "11d8aced4bf3d13de7bdd0f48299b0f82f6c34f52e1d1b7aa8ec18eab1883380"
+hash = "9f810e6fee0212d42fb557bbd93c22ca3fbf10ef0db3669b894cf88b93b01b90"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/LuckyCharms-69HyOPIAQ5a6G46BscViMw==.json"
-hash = "efa0d45ad3b158ccf9be112fca85798486bcfd9bd81150d1d4fa5d881470de08"
+hash = "bbf45e8c60d387913a27875c92b2825e8421bca00a54df335d358ee02f52ee93"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/LunarCyberneticA-iHD-hU2bSL-Jb3J86U6IsQ==.json"
 hash = "d15d96615a35c3dbe7994086268a39402aad474d54cffa47d1df14aeeb61c67c"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/M1TTYEnvironment-AAAAAAAAAAAAAAAAAAAADg==.json"
+hash = "9e54554476a0da529684c08407d8dfe5fbda3e0b822df1c0b58ebbc90fd11376"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/MaDeuce-nBKMQxpgReKbB7eR5pZWhQ==.json"
@@ -2362,7 +2410,7 @@ hash = "679077a3c9f33228efcc4729060927643d06dee7c16966a61bccac4bc2d7e15a"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/MaskofInfamy-uYShvvZhQTqXMYB3eI1yUw==.json"
-hash = "187d92d1009a76ab91bfb821e18ca66c75c178c46b56e47ed3c918287b25dd0c"
+hash = "a0df8f945062169f9fc3c08c945754261c6a5bbe4e67722aeb1e3f64c7405c28"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/MediumMissiles-0aqrO0lsRdyMsaD1x302pw==.json"
@@ -2370,7 +2418,7 @@ hash = "12eb72d27cd7c34d13019b1bab8f0651a3561e287f783e1315ca1ac7512f9101"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/MeteorCharm-XnulxQOaQXad2WqKwkW2Bw==.json"
-hash = "96a9e8265bbf2c773ddfb46d391692740014f57f2fb989467762bb4d28992c5b"
+hash = "151e48058204de7e64728ad37d68a2bb2dda19bb62adf1eae074f30d143264fd"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/MeteoriteSword-jnm2B5uCQmywtlowulKOJA==.json"
@@ -2406,7 +2454,7 @@ hash = "da8d77c699ff4bc3ade6b985fffc0a375f2f57236b3fadfee44343fd3e72b7b0"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/MorningGlory-YdG4ptMSQwWfWyAJjO-rAA==.json"
-hash = "8390570440358e7bd6718aff0e56bd9d17f23f6db0f7c03c7e6f998589bddf6e"
+hash = "e8f06a4fcda458d5a342462f3aec35694a980a6da3554ab20dd0698f5aca3b5a"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/MultiPurposeBomb-M_p0PAenQMeDYUBH7Uew6w==.json"
@@ -2470,7 +2518,7 @@ hash = "7ed18c601746145fd9790db5867f6576a1e95dd604a3d186fc5fe89bf63cee78"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/PlutonicQuartz-JMVYlYRzQdmcTC6GT6njdw==.json"
-hash = "4b42049a049e5d5b911f93f16e37001add6b6ca5b792f43a517742c83942e82a"
+hash = "f0f079560a7cd22cfc71a158270d52527707b56cccc14720ecb5f41570c76221"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/PoloniumInsert--0eDvKKlTbW1TMdE0wkWfw==.json"
@@ -2478,19 +2526,19 @@ hash = "dbb04121d43b1cee55fe203f1b0d06d49e0e7064e5e82f2e678e2f01ffba16a3"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/PowerArmorBatter--BLixt3BQw-jGFPpA-P_6Q==.json"
-hash = "be6ccafeb92af9a44c7d76538afa9de17a300f181420b63ffd30b03b6e16e4d5"
+hash = "604303dd6edc2c98abdbed66d4c10f9298778a7993f3318e903cb33d53b08ca7"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/PowerArmorBatter-8g3VkdPwSPOmM_6UjiXtIA==.json"
-hash = "fe30d6f6b773facd610bad1a0d3a6854198ff42e4e9d5d1eb7f040137973dba8"
+hash = "d34db190867827da7cdf3261aba8e0998633b7783015ce016b059c2094d62448"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/PowerArmorBatter-yb8dojeJSD2wYcWAZ_nGYg==.json"
-hash = "8a233673bc7360f1247315e6fe2848076690ba91f9fb826ec4683acfeb2f0929"
+hash = "87ed004123db85bb4a414c9ef13be959a0fb683eeefede5b2d1b9e7698a4c9da"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/ProtectiveArmorM-tSGcZjaySfCNw0V2ppUZZA==.json"
-hash = "c3ee15fc5596580a96b93f3dca70a802d6282884c0eb68d51b07a8c0328a147e"
+hash = "5050da13f4020cf32fc0dc213f39a491f82595d75f0ee03857fdeeb061b977ed"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/QuadRocketLaunch-Psfz99PLSEm5LB1ki6_1DQ==.json"
@@ -2498,7 +2546,7 @@ hash = "48d94ffe88e96c72eb565058540a07f1cf3979066bbf7f723a3c38c17d6202d3"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/QueenofSpades-8Xol3VE9Syqrt066kmS4Ew==.json"
-hash = "7ac1df1f09e4e9863f9ecd84a94f6783b2052c1456ff06b99ef387f61d10fa1b"
+hash = "ba55783e85e0afdc195459f573b5bad0cfac20d97fa05ea4e6e66712ae22c7b7"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/QuestLine.json"
@@ -2514,11 +2562,11 @@ hash = "1103a2e764f1222255dd0953d60383c16d1e95473eff52e7c8bd90f77571a65d"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/RefuelingStation-gv70D0MXTnWt1EiNzhmJug==.json"
-hash = "bc6dff2dd186c88cb4711d5bbff6019555e453fac2f5abc13128f777d85423fc"
+hash = "36382addd6639bc7590e69549b4321ee49799803c7f9070aa057cb002c2c843e"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/RemnantsPowerArm-YBMp_N7iTLeKt5htR1GVaQ==.json"
-hash = "db3d7f215d2bfacb54f9ec7f09c5b985e25f93564166c964376d1a4323b4d139"
+hash = "7f20c196df9f60e97b451630dfeb7468710d96b32865b253e976dae1526c7d1f"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/RubberPads--A7A01rsRJSg1pEua6MyNA==.json"
@@ -2546,7 +2594,7 @@ hash = "47612c4ff8806c39f9048c58dcd6bb935df2a9639702424823f04368e7ba83f1"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/SecurityArmor-KK8GXueRQFGdPNDp6pCXSg==.json"
-hash = "1e6ab871f42365d714a9d890e525c11373dcf30197252d5d7d6bdae62ebfe53a"
+hash = "53671cb3eec351422ede14e1bd2233a3dbfc6d82551ad333953849f40d24d858"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/SentryTurretBrow-8n_61rp-RV-wqiLPbrUhEQ==.json"
@@ -2554,15 +2602,15 @@ hash = "97872d591703edeecd383408fc2a5930e90f041c60d32963e8def7c87c7d2adf"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/Serum-mH9YH9IWQh6vPYT7WSmFSA==.json"
-hash = "7939409e4b625d9db8e57774381dc9a1a8ae03685b83874d5a7e1453a171a6ba"
+hash = "78705942a15a602cf41c27d2ad839219cacad616a58c55d32c8096be9765aa3b"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/Shackles-8WoPd7KXToiIxi8mrRMEQw==.json"
-hash = "aa1056901882927f954422c1d630e5b24edb26fa72ca1d22fd7215622e515304"
+hash = "d6776921be84d336ad98bc862b1207f34b122b3b87c4b5107a07ff9fcad8e087"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/ShiningArmorArmo--i3FOw9NQYqadcHl7HiF5g==.json"
-hash = "3a44e79a72d699a4c83331344a5dc434dd10677f136cdc923c9d2ec2d770e720"
+hash = "cc22abf5417e40751a190958fdff1c20d1dfccc0b8a798948315373462644537"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/SlimePads-UNl5aGkKTzehMe6rPEhYgg==.json"
@@ -2589,6 +2637,10 @@ file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9
 hash = "60f1baadce1eeee2038ba007ac360dcacd16deace31464e6cf05e76999c01ddf"
 
 [[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/SteamSuit-pDSQqXoMTqyf-k8b2X1WjA==.json"
+hash = "9c7e079d7e6e9f6c11a2870afcb11ff195e2e24625ef18cfce28f774b467feed"
+
+[[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/SteelGear-FJLvn9pXSNqN5V7wMa5EGg==.json"
 hash = "ece61cad82d3f27f7427e1a5e93304138e60e6797f322d9857890dfae7d0d3aa"
 
@@ -2599,6 +2651,10 @@ hash = "f3539afff9e3d1ac0f56263f773fe043934916ea3b305be4a983a1470293f47a"
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/StrongMissileVar-AkrpmfAGTxWf9FQttnnwPA==.json"
 hash = "dc1e80d6a6f7c4daa1a793622e7593ec40008cc2238976d6a909585e7b70a9aa"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/T51bPowerArmor-QPt3cE-2RDWXe44KCNXSOQ==.json"
+hash = "3fdacd883d427b62c3165cf5b23c9bde18ed5ae296e438f18ab3385927751cd6"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/TaintTippedMissi-nLA4ZI0BSGCJ3qZJN6NlXg==.json"
@@ -2634,11 +2690,11 @@ hash = "4a3fc0100e3b61475f918626cd786ef8c68354b52b2788eb05b3f1449d3b42fe"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/ToxicSoapyWater-O4rf3B9ySYmGxkrtdvvlsw==.json"
-hash = "4bef42db00f33c823c9013f0a1af93a498477939944e4b95fc4312d82237cc79"
+hash = "4fa0f20bc0fccd92464f83d9f5a807d8e769d3f14cb2901571458c10828175c6"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/ToxicSoapyWaterH-Le83dt4HS4Ol8pOFX9_zeg==.json"
-hash = "9352169a4362fdc5e691f6287b78c6f4eff47065f351c77faaad1e750271d4cd"
+hash = "16b89b74a44cab9e552d96b0c881caf19b501e4e131243ad8b3e8304e42059ee"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/TrenchmastersArm-GF4i-Yd4R_SI-SwON7VuDA==.json"
@@ -2650,7 +2706,7 @@ hash = "cdebbeb541afb3316aeb9b310f1a093a17fd1552a641454f2585c0406d33c2c4"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/TurretAIChip-rWT_BH4BS-qI7_SBqn66vA==.json"
-hash = "d53fd953d7504c9629f367b39a67ba6d643e9f246beef5d0e29923d811bae902"
+hash = "31d6124f8b1bd1fdae3d11e79f2a163e80ed855b22dc0f8498eef286fdb9704e"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/TurretChekhovsGu-lxf5pQlVSQqslxv8CGp5PQ==.json"
@@ -2682,7 +2738,7 @@ hash = "4bde2f446e2606a110adbd18ef3663153a9d319d9f8351a618aa8b1ed1ba0cb3"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/TurretMisterFrie-pXnS0KNRRXyi9upjnJBzUA==.json"
-hash = "b82a213d2b8a90d63f5073361797fb5ad87ccbf454053ee4c4ef4acd75b10c70"
+hash = "2be05bca9a3bbd57bb33246cc52ed10a398a5e36ec883f2daca1dd9c41a96379"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/TurretRichard-2T_06asATtKVkWVT5rhAag==.json"
@@ -2698,7 +2754,11 @@ hash = "7c991d62f2780bf37f509ade99ccf62a6222dcd7f90e72d0cccd5a418b275c6e"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/VelvetBandAid-RPTA0uZbRNuVddj_Cb0Rww==.json"
-hash = "df0234d515375025dfb0545fe20451910e830a9b3db40ba5b60826ae4afeeba2"
+hash = "ee75d7b50fbefb8a0ea5e50ba23084b0928d395773cd5a71cf2bae2254a121c0"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/WeaponModificati-7fthWhJeR56IPaQ3l8NZug==.json"
+hash = "c54a02145f5a20d8cb69a3ad073870cecfac5160240dca6b1fef1a3431fc608e"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/WeaponSteel-xADm9gLETmCgiS3amOTUcQ==.json"
@@ -2710,7 +2770,7 @@ hash = "950455e3b8cad652c1d8b8b98234a57a1064a19c70c8c46b6ef2feefc6babc22"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/WildPegasusDryWh-ReTUKG9pRLGhuO3_RdSqfw==.json"
-hash = "5686d38a6032c9fa673e0265f95efb48febbaac10de550ce156b0de6c6faf700"
+hash = "c7a0a0603a9ec1ca6c04220ca6235db1b4a277e8a78e1930b352b74dc24941a6"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/XSAPIInsert-nJIRNvLuRhGSlTE-pwH2vQ==.json"
@@ -3261,6 +3321,10 @@ file = "config/betterquesting/DefaultQuests/QuestLines/LV1EarlyGame-AAAAAAAAAAAA
 hash = "79101ce8ed3fff661998adfab598322455dc5e1439a2c83d99661a263b4510c7"
 
 [[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/LV1EarlyGame-AAAAAAAAAAAAAAAAAAAAAA==/HazardousGases-wxYZ8HbrSZap4h0G9H8ITA==.json"
+hash = "0e21c1cc2521642f9b64e0289c9e7abb3cd6c6384a30e932fc49729ccb22fead"
+
+[[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/LV1EarlyGame-AAAAAAAAAAAAAAAAAAAAAA==/Hazards-Zd1HNIsxSRees_4of0ezDw==.json"
 hash = "9c22eabd90a5fe14d49e389433ae8c445e2651355f74efe0b73957ff41819ec5"
 
@@ -3419,6 +3483,10 @@ hash = "ff0d671fe60a5de823c5a1b079a149aa5d475f817900449d26759aee88370f02"
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/LV1EarlyGame-AAAAAAAAAAAAAAAAAAAAAA==/Recycling-ceT8V2MeRz2u-FR9Uckarw==.json"
 hash = "64701d521ef128ef4c8a260d794e005e2354049af4060514eefee6b8218911b3"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/LV1EarlyGame-AAAAAAAAAAAAAAAAAAAAAA==/RichOreDeposits-qoqs0rqiScuK8YiqjTh2gA==.json"
+hash = "960b3854c22a63fafaa265389ddbe4c88a128254f2e6efa2d51192ae33c49f0e"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/LV1EarlyGame-AAAAAAAAAAAAAAAAAAAAAA==/RockMill-a45q5izgTseDEdlAlTOVWg==.json"
@@ -3685,6 +3753,10 @@ file = "config/betterquesting/DefaultQuests/QuestLines/LV2OilAge-AAAAAAAAAAAAAAA
 hash = "43a1a5c583769b5b2086b3eeab954cc6039e14a945608a4f8e330a58be956457"
 
 [[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/LV2OilAge-AAAAAAAAAAAAAAAAAAAAAQ==/HeatExchangingHe-rRJfZe74TXqpP-q2faX7bA==.json"
+hash = "04bd2f2cca37fce0c504e8ca2a27eae48b603163e0ac5881160e59c6923dbd42"
+
+[[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/LV2OilAge-AAAAAAAAAAAAAAAAAAAAAQ==/HydraulicFrackin-AAAAAAAAAAAAAAAAAAAAUQ==.json"
 hash = "e65210469ebb32b4c5c3df1bcdb4ca732abc336739bc09c988af160aff29a815"
 
@@ -3730,11 +3802,11 @@ hash = "aacb86058f6861df67ea876755a626408a0c032ba58a95dde9a2d2498dddb836"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/LV2OilAge-AAAAAAAAAAAAAAAAAAAAAQ==/M1TTYEnvironment-AAAAAAAAAAAAAAAAAAAADg==.json"
-hash = "0bbe6c5be9d679dad7d3e20ca9ad6a014b09a771f5948558c489ae6c17910ed5"
+hash = "b14c8ce33d19c8ea8aeb7976d368524d123df53f2e90e829c1cc3fcead82357a"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/LV2OilAge-AAAAAAAAAAAAAAAAAAAAAQ==/MeteoriteMetal-KSqXQ1jmSZ2W9QeP0P7GNg==.json"
-hash = "fe177a1e9c5dde1daffd33bde2fed9236bddf874d2484ecbdbfb8a90fe484c23"
+hash = "4a01d93ae814faec4c90d3c1678a642d278b8c24ef78ca3b58de6f16cf31dc7a"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/LV2OilAge-AAAAAAAAAAAAAAAAAAAAAQ==/Microchip-Lc9HRIDwRZa0u-M3Ze6ZiQ==.json"
@@ -3810,7 +3882,7 @@ hash = "d7c9d5b0a0333ef966c190c7f0c327bfb76756600233210ea98103374332b062"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/LV2OilAge-AAAAAAAAAAAAAAAAAAAAAQ==/RubberEquipment-ZzLvPvslQRqxRD_r27DSuQ==.json"
-hash = "e044a7ec7cc64ef7c101c4f50615bd8a18cb1db0409824c459c891db5f378404"
+hash = "5f091cbaa0f50dbe47420e30c82a53ef9244b0048279acfb1cb925eacf800084"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/LV2OilAge-AAAAAAAAAAAAAAAAAAAAAQ==/Semtex-D6A-to-oSe29nf5qIu4h_w==.json"
@@ -4094,7 +4166,7 @@ hash = "d9fde43875aa7915a0f30d9688577cde8dd1050b5bf1dcb90d23564b9ede2ab8"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/LV35SpaceAge-enTskTtvRdajee3UMSgXKg==/OutpostsAmongthe-QnIqh1HvQJm5n0RZ7OWSlg==.json"
-hash = "513356c3ea7e9f46d7d693db632b1adbb34a6c681ed6b77b5cc6bf7387498f6c"
+hash = "81aac7c6902f904a0d2cd983e4bbfcca7caff6a324d24b749a2278dd028ac75c"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/LV35SpaceAge-enTskTtvRdajee3UMSgXKg==/QuestLine.json"
@@ -4491,6 +4563,10 @@ hash = "626f008588fb098900b6c9ab1b161001f10095c20bac9654ef19133c226e4348"
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/LV3ReactorsAge-AAAAAAAAAAAAAAAAAAAAAg==/RBMKSteamChannel-aBLTlbL2QaOsEdYDrDNuAA==.json"
 hash = "f3fa6d6aa70e0777a825ffe883d68498122132ad1dc8f83e254bdd74aecb1ac9"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/LV3ReactorsAge-AAAAAAAAAAAAAAAAAAAAAg==/RTGenerator-iPfGHnjgRgWCBu6sUmogOA==.json"
+hash = "3bc5af601b780c1fb6b72e22522d8b3fed71faa3a619924d09ebb6ce0226d764"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/LV3ReactorsAge-AAAAAAAAAAAAAAAAAAAAAg==/RadarSurveySatel-xQEUURH0RH-QWqDAqs7Gzw==.json"
@@ -4965,6 +5041,10 @@ file = "config/betterquesting/DefaultQuests/QuestLines/NuclearFuels-y9TwGO1qR8i9
 hash = "f57d2cbab6b7c19d30b8aa52c8953a2769bafd868c95735ffe10d5d3c35f8959"
 
 [[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/NuclearFuels-y9TwGO1qR8i9OT3cykMuAg==/MoxerandCustomNu-RG4Ca2ZsTZiCsGsVpZ3c8Q==.json"
+hash = "1137d92f619bbf1c60c73be4225fd6c87fd3eb1cc31fa1a40626ad3d4114b85d"
+
+[[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/NuclearFuels-y9TwGO1qR8i9OT3cykMuAg==/NaturalUraniumFu-mTAQANa3QdKifJYLtZWRpQ==.json"
 hash = "d86e4547a3cf04f5c2418231f69f1c327644306deb736cab438fb58f53a7b312"
 
@@ -4981,7 +5061,7 @@ file = "config/betterquesting/DefaultQuests/QuestLines/NuclearFuels-y9TwGO1qR8i9
 hash = "3f94699ca78c44e988448fcd1a27326a9982f4edeebfb04ccd2d7b49e792b9d2"
 
 [[files]]
-file = "config/betterquesting/DefaultQuests/QuestLines/NuclearFuels-y9TwGO1qR8i9OT3cykMuAg==/RTGGenerator-iPfGHnjgRgWCBu6sUmogOA==.json"
+file = "config/betterquesting/DefaultQuests/QuestLines/NuclearFuels-y9TwGO1qR8i9OT3cykMuAg==/RTGenerator-iPfGHnjgRgWCBu6sUmogOA==.json"
 hash = "1a640a0e3f7338ebf40cc62aa3b3da0f16381616fd684085f91663b415be1d64"
 
 [[files]]
@@ -5014,7 +5094,7 @@ hash = "dcf20cc91928d424e6d05cb355581ff7ba8c7aa4c726684bb22c5185e4f917a1"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/NuclearFuels-y9TwGO1qR8i9OT3cykMuAg==/WatzAbsorberPell-nLRRzLYLQD6dwAhDmXiWFg==.json"
-hash = "9167489ee9b00a2925c8db98da27f238690918957b71ade3124dc7bdd3818932"
+hash = "2cb0ccb6309b26c6b59c7c57bb0bdb76c064fc542ac3fa0383b33df92409da3b"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/QuestLines/NuclearFuels-y9TwGO1qR8i9OT3cykMuAg==/ZIRNOXLithiumRod-Yo_I4tLDRPud8y-I3ARWlw==.json"
@@ -5413,6 +5493,10 @@ file = "config/betterquesting/DefaultQuests/QuestLines/TipsandTricks-MJP4MeAmSTm
 hash = "d83386620a73307971435d708f90dad53128343bccd45177dcc95133a6a55665"
 
 [[files]]
+file = "config/betterquesting/DefaultQuests/QuestLines/TipsandTricks-MJP4MeAmSTm_Di0iRHoQuw==/WeaponModificati-7fthWhJeR56IPaQ3l8NZug==.json"
+hash = "dd5e1efa89442a2567237e85bebeaee86972dc66ea28b1c45724e0dc32ffd1d4"
+
+[[files]]
 file = "config/betterquesting/DefaultQuests/QuestLinesOrder.txt"
 hash = "18cdd000d72b94a8a5787ae5e3d81097b593c7bdcde2a47ebb6cec9d28266dcf"
 
@@ -5465,6 +5549,10 @@ file = "config/betterquesting/DefaultQuests/Quests/AdvancedLogistic-vNAB2bS7S9uS
 hash = "3b090d7ffc6d9218c20cb48c45f1ea9a2b72c2ab6b76f662aae73fd2a4ff883c"
 
 [[files]]
+file = "config/betterquesting/DefaultQuests/Quests/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/CurvyPipes-ZMYv-wthTm-5yVRXn1aPzw==.json"
+hash = "36c434f4e95ea459b0e25f82d1165172a17836b1fb9cb9da7b40c5ceca17f199"
+
+[[files]]
 file = "config/betterquesting/DefaultQuests/Quests/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/DisplaysButtonsa-CXh5IW4AQaqb-p6bJlX2-A==.json"
 hash = "d68d500072f93b9f353834589fa730484517a2cfda7962bb168970fe648ed5d9"
 
@@ -5485,6 +5573,10 @@ file = "config/betterquesting/DefaultQuests/Quests/AdvancedLogistic-vNAB2bS7S9uS
 hash = "b1a7aa72423a7c9aa4d60e92244fccef6ae27b09fe19a57194dc2cbef9b01da6"
 
 [[files]]
+file = "config/betterquesting/DefaultQuests/Quests/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/ImmersiveVehicle-hD423RFVQvq6m5Wn2iOBGg==.json"
+hash = "67094551710b23ecc3746b9ba19df0772558e0e25188b2e861371ace8a947946"
+
+[[files]]
 file = "config/betterquesting/DefaultQuests/Quests/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/ItemCounter-WvfpO4ICRQSzLpydFY-pTA==.json"
 hash = "3be1649406fadd79d1bae0f898a8865e6eac3bbe7548882f912c71e973d126dc"
 
@@ -5499,6 +5591,10 @@ hash = "90c4f4b6bb19baa5762c52526f706d7909e0f344381bd6254e20cf6ddfa0597e"
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/PowerDetector-XA_QYdAVRk22U165zQ1Gdw==.json"
 hash = "f4b35c9b6cd35bf741e40c9a0e9e5399f3931b2becfbeb877557c429580f7a91"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/ProjectRedTransp-kSUWDMGtRGS_JuZiaPR4Jw==.json"
+hash = "d7731e6a7875c8cab30a919a0bd4579c85e8b616ba35eb814da6039036cc8f91"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/AdvancedLogistic-vNAB2bS7S9uSc1gAlAccnA==/Rails-1o48G8SRTzWannGld4xy-Q==.json"
@@ -5950,7 +6046,7 @@ hash = "e4c5ab87cf6bad9fda75904af1b14b8ed2629702222ed77dea5557228493aee8"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/BallisticInserts-vRKlntSnQgetOcpVZBIigg==.json"
-hash = "0f05a71e8a5073a384fbb84392eef80dd8792c7ce5545113e0082a80b0d49ba5"
+hash = "0888166dcf84f53d183362e1e3ca998c3cd23adbff0c538985f859986dd5ef2c"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/BaseTraps-Gz7XNcm3RwuWSWOVY3vAyw==.json"
@@ -6082,7 +6178,7 @@ hash = "e669a3a79b851eb877f7b8207c583b4064e7d72c84198e834dc9927e9cfb5f92"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/FauArmor-ll0_WmvMS2Spdwi5OhCLWQ==.json"
-hash = "dcade015e34e5fbfe411b724d4b894fa76a1c7e38f2df9659e259b574178d6ff"
+hash = "c3ffcb19af8b9f5d69dfeb13766dc686bc8efe8e90eb24812cdfc13a069c34ce"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/Flamethrower-8JnqipakQy6NcqWmLRcVBA==.json"
@@ -6166,7 +6262,7 @@ hash = "39e5129b742ea91d67c15887f6739f900032a56c5f49799803d0dd38ca234fdb"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/HorseshoeMagnet-MBLqyS_dSnqNE0AIC4ayyA==.json"
-hash = "6d4983e6cd8526a27eb8b3fa5a176138711380b85d8fa26a0038fb634ba0d121"
+hash = "7213a531a93d1fa2439c77ded0295789575ad7dc00db45862919cb9fdb0cef9f"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/ImprovisedMissil-Iu31A2DLSeeDBEGN582zpw==.json"
@@ -6202,7 +6298,7 @@ hash = "f68c0002cc6738c34ffd119bd6d539820d95caf2f45b18d829b2621da102097b"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/LeadCladding-wGHRbeOkRJKuwXH-6mkoGw==.json"
-hash = "8a03d334e3115d428e11b9df349c5cfa05bf04aff6953740994a02c7d9d278ca"
+hash = "31cbe12583fd542dc2111822e59e388e3274f8b1641fe67025b6d1c81f2cba12"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/LeadPaint-I5QCAF8iQT-vreon8f8s7g==.json"
@@ -6218,7 +6314,7 @@ hash = "15e9fc614a31c5b9c91b10d7524bb3f06ee158528eb2b15f01e9cb9a2d2c3e42"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/Lodestone-43bXVsx9SqadoNX59qJjkA==.json"
-hash = "3679ae33ad47f706ba67016d36d829bb86aa584f48ad1a15176d362f6afdbd0c"
+hash = "295e82b0b76ad151ac60f21848a48bc0ddf1f1cec4515cf9438db3813431384b"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/LuckyCharms-69HyOPIAQ5a6G46BscViMw==.json"
@@ -6358,7 +6454,7 @@ hash = "dd971b6848e04334bb5ad50021cc5145cd2ee23351b164c42b2ccfb72cb667e8"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/PowerArmorBatter-yb8dojeJSD2wYcWAZ_nGYg==.json"
-hash = "1d916d0eaa80bbe17a2271513e9a817b3cc0381cfa52a09d4dc17a83e9b7c40d"
+hash = "139ae6542883082ddff117e6d56ad79b5cf3da6ac00f8f204d88342307ba4782"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/ProtectiveArmorM-tSGcZjaySfCNw0V2ppUZZA==.json"
@@ -6378,7 +6474,7 @@ hash = "9197f3208864d2927b93d36dc8f9834173c19007f8b07326999e721135a8197c"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/RailgunTurretLou-41HOheHtSbGYjfQbXuavVg==.json"
-hash = "e35eda674e964ee24fa2e72dd4f94b94f36e3b4d40b07779e277d182a2a1a24a"
+hash = "4fc6ee602068b45e9f7c19e83183fb1e56cd5f8e1dabc74ef2eef759c23bc9fb"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/RefuelingStation-gv70D0MXTnWt1EiNzhmJug==.json"
@@ -6498,19 +6594,19 @@ hash = "609e8b248854484cccbbd075928e0be27d734eac7ac08ab79a9809c646cc8e49"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/TurretAIChip-rWT_BH4BS-qI7_SBqn66vA==.json"
-hash = "d3eebef9549feccf401828861ca1890e4dd8eae8b905f419c273df440931056a"
+hash = "eac7831f370dfbd20a61f1c81cc07f05527671658d2aba580c2978f470829f15"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/TurretChekhovsGu-lxf5pQlVSQqslxv8CGp5PQ==.json"
-hash = "c65760751ea189d8b2b5d0fbe3ddf0d05c88b3c91f300ab04f41311a3cb7ed58"
+hash = "652987317d74e9ff0cf3bc7532f254252253b85e6f5a9d1f3147c47a80b55d17"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/TurretFritz-RM1hcjg1Sk6hPo5ehM8-sg==.json"
-hash = "4c6f5cb04ba6debfdcb0bf4b970d620fdd1d453eb6c52045005ffd3353a9780f"
+hash = "1768f65238f8173d035cc1d38d154e114987a0b2e7d3edadb9e06dd851a7ac9f"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/TurretGreg-d0iXj2V-QrGiRZTMOb5ayA==.json"
-hash = "f1e5be93f0dda745ecd652043249984826ae8229c2691073d48b4005f0d8cb92"
+hash = "3155237abd91bbf08b6e7951fa7cfffa06c37efb5c2803fc77b3b8cbdc18ba4f"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/TurretHenry-0ewDSw9YQtiDaJ2EoFe31A==.json"
@@ -6518,27 +6614,27 @@ hash = "7d5188522999a2067e10474f32ee2a2ba6b341b86e6a8026e07e2d028aec75a9"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/TurretHoward-k_Li2p-bQ0m5rWnjAX3Lug==.json"
-hash = "e317d59c5406f004f96311c3c68a52f7b12fbbddf32e95a281e5ba175cbf4554"
+hash = "5705633044616cd3b922938853d6db31412b7b372f427f388b26a8fd2a52c3cc"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/TurretJeremy-grTUKQmKRGWdht6bsRWvKw==.json"
-hash = "e55b519fdcbf365394cd2cd992dce7b4c95bcfd3f85e9c8ae44483964d8bb008"
+hash = "8fafee9c648b436cfe9a6c7bcf202faf6289a8326aa81c94f361cbbbea20ff5d"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/TurretMaxwell-QZBgTQGvT4-GHYtYF0toWg==.json"
-hash = "3457feb2bef360ba227c3ce41e5357da8d4e2ab814a8804de5b0767c410e49d9"
+hash = "d449f5e73ee2c76af5deedf66d7b19266c40bd5ba7d385d0fa745356a599a9b5"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/TurretMisterFrie-pXnS0KNRRXyi9upjnJBzUA==.json"
-hash = "4aeadaccb410bdd858b74e6d2c8716e34891bf82b6e1f09d7ce83f2173e48588"
+hash = "2718b08196ab2f65484eff91984917bf1c8aafa10cc44307da12fb03ce7eaeac"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/TurretRichard-2T_06asATtKVkWVT5rhAag==.json"
-hash = "c5ce3b77da9d3da71d884e38cda39d2e968566caf844c61bc7d8e5299532634e"
+hash = "20939bee6678b0f7593f4fdd424c6ea54ac64cb200dd2838c7689ce5099fa34b"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/TurretTauon-OefauRgDTKCOqzrcnTdeBw==.json"
-hash = "cb7bf9c54ef7b9b0d3febc296ea97a29c3a04762268731a41978abe07a67fe8a"
+hash = "86e6de3adea0b543fe20e7a6b8ecdf4e0f1f7e9c7f0338b4c217a3846f69ab4c"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/Arsenal-OZJv86d2QQmFjj0k9oaGZw==/Uzi-7GYOYzstSGueInr2oo07-Q==.json"
@@ -6830,7 +6926,7 @@ hash = "8c142489e19c18959283aef4e9ebff650bdebf12f57ec12df127bc9405c691f6"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV1EarlyGame-AAAAAAAAAAAAAAAAAAAAAA==/AbandonedStructu-4d7s5-1MQxyI3YcrDSL98g==.json"
-hash = "54673542aa2b356c2978a4ee0db126c6f4349b6d7bb7fa9bf5cba14d37a0d490"
+hash = "3664df9c8d06896a6ae925fd628b982a6efbab14696720beaa8a20320d025889"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV1EarlyGame-AAAAAAAAAAAAAAAAAAAAAA==/AdditionalFluidT-0-Ws1mY3SeeFcyIcv2LKNQ==.json"
@@ -6839,10 +6935,6 @@ hash = "e1838132b418f00f156b307c5e8107df9f8e9c40e4e8b0145ac30baba30c343b"
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV1EarlyGame-AAAAAAAAAAAAAAAAAAAAAA==/AdditionalNTMMod-MWwrY8PcTaam9T_sc4yDtQ==.json"
 hash = "fdd792d5f2f0502eb45e8bdbd288e26fc8160c1b0a209fe96ce9b33851b69da4"
-
-[[files]]
-file = "config/betterquesting/DefaultQuests/Quests/LV1EarlyGame-AAAAAAAAAAAAAAAAAAAAAA==/AdvancedHazmatSu-7-jaXVNtTausgOChundX0w==.json"
-hash = "860f6dbfcfd13c0fc11471efa738b106b18f3f528f7b5d02c07ac4174d9abf7d"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV1EarlyGame-AAAAAAAAAAAAAAAAAAAAAA==/AirIntake-yFAvMtetRDaFwz6i_ry-RQ==.json"
@@ -7018,7 +7110,7 @@ hash = "e69c3aa885881c8b77e4dd4cd4e31260fed698b25ced2f9c763e317a082767a4"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV1EarlyGame-AAAAAAAAAAAAAAAAAAAAAA==/Fluids-K-eTce6PTLGe1htaZlPiHg==.json"
-hash = "c42ba8549c00e994067e509edbbee6d38d1fbf63ab5941d223fe815e54e2b9a5"
+hash = "eab2b28a3ced417e358c0b09833f1b0fea9c31e79e9e1c653cd6831bc4a5124b"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV1EarlyGame-AAAAAAAAAAAAAAAAAAAAAA==/FortuneandAfterb-AQ3WryLxRB6gqxVD2_hNAg==.json"
@@ -7057,20 +7149,8 @@ file = "config/betterquesting/DefaultQuests/Quests/LV1EarlyGame-AAAAAAAAAAAAAAAA
 hash = "dcad22c7285eba5514e3eeac4ce13b36f96b3c44090062129eae66a58724fd04"
 
 [[files]]
-file = "config/betterquesting/DefaultQuests/Quests/LV1EarlyGame-AAAAAAAAAAAAAAAAAAAAAA==/HazmatSuits-AAAAAAAAAAAAAAAAAAAADw==.json"
-hash = "8c472cca18748918d8740d47568c0e873862c712258f63c1d47fa3f246b7112d"
-
-[[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV1EarlyGame-AAAAAAAAAAAAAAAAAAAAAA==/HeatingOvenFireb-cUWyKdzATTSYaMg1MxZqYw==.json"
 hash = "1ee4bf1bf3d68bdd88a2e1d77b81f97d98b8037ecaffa1babef8f6f757bcc161"
-
-[[files]]
-file = "config/betterquesting/DefaultQuests/Quests/LV1EarlyGame-AAAAAAAAAAAAAAAAAAAAAA==/HighPerformanceH-a0bouserRme9QTL62wzWmA==.json"
-hash = "34d8e7d387aca3507f9162c71031d714750449c60ba9ff7255f69e664f0e8e7b"
-
-[[files]]
-file = "config/betterquesting/DefaultQuests/Quests/LV1EarlyGame-AAAAAAAAAAAAAAAAAAAAAA==/HighwayToHell-ljMurUJIT7OuwaBx_fb3EA==.json"
-hash = "6f7387b0067b9e05b64d64cfe33357e8df88321e414d484961a621adc6786208"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV1EarlyGame-AAAAAAAAAAAAAAAAAAAAAA==/IndustrialHempMu-ztJLZeOsSq6hpRyKY55CDg==.json"
@@ -7154,7 +7234,7 @@ hash = "28a6d1558eb89a317b8ea6b2893f57a609c0e1aa0fef14c24a00ba6d0f202ffc"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV1EarlyGame-AAAAAAAAAAAAAAAAAAAAAA==/PipeAnchors-9wRpAnjXSrGWFWSwKoTOhg==.json"
-hash = "03661618a821f0af909af863a0b1d5601d06d6f9861ae7543d6b45f1a28d2e38"
+hash = "60d3cf12ce8384a88a3be846be94493e48d11a95c1ce62810cce55a4a516faa2"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV1EarlyGame-AAAAAAAAAAAAAAAAAAAAAA==/PlayerDecontamin-AAAAAAAAAAAAAAAAAAABCw==.json"
@@ -7278,7 +7358,7 @@ hash = "0577284cd00039fa184ca8562748b18fbe4aa50e74b92051464a8d09fc4b3403"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV1EarlyGame-AAAAAAAAAAAAAAAAAAAAAA==/StorageDrawers--7rSSbm6Q-qSPUPH2dapXA==.json"
-hash = "91fb3a51a2a9e54917cb180a5556f1a4138224589e1053b67f24de4b3a3b1435"
+hash = "79fed83249eb6c3d9c571d5cb761e443dae49cf7131f7fc97f1b702afd4ae170"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV1EarlyGame-AAAAAAAAAAAAAAAAAAAAAA==/StrandCaster-AAAAAAAAAAAAAAAAAAAAJA==.json"
@@ -7430,7 +7510,7 @@ hash = "f6a2c132fc22660ac5ba2aecec514ddd7d94b8348fa6e3b188c51d81dbbc8a6f"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV2OilAge-AAAAAAAAAAAAAAAAAAAAAQ==/GeothermalHeatEx-eBk-KQOTTASVDKqzRTzAvA==.json"
-hash = "37fe191c860852fe419e5450e67d3726dccc910219e12a64279e347a265d545f"
+hash = "fb40e119d24137af20d89d8920f0fe17e9fb222334ef2288b8dc13e2a9bc6028"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV2OilAge-AAAAAAAAAAAAAAAAAAAAAQ==/HydraulicFrackin-AAAAAAAAAAAAAAAAAAAAUQ==.json"
@@ -7458,7 +7538,7 @@ hash = "f20e3b5357b116431ea82461d7fb279a471d02013974cb349e7b7d4eedecc143"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV2OilAge-AAAAAAAAAAAAAAAAAAAAAQ==/IndustrialSteamT-AAAAAAAAAAAAAAAAAAAARA==.json"
-hash = "8abe606484a23656e80d3a4b4d2c5b197db570ea6050cb3e89db9973b319b9e7"
+hash = "f3a0e2625b4c92559484d49d610ba3e2fb23ccdb30a21684b4fec27f5367c4b6"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV2OilAge-AAAAAAAAAAAAAAAAAAAAAQ==/IntegratedCircui-AAAAAAAAAAAAAAAAAAAAIA==.json"
@@ -7475,10 +7555,6 @@ hash = "0c2254f651cc517c4db1df515638a8c9dbc579d7037d176bf37780553b526d09"
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV2OilAge-AAAAAAAAAAAAAAAAAAAAAQ==/LaunchPad-AAAAAAAAAAAAAAAAAAAAaw==.json"
 hash = "f41a57429ee40888ca726643537e1b76c175f8bc84a6c371a22772074d2742fc"
-
-[[files]]
-file = "config/betterquesting/DefaultQuests/Quests/LV2OilAge-AAAAAAAAAAAAAAAAAAAAAQ==/M1TTYEnvironment-AAAAAAAAAAAAAAAAAAAADg==.json"
-hash = "2c0aa015711441a2b2d4e427028206ab796dc79c91b494a8005cdd982abd0ba0"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV2OilAge-AAAAAAAAAAAAAAAAAAAAAQ==/MeteoriteMetal-KSqXQ1jmSZ2W9QeP0P7GNg==.json"
@@ -7545,10 +7621,6 @@ file = "config/betterquesting/DefaultQuests/Quests/LV2OilAge-AAAAAAAAAAAAAAAAAAA
 hash = "6012ff296fce071d9de7c9f06253ef49d6af8f35538b2291ba5dd2671d0c318e"
 
 [[files]]
-file = "config/betterquesting/DefaultQuests/Quests/LV2OilAge-AAAAAAAAAAAAAAAAAAAAAQ==/RichOreDeposits-qoqs0rqiScuK8YiqjTh2gA==.json"
-hash = "9db23250fb0bcf4eb3f603dffa85b6b04fefd29e7cf2af02633a63ff77e4f1be"
-
-[[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV2OilAge-AAAAAAAAAAAAAAAAAAAAAQ==/Rubber-AAAAAAAAAAAAAAAAAAAAQA==.json"
 hash = "3f1c73fd4fc2b691ecc37f5bd2cf38d39de6e0d0291ce325de2773681bb4638f"
 
@@ -7577,20 +7649,12 @@ file = "config/betterquesting/DefaultQuests/Quests/LV2OilAge-AAAAAAAAAAAAAAAAAAA
 hash = "88ed4586d44115408a0504d66a4ad942f5bf2bf9ca4701dcffb7fbf3b6f7e3f5"
 
 [[files]]
-file = "config/betterquesting/DefaultQuests/Quests/LV2OilAge-AAAAAAAAAAAAAAAAAAAAAQ==/SteamSuit-pDSQqXoMTqyf-k8b2X1WjA==.json"
-hash = "bcc53e5960b97b6062001b2e590cd95cea7e3ea727f0d9fdf34fca7332d2c25b"
-
-[[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV2OilAge-AAAAAAAAAAAAAAAAAAAAAQ==/StrongerRadAway-exWjUC57SDueerYBOUG9-A==.json"
 hash = "c53f4aa2c2c1b9bacc6d130857dca56a9810ce2058d108857f8dcb3b4a31b5fa"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV2OilAge-AAAAAAAAAAAAAAAAAAAAAQ==/SurveyScanner-AAAAAAAAAAAAAAAAAAAAYA==.json"
 hash = "f15269d2f4c664ff9dc2537efd7a8620671df58262280e23e6de645b7d46e9f3"
-
-[[files]]
-file = "config/betterquesting/DefaultQuests/Quests/LV2OilAge-AAAAAAAAAAAAAAAAAAAAAQ==/T51bPowerArmor-QPt3cE-2RDWXe44KCNXSOQ==.json"
-hash = "07972e05f3bc3199ecf4b103fb446940cae686c409ca7320945eb37a4f015072"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV2OilAge-AAAAAAAAAAAAAAAAAAAAAQ==/Tank-AAAAAAAAAAAAAAAAAAAAXg==.json"
@@ -7771,10 +7835,6 @@ hash = "9fcccd023b8f670288a377821798c9716d1ca47792d503c17b6cea5676194c2c"
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV35SpaceAge-enTskTtvRdajee3UMSgXKg==/Moho-yWu2LtytQjGg65tFXTo2ow==.json"
 hash = "2bcc6827bd2317c1b9b5fb26397f6dfcc6ce023a69bc1ad2a3bd5b4e3bf49680"
-
-[[files]]
-file = "config/betterquesting/DefaultQuests/Quests/LV35SpaceAge-enTskTtvRdajee3UMSgXKg==/MoxerandCustomNu-RG4Ca2ZsTZiCsGsVpZ3c8Q==.json"
-hash = "d042e00a8e31dc41e40937605743a9169c08ff19e363c702a01ab4ccf695f50d"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV35SpaceAge-enTskTtvRdajee3UMSgXKg==/MunCow-EVr_kBsgS2Wb6Knw0wuihw==.json"
@@ -8009,16 +8069,8 @@ file = "config/betterquesting/DefaultQuests/Quests/LV3ReactorsAge-AAAAAAAAAAAAAA
 hash = "fa764dad8889d6194d8e14c41ea9686cc74726d3fbb8984fbf1f4e02250a5232"
 
 [[files]]
-file = "config/betterquesting/DefaultQuests/Quests/LV3ReactorsAge-AAAAAAAAAAAAAAAAAAAAAg==/HEVMarkIV-AAAAAAAAAAAAAAAAAAAAhA==.json"
-hash = "355e843f846cd0e27fca4d3ec9a659831a34c2d1c2f36422e976855d1d91209c"
-
-[[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV3ReactorsAge-AAAAAAAAAAAAAAAAAAAAAg==/HardPlasticPVCBa-AAAAAAAAAAAAAAAAAAAANA==.json"
 hash = "0a7798e6266f81703f230ad91544af153df451ab224a1e94eae496530f9e2765"
-
-[[files]]
-file = "config/betterquesting/DefaultQuests/Quests/LV3ReactorsAge-AAAAAAAAAAAAAAAAAAAAAg==/HeatExchangingHe-rRJfZe74TXqpP-q2faX7bA==.json"
-hash = "edf5311b315333dcd1b415afa967b98ec43023b897f9bfb5a5be61b1aee3493a"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV3ReactorsAge-AAAAAAAAAAAAAAAAAAAAAg==/HeavyMagneticSto-AAAAAAAAAAAAAAAAAAAAkA==.json"
@@ -8067,10 +8119,6 @@ hash = "fb06ebbf7f163d73fb0f8e3c9a63b9a8c67a57036f5f475b26a64307ad6d03df"
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV3ReactorsAge-AAAAAAAAAAAAAAAAAAAAAg==/LiquidatorMedal-AAAAAAAAAAAAAAAAAAAALQ==.json"
 hash = "ee2c424ee438537f4b808cb49ea24190c7f76071754ad0917aca526e36d541cc"
-
-[[files]]
-file = "config/betterquesting/DefaultQuests/Quests/LV3ReactorsAge-AAAAAAAAAAAAAAAAAAAAAg==/LiquidatorSuit-TmH3EyXaS_6-kdT4PsVz9Q==.json"
-hash = "6dddcca7edf2f00b3537b31e8259c2df5eb56530d7296eb8de84918e5a8fd443"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV3ReactorsAge-AAAAAAAAAAAAAAAAAAAAAg==/MagnetizedTungst-AAAAAAAAAAAAAAAAAAAArQ==.json"
@@ -8270,7 +8318,7 @@ hash = "603eb76adef9e9e99311b3a3769ee1512444fb9a7566f63d39c8b0d5b8dc61a6"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV3ReactorsAge-AAAAAAAAAAAAAAAAAAAAAg==/ZIRNOX-AAAAAAAAAAAAAAAAAAAAcg==.json"
-hash = "a6fe8964a1aeed1d3c2ed1ee6d3c18a71fd33cc3a08c07228f74331212182d24"
+hash = "8340d3b8152b3090f388bb80b395a32580c74022390753fb6e15897139760447"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV4EndGame-AAAAAAAAAAAAAAAAAAAAAw==/0GAssembler-JPSr8DfOQY2PeUK1AsgLvA==.json"
@@ -8299,10 +8347,6 @@ hash = "8a168314feb2d2cb70f76b0457a4908d3efa87f3fa14eae274dd7837d1bc2bd4"
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV4EndGame-AAAAAAAAAAAAAAAAAAAAAw==/DFCCatalysts-TDprpiPrRUOaFnW8JLtmXg==.json"
 hash = "b732082398951a43947f9e7997f4e94b74d447f8c1d49d48ddcad7947b3accbd"
-
-[[files]]
-file = "config/betterquesting/DefaultQuests/Quests/LV4EndGame-AAAAAAAAAAAAAAAAAAAAAw==/DNTNanosuit-AAAAAAAAAAAAAAAAAAAANQ==.json"
-hash = "2236a65947c23a9f78a9d86dedb81b8a85df65034b04e389617d3ac33d7d98c9"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/LV4EndGame-AAAAAAAAAAAAAAAAAAAAAw==/DarkMatterCapsul-VSP5jYe9RDCm_1wK74ny1g==.json"
@@ -8477,12 +8521,16 @@ file = "config/betterquesting/DefaultQuests/Quests/LV4EndGame-AAAAAAAAAAAAAAAAAA
 hash = "9ac99ba8a46465bb4be562c89a7597ecd8e2206c927b375f65624b55999dd536"
 
 [[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/AdvancedHazmatSu-7-jaXVNtTausgOChundX0w==.json"
+hash = "860f6dbfcfd13c0fc11471efa738b106b18f3f528f7b5d02c07ac4174d9abf7d"
+
+[[files]]
 file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/AgricultureandFa-Zpwlu-OeTpCvf7vTFz-BIA==.json"
 hash = "ea00da39a2647d1c129c39733de35892615a1ab4f9b197ec5398a27a5a335e95"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/ArmorModificatio-3J7vD46NQg6IMMDRALpT-A==.json"
-hash = "fd603b668a8430c0612bccab48957d1cf8ae5378d5eb7e30ac77c255838c0191"
+hash = "98d84b029c2406e959a768ede79e1789c98752c3a2c0cf5678ced4e7b63b3ccd"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/Bismuth-AAAAAAAAAAAAAAAAAAAAhw==.json"
@@ -8503,6 +8551,10 @@ hash = "aeadf48e484e810022a5560999b4564acd310d33262a7a4276b3d6bba789fe6a"
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/ConveyorBelt-AAAAAAAAAAAAAAAAAAAAKg==.json"
 hash = "deca457d83291625cff067176823932b13b208ad9755a0fa96b4aa7d0a4f019f"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/DNTNanosuit-AAAAAAAAAAAAAAAAAAAANQ==.json"
+hash = "e4969232c1241206b2f20d745fa027fa830675cbd76ec15197ce803da81080d4"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/Desh-AAAAAAAAAAAAAAAAAAAAQg==.json"
@@ -8541,12 +8593,44 @@ file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/Gunmetal-Wb
 hash = "c8794e89a4b6638f268794d44a60f03927493a124592a91bdc874daf5251b583"
 
 [[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/HEVMarkIV-AAAAAAAAAAAAAAAAAAAAhA==.json"
+hash = "da670c13fc16e0ae26b5551c108a6ce251f077f5765944601ea6baedeed1d049"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/HazardousGases-wxYZ8HbrSZap4h0G9H8ITA==.json"
+hash = "3d5a0a2f1b304e9154c6fb27de3786d26565640fc1a00ad8333cd246db7ad6b4"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/HazmatSuits-AAAAAAAAAAAAAAAAAAAADw==.json"
+hash = "8c472cca18748918d8740d47568c0e873862c712258f63c1d47fa3f246b7112d"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/HeatExchangingHe-rRJfZe74TXqpP-q2faX7bA==.json"
+hash = "3c9f60320a8d7e72f12f55fd42936d667c22a01e2b257de576c39b415da11a58"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/HighPerformanceH-a0bouserRme9QTL62wzWmA==.json"
+hash = "34d8e7d387aca3507f9162c71031d714750449c60ba9ff7255f69e664f0e8e7b"
+
+[[files]]
 file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/HighSpeedSteel-AAAAAAAAAAAAAAAAAAAAJQ==.json"
 hash = "38a178c098db5fb48f4231c342ccd5050aeee3e9a5f39dacbf976d148a1504cc"
 
 [[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/HighwayToHell-ljMurUJIT7OuwaBx_fb3EA==.json"
+hash = "6f7387b0067b9e05b64d64cfe33357e8df88321e414d484961a621adc6786208"
+
+[[files]]
 file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/HungerSystem-Fio9CeHtR9-O6cehKBCH5g==.json"
 hash = "15c664b8df645760571cafe336a01a21f9dabb33239d316edff7e157d115569b"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/LiquidatorSuit-TmH3EyXaS_6-kdT4PsVz9Q==.json"
+hash = "6dddcca7edf2f00b3537b31e8259c2df5eb56530d7296eb8de84918e5a8fd443"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/M1TTYEnvironment-AAAAAAAAAAAAAAAAAAAADg==.json"
+hash = "2c0aa015711441a2b2d4e427028206ab796dc79c91b494a8005cdd982abd0ba0"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/Maskman-8b6batCvQvCiGknitRMrSQ==.json"
@@ -8554,7 +8638,11 @@ hash = "162739e1a23f29be5dcde052c1f350ef3fb4e0078f6bd4cce2ac88b077c4e023"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/Modpackinformati-5VAtBoWDTLmFNrWxLbn9IA==.json"
-hash = "e284361c678599f895e4cca7032dc4e21b5cf8535284b1f26a25d13982d2621d"
+hash = "c64c4203268a309f0fcd1723306148b1cabef0e2829f3ed8e05ebfd1b229d184"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/MoxerandCustomNu-RG4Ca2ZsTZiCsGsVpZ3c8Q==.json"
+hash = "d042e00a8e31dc41e40937605743a9169c08ff19e363c702a01ab4ccf695f50d"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/NuclearBombs-sCe8OyBsQEeMrUpYXUn9Yw==.json"
@@ -8569,8 +8657,16 @@ file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/Questsinfor
 hash = "64c30ef9c98466f05f580069d57cbe2c968fe2094ee5332fe2b30c194a5a8d82"
 
 [[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/RTGenerator-iPfGHnjgRgWCBu6sUmogOA==.json"
+hash = "1bc8985429acebe68492aa204fef80d11146171cf752d4bc9f73608492b1095a"
+
+[[files]]
 file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/RedKey-NB6qs0xZSHaY5Sik2IoTxg==.json"
 hash = "773eb2ef2b5bda6f7e485e7b34bf488dbacde024002fd4455a739b09ca84cfa7"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/RichOreDeposits-qoqs0rqiScuK8YiqjTh2gA==.json"
+hash = "fe9db2b353a0c8fc84ded7fa3457e92107828552430c12ef525caaa4df0859d2"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/Safesandlockpick-VoxsH2isSheNEKaJ3_Ikgg==.json"
@@ -8589,8 +8685,16 @@ file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/StarmetalGe
 hash = "5fd3fafd636039230984498a86d9284d6aa49324a9bd6139248eb8600b50d4fa"
 
 [[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/SteamSuit-pDSQqXoMTqyf-k8b2X1WjA==.json"
+hash = "ce6d6bb57d430f555678ef1e38b21a131b01c73e2ff13067af1ab17b822e84a4"
+
+[[files]]
 file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/SteelGear-FJLvn9pXSNqN5V7wMa5EGg==.json"
-hash = "ce442b0262c3d63a5855cb652010f8b8d39e8598fe36dda4039b68c8ed7b8864"
+hash = "ce8e3161bea577c52bf533279b8170fdd8a69fa54813d68761008cdaa7999540"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/T51bPowerArmor-QPt3cE-2RDWXe44KCNXSOQ==.json"
+hash = "609dadf1adcd42be9924627ee131b211d7669eb5d44671a5221e7ce4012a99ef"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/Tantalium-AAAAAAAAAAAAAAAAAAAAiw==.json"
@@ -8611,6 +8715,10 @@ hash = "f96789543eab9c122a36a3d18ce00126f62959a0cb6f0602020b799385218413"
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/UsefulTools-AAAAAAAAAAAAAAAAAAAACA==.json"
 hash = "f717495743179aef45451469841804d31cd60eef658d6dad172cc4fc2904b250"
+
+[[files]]
+file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/WeaponModificati-7fthWhJeR56IPaQ3l8NZug==.json"
+hash = "8d22ba3f62713f935e1c062fcd7e2de6212d6cad069230e98e04ac4b8acf9a8d"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/MultipleQuestLine/WeaponSteel-xADm9gLETmCgiS3amOTUcQ==.json"
@@ -8761,12 +8869,8 @@ file = "config/betterquesting/DefaultQuests/Quests/NuclearFuels-y9TwGO1qR8i9OT3c
 hash = "d9fbb97dc29e27b3221afd96e925e84b89be92484320635fef44c0ce6a693b6d"
 
 [[files]]
-file = "config/betterquesting/DefaultQuests/Quests/NuclearFuels-y9TwGO1qR8i9OT3cykMuAg==/RTGGenerator-iPfGHnjgRgWCBu6sUmogOA==.json"
-hash = "a4a4598b96b696379e524aa04020ab9d1d7bc3143d44e5e9b4c628cc91ba5ab6"
-
-[[files]]
 file = "config/betterquesting/DefaultQuests/Quests/NuclearFuels-y9TwGO1qR8i9OT3cykMuAg==/RTGwithRadiolysi-Z7Udn_Y0SCql4YFUlRA7Hw==.json"
-hash = "5acccd00cb7c4ca146276d464e3eb0fe135e3fc4eaebb64dd9767fbec6681fb2"
+hash = "bfec5d375f61385a22340efb4ce74317b32bfa712e99f1a2ea2c5d686ab5a6b7"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/NuclearFuels-y9TwGO1qR8i9OT3cykMuAg==/ReactorFuelBasic-eSM0xSV9TumYwygzoFeC6A==.json"
@@ -9121,10 +9225,6 @@ file = "config/betterquesting/DefaultQuests/Quests/TipsandTricks-MJP4MeAmSTm_Di0
 hash = "9ad5adfc782e14e435c8638df6a27ab0abafea1619a8e8216df334467b4370a7"
 
 [[files]]
-file = "config/betterquesting/DefaultQuests/Quests/TipsandTricks-MJP4MeAmSTm_Di0iRHoQuw==/HazardousGases-wxYZ8HbrSZap4h0G9H8ITA==.json"
-hash = "d5f5becff6e9fac4d67ad03f83da48e2c964750e591a2d768282c854ccb3d1ed"
-
-[[files]]
 file = "config/betterquesting/DefaultQuests/Quests/TipsandTricks-MJP4MeAmSTm_Di0iRHoQuw==/InfiniteWaterSou-xlNjQwC6S3S5o_B7nIciBQ==.json"
 hash = "eb215914ced868fa426303570f33191000e35730b576aa8f3a41aa4f517e0ef4"
 
@@ -9146,7 +9246,7 @@ hash = "85c9cab053fa44c458f2fa245debb57dafb3c8e0e85d550e4368f5151018fc0b"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/TipsandTricks-MJP4MeAmSTm_Di0iRHoQuw==/StrangeWildlife-mOunuBA3TAO99IfkAqJSwQ==.json"
-hash = "1edaf80a013a6e612ce8d7a2973f5cbcfd9f839836daf31920754559c32f00cf"
+hash = "26fc34607b17dcff3b20ac923a0196c25c0840b8e7967d2066fd7a762c644478"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/Quests/TipsandTricks-MJP4MeAmSTm_Di0iRHoQuw==/ToolAbilities-y4ZjfXhYQnCkHioZVaXGuA==.json"
@@ -9158,7 +9258,7 @@ hash = "25aafed3bd5a1648d722f5697b017a38d9a4ec03072e80e78e1d8edcfefee756"
 
 [[files]]
 file = "config/betterquesting/DefaultQuests/template.lang"
-hash = "e09b4a12d9671de7f0f7a22fe63ffc65e4b63b1bf74ca06ec3b7469a9f0060fb"
+hash = "03047126c77bc06af447a6dfaef66bab91c21b9f998bf08fc2acdf76826ee6b8"
 
 [[files]]
 file = "config/betterquesting/questbook.cfg"
@@ -9698,7 +9798,7 @@ hash = "5b0481c7ed5f66792098ae481bf5ec3625dbd1cbf3e705a15b9092ef135c479d"
 
 [[files]]
 file = "config/guidenh/guidenh.cfg"
-hash = "4fcbb5471e45a5a1d56831886f71092d86608969f2c91c18db50f4e8e05de34e"
+hash = "367de689430bbcddf009d913296b2be2bc3c5f63e370e575d766fd84c6aa7012"
 
 [[files]]
 file = "config/harvestcraft.cfg"
@@ -9710,7 +9810,7 @@ hash = "e290389fda718b234cefac253d4732410faa03d9bcc08f712a7df18b7574aa9e"
 
 [[files]]
 file = "config/hbm.cfg"
-hash = "c7ac2c0e863d036a2146595ac4718b5270392e25bd16163c2206350e6e020e53"
+hash = "09c4aa01ed914abb3ddfb86a651658ec44e2a4e3cca6af37e864eb4c2725c83f"
 
 [[files]]
 file = "config/hbmConfig/hbmClient.json"
@@ -10054,7 +10154,7 @@ hash = "3eccabc9f23be45ef526c68bd0424495a0f67b6ae403ebcf5cbaca7bd3b1b7fc"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/en_US.lang"
-hash = "322d9b4ad42d8726f14940d70a6b10de1b4f42d1c0e568305983cbf5e4f6a131"
+hash = "92f01e2f62855f4effecdf87f7fbcbcc23f4839a21fdd638318b3c6722f8d980"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/es_ES.lang"
@@ -10062,7 +10162,7 @@ hash = "d3d876ddf1ce33fc3772a0b008832f8f426671e7ab0612b613de8de0401c4d38"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/es_US.lang"
-hash = "e09b4a12d9671de7f0f7a22fe63ffc65e4b63b1bf74ca06ec3b7469a9f0060fb"
+hash = "03047126c77bc06af447a6dfaef66bab91c21b9f998bf08fc2acdf76826ee6b8"
 
 [[files]]
 file = "config/txloader/forceload/betterquesting/lang/fi_FI.lang"
@@ -11284,7 +11384,7 @@ metafile = true
 
 [[files]]
 file = "mods/hbm-s-nuclear-tech-git.pw.toml"
-hash = "fc841461e3e635a852a368eb2bc2dc4cea3942a9ce88a45827fa0bf6b18a5c15"
+hash = "1d3ef0578386850a9bde3b7723fe1dfb51e8894db0e0f0f9cc4cf30596614965"
 metafile = true
 
 [[files]]
@@ -11762,7 +11862,7 @@ hash = "b31aa15378939894ed9dc7a67c03890058e984d3d9a65ca0fe68c87ca78b556b"
 
 [[files]]
 file = "scripts/drawers.zs"
-hash = "1ce945a29db1ee0cf49ded5804c8e014b303f0f54f72baf48de847004c5d5ccd"
+hash = "169f433b40805177967fe4dbce76d71bd8bd2ad34bfd05e136a8233ba8e9d87d"
 
 [[files]]
 file = "scripts/etfuturum.zs"
@@ -11815,10 +11915,6 @@ hash = "f1f11b8bc80ffd00cde2a015b668da7bb11261d312d029bba9553f96934772ca"
 [[files]]
 file = "scripts/vending.zs"
 hash = "40646b39e492c1192650be6563ab2a364011f069d9515e049c58f1aa994c4026"
-
-[[files]]
-file = "scripts/weather2.zs"
-hash = "76f1e8763af68ea55c5da78f5ca6da744b06770f54ee7db38f1c412da9aba5a4"
 
 [[files]]
 file = "server.jar"

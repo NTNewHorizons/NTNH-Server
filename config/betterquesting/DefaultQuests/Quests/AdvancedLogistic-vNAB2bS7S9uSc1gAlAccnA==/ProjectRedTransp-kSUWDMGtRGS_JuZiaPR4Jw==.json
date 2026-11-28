@@ -2,7 +2,7 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 66
+      "questIDLow:4": 42
     }
   },
   "properties:10": {
@@ -17,19 +17,19 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "The §6Steam Suit§r is the first powered armor: steel armor reinforced with desh and copper, with a steam tank built into the chestplate. It burns steam while worn to provide protection and movement bonuses. Refill it by right-clicking with a container of steam.",
+      "desc:8": "§3Project Red Transportation§r adds a pipe-based routing network for items.\n\n- The §6Item Transport Pipe§r and the §6Pressure Tubes§r simply move items along.\n- §6Routed pipes§r form a smart network: an §6Interface Pipe§r next to an inventory makes it part of the network, a §6Request Pipe§r lets you request any item stored in the network, and a §6Crafting Pipe§r crafts missing items on demand.\n- Routed pipes are configured with §6Routing Chips§r, which are set up with the §6Router Utility§r.\n- §6Junction§r, §6Extension§r, §6Firewall§r, §6Valve§r and §6Latency§r pipes help to build and control bigger networks.\n\nIt is a good alternative to AE2 for item automation in the early and mid game.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
         "Damage:2": 0,
         "OreDict:8": "",
-        "id:8": "hbm:item.steamsuit_plate"
+        "id:8": "ProjRed|Transportation:projectred.transportation.pipe"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "is_final:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "Steam Suit",
+      "name:8": "Project Red Transportation",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -58,27 +58,13 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": -6614502895128916308,
-  "questIDLow:4": -6919130896469764468,
+  "questIDHigh:4": -7987954120026930076,
+  "questIDLow:4": -4672794253008275417,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
       "index:3": 0,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "hbm:item.steamsuit_plate"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:checkbox"
     },
     "1:10": {
       "autoConsume:1": 0,
@@ -93,19 +79,13 @@
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "hbm:item.steamsuit_helmet"
+          "id:8": "ProjRed|Transportation:projectred.transportation.pipe"
         },
         "1:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "hbm:item.steamsuit_legs"
-        },
-        "2:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "hbm:item.steamsuit_boots"
+          "id:8": "ProjRed|Transportation:projectred.transportation.routerutil"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"

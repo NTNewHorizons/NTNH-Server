@@ -2,11 +2,11 @@
   "preRequisites:9": {
     "0:10": {
       "questIDHigh:4": 0,
-      "questIDLow:4": 32
+      "questIDLow:4": 96
     },
     "1:10": {
-      "questIDHigh:4": 5857260683004428794,
-      "questIDLow:4": -4687035207425843370
+      "questIDHigh:4": 0,
+      "questIDLow:4": 133
     }
   },
   "properties:10": {
@@ -21,19 +21,19 @@
         "id:8": "minecraft:stick"
       },
       "countAsQuest:1": 1,
-      "desc:8": "The §6T-51b§r is the first electric power armor. Each piece is assembled in the Assembly Machine from titanium armor, §6Titanium Armor Plating§r forged on the steel anvil, motors and integrated circuits, and requires a blueprint.\n\nPower armor runs on electricity: it drains its charge while worn and gives high damage resistance in return. Recharge it at a §3Charging Station§r, or carry a §6Power Armor Battery Pack§r to top it up in the field.",
+      "desc:8": "§6Rich Ores§r are big blobs of solid ore in the Overworld, often surrounded by a cloud of the normal ore. Each kind prefers certain biomes:\n- Iron - plains, savanna. Copper - birch forest, plains.\n- Aluminium - jungle, cold taiga. Gold, titanium - desert, jungle (titanium also mesa).\n- Coal, tungsten, beryllium - mountains. Diamond - mountains, cold taiga, low down.\n- Lead, zinc - forest. Redstone - forest, birch, mesa, savanna. Thorium - savanna.\n- Uranium - ocean, cold taiga. Fluorite - ocean, roofed forest.\n- Niter - desert. Lithium - mesa. Sulfur - mesa, swamp. Lignite - swamp. Asbestos - cold taiga. Lapis - anywhere.\n\nA rich ore block does not break. Every time you mine it, it gives one §6Rich Ore Chunk§r and loses one unit. Depending on the ore, a block holds §e50§r (diamond) to §e400§r (coal) units, and it turns into stone once it is empty. Fortune gives more chunks without draining the block faster. Silk touch does not work, and vein mining only takes one rich block per tick.\n\nExplosions release all remaining units at once, so mining charges are the fastest way to empty a blob. The §3Large Mining Drill§r and the §3Mining Laser§r drain the blocks too. Chunks count as ore: smelt them, or put them through any ore processing chain.\n\nThe §6Survey Scanner§r and the §6Neutrino Lens§r show rich ores nearby, but you will often stumble upon them early on while mining - a few mining charges are enough to empty one.",
       "globalShare:1": 0,
       "icon:10": {
         "Count:3": 1,
-        "Damage:2": 0,
+        "Damage:2": 7900,
         "OreDict:8": "",
-        "id:8": "hbm:item.t51_plate"
+        "id:8": "hbm:item.chunk_rich"
       },
       "isMain:1": 0,
       "isSilent:1": 0,
       "is_final:1": 0,
       "lockedProgress:1": 0,
-      "name:8": "T-51b Power Armor",
+      "name:8": "Rich Ore Deposits",
       "notification_duration:5": -1.0,
       "notification_effect:3": -1,
       "notification_fade_in:5": -1.0,
@@ -52,7 +52,7 @@
       "poem_logo:8": "betterquesting:textures/gui/end_poem_logo.png",
       "poem_music:8": "",
       "poem_text:8": "betterquesting:texts/end_poem",
-      "questLogic:8": "AND",
+      "questLogic:8": "OR",
       "repeatTime:3": -1,
       "repeat_relative:1": 1,
       "simultaneous:1": 0,
@@ -62,27 +62,13 @@
       "visibility:8": "NORMAL"
     }
   },
-  "questIDHigh:4": 4682467561839150133,
-  "questIDLow:4": -7531269778097974727,
+  "questIDHigh:4": -6157919519401424437,
+  "questIDLow:4": -8434810360993122688,
   "rewards:9": {},
   "tasks:9": {
     "0:10": {
-      "autoConsume:1": 0,
-      "consume:1": 0,
-      "groupDetect:1": 0,
-      "ignoreNBT:1": 1,
       "index:3": 0,
-      "partialMatch:1": 1,
-      "requireOnlyOneItem:1": 0,
-      "requiredItems:9": {
-        "0:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "hbm:item.t51_plate"
-        }
-      },
-      "taskID:8": "bq_standard:retrieval"
+      "taskID:8": "bq_standard:checkbox"
     },
     "1:10": {
       "autoConsume:1": 0,
@@ -95,33 +81,21 @@
       "requiredItems:9": {
         "0:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 2600,
           "OreDict:8": "",
-          "id:8": "hbm:item.t51_helmet"
+          "id:8": "hbm:item.chunk_rich"
         },
         "1:10": {
           "Count:3": 1,
-          "Damage:2": 0,
+          "Damage:2": 2900,
           "OreDict:8": "",
-          "id:8": "hbm:item.t51_legs"
+          "id:8": "hbm:item.chunk_rich"
         },
         "2:10": {
           "Count:3": 1,
           "Damage:2": 0,
           "OreDict:8": "",
-          "id:8": "hbm:item.t51_boots"
-        },
-        "3:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "hbm:item.plate_armor_titanium"
-        },
-        "4:10": {
-          "Count:3": 1,
-          "Damage:2": 0,
-          "OreDict:8": "",
-          "id:8": "hbm:item.armor_battery"
+          "id:8": "hbm:tile.machine_excavator"
         }
       },
       "taskID:8": "bq_standard:optional_retrieval"
